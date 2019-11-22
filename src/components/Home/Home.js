@@ -4,7 +4,8 @@ import './Home.css';
 const home = () => {
     return(
         <div className='Home'>
-            <h1>Teste</h1>
+           <p>AGROECOLOGIA EM REDE</p>
+           <img id="img1" href="foto1.jpg"></img>
         </div>
     );
 }
