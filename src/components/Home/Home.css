@@ -10,6 +10,39 @@
     letter-spacing: 0;
     color: #1A2D00;
 }
-#img1{
-    
+#img2{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+.bloco1{
+    top: 820px;
+    margin-right: 50px;
+    left: 839px;
+    width: 753px;
+    height: 91px;
+    text-align: left;
+    font: Bold 28px/38px Roboto Slab;
+    letter-spacing: 0;
+    color: #77B81E;
+    opacity: 1;
+    float: right;
+}
+.bloco2{
+    float: right;
+    top: 961px;
+    left: 840px;
+    width: 803px;
+    height: 300px;
+    text-align: left;
+    font: 23px Poppins;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+.botao1{
+    background-color: #77B81E;
+    float: center;
 }
