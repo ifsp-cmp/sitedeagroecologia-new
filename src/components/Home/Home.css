@@ -37,7 +37,7 @@
     width: 803px;
     height: 300px;
     text-align: left;
-    font: 23px Poppins;
+    font: 18px Poppins;
     letter-spacing: 0;
     color: #707070;
     opacity: 1;
@@ -45,4 +45,13 @@
 .botao1{
     background-color: #77B81E;
     float: center;
+}
+.bloco3{
+    top: 1559px;
+    left: 0px;
+    width: 1920px;
+    height: 903px;
+    background: #EDEDED 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: 18px Poppins;
 }
