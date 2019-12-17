@@ -1,19 +1,20 @@
 .Home{
     top: 20px;
     left: 0px;
-    width: 1350px;
     height: 128px;
-    background: #77B81E 0% 0% no-repeat padding-box;
+}
+.titulo{
     opacity: 1;
     text-align: center;
     font: Bold 38px/50px Roboto Slab;
     letter-spacing: 0;
     color: #1A2D00;
+    background: #77B81E 0% 0% no-repeat padding-box;
 }
 #img2{
-    height: 200px;
+    height: 120px;
     float: left;
-    margin-left: -80px;
+    margin-left: -150px;
 }
 
 .bloco1{
@@ -30,17 +31,10 @@
     float: right;
 }
 .bloco2{
-    float: right;
-    top: 961px;
-    left: 840px;
-    width: 803px;
-    height: 300px;
     text-align: left;
-    font: 18px Poppins;
-    letter-spacing: 0;
+    font: 20px Poppins;
     color: #707070;
-    opacity: 1;
-}
+    }
 .botao1{
     background-color: #77B81E;
     float: center;
