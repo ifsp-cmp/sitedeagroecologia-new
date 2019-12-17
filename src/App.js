@@ -1,12 +1,33 @@
-import React from 'react';
-import Home from './components/Home/Home';
+import React, { PureComponent } from 'react';
+import Layout from './containers/Layout/Layout';
+import { withRouter } from 'react-router-dom';
+import { connect } from 'react-redux';
+import Routes from './routes';
+
 import './App.css';
 
+import * as actions from './store/actions/index';
 
-function App() {
-  return (
-    <Home></Home>
-  );
+class App extends PureComponent {
+
+  // componentDidMount() {
+  //   this.props.onVerifyLogin();
+  // }
+
+  render() {
+    return (
+      <Layout>
+        <Routes />
+      </Layout>
+    );
+  }
 }
 
-export default App;
+const mapDispatchToProps = dispatch => {
+  return {
+    // onVerifyLogin: () => dispatch(actions.verifyLogin())
+  }
+}
+
+export default withRouter(connect(null, mapDispatchToProps)(App));
+// export default connect(null, mapDispatchToProps)(App);
