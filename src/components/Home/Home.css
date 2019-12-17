@@ -12,39 +12,36 @@
     background: #77B81E 0% 0% no-repeat padding-box;
 }
 #img2{
-    height: 120px;
+    height: 150px;
     float: left;
     margin-left: -150px;
+    margin-top: 150px;
 }
-
 .bloco1{
-    top: 820px;
-    margin-right: 50px;
-    left: 839px;
-    width: 753px;
-    height: 91px;
-    text-align: left;
-    font: Bold 28px/38px Roboto Slab;
-    letter-spacing: 0;
-    color: #77B81E;
-    opacity: 1;
-    float: right;
-}
-.bloco2{
     text-align: left;
     font: 20px Poppins;
     color: #707070;
-    }
+}
 .botao1{
     background-color: #77B81E;
+    border: #77B81E;
     float: center;
+    font: 22px Poppins;
+    width: 170px;
+}
+.titulo2{
+    color: #77B81E;
+    text-align: center;
+    background-color: #EDEDED;
+    font: BOLD 32px Poppins;
+}
+.bloco2{
+    background-color: #EDEDED;
+    text-align: center;
 }
 .bloco3{
-    top: 1559px;
-    left: 0px;
-    width: 1920px;
-    height: 903px;
-    background: #EDEDED 0% 0% no-repeat padding-box;
-    opacity: 1;
+    /* background: #EDEDED 0% 0% no-repeat padding-box; */
     font-size: 18px Poppins;
+    text-align: center;
+    margin-right: 50px;
 }
