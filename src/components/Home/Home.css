@@ -12,9 +12,8 @@
 }
 #img2{
     height: 200px;
-    width: 200px;
     float: left;
-    margin-left: 50px;
+    margin-left: -80px;
 }
 
 .bloco1{
