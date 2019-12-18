@@ -6,12 +6,13 @@ import './NavigationItems.css'
 
 const navigationItems = (props) => (
     <ul className='NavigationItems'>
-        <NavigationItem link='/' active>Home</NavigationItem>
-        <NavigationItem link='/cooperflora'>Cooperflora</NavigationItem>
-        {/* <NavigationItem link='/projeto'>O projeto</NavigationItem> */}
-        {/* { props.isAuthenticated ?
-            <NavigationItem link='/listarusuarios'>Listar</NavigationItem> : null
-        } */}
+        <NavigationItem link='/' active>Início</NavigationItem>
+        <NavigationItem link='/politicasnacionais'>Políticas Nacionais</NavigationItem>
+        <NavigationItem link='/'>Assentamento Milton Santos</NavigationItem>
+        <NavigationItem link='/'>Tecnologias Sociais</NavigationItem>
+        <NavigationItem link='/'>Educação Popular</NavigationItem>
+        <NavigationItem link='/'>Quem Somos</NavigationItem>
+
         { props.isAuthenticated ?
             <NavigationItem link='/training'>Formação</NavigationItem> : null
         }

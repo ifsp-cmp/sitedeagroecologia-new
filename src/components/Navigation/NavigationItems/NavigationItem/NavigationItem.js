@@ -16,14 +16,3 @@ const navigationItem = (props) => (
 
 export default navigationItem;
 
-/* old
-
-        <li><a 
-            href={props.link}
-            className={props.active ? 'Active' :  null }>{
-                props.children}
-            </a>
-        </li>
-
-*/
-

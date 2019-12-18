@@ -10,7 +10,6 @@ import './Toolbar.css';
 const toolbar = (props) => (
     <header className="Toolbar">
         <DrawerToggle clicked={props.drawerToggleClicked}/>
-        <Logo height='120%' />
         <nav className="DesktopOnly">
             <NavigationItems isAuthenticated={props.isAuth}/>
         </nav>

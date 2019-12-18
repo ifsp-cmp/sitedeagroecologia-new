@@ -1,15 +1,16 @@
 .Toolbar {
-    height: 56px;
-    width: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 69px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     box-sizing: border-box;
-    background-color: rgba(31, 36, 36, 0.9);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
     z-index: 90;
 }
 
