@@ -1,14 +1,17 @@
 import React from 'react';
 import './Home.css';
-import foto1 from '../../assets/images/foto1.png';
+import foto1 from '../../assets/images/foto1.jpg';
 import foto2 from '../../assets/images/foto2.jpg';
 import foto3 from '../../assets/images/foto3.png';
-import foto4 from '../../assets/images/foto_ciencia.svg';
+// import foto4 from '../../assets/images/foto_ciencia.svg';
 import foto5 from '../../assets/images/foto_ciencia2.png';
 // import foto6 from '../../assets/images/foto_movimento.svg';
 import foto7 from '../../assets/images/foto_movimento2.png';
-import foto8 from '../../assets/images/foto_pratica.svg';
+// import foto8 from '../../assets/images/foto_pratica.svg';
 import foto9 from '../../assets/images/foto_pratica2.png';
+import foto10 from '../../assets/images/foto4.png';
+import foto11 from '../../assets/images/foto5.png';
+import foto12 from '../../assets/images/foto6.png';
 
 const home = () => {
     return (
@@ -67,9 +70,54 @@ const home = () => {
                         </div>
                     </div>
                     <div className="col-md-1"></div>
+                </div><br></br><br></br>
+                <div className="row">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-5">
+                        <img src={foto10} width="100%"></img>
+                    </div>
+                    <div className="col-md-5">
+                        <div className="card">
+                            <div className="card-body">
+                                <h6 className="card-title"><b>NO IFSP/ CÂMPUS DE CAMPINAS</b></h6>
+                                <h4 className="card-subtitle titulo3">Núcleo de Estudos em Segurança Alimentar e Nutricional (NESAN)</h4>
+                                <p className="card-text">Em setembro de 2017 o NEAES teve o projeto "Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP na promoção da segurança alimentar e nutricional para a região metropolitana de Campinas" contemplado pela Chamada CNPq/MCTIC Nº 016/2016 - SEGURANÇA ALIMENTAR E NUTRICIONAL NO ÂMBITO DA UNASUL para a criação de um Núcleo de Estudos em Segurança Alimentar e Nutricional, possibilitando o fomento de parte das atividades reunidas nesta Plataforma.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-1"></div>
+                </div><br></br>
+                <div className="row">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-5">
+                        <div className="card">
+                            <div className="card-body">
+                                <h6 className="card-title"><b>NO IFSP/ CÂMPUS DE CAMPINAS</b></h6>
+                                <h4 className="card-subtitle titulo3">Núcleo de Estudos em Agroecologia (NEA)</h4>
+                                <p className="card-text">Em fevereiro de 2018 o NEAES teve o projeto "Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP para a sustentabilidade ambiental e segurança alimentar na RMC" contemplado pela Chamada Nº 21/2016 - Linha 1: Criação de Núcleo de Estudo em Agroecologia e Produção Orgânica (NEA), possibilitando articulação com as ações iniciadas pelo NESAN e ampliação dos trabalhos como principal fonte de fomento às atividades de pesquisa, extensão e ensino no âmbito do projeto NEA.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-5">
+                        <img src={foto11} width="100%"></img>
+                    </div>
+                    <div className="col-md-1"></div>
+                </div><br></br>
+                <div className="row">
+                    <div className="col-md-6">
+                        <img src={foto12} width="100%"></img>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="card">
+                            <div className="card-body bg-success">
+                                <h5 className="card-title">APOIE A COMUNIDADE</h5>
+                                <h4 className="card-subtitle text-white">Mais diversidade e saúde com alimentos frescos e orgânicos na sua mesa!</h4><br></br>
+                                <p className="card-text">Texto introdutório sobre a comunidade, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p><br></br>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                   
+                   <br></br><br></br><br></br>
             </div>
         </div>
     );

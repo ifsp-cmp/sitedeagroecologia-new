@@ -45,3 +45,12 @@
     text-align: center;
     margin-right: 50px;
 }
+.bloco3:hover{
+    background-color:  #77B81E;
+    color: white;
+}
+.titulo3{
+    color :  #77B81E;
+    font: Bold 32px/43px Roboto Slab;
+    opacity: 1;
+}
