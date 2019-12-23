@@ -1,15 +1,5 @@
 .Home{
-    top: 20px;
-    left: 0px;
-    height: 128px;
-}
-.titulo{
-    opacity: 1;
-    text-align: center;
-    font: Bold 38px/50px Roboto Slab;
-    letter-spacing: 0;
-    color: #1A2D00;
-    background: #77B81E 0% 0% no-repeat padding-box;
+    margin-top: 25px;
 }
 #img2{
     height: 150px;
@@ -28,19 +18,20 @@
     float: center;
     font: 22px Poppins;
     width: 170px;
+    
 }
 .titulo2{
     color: #77B81E;
     text-align: center;
     background-color: #EDEDED;
     font: BOLD 32px Poppins;
+    margin-top: 4%;
 }
 .bloco2{
     background-color: #EDEDED;
     text-align: center;
 }
 .bloco3{
-    /* background: #EDEDED 0% 0% no-repeat padding-box; */
     font-size: 18px Poppins;
     text-align: center;
     margin-right: 50px;
@@ -51,6 +42,6 @@
 }
 .titulo3{
     color :  #77B81E;
-    font: Bold 32px/43px Roboto Slab;
+    font: Bold 30px/40px Roboto Slab;
     opacity: 1;
 }

@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import Home from './components/Home/Home';
+import PoliticasNacionais from './components/PoliticasNacionais/PoliticasNacionais';
 import Teste from './components/Teste/Teste';
 // import Login from './containers/Login/Login';
 // import Cadastro from './containers/Cadastro/Cadastro';
@@ -19,7 +20,7 @@ class Routes extends Component{
     let routes = (
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/politicasnacionais" component={Teste} />
+        <Route exact path="/politicasnacionais" component={PoliticasNacionais} />
         <Redirect to='/' />
       </Switch>
     );
