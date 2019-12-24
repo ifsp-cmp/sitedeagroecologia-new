@@ -6,7 +6,7 @@ import Home from './components/Home/Home';
 import PoliticasNacionais from './components/PoliticasNacionais/PoliticasNacionais';
 import Teste from './components/Teste/Teste';
 // import Login from './containers/Login/Login';
-// import Cadastro from './containers/Cadastro/Cadastro';
+import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
 // import ForgotPassword from './containers/Login/ForgotPassword';
 // // import ListarUsuarios from './containers/ListarUsuarios/ListarUsuarios';
@@ -21,6 +21,7 @@ class Routes extends Component{
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/politicasnacionais" component={PoliticasNacionais} />
+        <Route exact path="/cadastro" component={Cadastro} />
         <Redirect to='/' />
       </Switch>
     );

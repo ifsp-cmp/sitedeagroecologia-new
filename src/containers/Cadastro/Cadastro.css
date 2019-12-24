@@ -1,0 +1,36 @@
+.Cadastro{
+  margin: 80px auto;
+  margin-bottom: 200px;
+  width: 60%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Input{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.Button{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.Button:disabled{
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (min-width: 600px){
+  .Cadastri {
+    width: 500px;
+  }
+}

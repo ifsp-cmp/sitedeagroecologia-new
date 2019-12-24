@@ -178,43 +178,44 @@ export const addUserStart = () => {
 }
 
 export const addUser = ( userData ) => {
-    // return dispatch => {
-    //     console.log('[Adduser] UserData:', userData);
-    //     dispatch(addUserStart());
-    //     // console.log(userData);
-    //     let userEmail = userData.email;
-    //     let userPassword = userData.password;
-    //     firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword)
-    //     .then(function( res ){
-    //         console.log("Retorno da criação do usuário:", res)
-    //         // console.log(res.user.uid);
-    //         // console.log("Usuário criado com sucesso");
-    //         firebase.firestore().collection("users").doc(res.user.uid).set({
-    //             name: userData.name,
-    //             phone: userData.phone,
-    //             email: userData.email,
-    //             videoTime: 0,
-    //             timestamp: firebase.firestore.FieldValue.serverTimestamp()
-    //         })
-    //         .then(function(docRef) {
-    //             // console.log("Dados armazenados com sucesso");
-    //             userData.userId = res.user.uid;
-    //             userData.videoTime = 0;
-    //             dispatch(addUserSuccess(userData));
-    //         })
-    //         .catch(function(error) {
-    //             console.error("Erro ao incluir o usuário: ", error);
-    //             dispatch(addUserFail(error)); 
-    //         });
-    //     })
-    //     .catch(function(error) {
-    //         let errorCode = error.code;
-    //         let errorMessage = error.message;
-    //         console.log(errorCode);
-    //         console.log(errorMessage);
-    //         dispatch(addUserFail(error));
-    //     });
-    // }
+    console.log("Cheguei");
+    return dispatch => {
+        console.log('[Adduser] UserData:', userData);
+        // dispatch(addUserStart());
+        // // console.log(userData);
+        // let userEmail = userData.email;
+        // let userPassword = userData.password;
+        // firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword)
+        // .then(function( res ){
+        //     console.log("Retorno da criação do usuário:", res)
+        //     // console.log(res.user.uid);
+        //     // console.log("Usuário criado com sucesso");
+        //     firebase.firestore().collection("users").doc(res.user.uid).set({
+        //         name: userData.name,
+        //         phone: userData.phone,
+        //         email: userData.email,
+        //         videoTime: 0,
+        //         timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        //     })
+        //     .then(function(docRef) {
+        //         // console.log("Dados armazenados com sucesso");
+        //         userData.userId = res.user.uid;
+        //         userData.videoTime = 0;
+        //         dispatch(addUserSuccess(userData));
+        //     })
+        //     .catch(function(error) {
+        //         console.error("Erro ao incluir o usuário: ", error);
+        //         dispatch(addUserFail(error)); 
+        //     });
+        // })
+        // .catch(function(error) {
+        //     let errorCode = error.code;
+        //     let errorMessage = error.message;
+        //     console.log(errorCode);
+        //     console.log(errorMessage);
+        //     dispatch(addUserFail(error));
+        // });
+    }
 }
 
 export const listUsersFail =( error ) => {
