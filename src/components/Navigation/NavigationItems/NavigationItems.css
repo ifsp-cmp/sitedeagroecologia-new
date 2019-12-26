@@ -10,6 +10,12 @@
     background-color: white;
 }
 
+.NavigationItems .SubMenu1{
+    display: none;
+}
+
+.Menu1:hover .SubMenu1 { display: block; }
+
 @media (min-width: 500px){
     .NavigationItems {
         flex-flow: row;
