@@ -2,19 +2,42 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: -70px;
-    list-style-type: none;
     display: flex;
     flex-flow: column;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
     height: 49px;
     background-color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #707070;
+}
+
+.NavigationItems .TituloMenu{
+    margin-top: 11px;
+    padding: 0px 10px;
+    /* margin: auto; */
+    /* height: 49px; */
 }
 
 .NavigationItems .SubMenu1{
     display: none;
 }
 
-.Menu1:hover .SubMenu1 { display: block; }
+.Menu1:hover .SubMenu1 { 
+    display: block; 
+    background-color: white;
+}
+
+.NavigationItems li{
+    list-style-type: none;
+}
+
+.NavigationItems .Options{
+    margin-left: -30px;
+}
+
 
 @media (min-width: 500px){
     .NavigationItems {
