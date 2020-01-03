@@ -1,24 +1,71 @@
 .Footer {
-    font-family: roboto;
     background-color: #1A2D00;
-    width: 100%;
     z-index: 90;
+    color: white;
 }
 
 .Footer .Titulo{
     color: #77B81E;
     font: Bold 18px/28px Roboto Slab;
     border-bottom: 5px solid #77B81E;
+    width: 200px;
+    text-align: left;
 }
 
 .Footer .Bloco{
     width: 100%;
-    /* height: 150px; */
-    font-size: 1.0em;
-    text-align: center;
-    /* border: 2px solid white; */
-    /* border-right: 1px solid rgb(0,0,0, 0.7); */
+    /* font-size: 1.0em; */
+    padding: 1% 3%;
+    font-family: 'Poppins', sans-serif; 
+    /* font-size: 18px;  */
 }
+
+.Footer p{
+    color: white;
+}
+
+.Footer a{
+    color: white;
+}
+
+.Footer li{
+    text-align: left;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.Footer .Icone{
+    width: 25px;
+    background-color: #77B81E;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Footer .IconeFacebook{
+    width: 30px;
+}
+
+.Footer .Fone,
+.Footer .Email,
+.Footer .Facebook{
+    display: flex;
+}
+
+.Footer .Facebook{
+    font: Bold 20px/26px Roboto Slab;
+}
+
+.Footer .Facebook p{
+    margin-right: 10px;
+}
+
+/* .Footer img{
+    background-color: chartreuse;
+    border-radius: 50%;
+
+} */
 
 .Footer .Projeto{
     color: white;
@@ -51,10 +98,10 @@
 @media (min-width: 600px){
     .Footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .Footer .Bloco{
-        width: 33%;
+        width: 30%;
     }
 }
