@@ -9,6 +9,7 @@ import Pnapo from './components/Pnapo/Pnapo';
 import Planapo from './components/Planapo/Planapo';
 import Plansan from './components/Plansan/Plansan';
 import Paa from './components/Paa/Paa';
+import Pnae from './components/Pnae/Pnae';
 // import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
@@ -30,6 +31,7 @@ class Routes extends Component{
         <Route exact path="/planapo" component={Planapo} />
         <Route exact path="/plansan" component={Plansan} />
         <Route exact path="/paa" component={Paa} />
+        <Route exact path="/pnae" component={Pnae} />
         <Redirect to='/' />
       </Switch>
     );

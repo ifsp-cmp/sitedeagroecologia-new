@@ -18,6 +18,7 @@ const navigationItems = (props) => (
                 <NavigationItem link="/planapo"><li>PLANAPO</li></NavigationItem>
                 <NavigationItem link="/plansan"><li>PLANSAN</li></NavigationItem>
                 <NavigationItem link="/paa"><li>PAA</li></NavigationItem>
+                <NavigationItem link="/pnae"><li>PNAE</li></NavigationItem>
             </ul>
         </li>
 

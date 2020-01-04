@@ -1,5 +1,5 @@
 .Planapo{
-    margin-top: 10%;
+    margin-top: 120px;
 }
 .planos{
     color: #FFFFFF;
@@ -8,4 +8,8 @@
     opacity: 1;
     background-color: #77B81E;
     text-align: center;
+}
+.Planapo a{
+    text-decoration: underline;
+    color: #707070;
 }

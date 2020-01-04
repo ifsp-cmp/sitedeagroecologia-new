@@ -1,3 +1,7 @@
 .Pnapo{
-    margin-top: 10%;
+    margin-top: 120px;
+}
+.Pnapo a{
+    text-decoration: underline;
+    color: #707070;
 }

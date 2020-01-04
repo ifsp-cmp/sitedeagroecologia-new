@@ -1,3 +1,7 @@
 .Plansan{
-    margin-top: 10%;
+    margin-top: 120px;
+}
+.Plansan a{
+    text-decoration: underline;
+    color: #707070;
 }
