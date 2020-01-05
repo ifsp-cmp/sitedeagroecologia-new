@@ -24,6 +24,7 @@ const politicasNacionais = () =>{
                     <p> Ou seja, as principais políticas públicas do governo Federal voltadas à promoção da agricultura familiar, as quais segundo Pitaguari e Lima (2005), devem compreender gastos públicos capazes de diminuir os custos de produção e viabilizar o setor produtivo, melhorando as condições estruturais de crescimento e desenvolvimento da economia local.</p>
                     <p> Dessa forma a plataforma socioeducativa em questão destaca as principais Políticas Públicas do Governo Federal com capacidade de diminuir desigualdades históricas para o desenvolvimento do setor.</p>
                 </div>
+                <div className="col-md-2"></div>
             </div>
             <div className="row">
                 <div className="col-md-2"></div>
@@ -39,9 +40,9 @@ const politicasNacionais = () =>{
                             </p>
                         </div>
                     </div>
-                    <hr width="100%" color="#77B81E" size="5px"></hr>
-                    
+                    {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
                 </div>
+                <div className="col-md-2"></div>
             </div>
             <div className="row titulo2">
                 <div className="col-md-12">
@@ -60,7 +61,6 @@ const politicasNacionais = () =>{
             </div>
 
 
-            <br></br><br></br>
         </div>
     );
 }

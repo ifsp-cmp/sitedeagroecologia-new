@@ -23,6 +23,7 @@ const Paa = () =>{
                 <p>O orçamento do PAA é composto por recursos do Ministério do Desenvolvimento Social (MDS) e sua execução pode ser feita por meio de seis modalidades: Compra com Doação Simultânea, Compra Direta, Apoio à Formação de Estoques, Incentivo à Produção e ao Consumo de Leite, Compra Institucional e Aquisição de Sementes. </p>
                 <p>O programa vem sendo executado por estados e municípios em parceria com o MDS e pela Companhia Nacional de Abastecimento (CONAB).</p>
                 </div>
+                <div className="col-md-2"></div>
             </div>
             <div className="row">
                 <div className="col-md-2"></div>
@@ -38,8 +39,9 @@ const Paa = () =>{
                             </p>
                         </div>
                     </div>
-                    <hr width="100%" color="#77B81E" size="5px"></hr>  
+                    {/* <hr width="100%" color="#77B81E" size="5px"></hr>   */}
                 </div>
+                <div className="col-md-2"></div>
             </div>
 
 
