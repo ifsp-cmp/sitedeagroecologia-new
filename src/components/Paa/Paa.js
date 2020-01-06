@@ -11,7 +11,7 @@ const Paa = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto1} width="100%"></img>
+                    <img src={foto1} width="100%" alt={"Alimentos"}></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -30,11 +30,11 @@ const Paa = () =>{
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                             <p className="card-text">
                                 <ul>
-                                 <li><a href="http://mds.gov.br/assuntos/seguranca-alimentar/programa-de-aquisicao-de-alimentos-paa" target="_blank">Programa de Aquisição de Alimentos (PAA)</a></li>
-                                 <li><a href="http://mapas.cnpm.embrapa.br/mds/?layers=5" target="_blank">Mapa de inclusão produtiva da Empraba</a></li>
+                                 <li><a href="http://mds.gov.br/assuntos/seguranca-alimentar/programa-de-aquisicao-de-alimentos-paa" target="_blank" rel="noopener noreferrer">Programa de Aquisição de Alimentos (PAA)</a></li>
+                                 <li><a href="http://mapas.cnpm.embrapa.br/mds/?layers=5" target="_blank" rel="noopener noreferrer">Mapa de inclusão produtiva da Empraba</a></li>
                                 </ul>
                             </p>
                         </div>

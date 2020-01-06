@@ -13,7 +13,7 @@ const Pnae = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto1} width="100%"></img>
+                    <img src={foto1} width="100%" alt={""}></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -31,7 +31,7 @@ const Pnae = () =>{
                 <div className="col-md-8">
                     <div className="card" >
                         <div className="card-body">
-                            <h4 className="card-title titulo3"><img src={foto3}></img> Como Acessar?</h4>
+                            <h4 className="card-title titulo3"><img src={foto3} alt={"Icone_I"}></img> Como Acessar?</h4>
                             <p className="card-text textoAcessar">
                             <p>A escola beneficiária precisa estar cadastrada no Censo Escolar realizado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep/MEC). As escolas filantrópicas, comunitárias e confessionais, sem fins lucrativos, que atendam aos critérios estabelecidos na Resolução FNDE no 26/2013, são consideradas integrantes da rede pública de ensino. </p>
                             <p>É importante observar que o cardápio escolar deve ser elaborado por nutricionista, respeitando os hábitos alimentares locais e culturais, atendendo as necessidades nutricionais específicas, conforme percentuais mínimos estabelecidos no artigo 14 da Resolução no 26/2013.</p>
@@ -47,10 +47,10 @@ const Pnae = () =>{
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                             <p className="card-text">
                                 <ul>
-                                 <li><a href="http://mds.gov.br/compra-da-agricultura-familiar/pnae" target="_blank">http://mds.gov.br/compra-da-agricultura-familiar/pnae</a></li>
+                                 <li><a href="http://mds.gov.br/compra-da-agricultura-familiar/pnae" target="_blank" rel="noopener noreferrer">http://mds.gov.br/compra-da-agricultura-familiar/pnae</a></li>
                                 </ul>
                             </p>
                         </div>
@@ -83,10 +83,10 @@ const Pnae = () =>{
                     <div className="col-md-8">
                         <div className="card">
                             <div className="card-body fundo_cinza">
-                                <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                                <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                                 <p className="card-text">
                                     <ul>
-                                    <li><a href="https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae" target="_blank">https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae</a></li>
+                                        <li><a href="https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae" target="_blank" rel="noopener noreferrer">https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae</a></li>
                                     </ul>
                                 </p>
                             </div>
@@ -119,10 +119,10 @@ const Pnae = () =>{
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                             <p className="card-text">
                                 <ul>
-                                 <li><a href="http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf" target="_blank">http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf</a></li>
+                                 <li><a href="http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf" target="_blank" rel="noopener noreferrer">http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf</a></li>
                                 </ul>
                             </p>
                         </div>

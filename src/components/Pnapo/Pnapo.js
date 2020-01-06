@@ -11,7 +11,7 @@ const Pnapo = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto1} width="100%"></img>
+                    <img src={foto1} width="100%" alt={"MulheresNoAssentamento"}></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -28,10 +28,10 @@ const Pnapo = () =>{
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                             <p className="card-text">
                                 <ul>
-                                 <li><a href="http://www.agroecologia.gov.br/politica/" target="_blank">Política Nacional de Agroecologia e Produção Orgânica (Pnapo)</a></li>
+                                 <li><a href="http://www.agroecologia.gov.br/politica/" target="_blank" rel="noopener noreferrer">Política Nacional de Agroecologia e Produção Orgânica (Pnapo)</a></li>
                                 </ul>
                             </p>
                         </div>

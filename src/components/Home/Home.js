@@ -21,15 +21,15 @@ const home = () => {
         <div className="container-fluid">
             <div className='Home'>
                 <div className="row">
-                    <img src={foto1} width="100%"></img>
+                    <img src={foto1} width="100%" alt={"Campo"}></img>
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-3">
-                        <img src={foto3} width="90%"></img>
+                        <img src={foto3} width="90%" alt={"HortaAlface"}></img>
                     </div>
                     <div className="col-md-1">
-                        <img id="img2" className="rounded-circle" src={foto2}></img>
+                        <img id="img2" className="rounded-circle" src={foto2} alt={"LogoNeaes"}></img>
                     </div>
                     <div className='col-md-7 bloco1'>
                         <h2 className="titulo3">NÚCLEO DE ESTUDOS EM AGROECOLOGIA, EDUCAÇÃO E SOCIEDADE (NEAES)</h2>
@@ -42,25 +42,25 @@ const home = () => {
                     <div className="col-md-12">
                         <p>O QUE É AGROECOLOGIA?</p>
                     </div>
-                </div>
+                </div> 
                 <div className="row bloco2">
                     <div className="col-md-1"></div>
                     <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={foto5}></img>
+                        <img className="card-img-top" src={foto5} alt={"Vegetais"}></img>
                         <div className="card-body">
                             <h5 className="card-title">É CIÊNCIA</h5>
                             <p className="card-text">Conjunto de conhecimentos técnicos, tecnológicos e sociopolíticos de natureza inter, multi e transdisciplinar articulados numa mesma matriz científica para o desenvolvimento de uma agricultura de base ecológica.</p>
                         </div>
                     </div>
                     <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={foto7}></img>
+                        <img className="card-img-top" src={foto7} alt={"Galinha"}></img>
                         <div className="card-body">
                             <h5 className="card-title">É MOVIMENTO</h5>
                             <p className="card-text">Troca de saberes e construção do conhecimento agroecológico com movimentos sociais e comunidades organicamente ligadas à terra, como agricultoras e agricultores familiares, indígenas, populações quilombolas e povos tradicionais para a proteção da sociobiodiversidade.</p>
                         </div>
                     </div>
                     <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={foto9}></img>
+                        <img className="card-img-top" src={foto9} alt={"Enxada"}></img>
                         <div className="card-body">
                             <h5 className="card-title">É PRÁTICA</h5>
                             <p className="card-text">Rede de agentes e ações políticas, econômicas, sociais, institucionais, culturais, ecológicas, éticas e pedagógicas de luta, denúncia e proposição de projetos e políticas públicas para a defesa da soberania e segurança alimentares.</p>
@@ -71,7 +71,7 @@ const home = () => {
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-5">
-                        <img src={foto10} width="100%"></img>
+                        <img src={foto10} width="100%" alt={"HortaDoAssentamento"}></img>
                     </div>
                     <div className="col-md-5">
                         <div className="card">
@@ -96,13 +96,13 @@ const home = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <img src={foto11} width="100%"></img>
+                        <img src={foto11} width="100%" alt={"ApresentaçõesDeProjetos"}></img>
                     </div>
                     <div className="col-md-1"></div>
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={foto12} width="100%" height="100%"></img>
+                        <img src={foto12} width="100%" height="100%" alt={"VegetaisELegumes"}></img>
                     </div>
                     <div className="col-md-6">
                        <Form></Form>

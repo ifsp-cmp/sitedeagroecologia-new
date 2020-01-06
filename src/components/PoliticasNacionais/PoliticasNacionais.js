@@ -12,7 +12,7 @@ const politicasNacionais = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto1} width="100%"></img>
+                    <img src={foto1} width="100%" alt={"HortaNoAssentamento"}></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -31,7 +31,7 @@ const politicasNacionais = () =>{
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                             <p className="card-text">
                                 <ul>
                                  <li>PITAGUARI, S. O.; LIMA, J. Ferrera de. As idéias keynesianas e o crescimento do produto nas economias locais. Interações: Revista Internacional de Desenvolvimento Local, Campo Grande, v. 6, n. 10, p. 11-20, 2005.</li>
@@ -52,9 +52,9 @@ const politicasNacionais = () =>{
             <div className="row bloco2">
                 <div className="col-md-1"></div>
                 <div className="col-md-3 bloco4">
-                    <img className="card-img-top" src={foto1} width="100%"></img>
+                    <img className="card-img-top" src={foto1} width="100%" alt={"HortaNoAssentamento"}></img>
                         <div className="card-body">
-                            <h5 className="card-title"><img src={foto3}></img>PNAPO</h5>
+                            <h5 className="card-title"><img src={foto3} alt={"Icone_Casa"}></img>PNAPO</h5>
                             {/* <p className="card-text">A Política Nacional de Agroecologia e Produção Orgânica (PNAPO) tem por objetivo integrar, articular e adequar políticas, programas e ações indutores da transição agroecológica, da produção orgânica e de base...</p> */}
                         </div>
                 </div>

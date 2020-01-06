@@ -11,7 +11,7 @@ const Planapo = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto1} width="100%"></img>
+                    <img src={foto1} width="100%" alt={"HortaNoAssentamento"}></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -29,10 +29,10 @@ const Planapo = () =>{
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                             <p className="card-text">
                                 <ul>
-                                 <li><a href="http://www.agroecologia.gov.br/plano" target="_blank">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
+                                 <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
                                 </ul>
                             </p>
                         </div>
@@ -64,10 +64,10 @@ const Planapo = () =>{
                     <div className="col-md-8">
                         <div className="card">
                             <div className="card-body fundo_cinza">
-                                <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                                <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                                 <p className="card-text">
                                     <ul>
-                                    <li><a href="http://www.agroecologia.gov.br/plano" target="_blank">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
+                                    <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
                                     </ul>
                                 </p>
                             </div>
@@ -99,10 +99,10 @@ const Planapo = () =>{
                 <div className="col-md-8">
                     <div className="card">
                         <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
+                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                             <p className="card-text">
                                 <ul>
-                                 <li><a href="http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf" target="_blank">http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf</a></li>
+                                 <li><a href="http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf" target="_blank" rel="noopener noreferrer">http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf</a></li>
                                 </ul>
                             </p>
                         </div>
