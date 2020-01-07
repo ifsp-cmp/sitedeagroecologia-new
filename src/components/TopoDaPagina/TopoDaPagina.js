@@ -2,7 +2,7 @@ import React from 'react';
 
 import './TopoDaPagina.css';
 
-const topoDaPagina = () =>{
+const topoDaPagina = (props) =>{
     return(
         <div className="TopoDaPagina">
             <div className="row ">

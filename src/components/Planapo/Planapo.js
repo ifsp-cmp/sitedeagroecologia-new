@@ -30,11 +30,9 @@ const Planapo = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
+                                <ul className="card-text">
+                                    <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
@@ -65,11 +63,9 @@ const Planapo = () =>{
                         <div className="card">
                             <div className="card-body fundo_cinza">
                                 <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                                <p className="card-text">
-                                    <ul>
-                                    <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
+                                    <ul className="card-text">
+                                        <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
                                     </ul>
-                                </p>
                             </div>
                         </div>
                         {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
@@ -100,11 +96,9 @@ const Planapo = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
+                                <ul className="card-text">
                                  <li><a href="http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf" target="_blank" rel="noopener noreferrer">http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}

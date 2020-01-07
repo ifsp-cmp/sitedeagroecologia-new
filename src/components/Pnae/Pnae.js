@@ -48,11 +48,9 @@ const Pnae = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://mds.gov.br/compra-da-agricultura-familiar/pnae" target="_blank" rel="noopener noreferrer">http://mds.gov.br/compra-da-agricultura-familiar/pnae</a></li>
+                                <ul className="card-text">
+                                    <li><a href="http://mds.gov.br/compra-da-agricultura-familiar/pnae" target="_blank" rel="noopener noreferrer">http://mds.gov.br/compra-da-agricultura-familiar/pnae</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
@@ -84,11 +82,9 @@ const Pnae = () =>{
                         <div className="card">
                             <div className="card-body fundo_cinza">
                                 <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                                <p className="card-text">
-                                    <ul>
+                                    <ul className="card-text">
                                         <li><a href="https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae" target="_blank" rel="noopener noreferrer">https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae</a></li>
                                     </ul>
-                                </p>
                             </div>
                         </div>
                         {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
@@ -120,11 +116,9 @@ const Pnae = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf" target="_blank" rel="noopener noreferrer">http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf</a></li>
+                                <ul className="card-text">
+                                    <li><a href="http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf" target="_blank" rel="noopener noreferrer">http://www.americana.sp.gov.br/upload/suprimentos/chamada_publica_9_2019_fcacd.pdf</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}

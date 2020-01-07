@@ -7,6 +7,8 @@ import foto2 from '../../assets/images/PN/foto2.png';
 import foto3 from '../../assets/images/PN/foto3.png';
 
 const politicasNacionais = () =>{
+    
+    
     return(
         <div className="container-fluid home">
             <div className="row">
@@ -29,15 +31,13 @@ const politicasNacionais = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <div className="card">
+                    <div className="card"> 
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
+                            <ul className="card-text">
                                  <li>PITAGUARI, S. O.; LIMA, J. Ferrera de. As idéias keynesianas e o crescimento do produto nas economias locais. Interações: Revista Internacional de Desenvolvimento Local, Campo Grande, v. 6, n. 10, p. 11-20, 2005.</li>
                                  <li>RUA, M. G. Análise de políticas públicas: conceitos básicos. Rio de Janeiro, 2005. Curso de Aperfeiçoamento em Agroecologia. REDCAPA – Rede de Instituições Vinculadas à Capacitação em Economia e Política Agrícola da América Latina e Caribe.</li>
-                                </ul>
-                            </p>
+                            </ul>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}

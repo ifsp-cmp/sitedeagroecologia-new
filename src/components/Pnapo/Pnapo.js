@@ -29,11 +29,9 @@ const Pnapo = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://www.agroecologia.gov.br/politica/" target="_blank" rel="noopener noreferrer">Política Nacional de Agroecologia e Produção Orgânica (Pnapo)</a></li>
+                                <ul className="card-text">
+                                    <li><a href="http://www.agroecologia.gov.br/politica/" target="_blank" rel="noopener noreferrer">Política Nacional de Agroecologia e Produção Orgânica (Pnapo)</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     <hr width="100%" color="#77B81E" size="5px"></hr>

@@ -6,15 +6,15 @@ import './Home.css';
 import foto1 from '../../assets/images/Home/foto1.jpg';
 import foto2 from '../../assets/images/Home/foto2.jpg';
 import foto3 from '../../assets/images/Home/foto3.png';
-// import foto4 from '../../assets/images/foto_ciencia.svg';
-import foto5 from '../../assets/images/Home/foto_ciencia2.png';
-// import foto6 from '../../assets/images/foto_movimento.svg';
-import foto7 from '../../assets/images/Home/foto_movimento2.png';
-// import foto8 from '../../assets/images/foto_pratica.svg';
-import foto9 from '../../assets/images/Home/foto_pratica2.png';
-import foto10 from '../../assets/images/Home/foto4.png';
-import foto11 from '../../assets/images/Home/foto5.png';
-import foto12 from '../../assets/images/Home/foto6.png';
+import fotoCiencia1 from '../../assets/images/Home/foto_ciencia1.png';
+import fotoCiencia2 from '../../assets/images/Home/foto_ciencia2.png';
+import fotoMovimento1 from '../../assets/images/Home/foto_movimento1.png';
+import fotoMovimento2 from '../../assets/images/Home/foto_movimento2.png';
+import fotoPratica1 from '../../assets/images/Home/foto_pratica1.png';
+import fotoPratica2 from '../../assets/images/Home/foto_pratica2.png';
+import foto4 from '../../assets/images/Home/foto4.png';
+import foto5 from '../../assets/images/Home/foto5.png';
+import foto6 from '../../assets/images/Home/foto6.png';
 
 const home = () => {
     return (
@@ -46,22 +46,25 @@ const home = () => {
                 <div className="row bloco2">
                     <div className="col-md-1"></div>
                     <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={foto5} alt={"Vegetais"}></img>
+                        <img className="card-img-top" src={fotoCiencia2} alt={"Vegetais"}></img>
                         <div className="card-body">
+                            <img src={fotoCiencia1} alt={"Icone_Ciencia"}></img>
                             <h5 className="card-title">É CIÊNCIA</h5>
                             <p className="card-text">Conjunto de conhecimentos técnicos, tecnológicos e sociopolíticos de natureza inter, multi e transdisciplinar articulados numa mesma matriz científica para o desenvolvimento de uma agricultura de base ecológica.</p>
                         </div>
                     </div>
                     <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={foto7} alt={"Galinha"}></img>
+                        <img className="card-img-top" src={fotoMovimento2} alt={"Galinha"}></img>
                         <div className="card-body">
+                            <img src={fotoMovimento1} alt={"Icone_Movimento"} width="35px"></img>
                             <h5 className="card-title">É MOVIMENTO</h5>
                             <p className="card-text">Troca de saberes e construção do conhecimento agroecológico com movimentos sociais e comunidades organicamente ligadas à terra, como agricultoras e agricultores familiares, indígenas, populações quilombolas e povos tradicionais para a proteção da sociobiodiversidade.</p>
                         </div>
                     </div>
                     <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={foto9} alt={"Enxada"}></img>
+                        <img className="card-img-top" src={fotoPratica2} alt={"Enxada"}></img>
                         <div className="card-body">
+                            <img src={fotoPratica1} alt={"Icone_Prática"} width="35px" style={{marginBottom: "5px"}}></img>
                             <h5 className="card-title">É PRÁTICA</h5>
                             <p className="card-text">Rede de agentes e ações políticas, econômicas, sociais, institucionais, culturais, ecológicas, éticas e pedagógicas de luta, denúncia e proposição de projetos e políticas públicas para a defesa da soberania e segurança alimentares.</p>
                         </div>
@@ -71,7 +74,7 @@ const home = () => {
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-5">
-                        <img src={foto10} width="100%" alt={"HortaDoAssentamento"}></img>
+                        <img src={foto4} width="100%" alt={"HortaDoAssentamento"}></img>
                     </div>
                     <div className="col-md-5">
                         <div className="card">
@@ -96,13 +99,13 @@ const home = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <img src={foto11} width="100%" alt={"ApresentaçõesDeProjetos"}></img>
+                        <img src={foto5} width="100%" alt={"ApresentaçõesDeProjetos"}></img>
                     </div>
                     <div className="col-md-1"></div>
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={foto12} width="100%" height="100%" alt={"VegetaisELegumes"}></img>
+                        <img src={foto6} width="100%" height="100%" alt={"VegetaisELegumes"}></img>
                     </div>
                     <div className="col-md-6">
                        <Form></Form>

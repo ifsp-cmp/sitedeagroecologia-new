@@ -30,11 +30,9 @@ const Plansan = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://mds.gov.br/caisan-mds" target="_blank" rel="noopener noreferrer">Portal Caisan - Câmara Interministerial de Segurança Alimentar e Nutricional</a></li>
+                                <ul className="card-text">
+                                    <li><a href="http://mds.gov.br/caisan-mds" target="_blank" rel="noopener noreferrer">Portal Caisan - Câmara Interministerial de Segurança Alimentar e Nutricional</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
@@ -62,11 +60,9 @@ const Plansan = () =>{
                         <div className="card">
                             <div className="card-body fundo_cinza">
                                 <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                                <p className="card-text">
-                                    <ul>
-                                    <li><a href="http://www.mds.gov.br/webarquivos/publicacao/seguranca_alimentar/Plano_Caisan.pdf" target="_blank" rel="noopener noreferrer">Plano Nacional de Segurança Alimentar e Nutricional 2012/2015 (PDF)</a></li>
+                                    <ul className="card-text">
+                                        <li><a href="http://www.mds.gov.br/webarquivos/publicacao/seguranca_alimentar/Plano_Caisan.pdf" target="_blank" rel="noopener noreferrer">Plano Nacional de Segurança Alimentar e Nutricional 2012/2015 (PDF)</a></li>
                                     </ul>
-                                </p>
                             </div>
                         </div>
                         {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
@@ -96,12 +92,10 @@ const Plansan = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://www.mds.gov.br/webarquivos/arquivo/seguranca_alimentar/caisan/Publicacao/Caisan_Nacional/PLANSAN%202016-2019_revisado_completo.pdf" target="_blank" rel="noopener noreferrer">II PLANO NACIONAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL (PDF)</a></li>
-                                 <li><a href="http://www4.planalto.gov.br/consea/eventos/plenarias/documentos/2016/plano-nacional-de-seguranca-alimentar-e-nutricional-plansan-2016-2019-metodologia-e-estrutura" target="_blank" rel="noopener noreferrer">PLANO NACIONAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL (PLANSAN 2016‐2019) - Metodologia e Estrutura (PDF)</a></li>
+                                <ul className="card-text">
+                                    <li><a href="http://www.mds.gov.br/webarquivos/arquivo/seguranca_alimentar/caisan/Publicacao/Caisan_Nacional/PLANSAN%202016-2019_revisado_completo.pdf" target="_blank" rel="noopener noreferrer">II PLANO NACIONAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL (PDF)</a></li>
+                                    <li><a href="http://www4.planalto.gov.br/consea/eventos/plenarias/documentos/2016/plano-nacional-de-seguranca-alimentar-e-nutricional-plansan-2016-2019-metodologia-e-estrutura" target="_blank" rel="noopener noreferrer">PLANO NACIONAL DE SEGURANÇA ALIMENTAR E NUTRICIONAL (PLANSAN 2016‐2019) - Metodologia e Estrutura (PDF)</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}

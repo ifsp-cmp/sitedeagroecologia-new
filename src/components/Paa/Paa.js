@@ -31,12 +31,10 @@ const Paa = () =>{
                     <div className="card">
                         <div className="card-body fundo_cinza">
                             <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://mds.gov.br/assuntos/seguranca-alimentar/programa-de-aquisicao-de-alimentos-paa" target="_blank" rel="noopener noreferrer">Programa de Aquisição de Alimentos (PAA)</a></li>
-                                 <li><a href="http://mapas.cnpm.embrapa.br/mds/?layers=5" target="_blank" rel="noopener noreferrer">Mapa de inclusão produtiva da Empraba</a></li>
+                                <ul className="card-text">
+                                    <li><a href="http://mds.gov.br/assuntos/seguranca-alimentar/programa-de-aquisicao-de-alimentos-paa" target="_blank" rel="noopener noreferrer">Programa de Aquisição de Alimentos (PAA)</a></li>
+                                    <li><a href="http://mapas.cnpm.embrapa.br/mds/?layers=5" target="_blank" rel="noopener noreferrer">Mapa de inclusão produtiva da Empraba</a></li>
                                 </ul>
-                            </p>
                         </div>
                     </div>
                     {/* <hr width="100%" color="#77B81E" size="5px"></hr>   */}
