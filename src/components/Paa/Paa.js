@@ -1,11 +1,16 @@
 import React from 'react';
+import SaibaMais from '../SaibaMais/SaibaMais';
 
 import './Paa.css';
 
 import foto1 from '../../assets/images/PN/PAA/PAA.png';
-import foto2 from '../../assets/images/PN/foto2.png';
 
 const Paa = () =>{
+    const conteudo = <ul className="card-text">
+            <li><a href="http://mds.gov.br/assuntos/seguranca-alimentar/programa-de-aquisicao-de-alimentos-paa" target="_blank" rel="noopener noreferrer">Programa de Aquisição de Alimentos (PAA)</a></li>
+            <li><a href="http://mapas.cnpm.embrapa.br/mds/?layers=5" target="_blank" rel="noopener noreferrer">Mapa de inclusão produtiva da Empraba</a></li>
+        </ul>;
+
     return(
         <div className="container-fluid Paa">
             <div className="row">
@@ -25,22 +30,7 @@ const Paa = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                                <ul className="card-text">
-                                    <li><a href="http://mds.gov.br/assuntos/seguranca-alimentar/programa-de-aquisicao-de-alimentos-paa" target="_blank" rel="noopener noreferrer">Programa de Aquisição de Alimentos (PAA)</a></li>
-                                    <li><a href="http://mapas.cnpm.embrapa.br/mds/?layers=5" target="_blank" rel="noopener noreferrer">Mapa de inclusão produtiva da Empraba</a></li>
-                                </ul>
-                        </div>
-                    </div>
-                    {/* <hr width="100%" color="#77B81E" size="5px"></hr>   */}
-                </div>
-                <div className="col-md-2"></div>
-            </div>
+            <SaibaMais conteudo={conteudo}></SaibaMais>
 
 
         </div>

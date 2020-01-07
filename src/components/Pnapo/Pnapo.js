@@ -1,11 +1,15 @@
 import React from 'react';
+import SaibaMais from '../SaibaMais/SaibaMais';
 
 import './Pnapo.css';
 
 import foto1 from '../../assets/images/PN/PNAPO/PNAPO.png';
-import foto2 from '../../assets/images/PN/foto2.png';
 
 const Pnapo = () =>{
+    const conteudo = <ul className="card-text">
+        <li><a href="http://www.agroecologia.gov.br/politica/" target="_blank" rel="noopener noreferrer">Política Nacional de Agroecologia e Produção Orgânica (Pnapo)</a></li>
+    </ul>;
+    
     return(
         <div className="container-fluid Pnapo">
             <div className="row">
@@ -23,21 +27,8 @@ const Pnapo = () =>{
                 <p>Construído de forma participativa, o decreto surgiu pela preocupação da sociedade civil e das organizações sociais do campo e da floresta sobre a necessidade de se produzir alimento em quantidade e qualidade necessárias, com o menor impacto possível ao meio ambiente e à vida. Nesse momento, foram definidas as diretrizes, instrumentos e instâncias de gestão da PNAPO.</p>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
-                                <ul className="card-text">
-                                    <li><a href="http://www.agroecologia.gov.br/politica/" target="_blank" rel="noopener noreferrer">Política Nacional de Agroecologia e Produção Orgânica (Pnapo)</a></li>
-                                </ul>
-                        </div>
-                    </div>
-                    <hr width="100%" color="#77B81E" size="5px"></hr>
-                    
-                </div>
-            </div>
+
+            <SaibaMais conteudo={conteudo}></SaibaMais>
 
 
         </div>
