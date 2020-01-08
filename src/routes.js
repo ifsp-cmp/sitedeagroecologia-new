@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 
 import Home from './components/Home/Home';
 import PoliticasNacionais from './components/PoliticasNacionais/PoliticasNacionais';
-import Pnapo from './components/Pnapo/Pnapo';
-import Planapo from './components/Planapo/Planapo';
-import Plansan from './components/Plansan/Plansan';
-import Paa from './components/Paa/Paa';
-import Pnae from './components/Pnae/Pnae';
+import Pnapo from './components/PoliticasNacionais/Pnapo/Pnapo';
+import Planapo from './components/PoliticasNacionais/Planapo/Planapo';
+import Plansan from './components/PoliticasNacionais/Plansan/Plansan';
+import Paa from './components/PoliticasNacionais/Paa/Paa';
+import Pnae from './components/PoliticasNacionais/Pnae/Pnae';
 // import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
