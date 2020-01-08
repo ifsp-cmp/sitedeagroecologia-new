@@ -9,6 +9,14 @@ import Planapo from './components/PoliticasNacionais/Planapo/Planapo';
 import Plansan from './components/PoliticasNacionais/Plansan/Plansan';
 import Paa from './components/PoliticasNacionais/Paa/Paa';
 import Pnae from './components/PoliticasNacionais/Pnae/Pnae';
+
+import AssentamentoMS from './components/AssentamentoMS/AssentamentoMS';
+import HistoriaLutas from './components/AssentamentoMS/HistoriaLutas/HistoriaLutas';
+import Cooperflora from './components/AssentamentoMS/CooperativaCooperflora/CooperativaCooperflora';
+import GruposConsumo from './components/AssentamentoMS/GruposConsumo/GruposConsumo';
+import Feiras from './components/AssentamentoMS/Feiras/Feiras';
+
+
 // import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
@@ -31,6 +39,12 @@ class Routes extends Component{
         <Route exact path="/plansan" component={Plansan} />
         <Route exact path="/paa" component={Paa} />
         <Route exact path="/pnae" component={Pnae} />
+
+        <Route exact path="/assentamentomiltonsantos" component={AssentamentoMS} />
+        <Route exact path="/mshistoriaelutas" component={HistoriaLutas} />
+        <Route exact path="/mscooperflora" component={Cooperflora} />
+        <Route exact path="/msgruposdeconsumo" component={GruposConsumo} />
+        <Route exact path="/msfeiras" component={Feiras} />
 
         <Route exact path="/listarusuarios" component={ListarUsuarios} />
         

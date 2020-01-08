@@ -6,7 +6,7 @@ import foto1 from '../../assets/images/PN/foto1.png';
 import foto3 from '../../assets/images/PN/foto3.png';
 
 const politicasNacionais = (props) =>{
-    const conteudo = <ul>
+    const conteudo = <ul className="card-text">
             <li>PITAGUARI, S. O.; LIMA, J. Ferrera de. As idéias keynesianas e o crescimento do produto nas economias locais. Interações: Revista Internacional de Desenvolvimento Local, Campo Grande, v. 6, n. 10, p. 11-20, 2005.</li>
             <li>RUA, M. G. Análise de políticas públicas: conceitos básicos. Rio de Janeiro, 2005. Curso de Aperfeiçoamento em Agroecologia. REDCAPA – Rede de Instituições Vinculadas à Capacitação em Economia e Política Agrícola da América Latina e Caribe.</li>
         </ul>;

@@ -1,0 +1,24 @@
+.TabelaCooperados thead{
+    background-color: #EDEDED;
+}
+
+.TabelaCooperados tbody{
+    background-color: #FFFFFF;
+}
+
+.circulo1{
+    border-radius:100%;
+    border:1px solid #DA304C;
+    width:19px;
+    height:19px;
+    background-color:#DA304C;
+}
+
+.circulo2{
+    border-radius:100%;
+    border:1px solid #46A46C;
+    width:19px;
+    height:19px;
+    background-color:#46A46C;
+}
+
