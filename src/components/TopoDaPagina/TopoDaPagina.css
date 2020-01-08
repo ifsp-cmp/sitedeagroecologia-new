@@ -1,6 +1,20 @@
 .TopoDaPagina{
-    width: 30%;
-    height: auto;
+    height:180px;
     background-color: #2F4F2F;
     color: white;
+    margin-top: 90px;
+    align-items: center;
+
+}
+
+.TituloTopo{
+    text-align: left;
+    font-size: 32px;
+    font-family: Poppins;
+
+}
+.CaminhoTopo{
+    text-align: right;
+    font-size: 18px;
+    font-family: Poppins;
 }

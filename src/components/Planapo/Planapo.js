@@ -1,17 +1,29 @@
 import React from 'react';
+import SaibaMais from '../SaibaMais/SaibaMais';
 
 import './Planapo.css';
 
 import foto1 from '../../assets/images/PN/PLANAPO/PLANAPO.png';
-import foto2 from '../../assets/images/PN/foto2.png';
 
 const Planapo = () =>{
+    const conteudo1 =<ul className="card-text">
+        <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
+    </ul>;
+
+    const conteudo2 =<ul className="card-text">
+        <li><a href="http://www.agroecologia.gov.br/plano" target="_blank" rel="noopener noreferrer">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
+    </ul>;
+
+    const conteudo3 =  <ul className="card-text">
+        <li><a href="http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf" target="_blank" rel="noopener noreferrer">http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf</a></li>
+    </ul>;
+
     return(
         <div className="container-fluid Planapo">
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto1} width="100%"></img>
+                    <img src={foto1} width="100%" alt={"HortaNoAssentamento"}></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -24,23 +36,7 @@ const Planapo = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://www.agroecologia.gov.br/plano" target="_blank">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                    {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
-                </div>
-                <div className="col-md-2"></div>
-            </div>
+            <SaibaMais conteudo={conteudo1}></SaibaMais>
             
             <div className="planosCinza">
                 <div className="row">
@@ -59,23 +55,7 @@ const Planapo = () =>{
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                <div className="row">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-8">
-                        <div className="card">
-                            <div className="card-body fundo_cinza">
-                                <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
-                                <p className="card-text">
-                                    <ul>
-                                    <li><a href="http://www.agroecologia.gov.br/plano" target="_blank">Plano Nacional de Agroecologia e Produção Orgânica (Planapo)</a></li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                        {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
-                    </div>
-                    <div className="col-md-2"></div>
-                </div>
+                <SaibaMais conteudo={conteudo2}></SaibaMais>
             </div>
 
             <div className="row">
@@ -94,23 +74,7 @@ const Planapo = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-body fundo_cinza">
-                            <h4 className="card-title titulo3"><img src={foto2}></img> Saiba mais!</h4>
-                            <p className="card-text">
-                                <ul>
-                                 <li><a href="http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf" target="_blank">http://www.mda.gov.br/sitemda/sites/sitemda/files/ceazinepdf/PLANAPO_2016_2019.pdf</a></li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                    {/* <hr width="100%" color="#77B81E" size="5px"></hr> */}
-                </div>
-                <div className="col-md-2"></div>
-            </div>
+            <SaibaMais conteudo={conteudo3}></SaibaMais>
 
         </div>
     );

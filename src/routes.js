@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 
 import Home from './components/Home/Home';
 import PoliticasNacionais from './components/PoliticasNacionais/PoliticasNacionais';
-import Teste from './components/Teste/Teste';
 import Pnapo from './components/Pnapo/Pnapo';
 import Planapo from './components/Planapo/Planapo';
 import Plansan from './components/Plansan/Plansan';
