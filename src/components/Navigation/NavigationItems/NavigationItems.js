@@ -1,7 +1,7 @@
 import React from 'react';
 
 import NavigationItem from './NavigationItem/NavigationItem';
-import { NavLink } from 'react-router-dom'; 
+import { NavLink } from 'react-router-dom';
 
 import arrow from '../../../assets/images/menu/arrow.svg';
 
@@ -14,11 +14,11 @@ const navigationItems = (props) => (
         <li className='Menu1'>
             <p className="TituloMenu">Políticas Nacionais <img src={arrow} /></p>
             <ul className='SubMenu1'>
-                <NavigationItem link="/pnapo"><li>PNAPO</li></NavigationItem>
-                <NavigationItem link="/planapo"><li>PLANAPO</li></NavigationItem>
-                <NavigationItem link="/plansan"><li>PLANSAN</li></NavigationItem>
-                <NavigationItem link="/paa"><li>PAA</li></NavigationItem>
-                <NavigationItem link="/pnae"><li>PNAE</li></NavigationItem>
+                <NavigationItem link="/pnapo">PNAPO</NavigationItem>
+                <NavigationItem link="/planapo">PLANAPO</NavigationItem>
+                <NavigationItem link="/plansan">PLANSAN</NavigationItem>
+                <NavigationItem link="/paa">PAA</NavigationItem>
+                <NavigationItem link="/pnae">PNAE</NavigationItem>
             </ul>
         </li>
 
@@ -57,7 +57,7 @@ const navigationItems = (props) => (
         </li>
 
         <NavigationItem link='/quemsomos'>Quem Somos</NavigationItem>
-        
+
 
         {/* <NavigationItem className='Menu1' link='/politicasnacionais'>Políticas Nacionais <img src={arrow} /></NavigationItem>
         <NavigationItem link='/assentamentoms'>Assentamento Milton Santos</NavigationItem>

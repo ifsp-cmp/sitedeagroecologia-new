@@ -181,10 +181,9 @@ export const addUser = ( userData ) => {
     console.log("Cheguei");
     return dispatch => {
         console.log('[Adduser] UserData:', userData);
-        // dispatch(addUserStart());
-        // // console.log(userData);
-        // let userEmail = userData.email;
-        // let userPassword = userData.password;
+        dispatch(addUserStart());
+        let userEmail = userData.email;
+        let userPassword = userData.password;
         // firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword)
         // .then(function( res ){
         //     console.log("Retorno da criação do usuário:", res)
