@@ -1,9 +1,9 @@
 import React from 'react';
-import SaibaMais from '../SaibaMais/SaibaMais';
+import SaibaMais from '../../SaibaMais/SaibaMais';
 
 import './Paa.css';
 
-import foto1 from '../../assets/images/PN/PAA/PAA.png';
+import foto1 from '../../../assets/images/PN/PAA/PAA.png';
 
 const Paa = () =>{
     const conteudo = <ul className="card-text">

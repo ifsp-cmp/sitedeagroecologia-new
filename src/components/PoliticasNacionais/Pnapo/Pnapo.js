@@ -1,9 +1,9 @@
 import React from 'react';
-import SaibaMais from '../SaibaMais/SaibaMais';
+import SaibaMais from '../../SaibaMais/SaibaMais';
 
 import './Pnapo.css';
 
-import foto1 from '../../assets/images/PN/PNAPO/PNAPO.png';
+import foto1 from '../../../assets/images/PN/PNAPO/PNAPO.png';
 
 const Pnapo = () =>{
     const conteudo = <ul className="card-text">

@@ -1,10 +1,10 @@
 import React from 'react';
-import SaibaMais from '../SaibaMais/SaibaMais';
+import SaibaMais from '../../SaibaMais/SaibaMais';
 
 import './Pnae.css';
 
-import foto1 from '../../assets/images/PN/PNAE/PNAE.png';
-import foto3 from '../../assets/images/PN/PNAE/PNAE2.png';
+import foto1 from '../../../assets/images/PN/PNAE/PNAE.png';
+import foto3 from '../../../assets/images/PN/PNAE/PNAE2.png';
 
 const Pnae = () =>{
     const conteudo1 = <ul className="card-text">

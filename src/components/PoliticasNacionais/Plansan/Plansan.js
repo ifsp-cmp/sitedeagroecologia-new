@@ -1,9 +1,9 @@
 import React from 'react';
-import SaibaMais from '../SaibaMais/SaibaMais';
+import SaibaMais from '../../SaibaMais/SaibaMais';
 
 import './Plansan.css';
 
-import foto1 from '../../assets/images/PN/PLANSAN/PLANSAN.png';
+import foto1 from '../../../assets/images/PN/PLANSAN/PLANSAN.png';
 
 const Plansan = () =>{
     const conteudo1 = <ul className="card-text">
