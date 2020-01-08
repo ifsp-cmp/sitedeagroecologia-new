@@ -1,47 +1,21 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-import * as userActions from '../../store/actions/index';
 import Spinner from '../../components/UI/Spinner/Spinner2';
 
-import './Cadastro.css';
+import "./Login.css";
+import * as userActions from '../../store/actions/index';
 import { checkValidity } from '../../shared/utility';
 
-class Cadastro extends Component{
-	
+class Login extends Component{ 
+
 	state = {
 		loginForm: {
-			name: {
-				elementType: 'input',
-				elementConfig: {
-					type: 'text',
-					placeholder: 'Digite seu nome'
-				},
-				value: '',
-				validation: {
-					required: true
-				},
-				valid: false,
-				touched: false
-			},
-			phone: {
-				elementType: 'input',
-				elementConfig: {
-					type: 'text',
-					placeholder: 'Digite seu telefone'
-				},
-				value: '',
-				validation: {
-					required: true,
-				},
-				valid: false,
-				touched: false
-			},
 			email: {
 				elementType: 'input',
 				elementConfig: {
 					type: 'email',
-					placeholder: 'Digite seu e-mail'
+					placeholder: 'Digite o e-mail'
 				},
 				value: '',
 				validation: {
@@ -55,7 +29,7 @@ class Cadastro extends Component{
 				elementType: 'input',
 				elementConfig: {
 					type: 'password',
-					placeholder: 'Senha - Minímo de 6 caracteres'
+					placeholder: 'Senha'
 				},
 				value: '',
 				validation: {
@@ -67,6 +41,7 @@ class Cadastro extends Component{
 			}
 		},
 		formIsValid: false,
+		loading: false
 	}
 
 	inputChangedHandler(event, inputIdentifier) {
@@ -90,21 +65,14 @@ class Cadastro extends Component{
 		this.setState({loginForm: updatedLoginForm, formIsValid: formIsValid});
 	 }
 
-	submitHandler = (event) => {
-		event.preventDefault();
-		console.log("Cheguei no submitHandler");
-		const userData = {};
-		for (let formElementIdentifier in this.state.loginForm) {
-			userData[formElementIdentifier] = this.state.loginForm[formElementIdentifier].value;
-		}
-		// console.log("UserData:", userData);
-		this.props.onAddUser( userData );
-	}
-	
+	 submitHandler = (event) => {
+	 	event.preventDefault();
+	 	// console.log("Cheguei no submitHandler");
+	 	this.props.onLogin(event.target.email.value, event.target.password.value);
+
+	 }
+
 	render(){
-
-		// console.log('[Cadastro] UserData:', this.props.userData);
-
 		const formElementArray = [];
 		for (let key in this.state.loginForm){
 			formElementArray.push({
@@ -112,11 +80,6 @@ class Cadastro extends Component{
 				config: this.state.loginForm[key]
 			});
 		}
-		// console.log(formElementArray);
-		
-		//Redireciona caso o usuário tenha sido cadastrado. 
-		let redirect = this.props.isUserAuthenticated ? <Redirect to='/training' /> : null;
-		console.log('[Cadastro Component] isUserAuthenticated:', this.props.isUserAuthenticated)
 
 		let form = null;
 		form = (
@@ -142,34 +105,46 @@ class Cadastro extends Component{
 			</div>
 		);
 
+		let error = this.props.error ? <p className="alert alert-danger">Erro ao logar</p> : null;
+
+		// let redirect = <Redirect to='/video' />;
+
 		if (this.props.loading) {
 			form = <Spinner />;
 		}
 
+		let redirect = this.props.isUserAuthenticated 
+		? <Redirect to='training' />
+		: null;
+		// console.log(redirect);
+		// console.log('[Component Login]');
 		return(
-			<div className="Cadastro">
-				<h3>Cadastro</h3>
-				<p className="alert-warning">Todos os campos são obrigatórios</p>
+			<div className="Login">
+				<h3>Login</h3>
 				{redirect}
 				{form}
+				{error}
+				<div>
+					<a href="/esqueciminhasenha">Esqueci Minha Senha</a>
+				</div>
 			</div>
 		);
 	};
 }
-	
+
 const mapStateToProps = state => {
 	return {
 		userData: state.userData,
+		error: state.error,
 		loading: state.loading,
-		isUserAuthenticated: state.userData.userId !== null,
-		error: state.error
-	};
+		isUserAuthenticated: state.userData.userId !== null
+	}
 }
 
 const mapDispatchToProps = dispatch => {
 	return{
-		onAddUser: (userData) => dispatch(userActions.addUser(userData))
+		onLogin: (email, password) => dispatch(userActions.login(email, password))
 	}
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Cadastro);
+export default connect(mapStateToProps, mapDispatchToProps)(Login); 

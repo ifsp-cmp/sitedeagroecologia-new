@@ -1,5 +1,4 @@
 import * as actionTypes from '../actions/actionsTypes';
-// import firebaseSetup from '../../firebaseSetup';
 
 const initialState = {
   userData:{
@@ -7,9 +6,7 @@ const initialState = {
     phone: null,
     email: null,
     password: null,
-    userId: null,
-    videoTime: 0,
-    whatchedVideo: false,
+    userId: null
   },
   users: null,
   error: false,

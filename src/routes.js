@@ -13,7 +13,7 @@ import Pnae from './components/PoliticasNacionais/Pnae/Pnae';
 import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
 // import ForgotPassword from './containers/Login/ForgotPassword';
-// // import ListarUsuarios from './containers/ListarUsuarios/ListarUsuarios';
+import ListarUsuarios from './containers/ListarUsuarios/ListarUsuarios';
 // import Projeto from './components/Projeto/Projeto';
 // import Cooperflora from './components/Cooperflora/Cooperflora';
 // import Training from './containers/Training/Training';
@@ -31,6 +31,9 @@ class Routes extends Component{
         <Route exact path="/plansan" component={Plansan} />
         <Route exact path="/paa" component={Paa} />
         <Route exact path="/pnae" component={Pnae} />
+
+        <Route exact path="/listarusuarios" component={ListarUsuarios} />
+        
         <Redirect to='/' />
       </Switch>
     );

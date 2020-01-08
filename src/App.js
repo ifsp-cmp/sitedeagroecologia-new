@@ -6,7 +6,7 @@ import Routes from './routes';
 
 import './App.css';
 
-import * as actions from './store/actions/index';
+// import * as actions from './store/actions/index';
 
 class App extends PureComponent {
 

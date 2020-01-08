@@ -181,10 +181,9 @@ export const addUser = ( userData ) => {
     console.log("Cheguei");
     return dispatch => {
         console.log('[Adduser] UserData:', userData);
-        // dispatch(addUserStart());
-        // // console.log(userData);
-        // let userEmail = userData.email;
-        // let userPassword = userData.password;
+        dispatch(addUserStart());
+        let userEmail = userData.email;
+        let userPassword = userData.password;
         // firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword)
         // .then(function( res ){
         //     console.log("Retorno da criação do usuário:", res)
@@ -226,23 +225,24 @@ export const listUsersFail =( error ) => {
 }
 
 export const getUsers = () =>{
-    // // console.log("Get Users from actions");
-    // let users = [];
-    // return dispatch => {
-    //     firebase.firestore().collection("users").get()
-    //     .then((querySnapshot) => {
-    //         querySnapshot.forEach((doc) => {
-    //             // console.log(doc.id);
-    //             // console.log(doc.data().name);
-    //             const user = doc.data();
-    //             users.push(user);
-    //         });
-    //         dispatch(listUser(users));
-    //     })
-    //     .catch(function(error){
-    //         // console.log(error);
-    //         dispatch(listUsersFail(error));
-    //     });
-    // };
+    console.log("Get Users from actions");
+    let users = [];
+    return dispatch => {
+        console.log("Teste");
+        // firebase.firestore().collection("users").get()
+        // .then((querySnapshot) => {
+        //     querySnapshot.forEach((doc) => {
+        //         // console.log(doc.id);
+        //         // console.log(doc.data().name);
+        //         const user = doc.data();
+        //         users.push(user);
+        //     });
+        //     dispatch(listUser(users));
+        // })
+        // .catch(function(error){
+        //     // console.log(error);
+        //     dispatch(listUsersFail(error));
+        // });
+    };
 }
 

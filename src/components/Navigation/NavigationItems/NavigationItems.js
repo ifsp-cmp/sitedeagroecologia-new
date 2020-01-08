@@ -60,7 +60,7 @@ const navigationItems = (props) => (
         </li>
 
         <NavigationItem link='/quemsomos'>Quem Somos</NavigationItem>
-        
+
 
         {/* <NavigationItem className='Menu1' link='/politicasnacionais'>Políticas Nacionais <img src={arrow} /></NavigationItem>
         <NavigationItem link='/assentamentoms'>Assentamento Milton Santos</NavigationItem>

@@ -1,15 +1,6 @@
 import React from 'react';
 import './Footer.css'
 import { NavLink } from 'react-router-dom';
-
-import logoFacebook from '../../../assets/images/logofacebook.png';
-import logoEmail from '../../../assets/images/logoemail.png';
-import license from '../../../assets/images/license.png';
-import logoIfspCampinas from '../../../assets/images/logoifspcampinas.png';
-import logoNeaes from '../../../assets/images/logoneaes.png';
-
-import NavigationItem from '../NavigationItems/NavigationItem/NavigationItem';
-
 import phoneIcon from '../../../assets/images/icons/phoneicon.svg';
 import emailIcon from '../../../assets/images/icons/emailicon.svg';
 
@@ -57,7 +48,7 @@ const footer = () => {
                         <p>Acompanhe as novidades</p>
                         <a href="https://www.facebook.com/neaes.ifsp.campinas/">
                             <div className='IconeFacebook Icone'>
-                                <spam>f</spam>
+                                <span>f</span>
                             </div>
                         </a>
                     </div>
