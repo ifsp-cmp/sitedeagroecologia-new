@@ -14,7 +14,7 @@ class ListarUsuarios extends Component{
 
     componentDidMount(){
         console.log("cheguei no didmount");
-        // this.props.onGetUsers();
+        this.props.onGetUsers();
     }
 
     changeModal = () => {
@@ -61,7 +61,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
 	return{
-		onGetUsers: () => dispatch(userActions.getUsers())
+        onGetUsers: () => dispatch(userActions.getUsers())
 	}
 }
 
