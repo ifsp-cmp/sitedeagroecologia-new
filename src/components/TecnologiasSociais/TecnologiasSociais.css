@@ -1,0 +1,20 @@
+.TecnologiasSociais{
+    margin-top: 40px;
+}
+
+.TecnologiasSociais a{
+    text-decoration: underline;
+    color: #707070;
+}
+
+.EstruturaBlocos{
+    background-color: #EDEDED;
+    display: flex;
+    
+}
+
+@media (max-width: 800px){
+    .EstruturaBlocos{
+        flex-flow: column;
+    }
+}
