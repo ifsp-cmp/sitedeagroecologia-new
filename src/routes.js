@@ -16,6 +16,8 @@ import Cooperflora from './components/AssentamentoMS/CooperativaCooperflora/Coop
 import GruposConsumo from './components/AssentamentoMS/GruposConsumo/GruposConsumo';
 import Feiras from './components/AssentamentoMS/Feiras/Feiras';
 
+import TecnologiaSociais from './components/TecnologiasSociais/TecnologiasSociais';
+import AppAgroecomunicao from './components/TecnologiasSociais/AppAgroecomunicacao/AppAgroecomunicacao';
 
 // import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
@@ -45,6 +47,9 @@ class Routes extends Component{
         <Route exact path="/mscooperflora" component={Cooperflora} />
         <Route exact path="/msgruposdeconsumo" component={GruposConsumo} />
         <Route exact path="/msfeiras" component={Feiras} />
+
+        <Route exact path="/tecnologiassociais" component={TecnologiaSociais} />
+        <Route exact path="/tsappagrocomunicacao" component={AppAgroecomunicao} />
 
         <Route exact path="/listarusuarios" component={ListarUsuarios} />
         
