@@ -78,7 +78,7 @@ const reducer = (state = initialState, action) => {
         userMessage: action.userMessage
       } 
     case actionTypes.LIST_USERS:
-    // console.log(action);
+    console.log('Reducer', action);
     return{
       ...state,
       users: action.users,

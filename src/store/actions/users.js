@@ -151,7 +151,7 @@ export const forgotPassword = (email) => {
     // };
 }
 
-export const listUser = (users) => {
+export const listUsers = (users) => {
     return {
         type: actionsTypes.LIST_USERS,
         users: users
@@ -230,11 +230,14 @@ export const getUsers = () => {
     let users = [];
     return dispatch => {
         console.log("Teste");
-        axios.get('http://localhost:3210')
+        axios.get('http://localhost:3210/data')
             .then(res => {
                 const usuarios = res.data;
                 console.log(usuarios);
-                // this.setState({ persons });
+                usuarios.forEach(element => {
+                    users.push(element);
+                });
+                dispatch(listUsers(users));
             })
 
         // firebase.firestore().collection("users").get()
@@ -253,4 +256,5 @@ export const getUsers = () => {
         // });
     };
 }
+
 

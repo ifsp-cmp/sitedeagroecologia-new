@@ -13,7 +13,7 @@ const navigationItems = (props) => (
         <li className='Menu1'>
             <p className="TituloMenu">Políticas Nacionais <img src={arrow} alt={"Flecha"}/></p>
             <ul className='SubMenu1'>
-                <NavigationItem link="/politicasnacionais"><li>INTRODUÇÃO</li></NavigationItem>
+                <NavigationItem link="/politicasnacionais">INTRODUÇÃO</NavigationItem>
                 <NavigationItem link="/pnapo">PNAPO</NavigationItem>
                 <NavigationItem link="/planapo">PLANAPO</NavigationItem>
                 <NavigationItem link="/plansan">PLANSAN</NavigationItem>
@@ -25,7 +25,7 @@ const navigationItems = (props) => (
         <li className='Menu1'>
             <p className="TituloMenu">Assentamento Milton Santos <img src={arrow} alt={"Flecha"}/></p>
             <ul className='SubMenu1'>
-                <NavigationItem link="/assentamentomiltonsantos"><li>INTRODUÇÃO</li></NavigationItem>
+                <NavigationItem link="/assentamentomiltonsantos">INTRODUÇÃO</NavigationItem>
                 <NavigationItem link='/mshistoriaelutas' active>HISTÓRIA E LUTAS</NavigationItem>
                 <NavigationItem link='/mscooperflora' active>COOPERATIVA COOPERFLORA</NavigationItem>
                 <NavigationItem link='/msgruposdeconsumo' active>GRUPOS DE CONSUMO</NavigationItem>
@@ -37,7 +37,7 @@ const navigationItems = (props) => (
         <li className='Menu1'>
             <p className="TituloMenu">Tecnologias Sociais <img src={arrow} alt={"Flecha"}/></p>
             <ul className='SubMenu1'>
-                <NavigationItem link="/tecnologiassociais"><li>INTRODUÇÃO</li></NavigationItem>
+                <NavigationItem link="/tecnologiassociais">INTRODUÇÃO</NavigationItem>
                 <NavigationItem link='/tsappagrocomunicacao' active>APP AGROCOMUNICAÇÃO</NavigationItem>
                 <NavigationItem link='/tsdatalutaproducao' active>DATALUTA PRODUÇÃO</NavigationItem>
                 <NavigationItem link='/tsirrigador' active>IRRIGADOR</NavigationItem>
@@ -50,7 +50,7 @@ const navigationItems = (props) => (
         <li className='Menu1'>
             <p className="TituloMenu">Educação Popular <img src={arrow} alt={"Flecha"} /></p>
             <ul className='SubMenu1'>
-                <NavigationItem link="/educacaopopular"><li>INTRODUÇÃO</li></NavigationItem>
+                <NavigationItem link="/educacaopopular">INTRODUÇÃO</NavigationItem>
                 <NavigationItem link='/epcursosfic' active>Cursos Fic</NavigationItem>
                 <NavigationItem link='/epformacoes' active>Formações</NavigationItem>
                 <NavigationItem link='/epdiagnosticoruralparticipativo' active>Diagnóstico Rural Participativo</NavigationItem>
