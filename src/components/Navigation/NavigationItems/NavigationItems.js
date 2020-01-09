@@ -14,11 +14,11 @@ const navigationItems = (props) => (
             <p className="TituloMenu">Políticas Nacionais <img src={arrow} alt={"Flecha"}/></p>
             <ul className='SubMenu1'>
                 <NavigationItem link="/politicasnacionais"><li>INTRODUÇÃO</li></NavigationItem>
-                <NavigationItem link="/pnapo"><li>PNAPO</li></NavigationItem>
-                <NavigationItem link="/planapo"><li>PLANAPO</li></NavigationItem>
-                <NavigationItem link="/plansan"><li>PLANSAN</li></NavigationItem>
-                <NavigationItem link="/paa"><li>PAA</li></NavigationItem>
-                <NavigationItem link="/pnae"><li>PNAE</li></NavigationItem>
+                <NavigationItem link="/pnapo">PNAPO</NavigationItem>
+                <NavigationItem link="/planapo">PLANAPO</NavigationItem>
+                <NavigationItem link="/plansan">PLANSAN</NavigationItem>
+                <NavigationItem link="/paa">PAA</NavigationItem>
+                <NavigationItem link="/pnae">PNAE</NavigationItem>
             </ul>
         </li>
 

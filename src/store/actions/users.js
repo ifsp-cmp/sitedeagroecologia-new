@@ -1,4 +1,5 @@
 import * as actionsTypes from './actionsTypes';
+import axios from 'axios';
 
 export const removeUser = (userId) => {
     return {
@@ -7,14 +8,14 @@ export const removeUser = (userId) => {
     };
 };
 
-export const loginSuccess = ( userData ) => {
+export const loginSuccess = (userData) => {
     return {
         type: actionsTypes.LOGIN_SUCCESS,
         userData: userData
     };
 };
 
-export const loginFail = ( errorMessage ) => {
+export const loginFail = (errorMessage) => {
     return {
         type: actionsTypes.LOGIN_FAIL,
         error: errorMessage
@@ -42,7 +43,7 @@ export const logout = () => {
 
 export const loginStart = () => {
     return {
-        type: actionsTypes.LOGIN_START 
+        type: actionsTypes.LOGIN_START
     };
 };
 
@@ -108,7 +109,7 @@ export const verifyLogin = () => {
     //             .catch(function(error) {
     //                 console.log("Error getting document:", error);
     //             });
-                
+
     //         } 
     //         else {
     //             dispatch(logout());
@@ -123,21 +124,21 @@ export const forgotPasswordStart = () => {
     };
 }
 
-export const forgotPasswordSuccess = ( msg ) => {
+export const forgotPasswordSuccess = (msg) => {
     return {
         type: actionsTypes.FORGOT_PASSWORD_SUCCESS,
         userMessage: msg
     };
 }
 
-export const forgotPasswordFail = ( msg ) => {
+export const forgotPasswordFail = (msg) => {
     return {
         type: actionsTypes.FORGOT_PASSWORD_FAIL,
         userMessage: msg
-    }; 
+    };
 }
 
-export const forgotPassword = ( email ) => {
+export const forgotPassword = (email) => {
     // return dispatch => {
     //     // console.log("Cheguei no action adduser");
     //     dispatch(forgotPasswordStart());
@@ -150,7 +151,7 @@ export const forgotPassword = ( email ) => {
     // };
 }
 
-export const listUser =( users ) => {
+export const listUser = (users) => {
     return {
         type: actionsTypes.LIST_USERS,
         users: users
@@ -164,7 +165,7 @@ export const addUserSuccess = (userData) => {
     };
 }
 
-export const addUserFail = ( error ) => {
+export const addUserFail = (error) => {
     return {
         type: actionsTypes.ADD_USER_FAIL,
         error: error
@@ -177,7 +178,7 @@ export const addUserStart = () => {
     }
 }
 
-export const addUser = ( userData ) => {
+export const addUser = (userData) => {
     console.log("Cheguei");
     return dispatch => {
         console.log('[Adduser] UserData:', userData);
@@ -217,18 +218,25 @@ export const addUser = ( userData ) => {
     }
 }
 
-export const listUsersFail =( error ) => {
+export const listUsersFail = (error) => {
     return {
         type: actionsTypes.LIST_USERS_FAIL,
         error: error
     };
 }
 
-export const getUsers = () =>{
+export const getUsers = () => {
     console.log("Get Users from actions");
     let users = [];
     return dispatch => {
         console.log("Teste");
+        axios.get('http://localhost:3210')
+            .then(res => {
+                const usuarios = res.data;
+                console.log(usuarios);
+                // this.setState({ persons });
+            })
+
         // firebase.firestore().collection("users").get()
         // .then((querySnapshot) => {
         //     querySnapshot.forEach((doc) => {
