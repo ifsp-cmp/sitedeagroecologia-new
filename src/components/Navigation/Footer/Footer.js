@@ -16,12 +16,12 @@ const footer = () => {
             </div>
             <div className='PaginasdeInteresse Bloco'>
                 <p className='Titulo'>Páginas de Interesse</p>
-                <li><a href="http://agroecologia.gov.br/">Agroecologia Governo Federal</a></li>
-                <li><a href="http://www.osala-agroecologia.org/">Observatório de Soberania Alimentar e Agroecologia</a></li>
-                <li><a href="http://aba-agroecologia.org.br/">Associação Brasileira de Agroecologia</a></li>
-                <li><a href="https://www.embrapa.br/">Embrapa</a></li>
-                <li><a href="http://www.cati.sp.gov.br/">Coordenaria de Desenvolvimento Rural Sustentável</a></li>
-                <li><a href="http://www.incra.gov.br/">INCRA</a></li>
+                <li><a href="http://agroecologia.gov.br/" target="_blank" rel="noopener noreferrer">Agroecologia Governo Federal</a></li>
+                <li><a href="http://www.osala-agroecologia.org/" target="_blank" rel="noopener noreferrer">Observatório de Soberania Alimentar e Agroecologia</a></li>
+                <li><a href="http://aba-agroecologia.org.br/" target="_blank" rel="noopener noreferrer">Associação Brasileira de Agroecologia</a></li>
+                <li><a href="https://www.embrapa.br/" target="_blank" rel="noopener noreferrer">Embrapa</a></li>
+                <li><a href="http://www.cati.sp.gov.br/" target="_blank" rel="noopener noreferrer">Coordenaria de Desenvolvimento Rural Sustentável</a></li>
+                <li><a href="http://www.incra.gov.br/" target="_blank" rel="noopener noreferrer">INCRA</a></li>
 
             </div>
             <div className='Contato Bloco'>
@@ -46,7 +46,7 @@ const footer = () => {
                     </div>
                     <div className='Facebook'>
                         <p>Acompanhe as novidades</p>
-                        <a href="https://www.facebook.com/neaes.ifsp.campinas/">
+                        <a href="https://www.facebook.com/neaes.ifsp.campinas/" target="_blank" rel="noopener noreferrer">
                             <div className='IconeFacebook Icone'>
                                 <span>f</span>
                             </div>
