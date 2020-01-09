@@ -6,3 +6,10 @@
     text-decoration: underline;
     color: #707070;
 }
+
+@media (max-width: 550px){
+    .planos{
+        height: 150px;
+        padding: 20px;
+    }
+}

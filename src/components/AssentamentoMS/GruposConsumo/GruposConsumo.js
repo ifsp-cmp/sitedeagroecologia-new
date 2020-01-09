@@ -63,7 +63,7 @@ const gruposConsumo = () =>{
                 <div className="row " style={{marginTop: "30px"}}>
                     <div className="col-md-2" ></div>
                     <div className="col-md-8" id={"americana"}>
-                        <p className="card-body planos">AMERICANA</p>
+                        <p className="planos">AMERICANA</p>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
@@ -80,7 +80,7 @@ const gruposConsumo = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <p className="card-body planos">ESTRELA LIBRE/ IFSP CAMPINAS</p>
+                    <p className="planos">ESTRELA LIBRE/ IFSP CAMPINAS</p>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -90,14 +90,14 @@ const gruposConsumo = () =>{
                     <p>O grupo teve início em 31 de agosto de 2017, quando foi realizada uma formação junto com os primeiros consumidores para apresentar o modo de produção dos alimentos, os arranjos comerciais das entregas e composição das cestas agroecológicas. Desde então, já ocorreram mais duas formações e o grupo é exclusivo para os servidores e estudantes do IFSP Campus de Campinas e do CTI Renato Archer.</p>
                 </div>
                 <div className="col-md-2"></div>
-                <Grupos endereco={grupo[1].endereco} entrega={grupo[1].entrega} horario={grupo[1].horario}></Grupos>
             </div>
+            <Grupos endereco={grupo[1].endereco} entrega={grupo[1].entrega} horario={grupo[1].horario}></Grupos>
 
             <div className="planosCinza">
                 <div className="row " style={{marginTop: "30px"}}>
                     <div className="col-md-2" ></div>
-                    <div className="col-md-8" id={"americana"}>
-                        <p className="card-body planos">SINDICATO DOS PETROLEIROS (CAMPINAS)</p>
+                    <div className="col-md-8">
+                        <p className="planos">SINDICATO DOS PETROLEIROS (CAMPINAS)</p>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
@@ -107,15 +107,15 @@ const gruposConsumo = () =>{
                         <p>O grupo teve início em 10 de agosto de 2017, foi realizada uma formação junto com os primeiros consumidores, posteriormente uma conversa para decidir questões sobre as entregas. Atualmente não é realizada formação inicial, no entanto é feita uma conversa explicativa sobre o grupo, cestas, modo de produção e comercialização antes de entrarem no grupo.</p>
                     </div>
                     <div className="col-md-2"></div>
-                    <Grupos endereco={grupo[2].endereco} entrega={grupo[2].entrega} horario={grupo[2].horario}></Grupos>
                 </div>
+                <Grupos endereco={grupo[2].endereco} entrega={grupo[2].entrega} horario={grupo[2].horario}></Grupos>
                 <SaibaMais conteudo={conteudo}></SaibaMais>
             </div>
 
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <p className="card-body planos">BARÃO GERALDO</p>
+                    <p className="planos">BARÃO GERALDO</p>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -125,15 +125,15 @@ const gruposConsumo = () =>{
                     <p>O grupo teve início em 20 de março de 2019, quando foi realizada uma formação para decidir questões sobre as entregas, junto com os primeiros consumidores. Atualmente não é realizada formação inicial, no entanto é feita uma conversa explicativa sobre o grupo, cestas, modo de produção e comercialização antes de entrarem no grupo.</p>
                 </div>
                 <div className="col-md-2"></div>
-                <Grupos endereco={grupo[3].endereco} entrega={grupo[3].entrega} horario={grupo[3].horario}></Grupos>
             </div>
+            <Grupos endereco={grupo[3].endereco} entrega={grupo[3].entrega} horario={grupo[3].horario}></Grupos>
             <SaibaMais conteudo={conteudo}></SaibaMais>
 
             <div className="planosCinza">
                 <div className="row " style={{marginTop: "30px"}}>
                     <div className="col-md-2" ></div>
-                    <div className="col-md-8" id={"americana"}>
-                        <p className="card-body planos">SANTA BÁRBARA D’OESTE – SINDPROSBO</p>
+                    <div className="col-md-8">
+                        <p className="planos">SANTA BÁRBARA D’OESTE – SINDPROSBO</p>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
@@ -151,7 +151,7 @@ const gruposConsumo = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <p className="card-body planos">PIRACICABA - ESALQ</p>
+                    <p className="planos">PIRACICABA - ESALQ</p>
                 </div>
                 <div className="col-md-2"></div>
             </div>

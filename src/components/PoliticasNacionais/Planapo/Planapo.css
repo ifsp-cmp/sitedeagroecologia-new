@@ -15,11 +15,20 @@
     text-align: center;
     margin-top: 50px;
     height: 80px;
-    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .Planapo a{
     text-decoration: underline;
     color: #707070;
+}
+@media (max-width: 1300px){
+    .planos{
+        height: 120px;
+       
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
 }
 .card{
     margin-bottom: 50px;
