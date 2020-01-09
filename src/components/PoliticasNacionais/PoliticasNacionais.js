@@ -1,15 +1,30 @@
 import React from 'react';
 import SaibaMais from '../SaibaMais/SaibaMais';
+import Projetos from '../Projetos/Projetos';
+
 import './PoliticasNacionais.css';
 
 import foto1 from '../../assets/images/PN/foto1.png';
-import foto3 from '../../assets/images/PN/foto3.png';
+import foto2 from '../../assets/images/PN/PNAPO/PNAPO.png';
+import foto3 from '../../assets/images/PN/PLANAPO/PLANAPO.png';
+import foto4 from '../../assets/images/PN/PLANSAN/PLANSAN.png';
+import foto5 from '../../assets/images/PN/PAA/PAA.png';
+import foto6 from '../../assets/images/PN/PNAE/PNAE.png';
+
 
 const politicasNacionais = (props) =>{
     const conteudo = <ul className="card-text">
             <li>PITAGUARI, S. O.; LIMA, J. Ferrera de. As idéias keynesianas e o crescimento do produto nas economias locais. Interações: Revista Internacional de Desenvolvimento Local, Campo Grande, v. 6, n. 10, p. 11-20, 2005.</li>
             <li>RUA, M. G. Análise de políticas públicas: conceitos básicos. Rio de Janeiro, 2005. Curso de Aperfeiçoamento em Agroecologia. REDCAPA – Rede de Instituições Vinculadas à Capacitação em Economia e Política Agrícola da América Latina e Caribe.</li>
         </ul>;
+
+    const projeto = [
+        {titulo: 'PNAPO'},
+        {titulo: 'PLANAPO'},
+        {titulo: 'PLANSAN'},
+        {titulo: 'PAA'},
+        {titulo: 'PNAE'},
+    ]
   
     return(
         <div className="container-fluid home">
@@ -38,15 +53,20 @@ const politicasNacionais = (props) =>{
                     <p>CONHEÇA OS PROJETOS DE POLÍTICAS PÚBLICAS</p>
                 </div>
             </div>
-            <div className="row bloco2">
-                <div className="col-md-1"></div>
-                <div className="col-md-3 bloco4">
-                    <img className="card-img-top" src={foto1} width="100%" alt={"HortaNoAssentamento"}></img>
-                        <div className="card-body">
-                            <h5 className="card-title"><img src={foto3} alt={"Icone_Casa"}></img>PNAPO</h5>
-                            {/* <p className="card-text">A Política Nacional de Agroecologia e Produção Orgânica (PNAPO) tem por objetivo integrar, articular e adequar políticas, programas e ações indutores da transição agroecológica, da produção orgânica e de base...</p> */}
-                        </div>
-                </div>
+            
+            <div className="row EstruturaBlocos">
+                <div className="col-md-2"></div>
+                <Projetos foto={foto2} titulo={projeto[0].titulo}></Projetos>
+                <Projetos foto={foto3} titulo={projeto[1].titulo}></Projetos>
+                <Projetos foto={foto4} titulo={projeto[2].titulo}></Projetos>
+                <div className="col-md-2"></div>
+            </div>
+
+            <div className="row EstruturaBlocos">
+                <div className="col-md-2"></div>
+                <Projetos foto={foto5} titulo={projeto[3].titulo}></Projetos>
+                <Projetos foto={foto6} titulo={projeto[4].titulo}></Projetos>
+                <div className="col-md-2"></div>
             </div>
 
 
