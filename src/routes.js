@@ -18,6 +18,11 @@ import Feiras from './components/AssentamentoMS/Feiras/Feiras';
 
 import TecnologiaSociais from './components/TecnologiasSociais/TecnologiasSociais';
 import AppAgroecomunicao from './components/TecnologiasSociais/AppAgroecomunicacao/AppAgroecomunicacao';
+import datalutaProducao from './components/TecnologiasSociais/DatalutaProducao/DatalutaProducao';
+import irrigadorAutomatizado from './components/TecnologiasSociais/IrrigadorAutomatizado/IrrigadorAutomatizado';
+import minhocarioAutomatizado from './components/TecnologiasSociais/MinhocarioAutomatizado/MinhocarioAutomatizado';
+import mapeamentoProducao from './components/TecnologiasSociais/MapeamentoProducao/MapeamentoProducao';
+import fichaAgroecologica from './components/TecnologiasSociais/FichaAgroecologica/FichaAgroecologica';
 
 // import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
@@ -50,6 +55,11 @@ class Routes extends Component{
 
         <Route exact path="/tecnologiassociais" component={TecnologiaSociais} />
         <Route exact path="/tsappagrocomunicacao" component={AppAgroecomunicao} />
+        <Route exact path="/tsdatalutaproducao" component={datalutaProducao} />
+        <Route exact path="/tsirrigadorautomatizado" component={irrigadorAutomatizado} />
+        <Route exact path="/tsminhocarioautomatizado" component={minhocarioAutomatizado} />
+        <Route exact path="/tsmapeamentodaproducao" component={mapeamentoProducao} />
+        <Route exact path="/tsfichasagroecologicas" component={fichaAgroecologica} />
 
         <Route exact path="/listarusuarios" component={ListarUsuarios} />
         

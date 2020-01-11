@@ -40,9 +40,9 @@ const navigationItems = (props) => (
                 <NavigationItem link="/tecnologiassociais">INTRODUÇÃO</NavigationItem>
                 <NavigationItem link='/tsappagrocomunicacao' active>APP AGROCOMUNICAÇÃO</NavigationItem>
                 <NavigationItem link='/tsdatalutaproducao' active>DATALUTA PRODUÇÃO</NavigationItem>
-                <NavigationItem link='/tsirrigador' active>IRRIGADOR</NavigationItem>
+                <NavigationItem link='/tsirrigadorautomatizado' active>IRRIGADOR AUTOMATIZADO</NavigationItem>
                 <NavigationItem link='/tsminhocarioautomatizado' active>MINHOCÁRIO AUTOMATIZADO</NavigationItem>
-                <NavigationItem link='/rsmapeamentodaproducao' active>MAPEAMENTO DA PRODUÇÃO</NavigationItem>
+                <NavigationItem link='/tsmapeamentodaproducao' active>MAPEAMENTO DA PRODUÇÃO</NavigationItem>
                 <NavigationItem link='/tsfichasagroecologicas' active>FICHAS AGROECOLÓGICAS</NavigationItem>
             </ul>
         </li>
