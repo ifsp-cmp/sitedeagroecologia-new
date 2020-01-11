@@ -53,9 +53,8 @@ const cooperativaCooperflora = () =>{
                 <div className="col-md-8">
                     <div className="Video">
                         <video id="MyVideo" controls>
-                                <source  src={video} type="video/mp4"></source>    
-                            </video> 
-                        {/* Arrumar isso ainda */}
+                            <source  src={video} type="video/mp4"></source>    
+                        </video> 
                     </div> 
                 </div>
                 <div className="col-md-2"></div>
