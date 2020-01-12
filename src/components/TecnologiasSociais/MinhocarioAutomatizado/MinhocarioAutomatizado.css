@@ -6,3 +6,57 @@
     text-decoration: underline;
     color: #707070;
 }
+
+.Video{
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+
+.Video video{
+    width: 380px;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+}
+
+@media (min-width: 500px){
+    .Video {
+        width: 420px;
+    }
+
+    .Video video{
+        width: 400px;
+    }
+}
+
+@media (min-width: 700px){
+    .Video {
+        width: 620px;
+    }
+
+    .Video video{
+        width: 600px;
+    }
+}
+
+@media (min-width: 900px){
+    .Video {
+        width: 820px;
+    }
+
+    .Video video{
+        width: 600px;
+    }
+}
+
+@media (min-width: 1000px){
+    .Video {
+        width: 850px;
+    }
+
+    .Video video{
+        width: 850px;
+    }
+}

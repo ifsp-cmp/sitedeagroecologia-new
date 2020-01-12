@@ -24,7 +24,7 @@ const tabelaCooperados = () =>{
                         <tr>
                         <td>OSMAR ANTONIO CONTRIGIAN</td>
                         <td>IN-SP0260000-00057-181007</td>
-                        <td>DAP Suspens <div className="circulo1"></div></td>
+                        <td>DAP Suspensa <div className="circulo1"></div></td>
                         </tr>
                         <tr>
                         <td>ELENI PIRES FERNANDES</td>

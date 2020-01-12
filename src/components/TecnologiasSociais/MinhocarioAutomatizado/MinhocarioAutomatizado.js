@@ -2,6 +2,8 @@ import React from 'react';
 
 import './MinhocarioAutomatizado.css';
 
+import video from '../../../assets/images/TecnologiasSociais/Minhocario/MINHOCARIO.mp4';
+
 const minhocarioAutomatizado =()=>{
     return(
         <div className="container-fluid Minhocario">
@@ -15,6 +17,26 @@ const minhocarioAutomatizado =()=>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
+            
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <p className="card-body planos">CONHEÇA O MINHOCÁRIO AUTOMATIZADO</p>
+                </div>
+                <div className="col-md-2"></div>
+            </div>
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <div className="Video">
+                        <video id="MyVideo" controls>
+                            <source  src={video} type="video/mp4"></source>    
+                        </video> 
+                    </div> 
+                </div>
+                <div className="col-md-2"></div>
+            </div>
+
         </div>
     )
 }
