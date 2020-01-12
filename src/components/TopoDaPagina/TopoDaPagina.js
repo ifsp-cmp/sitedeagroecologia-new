@@ -8,8 +8,8 @@ const topoDaPagina = (props) =>{
             <div className="row ">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <p className="TituloTopo"><br></br>PNAE</p>
-                    <p className="CaminhoTopo">POLÍTICAS NACIONAIS</p>
+                    <p className="TituloTopo"><br></br>TÍTULO</p>
+                    <p className="CaminhoTopo">CAMINHO -></p>
                 </div>
                 
             </div>
