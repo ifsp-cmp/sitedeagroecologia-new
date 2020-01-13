@@ -29,9 +29,11 @@ const minhocarioAutomatizado =()=>{
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
                     <div className="Video">
-                        <video id="MyVideo" controls>
-                            <source  src={video} type="video/mp4"></source>    
-                        </video> 
+                        <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/SgcJpGP3aYA" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowFullScreen 
+                        className="Video"></iframe>  
                     </div> 
                 </div>
                 <div className="col-md-2"></div>
