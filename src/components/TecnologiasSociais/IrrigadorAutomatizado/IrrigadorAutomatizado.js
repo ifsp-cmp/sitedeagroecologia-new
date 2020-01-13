@@ -1,4 +1,5 @@
 import React from 'react';
+// import Iframe from 'react-iframe';
 import SaibaMais from '../../SaibaMais/SaibaMais';
 
 import './IrrigadorAutomatizado.css';
@@ -41,11 +42,11 @@ const irrigadorAutomatizado =()=>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <div className="Video">
-                        <video id="MyVideo" controls>
-                            <source  src={video} type="video/mp4"></source>    
-                        </video> 
-                    </div> 
+                        <iframe 
+                        src="https://www.youtube.com/embed/ISDScjWNVXA" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        className="Video"/>
                 </div>
                 <div className="col-md-2"></div>
             </div>
