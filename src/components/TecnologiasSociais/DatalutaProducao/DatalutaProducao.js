@@ -2,6 +2,7 @@ import React from 'react';
 
 import './DatalutaProducao.css';
 
+import foto from '../../../assets/images/TecnologiasSociais/Dataluta/foto1.png';
 import foto1 from '../../../assets/images/TecnologiasSociais/Dataluta/datalutaproducao1.jpeg';
 import foto2 from '../../../assets/images/TecnologiasSociais/Dataluta/datalutaproducao2.jpeg';
 import foto3 from '../../../assets/images/TecnologiasSociais/Dataluta/datalutaproducao3.jpeg';
@@ -9,6 +10,13 @@ import foto3 from '../../../assets/images/TecnologiasSociais/Dataluta/datalutapr
 const datalutaProducao =()=>{
     return(
         <div className="container-fluid Dataluta">
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <img src={foto} width="100%" alt={"Homem Plantando"}></img>
+                </div>
+                <div className="col-md-2"></div>
+            </div>
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8 texto1">

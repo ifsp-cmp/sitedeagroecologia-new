@@ -2,9 +2,18 @@ import React from 'react';
 
 import './MapeamentoProducao.css';
 
+import foto1 from '../../../assets/images/TecnologiasSociais/Mapeamento/foto1.png';
+
 const mapeamentoProducao=()=>{
     return(
         <div className="container-fluid Mapeamento">
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <img src={foto1} width="100%" alt={"Homens com um carirnho de mão"}></img>
+                </div>
+                <div className="col-md-2"></div>
+            </div>
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8 texto1">

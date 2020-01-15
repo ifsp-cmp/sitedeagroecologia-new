@@ -2,11 +2,19 @@ import React from 'react';
 
 import './MinhocarioAutomatizado.css';
 
-import video from '../../../assets/images/TecnologiasSociais/Minhocario/MINHOCARIO.mp4';
+// import video from '../../../assets/images/TecnologiasSociais/Minhocario/MINHOCARIO.mp4';
+import foto1 from '../../../assets/images/TecnologiasSociais/Minhocario/foto1.png';
 
 const minhocarioAutomatizado =()=>{
     return(
         <div className="container-fluid Minhocario">
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <img src={foto1} width="100%" alt={"Homem com mão na terra"}></img>
+                </div>
+                <div className="col-md-2"></div>
+            </div>
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8 texto1">

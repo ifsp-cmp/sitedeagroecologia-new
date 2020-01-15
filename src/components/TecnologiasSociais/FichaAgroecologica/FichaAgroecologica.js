@@ -2,6 +2,7 @@ import React from 'react';
 
 import './FichaAgroecologica.css';
 
+import foto from '../../../assets/images/TecnologiasSociais/Fichas/foto1.png';
 import foto1 from '../../../assets/images/TecnologiasSociais/Fichas/fichaagroecologicap1.jpg';
 import foto2 from '../../../assets/images/TecnologiasSociais/Fichas/fichaagroecologicap2.jpg';
 import foto3 from '../../../assets/images/TecnologiasSociais/Fichas/fichadatalutaproducaop1.jpg';
@@ -9,6 +10,13 @@ import foto3 from '../../../assets/images/TecnologiasSociais/Fichas/fichadatalut
 const fichaAgroecologica =()=>{
     return(
         <div className="container-fluid Ficha">
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <img src={foto} width="100%" alt={"Homens com um carirnho de mão"}></img>
+                </div>
+                <div className="col-md-2"></div>
+            </div>
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8 texto1">

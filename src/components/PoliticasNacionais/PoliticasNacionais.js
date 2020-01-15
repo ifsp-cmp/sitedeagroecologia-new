@@ -4,7 +4,7 @@ import Projetos from '../Projetos/Projetos';
 
 import './PoliticasNacionais.css';
 
-import foto1 from '../../assets/images/PN/foto1.png';
+import foto1 from '../../assets/images/PN/Introducao/foto1.png';
 import foto2 from '../../assets/images/PN/PNAPO/PNAPO.png';
 import foto3 from '../../assets/images/PN/PLANAPO/PLANAPO.png';
 import foto4 from '../../assets/images/PN/PLANSAN/PLANSAN.png';
@@ -19,11 +19,11 @@ const politicasNacionais = (props) =>{
         </ul>;
 
     const projeto = [
-        {titulo: 'PNAPO'},
-        {titulo: 'PLANAPO'},
-        {titulo: 'PLANSAN'},
-        {titulo: 'PAA'},
-        {titulo: 'PNAE'},
+        {titulo: 'PNAPO', link:'/pnapo'},
+        {titulo: 'PLANAPO', link:'/planapo'},
+        {titulo: 'PLANSAN', link:'/plansan'},
+        {titulo: 'PAA', link:'/paa'},
+        {titulo: 'PNAE', link:'/pnae'},
     ]
   
     return(
@@ -56,16 +56,16 @@ const politicasNacionais = (props) =>{
             
             <div className="row EstruturaBlocos">
                 <div className="col-md-2"></div>
-                <Projetos foto={foto2} titulo={projeto[0].titulo}></Projetos>
-                <Projetos foto={foto3} titulo={projeto[1].titulo}></Projetos>
-                <Projetos foto={foto4} titulo={projeto[2].titulo}></Projetos>
+                <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
+                <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
+                <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
                 <div className="col-md-2"></div>
             </div>
 
             <div className="row EstruturaBlocos">
                 <div className="col-md-2"></div>
-                <Projetos foto={foto5} titulo={projeto[3].titulo}></Projetos>
-                <Projetos foto={foto6} titulo={projeto[4].titulo}></Projetos>
+                <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
+                <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link}></Projetos>
                 <div className="col-md-2"></div>
             </div>
 

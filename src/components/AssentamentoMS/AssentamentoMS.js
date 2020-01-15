@@ -3,7 +3,7 @@ import SaibaMais from '../SaibaMais/SaibaMais';
 
 import './AssentamentoMS.css';
 
-import foto1 from '../../assets/images/AssentamentoMS/foto1.jpg';
+import foto1 from '../../assets/images/AssentamentoMS/Introducao/foto1.jpg';
 
 const assentamentoMS = () =>{
     const conteudo = <ul className="card-text">

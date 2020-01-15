@@ -3,19 +3,23 @@ import React from 'react';
 import './TecnologiasSociais.css';
 import Projetos from '../Projetos/Projetos';
 
-import foto1 from '../../assets/images/TecnologiasSociais/foto1.jpg';
-import foto4 from '../../assets/images/TecnologiasSociais/foto4.jpg';
-import foto5 from '../../assets/images/TecnologiasSociais/foto5.jpg';
+import foto1 from '../../assets/images/TecnologiasSociais/Introducao/foto1.png';
+import foto2 from '../../assets/images/TecnologiasSociais/Introducao/foto2.png';
+import foto3 from '../../assets/images/TecnologiasSociais/Introducao/foto3.png';
+import foto4 from '../../assets/images/TecnologiasSociais/Introducao/foto4.png';
+import foto5 from '../../assets/images/TecnologiasSociais/Introducao/foto5.png';
+import foto6 from '../../assets/images/TecnologiasSociais/Introducao/foto6.png';
+import foto7 from '../../assets/images/TecnologiasSociais/Introducao/foto7.png';
 
 
 const tecnologiasSociais = () =>{
     const projeto = [
-        {titulo: 'APP AGROECOMUNICAÇÃO'},
-        {titulo: 'DATALUTA PRODUÇÃO'},
-        {titulo: 'IRRIGADOR'},
-        {titulo: 'MINHOCÁRIO AUTOMATIZADO'},
-        {titulo: 'MAPEAMENTO DA PRODUÇÃO'},
-        {titulo: 'FICHAS AGROECOLÓGICAS'},
+        {titulo: 'APP AGROECOMUNICAÇÃO', link: '/tsappagrocomunicacao'},
+        {titulo: 'DATALUTA PRODUÇÃO', link: 'tsdatalutaproducao'},
+        {titulo: 'IRRIGADOR AUTOMATIZADO', link: 'tsirrigadorautomatizado'},
+        {titulo: 'MINHOCÁRIO AUTOMATIZADO', link: 'tsminhocarioautomatizado'},
+        {titulo: 'MAPEAMENTO DA PRODUÇÃO', link: 'tsmapeamentodaproducao'},
+        {titulo: 'FICHAS AGROECOLÓGICAS', link: 'tsfichasagroecologicas'},
     ]
 
     return (
@@ -45,17 +49,17 @@ const tecnologiasSociais = () =>{
 
             <div className="row EstruturaBlocos">
                 <div className="col-md-2"></div>
-                <Projetos foto={foto1} titulo={projeto[0].titulo}></Projetos>
-                <Projetos foto={foto1} titulo={projeto[1].titulo}></Projetos>
-                <Projetos foto={foto5} titulo={projeto[2].titulo}></Projetos>
+                <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
+                <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
+                <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
                 <div className="col-md-2"></div>
             </div>
 
             <div className="row EstruturaBlocos">
                 <div className="col-md-2"></div>
-                <Projetos foto={foto1} titulo={projeto[3].titulo}></Projetos>
-                <Projetos foto={foto1} titulo={projeto[4].titulo}></Projetos>
-                <Projetos foto={foto4} titulo={projeto[5].titulo}></Projetos>
+                <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
+                <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link}></Projetos>
+                <Projetos foto={foto7} titulo={projeto[5].titulo} link={projeto[5].link}></Projetos>
                 <div className="col-md-2"></div>
             </div>
 

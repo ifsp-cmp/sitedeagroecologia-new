@@ -5,7 +5,7 @@ import SaibaMais from '../../SaibaMais/SaibaMais';
 import './IrrigadorAutomatizado.css';
 
 import foto1 from '../../../assets/images/TecnologiasSociais/Irrigador/foto5.jpg';
-import video from '../../../assets/images/TecnologiasSociais/Irrigador/Irrigador_automatizado.mp4';
+// import video from '../../../assets/images/TecnologiasSociais/Irrigador/Irrigador_automatizado.mp4';
 
 const irrigadorAutomatizado =()=>{
     const conteudo = <ul className="card-text">

@@ -2,7 +2,8 @@ import React from 'react';
 
 import './AppAgroecomunicacao.css';
 
-import foto1 from '../../../assets/images/TecnologiasSociais/App/foto1.jpg';
+import foto1 from '../../../assets/images/TecnologiasSociais/appAgro/foto1.png';
+import icone from '../../../assets/images/TecnologiasSociais/appAgro/icone.png';
 
 const appAgroecomunicacao = () =>{
     return (
@@ -30,7 +31,7 @@ const appAgroecomunicacao = () =>{
         <div className="col-md-8">
             <div className="card"> 
                 <div className="card-body fundo_cinza">
-                    <h4 className="card-title titulo3"><a href=" https://drive.google.com/file/d/1brcHRQ0WlC06YIs_033OO55IN7wjaaCq/view" target="_blank"  rel="noopener noreferrer">Clique aqui e baixe o APP</a></h4>
+                    <h4 className="card-title titulo3"><img src={icone} alt={"Icone_Download"}></img><a href=" https://drive.google.com/file/d/1brcHRQ0WlC06YIs_033OO55IN7wjaaCq/view" target="_blank"  rel="noopener noreferrer"> Clique aqui e baixe o APP</a></h4>
                 </div>
             </div>
         </div>

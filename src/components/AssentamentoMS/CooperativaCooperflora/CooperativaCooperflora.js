@@ -6,7 +6,9 @@ import TabelaCooperados from './Dap/TabelaCooperados';
 import './CooperativaCooperflora.css';
 
 import video from '../../../assets/images/AssentamentoMS/Cooperflora/cooperflora.mp4';
-import foto1 from '../../../assets/images/AssentamentoMS/Cooperflora/foto1.jpg';
+import foto1 from '../../../assets/images/AssentamentoMS/Cooperflora/foto1.png';
+import icone from '../../../assets/images/AssentamentoMS/Cooperflora/logo-cooperflora.png';
+import bloco from '../../../assets/images/AssentamentoMS/Cooperflora/bloco.png';
 
 const cooperativaCooperflora = () =>{
     const conteudo = <ul className="card-text">
@@ -18,7 +20,9 @@ const cooperativaCooperflora = () =>{
              <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto1} width="100%" alt={"EntradaAssentamentoMS"}></img>
+                    <img src={foto1} width="75%" alt={"EntradaAssentamentoMS"}></img>
+                    <img src={icone} alt={"Icone_Cooperflorra"} className="icone"></img>
+                    <img src={bloco} height="280px" alt={"Bloco Verde"} className="blocoVerde"></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
