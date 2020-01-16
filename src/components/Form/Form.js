@@ -10,8 +10,8 @@ const form = () => {
                 <p className="card-text">Texto introdutório sobre a comunidade, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p><br></br>
                 <form className="text-white">
                     <p>CIDADE/REGIÃO</p>
-                    <label class="sr-only" for="state"><abbr title="Unidade Federativa">UF</abbr></label>
-                    <select class="form-control fundo" id="state" name="state" >
+                    <label className="sr-only" ><abbr title="Unidade Federativa">UF</abbr></label>
+                    <select className="form-control fundo" id="state" name="state" >
                         <option>UF</option>
                         <option title="Acre" value="AL">AC</option>
                         <option title="Alagoas" value="AP">AL</option>
