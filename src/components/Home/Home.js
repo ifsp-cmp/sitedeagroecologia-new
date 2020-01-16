@@ -38,39 +38,48 @@ const home = () => {
                         <button type="button" className="btn btn-success botao1">Saiba Mais</button>
                     </div>
                 </div>
-                <div className="row titulo2">
-                    <div className="col-md-12">
-                        <p>O QUE É AGROECOLOGIA?</p>
-                    </div>
-                </div> 
-                <div className="row bloco2">
-                    <div className="col-md-1"></div>
-                    <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={fotoCiencia2} alt={"Vegetais"}></img>
-                        <div className="card-body">
-                            <img src={fotoCiencia1} alt={"Icone_Ciencia"}></img>
-                            <h5 className="card-title">É CIÊNCIA</h5>
-                            <p className="card-text">Conjunto de conhecimentos técnicos, tecnológicos e sociopolíticos de natureza inter, multi e transdisciplinar articulados numa mesma matriz científica para o desenvolvimento de uma agricultura de base ecológica.</p>
+                <div className="album py-4 ">
+                    <div className="container">
+                        <div className="row ">
+                            <div className="col-md-12 titulo2">
+                                <p>O QUE É AGROECOLOGIA?</p>
+                            </div>
+                        </div> 
+                        <div className="row">
+                            <div className="col-md-4 ">
+                                <div className="card mb-4 shadow-sm  bloco3">
+                                    <img className="card-img-top" src={fotoCiencia2} alt={"Vegetais"}></img>
+                                    <div className="card-body">
+                                        <img src={fotoCiencia1} alt={"Icone_Ciencia"}></img>
+                                        <h5 className="card-title">É CIÊNCIA</h5>
+                                        <p className="card-text">Conjunto de conhecimentos técnicos, tecnológicos e sociopolíticos de natureza inter, multi e transdisciplinar articulados numa mesma matriz científica para o desenvolvimento de uma agricultura de base ecológica.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="card mb-4 shadow-sm bloco3">
+                                    <img className="card-img-top" src={fotoMovimento2} alt={"Galinha"}></img>
+                                    <div className="card-body">
+                                        <img src={fotoMovimento1} alt={"Icone_Movimento"} width="35px"></img>
+                                        <h5 className="card-title">É MOVIMENTO</h5>
+                                        <p className="card-text">Troca de saberes e construção do conhecimento agroecológico com movimentos sociais e comunidades organicamente ligadas à terra, como agricultoras e agricultores familiares, indígenas, populações quilombolas e povos tradicionais para a proteção da sociobiodiversidade.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="card mb-4 shadow-sm bloco3">
+                                    <img className="card-img-top" src={fotoPratica2} alt={"Enxada"}></img>
+                                    <div className="card-body">
+                                        <img src={fotoPratica1} alt={"Icone_Prática"} width="35px" style={{marginBottom: "5px"}}></img>
+                                        <h5 className="card-title">É PRÁTICA</h5>
+                                        <p className="card-text">Rede de agentes e ações políticas, econômicas, sociais, institucionais, culturais, ecológicas, éticas e pedagógicas de luta, denúncia e proposição de projetos e políticas públicas para a defesa da soberania e segurança alimentares.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={fotoMovimento2} alt={"Galinha"}></img>
-                        <div className="card-body">
-                            <img src={fotoMovimento1} alt={"Icone_Movimento"} width="35px"></img>
-                            <h5 className="card-title">É MOVIMENTO</h5>
-                            <p className="card-text">Troca de saberes e construção do conhecimento agroecológico com movimentos sociais e comunidades organicamente ligadas à terra, como agricultoras e agricultores familiares, indígenas, populações quilombolas e povos tradicionais para a proteção da sociobiodiversidade.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-3 card bloco3">
-                        <img className="card-img-top" src={fotoPratica2} alt={"Enxada"}></img>
-                        <div className="card-body">
-                            <img src={fotoPratica1} alt={"Icone_Prática"} width="35px" style={{marginBottom: "5px"}}></img>
-                            <h5 className="card-title">É PRÁTICA</h5>
-                            <p className="card-text">Rede de agentes e ações políticas, econômicas, sociais, institucionais, culturais, ecológicas, éticas e pedagógicas de luta, denúncia e proposição de projetos e políticas públicas para a defesa da soberania e segurança alimentares.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-1"></div>
-                </div><br></br><br></br>
+                </div>
+
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-5">

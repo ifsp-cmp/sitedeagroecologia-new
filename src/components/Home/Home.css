@@ -24,9 +24,13 @@
 .titulo2{
     color: #77B81E;
     text-align: center;
-    background-color: #EDEDED;
     font: BOLD 32px Poppins;
     margin-top: 4%;
+}
+.album{
+    background-color: #EDEDED;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .bloco2{
     background-color: #EDEDED;
@@ -35,7 +39,8 @@
 .bloco3{
     font-size: 18px Poppins;
     text-align: center;
-    margin-right: 50px;
+    height: 500px;
+
 }
 .bloco3:hover{
     background-color:  #77B81E;
