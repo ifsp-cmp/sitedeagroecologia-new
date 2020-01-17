@@ -46,7 +46,7 @@ const assentamentoMS = () =>{
                 <div className="container">
                     <div className="row titulo2">
                         <div className="col-md-12">
-                            <p>CONHEÇA OS PROJETOS DE POLÍTICAS PÚBLICAS</p>
+                            <p>SAIBA MAIS SOBRE O ASSENTAMENTO</p>
                         </div>
                     </div>
 
