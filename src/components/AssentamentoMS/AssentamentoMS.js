@@ -1,14 +1,26 @@
 import React from 'react';
 import SaibaMais from '../SaibaMais/SaibaMais';
+import Projetos from '../Projetos/Projetos';
 
 import './AssentamentoMS.css';
 
 import foto1 from '../../assets/images/AssentamentoMS/Introducao/foto1.jpg';
+import foto2 from '../../assets/images/AssentamentoMS/Introducao/foto2.png';
+import foto3 from '../../assets/images/AssentamentoMS/Introducao/foto3.png';
+import foto4 from '../../assets/images/AssentamentoMS/Introducao/foto4.png';
+import foto5 from '../../assets/images/AssentamentoMS/Introducao/foto5.png';
 
 const assentamentoMS = () =>{
     const conteudo = <ul className="card-text">
         <li><a href="https://www.facebook.com/AssentamentoMiltonSantos/posts/380597652019366/" target="_blank" rel="noopener noreferrer">Facebook Assentamento Milton Santos</a></li>
     </ul>;
+
+    const projeto = [
+        {titulo: 'HISTÓRIAS E LUTAS', link:'/mshistoriaelutas'},
+        {titulo: 'COOP. COOPERFLORA', link:'/mscooperflora'},
+        {titulo: 'GRUPOS DE CONSUMO', link:'/msgruposdeconsumo'},
+        {titulo: 'FEIRAS', link:'/msfeiras'}
+    ]
 
     return (
         <div className="container-fluid AssentamentoMS">
@@ -30,6 +42,25 @@ const assentamentoMS = () =>{
             </div>
             <SaibaMais conteudo={conteudo}></SaibaMais>
 
+            <div className="album py-4 fundoImagem" >
+                <div className="container">
+                    <div className="row titulo2">
+                        <div className="col-md-12">
+                            <p>CONHEÇA OS PROJETOS DE POLÍTICAS PÚBLICAS</p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
+                        <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
+                        <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
+                    </div>
+
+                    <div className="row">
+                        <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
+                    </div>
+                </div>  
+            </div>
 
         </div>
     )

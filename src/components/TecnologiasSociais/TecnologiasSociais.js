@@ -41,26 +41,26 @@ const tecnologiasSociais = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
-            <div className="row titulo2">
-                <div className="col-md-12">
-                    <p>CONHEÇA OS PROJETOS DE TECNOLOGIA SOCIAL</p>
-                </div>
-            </div>
+            <div className="album py-4 fundoImagem" >
+                <div className="container">
+                    <div className="row titulo2">
+                        <div className="col-md-12">
+                            <p>CONHEÇA OS PROJETOS DE TECNOLOGIA SOCIAL</p>
+                        </div>
+                    </div>
 
-            <div className="row EstruturaBlocos">
-                <div className="col-md-2"></div>
-                <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
-                <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
-                <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
-                <div className="col-md-2"></div>
-            </div>
+                    <div className="row">
+                        <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
+                        <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
+                        <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
+                    </div>
 
-            <div className="row EstruturaBlocos">
-                <div className="col-md-2"></div>
-                <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
-                <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link}></Projetos>
-                <Projetos foto={foto7} titulo={projeto[5].titulo} link={projeto[5].link}></Projetos>
-                <div className="col-md-2"></div>
+                    <div className="row">
+                        <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
+                        <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link}></Projetos>
+                        <Projetos foto={foto7} titulo={projeto[5].titulo} link={projeto[5].link}></Projetos>
+                    </div>
+                </div>  
             </div>
 
         </div>

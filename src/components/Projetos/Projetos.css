@@ -1,31 +1,7 @@
-.bloco4{
-    box-shadow: 0px 3px 6px #00000029;  
-    height: 200px;
-    width: 290px;
-    margin-right: -60px;
-    background: #EDEDED;
-}
-
 .texto{
-    font-size: 18px Poppins;
     text-align: left;
-    font: Bold 16px/24px Roboto Slab;
+    font: Bold 16px/26px Roboto Slab;
     background: #1A2D00B3 0% 0% no-repeat padding-box;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.tituloA{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 18px Poppins;
-    font: Bold 16px/24px Roboto Slab;
-    background: #1A2D00B3 0% 0% no-repeat padding-box;
-}
-
-
-@media (max-width: 800px){
-    .bloco4{
-        width: 500px;
-        align-items: center;
-    }
-}
