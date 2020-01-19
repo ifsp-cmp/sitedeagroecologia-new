@@ -2,10 +2,8 @@ import React from 'react';
 
 import './FichaAgroecologica.css';
 
-import foto from '../../../assets/images/TecnologiasSociais/Fichas/foto1.png';
-import foto1 from '../../../assets/images/TecnologiasSociais/Fichas/fichaagroecologicap1.jpg';
-import foto2 from '../../../assets/images/TecnologiasSociais/Fichas/fichaagroecologicap2.jpg';
-import foto3 from '../../../assets/images/TecnologiasSociais/Fichas/fichadatalutaproducaop1.jpg';
+import foto1 from '../../../assets/images/TecnologiasSociais/Fichas/foto1.png';
+import foto2 from '../../../assets/images/TecnologiasSociais/Fichas/foto2.png';
 
 const fichaAgroecologica =()=>{
     return(
@@ -13,7 +11,7 @@ const fichaAgroecologica =()=>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <img src={foto} width="100%" alt={"Homens com um carirnho de mão"}></img>
+                    <img src={foto1} width="100%" alt={"Fichas Agroecológicas caindo"}></img>
                 </div>
                 <div className="col-md-2"></div>
             </div>
@@ -27,17 +25,11 @@ const fichaAgroecologica =()=>{
             </div>
             
             <div className="row">
-                <div className="col-md-3"></div>
-                <div className="col-md-2">
-                    <img src={foto1} alt={"Ficha Agroecológica 1"} width="100%"></img>
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <img src={foto2} width="100%" alt={"Fichas Agroecológicas"}></img>
                 </div>
-                <div className="col-md-2">
-                    <img src={foto2} alt={"Ficha Agroecológica 2"} width="100%"></img>
-                </div>
-                <div className="col-md-2">
-                    <img src={foto3} alt={"Ficha DataLuta Produção"} width="100%"></img>
-                </div>
-                <div className="col-md-3"></div>
+                <div className="col-md-2"></div>
             </div>
 
         </div>
