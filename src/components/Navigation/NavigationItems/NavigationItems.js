@@ -51,11 +51,11 @@ const navigationItems = (props) => (
             <p className="TituloMenu">Educação Popular <img src={arrow} alt={"Flecha"} /></p>
             <ul className='SubMenu1'>
                 <NavigationItem link="/educacaopopular">INTRODUÇÃO</NavigationItem>
-                <NavigationItem link='/epcursosfic' active>Cursos Fic</NavigationItem>
-                <NavigationItem link='/epformacoes' active>Formações</NavigationItem>
-                <NavigationItem link='/epdiagnosticoruralparticipativo' active>Diagnóstico Rural Participativo</NavigationItem>
-                <NavigationItem link='/avaliacoesevalidacoesparticipativas' active>Avaliações e Validações Participativas</NavigationItem>
-                <NavigationItem link='/epvisitasevivencias' active>Visitas e Vivências</NavigationItem>
+                <NavigationItem link='/epcursosfic' active>CURSOS FIC</NavigationItem>
+                <NavigationItem link='/epformacoes' active>FORMAÇÕES</NavigationItem>
+                <NavigationItem link='/epdiagnosticoruralparticipativo' active>DIAGNÓSTICO RURAL PARTICIPATIVO</NavigationItem>
+                <NavigationItem link='/epavaliacaoevalidacao' active>AVALIAÇÃO E VALIDAÇÃO</NavigationItem>
+                <NavigationItem link='/epvisitasevivencias' active>VISITAS E VIVÊNCIAS</NavigationItem>
             </ul>
         </li>
 

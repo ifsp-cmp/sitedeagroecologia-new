@@ -24,6 +24,13 @@ import minhocarioAutomatizado from './components/TecnologiasSociais/MinhocarioAu
 import mapeamentoProducao from './components/TecnologiasSociais/MapeamentoProducao/MapeamentoProducao';
 import fichaAgroecologica from './components/TecnologiasSociais/FichaAgroecologica/FichaAgroecologica';
 
+import EducacaoPopular from './components/EducacaoPopular/EducacaoPopular.js';
+import CursosFic from './components/EducacaoPopular/CursosFic/CursosFic';
+import Formacoes from './components/EducacaoPopular/Formacoes/Formacoes';
+import DiagnosticoRural from './components/EducacaoPopular/DiagnosticoRural/DiagnosticoRural';
+import Avaliacao from './components/EducacaoPopular/Avaliacao/Avaliacao';
+import Visitas from './components/EducacaoPopular/Visitas/Visitas';
+
 // import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
@@ -60,6 +67,13 @@ class Routes extends Component{
         <Route exact path="/tsminhocarioautomatizado" component={minhocarioAutomatizado} />
         <Route exact path="/tsmapeamentodaproducao" component={mapeamentoProducao} />
         <Route exact path="/tsfichasagroecologicas" component={fichaAgroecologica} />
+
+        <Route exact path="/educacaopopular" component={EducacaoPopular} />
+        <Route exact path="/epcursosfic" component={CursosFic} />
+        <Route exact path="/epformacoes" component={Formacoes} />
+        <Route exact path="/epdiagnosticoruralparticipativo" component={DiagnosticoRural} />
+        <Route exact path="/epavaliacaoevalidacao" component={Avaliacao} />
+        <Route exact path="/epvisitasevivencias" component={Visitas} />
 
         <Route exact path="/listarusuarios" component={ListarUsuarios} />
         
