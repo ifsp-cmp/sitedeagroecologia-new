@@ -29,7 +29,7 @@ const cursosFic = () =>{
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">CURSO FIC 2018 2º SEMESTRE</p>
-                        <div className="col-md-8 texto1">
+                        <div className="texto1">
                             <p>A proposta do Curso de Formação Inicial e Continuada (FIC) “Segurança Alimentar e Tecnologias Sustentáveis para Agricultura Familiar e Agroecologia” (Processo IFSP/Sigproj nº 30.6503.1713.200622.13052018) foi proposto no âmbito de dois projetos com fomento do CNPq: “Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP para a sustentabilidade ambiental e segurança alimentar na RMC” (Processo CNPq nº 443140/2016-2 e 402752/2017-1) sob responsabilidade da Profa. Dra. Erika Batista. O objetivo deste curso é difundir a produção orgânica para a garantia da segurança alimentar, nutricional e do desenvolvimento social das comunidades rurais, envolvendo agricultores familiares de assentamentos de reforma agrária e comunidades da Região Metropolitana de Campinas.</p>
                             <p>Na sua primeira edição, a aplicação ocorreu na cidade de Americana – SP no Assentamento “Milton Santos”. As atividades desenvolvidas foram:</p>
                             <ul>
@@ -98,7 +98,7 @@ const cursosFic = () =>{
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">CURSOS FIC 2019 2º SEMESTRE</p>
-                        <div className="col-md-8 texto1">
+                        <div className="texto1">
                             <p>A edição atual está em andamento na Unidade Campo Grande do Campus do IFSP em Campinas e realizada em parceria com o Departamento de Segurança Alimentar e Nutricional da Prefeitura Municipal de Campinas. A região Noroeste é marcada por um contexto de vulnerabilidade econômica e socioalimentar na RMC, de modo que o escopo das atividades foi direcionado em reuniões anteriores com a comunidade local para o estabelecimento de uma rede sociotécnica para criação e manutenção de hortas agroecológicas urbanas comunitárias.</p>
                             <p>O plano de ensino foi desenhado pelo coordenador do curso, profº Márcio de Miranda, em parceria com a coordenação do NEAES, membros do Departamento de SAN da PMC, Cooperativa Amater e Coordenadoria de Desenvolvimento Rural Sustentável (CDRS) de Campinas.</p>
                         </div>
