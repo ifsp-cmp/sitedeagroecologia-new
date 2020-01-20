@@ -12,6 +12,8 @@
     letter-spacing: 0; 
     opacity: 1;
     background-color: #77B81E;
+    background-image: url('../../../assets/images/FundoPlanos.png');
+    background-repeat: no-repeat;
     text-align: center;
     margin-top: 50px;
     height: 80px;

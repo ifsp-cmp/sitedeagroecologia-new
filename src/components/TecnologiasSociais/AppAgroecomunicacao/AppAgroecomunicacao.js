@@ -27,16 +27,16 @@ const appAgroecomunicacao = () =>{
             </div>
             
             <div className="row">
-        <div className="col-md-2"/>
-        <div className="col-md-8">
-            <div className="card"> 
-                <div className="card-body fundo_cinza">
-                    <h4 className="card-title titulo3"><img src={icone} alt={"Icone_Download"}></img><a href=" https://drive.google.com/file/d/1brcHRQ0WlC06YIs_033OO55IN7wjaaCq/view" target="_blank"  rel="noopener noreferrer"> Clique aqui e baixe o APP</a></h4>
+                <div className="col-md-2"/>
+                <div className="col-md-8">
+                    <div className="card"> 
+                        <div className="card-body fundo_cinza">
+                            <h4 className="card-title titulo3"><img src={icone} alt={"Icone_Download"}></img><a href=" https://drive.google.com/file/d/1brcHRQ0WlC06YIs_033OO55IN7wjaaCq/view" target="_blank"  rel="noopener noreferrer"> Clique aqui e baixe o APP</a></h4>
+                        </div>
+                    </div>
                 </div>
+                <div className="col-md-2"/>
             </div>
-        </div>
-        <div className="col-md-2"/>
-        </div>
            
 
         </div>
