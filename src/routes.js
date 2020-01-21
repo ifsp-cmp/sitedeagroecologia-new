@@ -31,6 +31,11 @@ import DiagnosticoRural from './components/EducacaoPopular/DiagnosticoRural/Diag
 import Avaliacao from './components/EducacaoPopular/Avaliacao/Avaliacao';
 import Visitas from './components/EducacaoPopular/Visitas/Visitas';
 
+import QuemSomos from './components/QuemSomos/QuemSomos';
+import Equipes from './components/QuemSomos/Equipes/Equipes';
+import IndicadoresAcademicos from './components/QuemSomos/IndicadoresAcademicos/IndicadoresAcademicos';
+import Parcerias from './components/QuemSomos/Parcerias/Parcerias';
+
 // import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
@@ -74,6 +79,11 @@ class Routes extends Component{
         <Route exact path="/epdiagnosticoruralparticipativo" component={DiagnosticoRural} />
         <Route exact path="/epavaliacaoevalidacao" component={Avaliacao} />
         <Route exact path="/epvisitasevivencias" component={Visitas} />
+        
+        <Route exact path="/quemsomos" component={QuemSomos} />
+        <Route exact path="/qsequipes" component={Equipes} />
+        <Route exact path="/qsindicadoresacademicos" component={IndicadoresAcademicos} />
+        <Route exact path="/qsparcerias" component={Parcerias} />
 
         <Route exact path="/listarusuarios" component={ListarUsuarios} />
         

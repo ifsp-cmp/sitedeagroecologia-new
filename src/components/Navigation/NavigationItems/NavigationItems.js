@@ -59,7 +59,18 @@ const navigationItems = (props) => (
             </ul>
         </li>
 
-        <NavigationItem link='/quemsomos'>Quem Somos</NavigationItem>
+        <li className='Menu1'>
+            <p className="TituloMenu">Quem Somos <img src={arrow} alt={"Flecha"} /></p>
+            <ul className='SubMenu1'>
+                <NavigationItem link='/quemsomos'>INTRODUÇÃO</NavigationItem>
+                <NavigationItem link='/qsequipes'>EQUIPES</NavigationItem>
+                <NavigationItem link='/qsindicadoresacademicos'>INDICADORES ACADÊMICOS</NavigationItem>
+                <NavigationItem link='/qsparcerias'>PARCERIAS</NavigationItem>
+            </ul>
+        </li>
+
+
+       
 
 
         {/* <NavigationItem className='Menu1' link='/politicasnacionais'>Políticas Nacionais <img src={arrow} /></NavigationItem>
