@@ -28,7 +28,7 @@ const visitas = () =>{
             </div>
 
             <div className="planosCinza">
-                <div className="row">
+                <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">VISITAS DE CAMPO AO ASSENTAMENTO MILTON SANTOS</p>
@@ -47,7 +47,7 @@ const visitas = () =>{
                     <div className="col-md-2"></div>
                 </div>
                 <SaibaMais conteudo={conteudo1}></SaibaMais>
-                <div className="row">
+                <div className="row" style={{paddingBottom: "50px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <img src={visita3} width="50%" alt={"Visita 2"}></img>
@@ -76,7 +76,7 @@ const visitas = () =>{
             </div>
 
             <div className="planosCinza">
-                <div className="row">
+                <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">VISITA DE CAMPO AO ACAMPAMENTO “MARIELLE VIVE”</p>

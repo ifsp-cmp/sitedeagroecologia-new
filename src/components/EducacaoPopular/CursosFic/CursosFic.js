@@ -25,7 +25,7 @@ const cursosFic = () =>{
             </div>
 
             <div className="planosCinza">
-                <div className="row">
+                <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">CURSO FIC 2018 2º SEMESTRE</p>

@@ -18,7 +18,7 @@ const avaliacao = () =>{
             </div>
             
             <div className="planosCinza">
-                <div className="row">
+                <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">AVALIAÇÕES</p>
@@ -68,7 +68,7 @@ const avaliacao = () =>{
                 <div className="col-md-2"></div>
             </div>
 
-            <div className="planosCinza">
+            <div className="planosCinza" style={{marginTop: "30px"}}>
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
