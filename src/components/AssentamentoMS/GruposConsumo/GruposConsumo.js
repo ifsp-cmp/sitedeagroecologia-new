@@ -41,24 +41,26 @@ const gruposConsumo = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
+
             <div className="row">
-            <div className="col-md-2"></div>
-            <div className="col-md-4">
-                <ul className="texto1">
-                    <li><a href={"americana"} rel="noopener noreferrer">Americana</a></li>
-                    <li><a href="/" rel="noopener noreferrer">Estrela Libre/IFSP CAMPINAS</a></li>
-                    <li><a href="/" rel="noopener noreferrer">Sindicato dos Petroleiros (Campinas)</a></li>
-                </ul>
+                <div className="col-md-2"></div>
+                <div className="col-md-4">
+                    <ul className="texto1">
+                        <li><a href={"americana"} rel="noopener noreferrer">Americana</a></li>
+                        <li><a href="/" rel="noopener noreferrer">Estrela Libre/IFSP CAMPINAS</a></li>
+                        <li><a href="/" rel="noopener noreferrer">Sindicato dos Petroleiros (Campinas)</a></li>
+                    </ul>
+                </div>
+                <div className="col-md-4">
+                    <ul className="texto1">
+                        <li><a href="/" rel="noopener noreferrer">Barão Geraldo</a></li>
+                        <li><a href="/" rel="noopener noreferrer">Santa Barbara D'Oeste – SINDPROSBO</a></li>
+                        <li><a href="/" rel="noopener noreferrer">Piracicaba - ESALQ</a></li>
+                    </ul>
+                </div>
+                <div className="col-md-2"></div>
             </div>
-            <div className="col-md-4">
-                <ul className="texto1">
-                    <li><a href="/" rel="noopener noreferrer">Barão Geraldo</a></li>
-                    <li><a href="/" rel="noopener noreferrer">Santa Barbara D'Oeste – SINDPROSBO</a></li>
-                    <li><a href="/" rel="noopener noreferrer">Piracicaba - ESALQ</a></li>
-                </ul>
-            </div>
-            <div className="col-md-2"></div>
-            </div>
+            
             <div className="planosCinza">
                 <div className="row " style={{marginTop: "30px"}}>
                     <div className="col-md-2" ></div>
