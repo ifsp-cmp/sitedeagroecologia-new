@@ -6,3 +6,8 @@
     text-decoration: none;
     color:#77B81E;
 }
+
+.Avaliacao strong{
+    font: Bold 20px/27px Roboto Slab;
+    color: #1A2D00;
+}

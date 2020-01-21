@@ -3,9 +3,7 @@ import React from 'react';
 import './DatalutaProducao.css';
 
 import foto from '../../../assets/images/TecnologiasSociais/Dataluta/foto1.png';
-import foto1 from '../../../assets/images/TecnologiasSociais/Dataluta/datalutaproducao1.jpeg';
-import foto2 from '../../../assets/images/TecnologiasSociais/Dataluta/datalutaproducao2.jpeg';
-import foto3 from '../../../assets/images/TecnologiasSociais/Dataluta/datalutaproducao3.jpeg';
+import foto2 from '../../../assets/images/TecnologiasSociais/Dataluta/app-dataluta.png';
 
 const datalutaProducao =()=>{
     return(
@@ -26,17 +24,11 @@ const datalutaProducao =()=>{
                 <div className="col-md-2"></div>
             </div>
             <div className="row">
-                <div className="col-md-3"></div>
-                <div className="col-md-2">
-                    <img src={foto1} alt={"DataLuta"} width="100%" ></img>
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <img src={foto2} width="100%" alt={"App Data Luta"}></img>
                 </div>
-                <div className="col-md-2">
-                    <img src={foto2} alt={"DataLuta"} width="100%"></img>
-                </div>
-                <div className="col-md-2">
-                    <img src={foto3} alt={"DataLuta"} width="100%"></img>
-                </div>
-                <div className="col-md-3"></div>
+                <div className="col-md-2"></div>
             </div>
             <div className="row">
                 <div className="col-md-2"></div>

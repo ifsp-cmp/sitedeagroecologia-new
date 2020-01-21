@@ -1,13 +1,13 @@
-.Visitas{
+.QuemSomos{
     margin-top: 40px;
 }
 
-.Visitas a{
+.QuemSomos a{
     text-decoration: underline;
     color: #707070;
 }
 
-.Visitas strong{
+.QuemSomos strong{
     font: Bold 20px/27px Roboto Slab;
     color: #1A2D00;
 }
