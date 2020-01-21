@@ -29,24 +29,24 @@ const quemSomos = () =>{
             </div>
             
             <div className="planosCinza">
-                <div className="row">
+                <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">LINHAS DE PESQUISA</p>
                         <div className="texto1">
                             <p><strong>Economia política, movimentos sociais, feminismo, educação e comunicação popular</strong></p>
-                            <p>Grupo: Núcleo de Estudos em Agroecologia, Educação e Sociedade - NEAES</p>
-                            <p>Objetivo: Pesquisar os fundamentos econômico-políticos de fomento à produção de alimentos, a reestruturação produtiva sustentável no campo, as alternativas da produção de base agroecológica, os movimentos sociais do campo e as políticas de reforma agrária, o papel das mulheres na agroecologia e as formas de letramento e comunicação popular nestes territórios. Promover intervenções sócioeducativas na perspectiva de educação popular para a construção do conhecimento agroecológico.</p>
+                            <p><b>Grupo:</b> Núcleo de Estudos em Agroecologia, Educação e Sociedade - NEAES</p>
+                            <p><b>Objetivo:</b> Pesquisar os fundamentos econômico-políticos de fomento à produção de alimentos, a reestruturação produtiva sustentável no campo, as alternativas da produção de base agroecológica, os movimentos sociais do campo e as políticas de reforma agrária, o papel das mulheres na agroecologia e as formas de letramento e comunicação popular nestes territórios. Promover intervenções sócioeducativas na perspectiva de educação popular para a construção do conhecimento agroecológico.</p>
                             <hr style={{marginTop: "50px",marginBottom: "50px"}} color="#707070"></hr>
                             
                             <p><strong>Novas tecnologias, redes, comercialização e reforma agrária</strong></p>
-                            <p>Grupo: Núcleo de Estudos em Agroecologia, Educação e Sociedade - NEAES</p>
-                            <p>Objetivo: Alimentar uma Plataforma sócioeducativa com as informações, projetos e conhecimentos científicos produzidos pelas respectivas linhas; pesquisar as possibilidades para formação de redes políticas e de comercialização para alimentos orgânicos na RMC; desenvolver ferramentas facilitadoras para arranjos comerciais diretos entre produtores e consumidores; elaborar mapas geográficos e banco de dados; divulgar a importância político-econômica da reforma agrária para desenvolvimento rural sustentável.</p>
+                            <p><b>Grupo:</b> Núcleo de Estudos em Agroecologia, Educação e Sociedade - NEAES</p>
+                            <p><b>Objetivo:</b> Alimentar uma Plataforma sócioeducativa com as informações, projetos e conhecimentos científicos produzidos pelas respectivas linhas; pesquisar as possibilidades para formação de redes políticas e de comercialização para alimentos orgânicos na RMC; desenvolver ferramentas facilitadoras para arranjos comerciais diretos entre produtores e consumidores; elaborar mapas geográficos e banco de dados; divulgar a importância político-econômica da reforma agrária para desenvolvimento rural sustentável.</p>
                             <hr style={{marginTop: "50px",marginBottom: "50px"}} color="#707070"></hr>
                         
                             <p><strong>Tecnologias sustentáveis, produção agroecológica e segurança alimentar</strong></p>
-                            <p>Grupo: Núcleo de Estudos em Agroecologia, Educação e Sociedade - NEAES</p>
-                            <p>Objetivo: Explorar a produção agroecológica para intervenções técnicas de melhoramento de processos e produtos; desenvolver tecnologias sustentáveis para a gestão eficiente dos recursos naturais; pesquisar os processos bioquímicos e microbiológicos dos alimentos para assegurar condições higiênico-sanitárias adequadas; promover o intercâmbio de conhecimentos científicos da engenharia elétrica, microeletrônica, programação, bioquímica e microbiologia com os conhecimentos técnicos e culturais do agricultor.</p>                        </div>
+                            <p><b>Grupo:</b> Núcleo de Estudos em Agroecologia, Educação e Sociedade - NEAES</p>
+                            <p><b>Objetivo:</b> Explorar a produção agroecológica para intervenções técnicas de melhoramento de processos e produtos; desenvolver tecnologias sustentáveis para a gestão eficiente dos recursos naturais; pesquisar os processos bioquímicos e microbiológicos dos alimentos para assegurar condições higiênico-sanitárias adequadas; promover o intercâmbio de conhecimentos científicos da engenharia elétrica, microeletrônica, programação, bioquímica e microbiologia com os conhecimentos técnicos e culturais do agricultor.</p>                        </div>
                     </div>
                     <div className="col-md-2"></div>
                 </div>

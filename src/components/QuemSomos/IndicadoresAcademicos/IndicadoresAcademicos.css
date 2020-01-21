@@ -1,0 +1,8 @@
+.IndicadoresAcademicos{
+    margin-top: 40px;
+}
+
+.IndicadoresAcademicos a{
+    text-decoration: underline;
+    color: #707070;
+}
