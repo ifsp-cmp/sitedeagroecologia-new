@@ -2,6 +2,7 @@ import React from 'react';
 
 import './IndicadoresAcademicos.css';
 
+import foto1 from '../../../assets/images/QuemSomos/IndicadoresAcademicos/quemsomos-02.png';
 import foto2 from '../../../assets/images/QuemSomos/IndicadoresAcademicos/icone.png';
 
 const indicadoresAcademicos = () =>{
@@ -10,7 +11,7 @@ const indicadoresAcademicos = () =>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    {/* <img src={}></img> */}
+                    <img src={foto1} width="100%" alt={"IFSP Campinas"}></img>
                     <div className="texto1">
                         <p className="titulo3"><img src={foto2} alt={"Icone_I"}></img> Conheça os Indicadores Acadêmicos</p>
                         <p>Aqui poderia vir uma breve explicação sobre o que é essa página, qual é o conteúdo que a pessoa vera abaixo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:</p>
@@ -18,7 +19,7 @@ const indicadoresAcademicos = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
-
+ 
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-4">
@@ -39,7 +40,7 @@ const indicadoresAcademicos = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
-
+ 
             <div className="planosCinza">
                 <div className="row" style={{marginTop: "30px",paddingBottom: "50px"}}>
                     <div className="col-md-2" ></div>

@@ -1,25 +1,30 @@
 import React from 'react';
 import SaibaMais from '../SaibaMais/SaibaMais';
+import Projetos from '../Projetos/Projetos';
 
 import './QuemSomos.css';
+
+import foto1 from '../../assets/images/QuemSomos/Introducao/banner-quemsomos.png';
+import foto2 from '../../assets/images/QuemSomos/Introducao/quemsomos-03.png';
+import foto3 from '../../assets/images/QuemSomos/Introducao/quemsomos-02.png';
 
 const quemSomos = () =>{
     const conteudo = <ul className="card-text">
         <li><a href="http://dgp.cnpq.br/dgp/espelhogrupo/272964#linhaPesquisa" target="_blank" rel="noopener noreferrer">Acesso ao Diretório de Grupos de Pesquisa do CNPq</a></li>
     </ul>
 
-    // const projeto = [
-    //     {titulo: 'EQUIPES', link: '/qsequipes'},
-    //     {titulo: 'IND. ACADÊMICOS', link: '/qsindicadoresacademicos'},
-    //     {titulo: 'PARCEIRAS', link: '/qsparcerias'}
-    // ]
+    const projeto = [
+        {titulo: 'EQUIPES', link: '/qsequipes'},
+        {titulo: 'IND. ACADÊMICOS', link: '/qsindicadoresacademicos'},
+        {titulo: 'PARCEIRAS', link: '/qsparcerias'}
+    ]
 
     return(
         <div className="container-fluid QuemSomos">
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    {/* <img src={}></img> */}
+                    <img src={foto1} width="100%" alt={"Banner Neaes"}></img>
                     <div className="texto1">
                         <p>O NEAES é formado por professores pesquisadores, estudantes, bolsistas e profissionais técnicos multi e interdisciplinares, tanto do quadro de servidores e alunos do IFSP, Campus de Campinas, quanto de outras instituições.</p>
                         <p>Os membros do grupo estão distribuídos entre as três grandes linhas de pesquisa que conduzem os projetos: Economia política, movimentos sociais, feminismo, educação e comunicação popular; Tecnologias sustentáveis, produção agroecológica e segurança alimentar e Novas tecnologias, redes, comercialização e reforma agrária.</p>
@@ -53,7 +58,7 @@ const quemSomos = () =>{
                 <SaibaMais conteudo={conteudo}></SaibaMais>
             </div>
 
-            {/* <div className="album py-4 fundoImagem" >
+            <div className="album py-4 fundoImagem" >
                 <div className="container">
                     <div className="row titulo2">
                         <div className="col-md-12">
@@ -63,10 +68,10 @@ const quemSomos = () =>{
                     <div className="row">
                         <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
                         <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
-                        <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
+                        <Projetos foto={foto2} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
                     </div>
                 </div>  
-            </div> */}
+            </div>
         </div>
     )
 }
