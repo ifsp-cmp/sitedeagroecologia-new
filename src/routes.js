@@ -36,7 +36,7 @@ import Equipes from './components/QuemSomos/Equipes/Equipes';
 import IndicadoresAcademicos from './components/QuemSomos/IndicadoresAcademicos/IndicadoresAcademicos';
 import Parcerias from './components/QuemSomos/Parcerias/Parcerias';
 
-// import Login from './containers/Login/Login';
+import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
 // import Logout from './containers/Login/Logout';
 // import ForgotPassword from './containers/Login/ForgotPassword';
@@ -52,7 +52,6 @@ class Routes extends Component{
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/politicasnacionais" component={PoliticasNacionais} />
-        <Route exact path="/cadastro" component={Cadastro} />
         <Route exact path="/pnapo" component={Pnapo} />
         <Route exact path="/planapo" component={Planapo} />
         <Route exact path="/plansan" component={Plansan} />
@@ -85,6 +84,11 @@ class Routes extends Component{
         <Route exact path="/qsindicadoresacademicos" component={IndicadoresAcademicos} />
         <Route exact path="/qsparcerias" component={Parcerias} />
 
+
+
+
+        <Route exact path="/cadastro" component={Cadastro} />
+        <Route exact path="/login" component={Login} />
         <Route exact path="/listarusuarios" component={ListarUsuarios} />
         
         <Redirect to='/' />

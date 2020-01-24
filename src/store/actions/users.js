@@ -49,39 +49,20 @@ export const loginStart = () => {
 };
 
 export const login = (email, password) => {
-    // return dispatch => {
-    //     dispatch(loginStart());
-    //     firebase.auth().signInWithEmailAndPassword(email, password)
-    //     .then(function( data ){
-    //         // console.log("Usuário logado com sucesso");
-    //         // console.log( data );
-    //         // console.log(data.user.uid);
-    //         let docRef = firebase.firestore().collection("users").doc(data.user.uid);
-    //         docRef.get()
-    //         .then(function(doc) {
-    //             if (doc.exists) {
-    //                 // console.log("Document data:", doc.data());
-    //                 let userData = doc.data();
-    //                 userData.userId = data.user.uid;
-    //                 // console.log(userData);
-    //                 dispatch(loginSuccess( userData ));
-    //             } else {
-    //                 // doc.data() will be undefined in this case
-    //                 // console.log("No such document!");
-    //             }
-    //         })
-    //         .catch(function(error) {
-    //             console.log("Error getting document:", error);
-    //         });
-    //     })
-    //     .catch(function(error) {
-    //         //var errorCode = error.code;
-    //         let errorMessage = error.message;
-    //         // console.log(errorMessage);
-    //         // console.log(errorCode);
-    //         dispatch(loginFail(errorMessage));
-    //     });
-    // }
+    return dispatch => {
+        dispatch(loginStart());
+        let passwordCrypt = crypto.createHash("md5").update(password).digest("hex");
+        axios.post('http://localhost:3210/login',
+            {
+                email: email,
+                password: passwordCrypt
+            }
+        ).then(res => {
+            // const usuarios = res.data;
+            // console.log(usuarios);
+            // dispatch(listUsers(users));
+        })
+    }
 }
 
 export const verifyLogin = () => {
