@@ -31,6 +31,8 @@ const reducer = (state = initialState, action) => {
     case actionTypes.ADD_USER_FAIL:
     return {
       ...state,
+      error: true,
+      userMessage: action.userMessage,
       loading: false
     }
     case actionTypes.LOGIN_START:

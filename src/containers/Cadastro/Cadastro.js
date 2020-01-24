@@ -116,6 +116,7 @@ class Cadastro extends Component{
 		
 		//Redireciona caso o usuário tenha sido cadastrado. 
 		let redirect = this.props.isUserAuthenticated ? <Redirect to='/training' /> : null;
+		let error = this.props.error ? <p className="alert-danger">{this.props.userMessage}</p>: null;
 		console.log('[Cadastro Component] isUserAuthenticated:', this.props.isUserAuthenticated)
 
 		let form = null;
@@ -150,6 +151,7 @@ class Cadastro extends Component{
 			<div className="Cadastro">
 				<h3>Cadastro</h3>
 				<p className="alert-warning">Todos os campos são obrigatórios</p>
+				{error}
 				{redirect}
 				{form}
 			</div>
@@ -162,7 +164,8 @@ const mapStateToProps = state => {
 		userData: state.userData,
 		loading: state.loading,
 		isUserAuthenticated: state.userData.userId !== null,
-		error: state.error
+		error: state.error,
+		userMessage: state.userMessage
 	};
 }
 

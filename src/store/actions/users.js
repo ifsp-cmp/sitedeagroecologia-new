@@ -1,5 +1,6 @@
 import * as actionsTypes from './actionsTypes';
 import axios from 'axios';
+import crypto from 'crypto';
 
 export const removeUser = (userId) => {
     return {
@@ -158,17 +159,18 @@ export const listUsers = (users) => {
     };
 }
 
-export const addUserSuccess = (userData) => {
+export const addUserSuccess = (userData, userMessage) => {
     return {
         type: actionsTypes.ADD_USER_SUCCESS,
-        userData: userData
+        userData: userData,
+        userMessage: userMessage
     };
 }
 
-export const addUserFail = (error) => {
+export const addUserFail = (userMessage) => {
     return {
         type: actionsTypes.ADD_USER_FAIL,
-        error: error
+        userMessage: userMessage
     };
 }
 
@@ -179,42 +181,31 @@ export const addUserStart = () => {
 }
 
 export const addUser = (userData) => {
-    console.log("Cheguei");
     return dispatch => {
-        console.log('[Adduser] UserData:', userData);
         dispatch(addUserStart());
-        let userEmail = userData.email;
-        let userPassword = userData.password;
-        // firebase.auth().createUserWithEmailAndPassword(userEmail, userPassword)
-        // .then(function( res ){
-        //     console.log("Retorno da criação do usuário:", res)
-        //     // console.log(res.user.uid);
-        //     // console.log("Usuário criado com sucesso");
-        //     firebase.firestore().collection("users").doc(res.user.uid).set({
-        //         name: userData.name,
-        //         phone: userData.phone,
-        //         email: userData.email,
-        //         videoTime: 0,
-        //         timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        //     })
-        //     .then(function(docRef) {
-        //         // console.log("Dados armazenados com sucesso");
-        //         userData.userId = res.user.uid;
-        //         userData.videoTime = 0;
-        //         dispatch(addUserSuccess(userData));
-        //     })
-        //     .catch(function(error) {
-        //         console.error("Erro ao incluir o usuário: ", error);
-        //         dispatch(addUserFail(error)); 
-        //     });
-        // })
-        // .catch(function(error) {
-        //     let errorCode = error.code;
-        //     let errorMessage = error.message;
-        //     console.log(errorCode);
-        //     console.log(errorMessage);
-        //     dispatch(addUserFail(error));
-        // });
+        let passwordCrypt = crypto.createHash("md5").update(userData.password).digest("hex");
+        console.log(passwordCrypt);
+        axios.post('http://localhost:3210/data',
+            {
+                userName: userData.name,
+                userEmail: userData.email,
+                userPhone: userData.phone,
+                userPassword: passwordCrypt
+            }
+        ).then(res => {
+            console.log(res);
+            if (res.data.errorMessage) {
+                console.log('Erro ao armazenar os dados');
+                console.log(res.data.errorMessage);
+                dispatch(addUserFail(res.data.errorMessage));
+            } else {
+                alert("Dados armazenados com sucesso");
+                dispatch(addUserSuccess(userData, 'Dados Armazenados Com Sucesso!'));
+            }
+        }).catch(function (error) {
+            console.log(error);
+            dispatch(addUserFail('Servidor de dados com erro. Verifique se ele está operando corretamente.'));
+        });
     }
 }
 
