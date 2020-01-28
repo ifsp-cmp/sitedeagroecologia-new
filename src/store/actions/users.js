@@ -19,7 +19,7 @@ export const loginSuccess = (userData) => {
 export const loginFail = (errorMessage) => {
     return {
         type: actionsTypes.LOGIN_FAIL,
-        error: errorMessage
+        userMessage: errorMessage
     };
 };
 
@@ -58,9 +58,17 @@ export const login = (email, password) => {
                 password: passwordCrypt
             }
         ).then(res => {
-            // const usuarios = res.data;
-            // console.log(usuarios);
-            // dispatch(listUsers(users));
+            console.log(res.data.usuario);
+            if(res.data.status === 'Usuário autenticado!'){
+                alert('Usuário logado com sucesso !');
+                let userData = {};
+                userData.name = res.data.usuario[0].nome;
+                userData.email = res.data.usuario[0].email;
+                console.log(userData);
+                dispatch(loginSuccess(userData));
+            } else{
+                dispatch(loginFail(res.data.errorMessage));
+            }
         })
     }
 }

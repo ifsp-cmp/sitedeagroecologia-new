@@ -105,7 +105,7 @@ class Login extends Component{
 			</div>
 		);
 
-		let error = this.props.error ? <p className="alert alert-danger">Erro ao logar</p> : null;
+		let error = this.props.error ? <p className="alert alert-danger">{this.props.userMessage}</p> : null;
 
 		// let redirect = <Redirect to='/video' />;
 
@@ -136,6 +136,7 @@ const mapStateToProps = state => {
 	return {
 		userData: state.userData,
 		error: state.error,
+		userMessage: state.userMessage,
 		loading: state.loading,
 		isUserAuthenticated: state.userData.userId !== null
 	}

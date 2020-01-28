@@ -64,36 +64,39 @@ app.post('/data', function (req, res) {
 app.post('/login', function (req, res) {
     // console.log(req);
     // console.log('Body');
-    console.log(req.body); 
+    console.log(req.body);
     let data = {};
     data.email = req.body.userEmail;
     data.senha = req.body.userPassword;
-    let sql = 'SELECT * FROM USUARIOS WHERE email="'+req.body.email+'" AND senha="'+req.body.password+'"';
+    let sql = 'SELECT * FROM usuarios WHERE email="' + req.body.email + '" AND senha="' + req.body.password + '"';
     console.log(sql);
-    // db.query(sql, data, (err, result) => {
-    //     if (err) {
-    //         console.log(err);
-    //         let errorMessage = 'Erro desconhecido.';
-    //         if (err.code = 'ER_DUP_ENTRY') {
-    //             //console.log('Já existe um registro armazenado com o mesmo e-mail.');
-    //             errorMessage = 'E-mail duplicado.';
-    //         }
-    //         res.send({
-    //             status: 'Erro ao armazenar os dados!',
-    //             errorMessage: errorMessage
-    //         });
-    //     } else {
-    //         console.log(result);
-    //         console.log('Dados armazenados com sucesso.');
-    //         res.send({
-    //             status: 'Dados armazenados com sucesso !',
-    //             errorMessage: null,
-    //             no: null,
-    //             nome: req.body.nome,
-    //             email: req.body.email
-    //         });
-    //     }
-    // });
+    db.query(sql, data, (err, result) => {
+        if (err) {
+            console.log(err);
+            let errorMessage = 'Erro desconhecido.';
+            res.send({
+                status: 'Erro ao logar o usuário!',
+                errorMessage: errorMessage
+            });
+        } else {
+            console.log(result);
+            if(result.length > 0){
+                console.log('Usuário logado com sucesso!');
+                res.send({
+                    status: 'Usuário autenticado!',
+                    errorMessage: 'Usuário autenticado com sucesso!',
+                    usuario: result
+                });
+                return;
+            } else{
+                console.log("Usuário ou password inexistente");
+                res.send({
+                    status: 'Usuário não autenticado!',
+                    errorMessage: 'Usuário não autenticado! Verifique e-mail e senha novamente.'
+                });
+            }
+        }
+    });
 });
 
 let port = 3210;

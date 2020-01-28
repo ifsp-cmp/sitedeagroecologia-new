@@ -43,7 +43,8 @@ const reducer = (state = initialState, action) => {
     case actionTypes.LOGIN_FAIL:
     return {
       ...state,
-      error: action.error,
+      error: true,
+      userMessage: action.userMessage,
       loading: false
     }
     case actionTypes.LOGIN_SUCCESS:
