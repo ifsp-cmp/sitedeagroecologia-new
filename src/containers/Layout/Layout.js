@@ -25,7 +25,7 @@ class Layout extends Component{
   }
 
   render(){
-    // console.log("[Layout component] ", this.props.isAuthenticated);
+    console.log("[Layout component] ", this.props.isAuthenticated);
     // console.log("Env. Variable", process.env.NODE_ENV);
     return (
       <div className="Layout">
@@ -50,7 +50,7 @@ class Layout extends Component{
 
 const mapStateToProps = state => {
   return {
-    isAuthenticated: state.userData.userId !== null 
+    isAuthenticated: state.userData.authenticated 
   }
 }
 

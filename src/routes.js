@@ -38,7 +38,7 @@ import Parcerias from './components/QuemSomos/Parcerias/Parcerias';
 
 import Login from './containers/Login/Login';
 import Cadastro from './containers/Cadastro/Cadastro';
-// import Logout from './containers/Login/Logout';
+import Logout from './containers/Login/Logout';
 // import ForgotPassword from './containers/Login/ForgotPassword';
 import ListarUsuarios from './containers/ListarUsuarios/ListarUsuarios';
 // import Projeto from './components/Projeto/Projeto';
@@ -84,11 +84,9 @@ class Routes extends Component{
         <Route exact path="/qsindicadoresacademicos" component={IndicadoresAcademicos} />
         <Route exact path="/qsparcerias" component={Parcerias} />
 
-
-
-
         <Route exact path="/cadastro" component={Cadastro} />
         <Route exact path="/login" component={Login} />
+        <Route exact path="/logout" component={Logout} />
         <Route exact path="/listarusuarios" component={ListarUsuarios} />
         
         <Redirect to='/' />

@@ -1,9 +1,6 @@
 import React from 'react';
-
 import NavigationItem from './NavigationItem/NavigationItem';
-
 import arrow from '../../../assets/images/menu/arrow.svg';
-
 import './NavigationItems.css'
 
 const navigationItems = (props) => (
@@ -68,27 +65,18 @@ const navigationItems = (props) => (
                 <NavigationItem link='/qsparcerias'>PARCERIAS</NavigationItem>
             </ul>
         </li>
-
-
-       
-
-
         {/* <NavigationItem className='Menu1' link='/politicasnacionais'>Políticas Nacionais <img src={arrow} /></NavigationItem>
         <NavigationItem link='/assentamentoms'>Assentamento Milton Santos</NavigationItem>
         <NavigationItem link='/tecnologiassociais'>Tecnologias Sociais</NavigationItem>
         <NavigationItem link='/educacaopopular'>Educação Popular</NavigationItem>
-        <NavigationItem link='/quemsomos'>Quem Somos</NavigationItem>
-
-        {props.isAuthenticated ?
-            <NavigationItem link='/training'>Formação</NavigationItem> : null
-        }
+        <NavigationItem link='/quemsomos'>Quem Somos</NavigationItem> */}
         {!props.isAuthenticated ?
             <NavigationItem link='/cadastro'>Cadastro</NavigationItem> : null
         }
         {!props.isAuthenticated
             ? <NavigationItem link='/login'>Login</NavigationItem>
-            : <NavigationItem link='/logout'>Logout</NavigationItem>
-        } */}
+        : <NavigationItem link='/logout'>{props.isAuthenticated}Logout</NavigationItem>
+        }
     </ul>
 );
 

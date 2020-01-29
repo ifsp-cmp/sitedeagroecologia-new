@@ -24,22 +24,14 @@ export const loginFail = (errorMessage) => {
 };
 
 export const logout = () => {
-    // firebase.auth().signOut()
-    // .then(function() {
-    //     console.log("Usuário signout");
-    // })
-    // .catch(function(error) {
-    //     console.log("Erro no  signout");
-    // });
-    // let userData = {};
-    // userData.name = null;
-    // userData.phone = null;
-    // userData.userId = null;
-    // userData.videoTime = 0;
-    // return {
-    //     type: actionsTypes.LOGOUT,
-    //     userData: userData
-    // };
+    let userData = {};
+    userData.name = null;
+    userData.phone = null;
+    userData.authenticated = false;
+    return {
+        type: actionsTypes.LOGOUT,
+        userData: userData
+    };
 }
 
 export const loginStart = () => {
@@ -64,6 +56,7 @@ export const login = (email, password) => {
                 let userData = {};
                 userData.name = res.data.usuario[0].nome;
                 userData.email = res.data.usuario[0].email;
+                userData.authenticated = true;
                 console.log(userData);
                 dispatch(loginSuccess(userData));
             } else{
@@ -189,6 +182,7 @@ export const addUser = (userData) => {
                 dispatch(addUserFail(res.data.errorMessage));
             } else {
                 alert("Dados armazenados com sucesso");
+                userData.authenticated = true;
                 dispatch(addUserSuccess(userData, 'Dados Armazenados Com Sucesso!'));
             }
         }).catch(function (error) {
