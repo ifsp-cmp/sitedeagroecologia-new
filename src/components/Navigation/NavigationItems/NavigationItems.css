@@ -1,12 +1,12 @@
 .NavigationItems {
-    margin-left: 5%;
+    /* margin-left: 5%; */
     margin-right: 5%;
     margin-top: -70px;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    /* justify-content: center; */
     /* align-items: center; */
-    height: 49px;
+    height: 60px;
     background-color: white;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
@@ -39,8 +39,15 @@
 }
 
 
-@media (min-width: 500px){
+@media (min-width: 800px){
     .NavigationItems {
         flex-flow: row;
+    }
+}
+
+@media (min-width: 1300px){
+    .NavigationItems {
+        flex-flow: row;
+        height: 49px;
     }
 }

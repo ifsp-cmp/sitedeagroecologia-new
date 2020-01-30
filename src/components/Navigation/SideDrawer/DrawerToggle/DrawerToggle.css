@@ -12,11 +12,11 @@
 
 .DrawerToggle div {
     width: 90%;
-    height: 3px;
+    height: 5px;
     background-color: white;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 800px) {
     .DrawerToggle {
         display: none;
     }
