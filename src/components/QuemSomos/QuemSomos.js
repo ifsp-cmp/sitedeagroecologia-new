@@ -16,7 +16,7 @@ const quemSomos = () =>{
     const projeto = [
         {titulo: 'EQUIPES', link: '/qsequipes'},
         {titulo: 'IND. ACADÊMICOS', link: '/qsindicadoresacademicos'},
-        {titulo: 'PARCEIRAS', link: '/qsparcerias'}
+        {titulo: 'PARCERIAS', link: '/qsparcerias'}
     ]
 
     return(
@@ -62,7 +62,7 @@ const quemSomos = () =>{
                 <div className="container">
                     <div className="row titulo2">
                         <div className="col-md-12">
-                            <p>SAIBA MAIS SOBRE O NEAS</p>
+                            <p>SAIBA MAIS SOBRE O NEAES</p>
                         </div>
                     </div>
                     <div className="row">

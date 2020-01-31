@@ -1,7 +1,17 @@
 import React from 'react';
 import SaibaMais from '../../SaibaMais/SaibaMais';
+import ParceriaLogo from './ParceriasLogos';
 
 import './Parcerias.css';
+
+import foto1 from '../../../assets/images/QuemSomos/Parcerias/logo-01.png';
+import foto2 from '../../../assets/images/QuemSomos/Parcerias/logo-02.png';
+import foto3 from '../../../assets/images/QuemSomos/Parcerias/logo-03.png';
+import foto4 from '../../../assets/images/QuemSomos/Parcerias/logo-04.png';
+import foto5 from '../../../assets/images/QuemSomos/Parcerias/logo-05.png';
+import foto6 from '../../../assets/images/QuemSomos/Parcerias/logo-06.png';
+import foto7 from '../../../assets/images/QuemSomos/Parcerias/logo-07.png';
+import foto8 from '../../../assets/images/QuemSomos/Parcerias/logo-08.png';
 
 const parcerias = () =>{
     const conteudo = <ul className="card-text"><li><a href="https://anc.org.br/" target="_blank" rel="noopener noreferrer">Site da ANC</a></li></ul>
@@ -15,7 +25,26 @@ const parcerias = () =>{
 
     return(
         <div className="container-fluid Parcerias">
-            <div className="planosCinza">
+            <div className="album py-4 bg-white">
+                <div className="container">
+                    <div className="row">
+                        <ParceriaLogo foto={foto1} link={"#anc"}></ParceriaLogo>
+                        <ParceriaLogo foto={foto2} link={"#livres"}></ParceriaLogo>
+                        <ParceriaLogo foto={foto3} link={"#cefol"}></ParceriaLogo>
+                    </div>
+                    <div className="row">
+                        <ParceriaLogo foto={foto4} link={"#mosoa"}></ParceriaLogo>
+                        <ParceriaLogo foto={foto5} link={"#cmp"}></ParceriaLogo>
+                        <ParceriaLogo foto={foto6} link={"#unicamp"}></ParceriaLogo>
+                    </div>
+                    <div className="row">
+                        <ParceriaLogo foto={foto7} link={"#agroleste"}></ParceriaLogo>
+                        <ParceriaLogo foto={foto8} link={"#amater"}></ParceriaLogo>
+
+                    </div>
+                </div>  
+            </div>
+            <div id="anc" className="planosCinza">
                 <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
@@ -31,7 +60,7 @@ const parcerias = () =>{
                 <SaibaMais conteudo={conteudo}></SaibaMais>
             </div>
 
-            <div className="row">
+            <div id="livres" className="row">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">REDE LIVRES</p>
@@ -44,7 +73,7 @@ const parcerias = () =>{
             </div>
             <SaibaMais conteudo={conteudo2}></SaibaMais>
 
-            <div className="planosCinza">
+            <div id="cefol" className="planosCinza">
                 <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
@@ -61,7 +90,7 @@ const parcerias = () =>{
                 <SaibaMais conteudo={conteudo3}></SaibaMais>
             </div>
 
-            <div className="row">
+            <div id="mosoa" className="row">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">MOSOA/GEPEDISC</p>
@@ -73,7 +102,7 @@ const parcerias = () =>{
             </div>
             <SaibaMais conteudo={conteudo4}></SaibaMais>
 
-            <div className="planosCinza">
+            <div id="cmp" className="planosCinza">
                 <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
@@ -84,7 +113,7 @@ const parcerias = () =>{
                 <SaibaMais conteudo={conteudo5}></SaibaMais>
             </div>
 
-            <div className="row">
+            <div id="unicamp" className="row">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">REDE DE AGROECOLOGIA DA UNICAMP (RAU)</p>
@@ -96,7 +125,7 @@ const parcerias = () =>{
             </div>
             <SaibaMais conteudo={conteudo6}></SaibaMais>
 
-            <div className="planosCinza">
+            <div id="agroleste" className="planosCinza">
                 <div className="row" style={{marginTop: "30px"}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
@@ -111,7 +140,7 @@ const parcerias = () =>{
                 <SaibaMais conteudo={conteudo7}></SaibaMais>
             </div>
 
-            <div className="row">
+            <div id="amater" className="row">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">AMATER COOPERATIVA</p>

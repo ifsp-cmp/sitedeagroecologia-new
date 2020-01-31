@@ -46,25 +46,25 @@ const gruposConsumo = () =>{
                 <div className="col-md-2"></div>
                 <div className="col-md-4">
                     <ul className="texto1">
-                        <li><a href={"americana"} rel="noopener noreferrer">Americana</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Estrela Libre/IFSP CAMPINAS</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Sindicato dos Petroleiros (Campinas)</a></li>
+                        <li><a href="#americana" rel="noopener noreferrer">Americana</a></li>
+                        <li><a href="#estrelalibre" rel="noopener noreferrer">Estrela Libre/IFSP CAMPINAS</a></li>
+                        <li><a href="#sindicatodospetroleiros" rel="noopener noreferrer">Sindicato dos Petroleiros (Campinas)</a></li>
                     </ul>
                 </div>
                 <div className="col-md-4">
                     <ul className="texto1">
-                        <li><a href="/" rel="noopener noreferrer">Barão Geraldo</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Santa Barbara D'Oeste – SINDPROSBO</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Piracicaba - ESALQ</a></li>
+                        <li><a href="#baraogeraldo" rel="noopener noreferrer">Barão Geraldo</a></li>
+                        <li><a href="#sindprosbo" rel="noopener noreferrer">Santa Barbara D'Oeste – SINDPROSBO</a></li>
+                        <li><a href="#esalq" rel="noopener noreferrer">Piracicaba - ESALQ</a></li>
                     </ul>
                 </div>
                 <div className="col-md-2"></div>
             </div>
             
-            <div className="planosCinza">
+            <div id="americana" className="planosCinza">
                 <div className="row " style={{marginTop: "30px"}}>
                     <div className="col-md-2" ></div>
-                    <div className="col-md-8" id={"americana"}>
+                    <div className="col-md-8" >
                         <p className="planos">AMERICANA</p>
                     </div>
                     <div className="col-md-2"></div>
@@ -79,7 +79,7 @@ const gruposConsumo = () =>{
                 <Grupos endereco={grupo[0].endereco} entrega={grupo[0].entrega} horario={grupo[0].horario}></Grupos>
             </div>
 
-            <div className="row">
+            <div id="estrelalibre" className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
                     <p className="planos">ESTRELA LIBRE/ IFSP CAMPINAS</p>
@@ -95,7 +95,7 @@ const gruposConsumo = () =>{
             </div>
             <Grupos endereco={grupo[1].endereco} entrega={grupo[1].entrega} horario={grupo[1].horario}></Grupos>
 
-            <div className="planosCinza">
+            <div id="sindicatodospetroleiros" className="planosCinza">
                 <div className="row " style={{marginTop: "30px"}}>
                     <div className="col-md-2" ></div>
                     <div className="col-md-8">
@@ -114,7 +114,7 @@ const gruposConsumo = () =>{
                 <SaibaMais conteudo={conteudo}></SaibaMais>
             </div>
 
-            <div className="row">
+            <div id="baraogeraldo" className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
                     <p className="planos">BARÃO GERALDO</p>
@@ -131,7 +131,7 @@ const gruposConsumo = () =>{
             <Grupos endereco={grupo[3].endereco} entrega={grupo[3].entrega} horario={grupo[3].horario}></Grupos>
             <SaibaMais conteudo={conteudo}></SaibaMais>
 
-            <div className="planosCinza">
+            <div id="sindprosbo" className="planosCinza">
                 <div className="row " style={{marginTop: "30px"}}>
                     <div className="col-md-2" ></div>
                     <div className="col-md-8">
@@ -150,7 +150,7 @@ const gruposConsumo = () =>{
                 <SaibaMais conteudo={conteudo}></SaibaMais>
             </div>
 
-            <div className="row">
+            <div id="esalq" className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
                     <p className="planos">PIRACICABA - ESALQ</p>
