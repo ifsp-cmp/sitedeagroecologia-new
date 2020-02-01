@@ -38,6 +38,7 @@ const minhocarioAutomatizado =()=>{
                 <div className="col-md-8">
                     <div className="Video">
                         <iframe width="560" height="315" 
+                        title={"VídeoMinhocárioAutomatizado"}
                         src="https://www.youtube.com/embed/SgcJpGP3aYA" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                         allowFullScreen 
