@@ -42,8 +42,8 @@ const irrigadorAutomatizado =()=>{
             <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8">
-                    <div className="video">
-                        <iframe  width="560" height="315"
+                    <div className="Video">
+                        <iframe width="560" height="315" 
                         title={"VídeodoIrrigadorAutomatizado"}
                         src="https://www.youtube.com/embed/ISDScjWNVXA" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

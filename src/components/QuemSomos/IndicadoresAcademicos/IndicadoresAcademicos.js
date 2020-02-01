@@ -24,24 +24,24 @@ const indicadoresAcademicos = () =>{
                 <div className="col-md-2"></div>
                 <div className="col-md-4">
                     <ul className="texto1">
-                        <li><a href="/" rel="noopener noreferrer">Organização de eventos, 2018</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Organização de eventos, 2019</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Publicações e Apresentações de Trabalho 2017</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Publicações e Apresentações de Trabalho 2018</a></li>
+                        <li><a href="#org_de_eventos2018" rel="noopener noreferrer">Organização de eventos, 2018</a></li>
+                        <li><a href="#org_de_eventos2019" rel="noopener noreferrer">Organização de eventos, 2019</a></li>
+                        <li><a href="#publicacoes_apresentacoes2017" rel="noopener noreferrer">Publicações e Apresentações de Trabalho 2017</a></li>
+                        <li><a href="#publicacoes_apresentacoes2018" rel="noopener noreferrer">Publicações e Apresentações de Trabalho 2018</a></li>
                     </ul>
                 </div>
                 <div className="col-md-4">
                     <ul className="texto1">
-                        <li><a href="/" rel="noopener noreferrer">Publicações e Apresentações de Trabalho 2019</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Participações em eventos</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Trabalhos Acadêmicos Vinculados</a></li>
-                        <li><a href="/" rel="noopener noreferrer">Destaques</a></li>
+                        <li><a href="#publicacoes_apresentacoes2019" rel="noopener noreferrer">Publicações e Apresentações de Trabalho 2019</a></li>
+                        <li><a href="#participacoes_eventos" rel="noopener noreferrer">Participações em eventos</a></li>
+                        <li><a href="#trabalhos_academicos" rel="noopener noreferrer">Trabalhos Acadêmicos Vinculados</a></li>
+                        <li><a href="#destaques" rel="noopener noreferrer">Destaques</a></li>
                     </ul>
                 </div>
                 <div className="col-md-2"></div>
             </div>
  
-            <div className="planosCinza">
+            <div className="planosCinza" id="org_de_eventos2018">
                 <div className="row" style={{marginTop: "30px",paddingBottom: "50px"}}>
                     <div className="col-md-2" ></div>
                     <div className="col-md-8">
@@ -61,7 +61,7 @@ const indicadoresAcademicos = () =>{
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row" id="org_de_eventos2019">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">ORGANIZAÇÃO DE EVENTOS, 2019</p>
@@ -81,7 +81,7 @@ const indicadoresAcademicos = () =>{
                 <div className="col-md-2"></div>
             </div>
 
-            <div className="planosCinza">
+            <div className="planosCinza" id="publicacoes_apresentacoes2017">
                 <div className="row" style={{marginTop: "30px",paddingBottom: "50px"}}>
                     <div className="col-md-2" ></div>
                     <div className="col-md-8">
@@ -100,7 +100,7 @@ const indicadoresAcademicos = () =>{
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row" id="publicacoes_apresentacoes2018">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">PUBLICAÇÕES E APRESENTAÇÕES DE TRABALHO 2018</p>
@@ -121,9 +121,7 @@ const indicadoresAcademicos = () =>{
                 <div className="col-md-2"></div>
             </div>
 
-
-
-            <div className="planosCinza">
+            <div className="planosCinza" id="publicacoes_apresentacoes2019">
                 <div className="row" style={{marginTop: "30px",paddingBottom: "50px"}}>
                     <div className="col-md-2" ></div>
                     <div className="col-md-8">
@@ -143,7 +141,7 @@ const indicadoresAcademicos = () =>{
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row" id="participacoes_eventos">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">PARTICIPAÇÕES EM EVENTOS</p>
@@ -164,7 +162,7 @@ const indicadoresAcademicos = () =>{
                 <div className="col-md-2"></div>
             </div>
 
-            <div className="planosCinza">
+            <div className="planosCinza" id="trabalhos_academicos">
                 <div className="row" style={{marginTop: "30px",paddingBottom: "50px"}}>
                     <div className="col-md-2" ></div>
                     <div className="col-md-8">
@@ -180,7 +178,7 @@ const indicadoresAcademicos = () =>{
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row" id="destaques">
                 <div className="col-md-2" ></div>
                 <div className="col-md-8">
                     <p className="planos">DESTAQUES</p>
