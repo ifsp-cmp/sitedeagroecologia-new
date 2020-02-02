@@ -4,7 +4,7 @@ import Form from '../Form/Form';
 import './Home.css';
 
 import foto1 from '../../assets/images/Home/foto1.jpg';
-import foto2 from '../../assets/images/Home/foto2.jpg';
+import foto2 from '../../assets/images/Home/foto2.png';
 import foto3 from '../../assets/images/Home/foto3.png';
 import fotoCiencia1 from '../../assets/images/Home/foto_ciencia1.png';
 import fotoCiencia2 from '../../assets/images/Home/foto_ciencia2.png';
@@ -25,20 +25,18 @@ const home = () => {
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-1"></div>
-                    <div className="col-md-3">
-                        <img src={foto3} width="90%" alt={"HortaAlface"}></img>
+                    <div className="col-md-4">
+                        <img src={foto2} width="80%" alt={"HortaAlface"}></img>
+                        <img className="img2 rounded-circle" src={foto3} alt={"LogoNeaes"}></img>
                     </div>
-                    <div className="col-md-1">
-                        <img id="img2" className="rounded-circle" src={foto2} alt={"LogoNeaes"}></img>
-                    </div>
-                    <div className='col-md-7 bloco1'>
+                    <div className='col-md-6 bloco1'>
                         <h2 className="titulo3">NÚCLEO DE ESTUDOS EM AGROECOLOGIA, EDUCAÇÃO E SOCIEDADE (NEAES)</h2>
-                        <p>Esta Plataforma reúne os trabalhos do Núcleo de Estudos em Agroecologia, Educação e Sociedade (NEAES) do Instituto Federal de São Paulo (IFSP), Campus de Campinas. Também reúne os trabalhos desenvolvidos no âmbito dos projetos NESAN e NEA do IFSP, Campus de Campinas. Foi em 2016 que os primeiros passos foram dados na formação do que viria a se tornar o NEAES enquanto grupo de pesquisa vinculado ao Campus.<br></br><br></br> Atualmente o campus oferece os cursos de nível técnico integrado ao ensino médio, técnico concomitante/ subsequente e cursos tecnológicos em nível superior em diversas áreas, além disso, o NEAES integra uma importante rede de construção do conhecimento agroecológico, defesa e promoção da segurança alimentar na Região Metropolitana de Campinas ao lado de parceiros estratégicos. Apropriando-se de forma interdisciplinar das contribuições da Agroecologia num campus com este perfil, o NEAES canalizou seus esforços para articular tecnologias sociais, segurança alimentar e redes sociotécnicas.
-                        </p>
+                        <p>Esta Plataforma reúne os trabalhos do Núcleo de Estudos em Agroecologia, Educação e Sociedade (NEAES) do Instituto Federal de São Paulo (IFSP), Campus de Campinas. Também reúne os trabalhos desenvolvidos no âmbito dos projetos NESAN e NEA do IFSP, Campus de Campinas. Foi em 2016 que os primeiros passos foram dados na formação do que viria a se tornar o NEAES enquanto grupo de pesquisa vinculado ao Campus.</p>
+                        <p>Atualmente o campus oferece os cursos de nível técnico integrado ao ensino médio, técnico concomitante/ subsequente e cursos tecnológicos em nível superior em diversas áreas, além disso, o NEAES integra uma importante rede de construção do conhecimento agroecológico, defesa e promoção da segurança alimentar na Região Metropolitana de Campinas ao lado de parceiros estratégicos. Apropriando-se de forma interdisciplinar das contribuições da Agroecologia num campus com este perfil, o NEAES canalizou seus esforços para articular tecnologias sociais, segurança alimentar e redes sociotécnicas.</p>
                         <button type="button" className="btn btn-success botao1">Saiba Mais</button>
                     </div>
                 </div>
-                <div className="album py-4 ">
+                <div className="album py-4 " style={{marginBottom: "60px"}}>
                     <div className="container">
                         <div className="row ">
                             <div className="col-md-12 titulo2">
