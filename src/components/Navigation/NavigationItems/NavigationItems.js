@@ -9,7 +9,7 @@ const navigationItems = (props) => (
         <NavigationItem link='/' active>Início</NavigationItem>
         <li className='Menu1'>
             <NavLink to="/politicasnacionais" exact>
-                <p className="TituloMenu">Políticas Nacionais <img src={arrow} alt={"Flecha"} /> </p>
+                <p className="TituloMenu">Políticas Nacionais <span className="Seta"> &#9662; </span></p>
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link="/pnapo">PNAPO</NavigationItem>
@@ -21,7 +21,7 @@ const navigationItems = (props) => (
         </li>
         <li className='Menu1'>
             <NavLink to="/assentamentomiltonsantos" exact>
-                <p className="TituloMenu">Assentamento Milton Santos <img src={arrow} alt={"Flecha"} /> </p>
+                <p className="TituloMenu">Assentamento Milton Santos <span className="Seta"> &#9662; </span> </p>
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link='/mshistoriaelutas' active>HISTÓRIA E LUTAS</NavigationItem>
@@ -33,7 +33,7 @@ const navigationItems = (props) => (
 
         <li className='Menu1'>
             <NavLink to="/tecnologiassociais" exact>
-                <p className="TituloMenu">Tecnologias Sociais <img src={arrow} alt={"Flecha"} /> </p>
+                <p className="TituloMenu">Tecnologias Sociais <span className="Seta"> &#9662; </span> </p>
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link='/tsappagrocomunicacao' active>APP AGROCOMUNICAÇÃO</NavigationItem>
@@ -47,7 +47,7 @@ const navigationItems = (props) => (
 
         <li className='Menu1'>
             <NavLink to="/educacaopopular" exact>
-                <p className="TituloMenu">Educação Popular <img src={arrow} alt={"Flecha"} /> </p>
+                <p className="TituloMenu">Educação Popular <span className="Seta"> &#9662; </span> </p>
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link='/epcursosfic' active>CURSOS FIC</NavigationItem>
@@ -60,7 +60,7 @@ const navigationItems = (props) => (
 
         <li className='Menu1'>
             <NavLink to="/quemsomos" exact>
-                <p className="TituloMenu">Quem Somos <img src={arrow} alt={"Flecha"} /> </p>
+                <p className="TituloMenu">Quem Somos <span className="Seta"> &#9662; </span> </p>
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link='/qsequipes'>EQUIPES</NavigationItem>

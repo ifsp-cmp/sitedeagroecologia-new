@@ -26,6 +26,16 @@
     color: #707070;
 }
 
+.NavigationItems a:hover,
+.NavigationItems a:active,
+.NavigationItems a.active {
+    color: #1A2D00;
+}
+
+/* .NavigationItems .Seta{
+    font-size: 12px;
+} */
+
 .NavigationItems .SubMenu1{
     display: none;
 }
