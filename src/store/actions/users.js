@@ -166,7 +166,7 @@ export const addUser = (userData) => {
     return dispatch => {
         dispatch(addUserStart());
         let passwordCrypt = crypto.createHash("md5").update(userData.password).digest("hex");
-        console.log(passwordCrypt);
+        // console.log(passwordCrypt);
         axios.post('http://localhost:3210/data',
             {
                 userName: userData.name,
