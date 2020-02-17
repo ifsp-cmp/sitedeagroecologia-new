@@ -111,7 +111,7 @@ const gruposConsumo = () =>{
                     <div className="col-md-2"></div>
                 </div>
                 <Grupos endereco={grupo[2].endereco} entrega={grupo[2].entrega} horario={grupo[2].horario}></Grupos>
-                <SaibaMais conteudo={conteudo}></SaibaMais>
+                <div style={{marginTop: "-25px"}}><SaibaMais conteudo={conteudo} ></SaibaMais></div>
             </div>
 
             <div id="baraogeraldo" className="row">
@@ -129,7 +129,7 @@ const gruposConsumo = () =>{
                 <div className="col-md-2"></div>
             </div>
             <Grupos endereco={grupo[3].endereco} entrega={grupo[3].entrega} horario={grupo[3].horario}></Grupos>
-            <SaibaMais conteudo={conteudo}></SaibaMais>
+            <div style={{marginTop: "-25px"}}><SaibaMais conteudo={conteudo} ></SaibaMais></div>
 
             <div id="sindprosbo" className="planosCinza">
                 <div className="row " style={{marginTop: "30px"}}>
@@ -147,7 +147,7 @@ const gruposConsumo = () =>{
                     <div className="col-md-2"></div>
                 </div>
                 <Grupos endereco={grupo[4].endereco} entrega={grupo[4].entrega} horario={grupo[4].horario}></Grupos>
-                <SaibaMais conteudo={conteudo}></SaibaMais>
+                <div style={{marginTop: "-25px"}}><SaibaMais conteudo={conteudo} ></SaibaMais></div>
             </div>
 
             <div id="esalq" className="row">
@@ -157,7 +157,6 @@ const gruposConsumo = () =>{
                 </div>
                 <div className="col-md-2"></div>
             </div>
-            <SaibaMais conteudo={conteudo}></SaibaMais>
 
             <div className="row">
                 <div className="col-md-2"></div>
@@ -168,7 +167,7 @@ const gruposConsumo = () =>{
             </div>
             <Grupos endereco={grupo[5].endereco} entrega={grupo[5].entrega} horario={grupo[5].horario}></Grupos>
 
-            <SaibaMais conteudo={conteudo}></SaibaMais>
+            <div style={{marginTop: "-25px"}}><SaibaMais conteudo={conteudo} ></SaibaMais></div>
         
         </div>
     )

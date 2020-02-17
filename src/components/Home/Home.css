@@ -24,7 +24,7 @@
 .titulo2{
     color: #77B81E;
     text-align: center;
-    font: BOLD 32px Poppins;
+    font: Bold 32px/43px Roboto Slab;
     margin-top: 4%;
 }
 .album{
@@ -37,11 +37,16 @@
     text-align: center;
 }
 .bloco3{
-    font-size: 18px Poppins;
+    font: Regular 18px/28px Poppins;
     text-align: center;
     height: 500px;
-
 }
+
+.bloco3 h5{
+    font: Bold 20px/26px Roboto Slab;
+    color: #77B81E;
+}
+
 .bloco3:hover{
     background-color:  #77B81E;
     color: white;
