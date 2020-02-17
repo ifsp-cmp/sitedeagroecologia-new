@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 import Footer from '../../components/Navigation/Footer/Footer';
-import TopoDaPagina from '../../components/TopoDaPagina/TopoDaPagina';
+// import TopoDaPagina from '../../components/TopoDaPagina/TopoDaPagina';
 
 import './Layout.css';
 
@@ -34,7 +34,7 @@ class Layout extends Component{
           clicked={this.sideDrawerClosedHandler}
           drawerToggleClicked={this.sideDrawerToggleHandler}
         />
-        <TopoDaPagina></TopoDaPagina>
+        {/* <TopoDaPagina menu="Políticas Públicas" submenu="PLANAPO"></TopoDaPagina> */}
         <SideDrawer 
           isAuth={this.props.isAuthenticated} 
           closed={this.sideDrawerClosedHandler} open={this.state.showSideDrawer}

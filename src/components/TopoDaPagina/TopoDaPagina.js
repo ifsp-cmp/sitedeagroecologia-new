@@ -2,17 +2,14 @@ import React from 'react';
 
 import './TopoDaPagina.css';
 
-const topoDaPagina = (props) =>{
-    return(
+const topoDaPagina = (props) => {
+
+    const caminho = props.submenu ? <span>{props.menu}>{props.submenu}</span> : <span>{props.menu}</span>;
+
+    return (
         <div className="TopoDaPagina">
-            <div className="row ">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <p className="TituloTopo"><br></br>TÍTULO</p>
-                    <p className="CaminhoTopo">CAMINHO -></p>
-                </div>
-                
-            </div>
+            <p className="TituloTopo">{props.menu}</p>
+            <p className="CaminhoTopo">{caminho}</p>
         </div>
     )
 }

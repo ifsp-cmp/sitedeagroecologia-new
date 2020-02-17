@@ -4,19 +4,25 @@
     color: white;
     margin-top: 90px;
     align-items: center;
-    width: 95%;
+    vertical-align: center;
+    width: 100%;
+    display: flex;
     background-image: url('../../assets/images/TopoDaPagina.png');
-
 }
 
 .TituloTopo{
     text-align: left;
-    font-size: 32px;
-    font-family: Poppins;
+    font: Bold 32px/43px Roboto Slab;
+    margin-left: 5%;
+    opacity: 1;
+    width: 50%;
+}
 
-}
 .CaminhoTopo{
+    font: Regular 18px/28px Poppins;
+    right: 400px;
     text-align: right;
-    font-size: 18px;
-    font-family: Poppins;
+    width: 50%;
+    margin-right: 5%;
 }
+    
