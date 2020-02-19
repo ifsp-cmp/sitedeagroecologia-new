@@ -21,7 +21,11 @@ const db = mysql.createConnection({
     database: 'dataluta'
 });
 
-db.connect();
+// db.connect();
+
+app.get('/teste', function (req, res) {
+    res.send('Ola Mundo');
+});
 
 app.get('/data', function (req, res) {
     var sql = 'SELECT * FROM usuarios';
