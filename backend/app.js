@@ -7,11 +7,18 @@ const cors = require('cors');
 app.use(bodyParser.json());
 app.use(cors());
 
+// const db = mysql.createConnection({
+//     host: 'localhost',
+//     user: 'admin',
+//     password: 'ifsp@1234',
+//     database: 'agroecologia'
+// });
+
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'admin',
-    password: 'ifsp@1234',
-    database: 'agroecologia'
+    host: '34.95.187.174',
+    user: 'root',
+    password: 'Bordi1973',
+    database: 'dataluta'
 });
 
 db.connect();
@@ -99,8 +106,8 @@ app.post('/login', function (req, res) {
     });
 });
 
-let port = 3210;
+let port = 5000;
 
-app.listen(3210, () => {
+app.listen(port, () => {
     console.log('Server atendendo na porta', port)
 });
