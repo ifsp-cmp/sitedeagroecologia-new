@@ -1,5 +1,6 @@
 import React from 'react';
 import SaibaMais from '../../SaibaMais/SaibaMais';
+import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 
 import './Paa.css';
 
@@ -12,27 +13,30 @@ const Paa = () =>{
         </ul>;
 
     return(
-        <div className="container-fluid Paa">
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <img src={foto1} width="100%" alt={"Alimentos"}></img>
+        <div>
+            <TopoDaPagina menu="Políticas Nacionais" submenu="PAA"></TopoDaPagina>
+            <div className="container-fluid Paa">
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8">
+                        <img src={foto1} width="100%" alt={"Alimentos"}></img>
+                    </div>
+                    <div className="col-md-2"></div>
                 </div>
-                <div className="col-md-2"></div>
-            </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8 texto1">
-                <p>O <strong>Programa de Aquisição de Alimentos (PAA)</strong>, criado pelo art. 19 da Lei no 10.696, de 02 de julho de 2003, no âmbito do Programa Fome Zero possui duas finalidades básicas:promover o acesso à alimentação e incentivar a agricultura familiar. </p>
-                <p>Para o alcance desses dois objetivos, o programa compra alimentos produzidos pela agricultura familiar, com dispensa de licitação, e os destina às pessoas em situação de insegurança alimentar e nutricional e àquelas atendidas pela rede socioassistencial, pelos equipamentos públicos de segurança alimentar e nutricional e pela rede pública e filantrópica de ensino. </p>
-                <p>O orçamento do PAA é composto por recursos do Ministério do Desenvolvimento Social (MDS) e sua execução pode ser feita por meio de seis modalidades: Compra com Doação Simultânea, Compra Direta, Apoio à Formação de Estoques, Incentivo à Produção e ao Consumo de Leite, Compra Institucional e Aquisição de Sementes. </p>
-                <p>O programa vem sendo executado por estados e municípios em parceria com o MDS e pela Companhia Nacional de Abastecimento (CONAB).</p>
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8 texto1">
+                    <p>O <strong>Programa de Aquisição de Alimentos (PAA)</strong>, criado pelo art. 19 da Lei no 10.696, de 02 de julho de 2003, no âmbito do Programa Fome Zero possui duas finalidades básicas:promover o acesso à alimentação e incentivar a agricultura familiar. </p>
+                    <p>Para o alcance desses dois objetivos, o programa compra alimentos produzidos pela agricultura familiar, com dispensa de licitação, e os destina às pessoas em situação de insegurança alimentar e nutricional e àquelas atendidas pela rede socioassistencial, pelos equipamentos públicos de segurança alimentar e nutricional e pela rede pública e filantrópica de ensino. </p>
+                    <p>O orçamento do PAA é composto por recursos do Ministério do Desenvolvimento Social (MDS) e sua execução pode ser feita por meio de seis modalidades: Compra com Doação Simultânea, Compra Direta, Apoio à Formação de Estoques, Incentivo à Produção e ao Consumo de Leite, Compra Institucional e Aquisição de Sementes. </p>
+                    <p>O programa vem sendo executado por estados e municípios em parceria com o MDS e pela Companhia Nacional de Abastecimento (CONAB).</p>
+                    </div>
+                    <div className="col-md-2"></div>
                 </div>
-                <div className="col-md-2"></div>
-            </div>
-            <SaibaMais conteudo={conteudo}></SaibaMais>
+                <SaibaMais conteudo={conteudo}></SaibaMais>
 
 
+            </div>
         </div>
     );
 }

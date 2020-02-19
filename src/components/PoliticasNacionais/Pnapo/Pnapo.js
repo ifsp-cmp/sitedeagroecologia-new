@@ -14,7 +14,7 @@ const Pnapo = () => {
     return (
         <div>
             <TopoDaPagina menu="Políticas Nacionais" submenu="PNAPO"></TopoDaPagina>
-            <div className="container-fluid Pnapo">
+            <div className="container-fluid Pnapo"> 
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">

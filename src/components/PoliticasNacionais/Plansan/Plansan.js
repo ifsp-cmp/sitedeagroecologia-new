@@ -1,5 +1,6 @@
 import React from 'react';
 import SaibaMais from '../../SaibaMais/SaibaMais';
+import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 
 import './Plansan.css';
 
@@ -20,59 +21,62 @@ const Plansan = () =>{
     </ul>;
 
     return(
-        <div className="container-fluid Plansan">
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <img src={foto1} width="100%" alt={"Assentamento"}></img>
-                </div>
-                <div className="col-md-2"></div>
-            </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8 texto1">
-                <p>O <strong>Plano Nacional de Segurança Alimentar e Nutricional – PLANSAN</strong> é o principal instrumento da <strong>Política Nacional de Segurança Alimentar e Nutricional - PNSAN</strong>, instituída pelo Decreto nº 7.272/2010. </p>
-                <p>Nele estão previstas as diferentes ações do governo federal que se propõem a respeitar, proteger, promover e prover o Direito Humano à Alimentação Adequada para todas as pessoas que estão no Brasil. </p>
-                <p>De acordo Art. 3º do Decreto nº 7.272/2010, a elaboração do Plano será orientada pelas 08 (oito) diretrizes da Política Nacional de Segurança Alimentar e Nutricional (PNSAN) e deverá ser construído intersetorialmente pela Câmara Interministerial de Segurança Alimentar e Nutricional (CAISAN) com base nas prioridades estabelecidas pelo CONSEA a partir das deliberações da Conferência Nacional de Segurança Alimentar e Nutricional.</p>
-                </div>
-                <div className="col-md-2"></div>
-            </div>
-            <SaibaMais conteudo={conteudo1}></SaibaMais>
-            <div className="planosCinza">
+        <div>
+            <TopoDaPagina menu="Políticas Nacionais" submenu="PLANSAN"></TopoDaPagina>
+            <div className="container-fluid Plansan">
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        <p className="card-body planos">PLANSAN 2012-2015</p>
+                        <img src={foto1} width="100%" alt={"Assentamento"}></img>
                     </div>
+                    <div className="col-md-2"></div>
                 </div>
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8 texto1">
-                    <p>Este primeiro <strong>Plano Nacional de Segurança Alimentar e Nutricional - PLANSAN</strong>, resultado de pactuação intersetorial no âmbito do Governo Federal, sob coordenação da Câmara Interministerial de Segurança Alimentar e Nutricional (CAISAN), será o principal instrumento de planejamento, gestão e execução da Política Nacional de Segurança Alimentar e Nutricional (PNSAN). </p>
-                    <p>Com a mesma vigência do Plano Plurianual 2012-2015 (PPA) e estreitamente relacionado às metas e iniciativas nele definidas, este primeiro Plano Nacional de SAN consolida programas e ações relacionadas às diretrizes da PNSAN, explicitando as responsabilidades dos órgãos e entidades da União. Está organizado a partir de uma lógica que busca a superação dos grandes desafios para a promoção da Segurança Alimentar e Nutricional por meio de iniciativas que atendam metas prioritárias, para o alcance de objetivos estratégicos, cujos resultados devem ser monitorados e avaliados para permitir a realização progressiva do Direito Humano à Alimentação Adequada (DHAA), assim como permitir o constante aperfeiçoamento da PNSAN.</p>
+                    <p>O <strong>Plano Nacional de Segurança Alimentar e Nutricional – PLANSAN</strong> é o principal instrumento da <strong>Política Nacional de Segurança Alimentar e Nutricional - PNSAN</strong>, instituída pelo Decreto nº 7.272/2010. </p>
+                    <p>Nele estão previstas as diferentes ações do governo federal que se propõem a respeitar, proteger, promover e prover o Direito Humano à Alimentação Adequada para todas as pessoas que estão no Brasil. </p>
+                    <p>De acordo Art. 3º do Decreto nº 7.272/2010, a elaboração do Plano será orientada pelas 08 (oito) diretrizes da Política Nacional de Segurança Alimentar e Nutricional (PNSAN) e deverá ser construído intersetorialmente pela Câmara Interministerial de Segurança Alimentar e Nutricional (CAISAN) com base nas prioridades estabelecidas pelo CONSEA a partir das deliberações da Conferência Nacional de Segurança Alimentar e Nutricional.</p>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                <SaibaMais conteudo={conteudo2}></SaibaMais>
-            </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8">
-                    <p className="card-body planos">PLANSAN 2016-2019</p>
+                <SaibaMais conteudo={conteudo1}></SaibaMais>
+                <div className="planosCinza">
+                    <div className="row">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-8">
+                            <p className="card-body planos">PLANSAN 2012-2015</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-8 texto1">
+                        <p>Este primeiro <strong>Plano Nacional de Segurança Alimentar e Nutricional - PLANSAN</strong>, resultado de pactuação intersetorial no âmbito do Governo Federal, sob coordenação da Câmara Interministerial de Segurança Alimentar e Nutricional (CAISAN), será o principal instrumento de planejamento, gestão e execução da Política Nacional de Segurança Alimentar e Nutricional (PNSAN). </p>
+                        <p>Com a mesma vigência do Plano Plurianual 2012-2015 (PPA) e estreitamente relacionado às metas e iniciativas nele definidas, este primeiro Plano Nacional de SAN consolida programas e ações relacionadas às diretrizes da PNSAN, explicitando as responsabilidades dos órgãos e entidades da União. Está organizado a partir de uma lógica que busca a superação dos grandes desafios para a promoção da Segurança Alimentar e Nutricional por meio de iniciativas que atendam metas prioritárias, para o alcance de objetivos estratégicos, cujos resultados devem ser monitorados e avaliados para permitir a realização progressiva do Direito Humano à Alimentação Adequada (DHAA), assim como permitir o constante aperfeiçoamento da PNSAN.</p>
+                        </div>
+                        <div className="col-md-2"></div>
+                    </div>
+                    <SaibaMais conteudo={conteudo2}></SaibaMais>
                 </div>
-                <div className="col-md-2"></div>
-            </div>
-            <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8 texto1">
-                <p>Em razão das lições aprendidas com a elaboração e revisão do I PLANSAN 2012-2015, pode-se dizer que o processo de revisão do II PLANSAN teve uma menor envergadura. O I PLANSAN, por exemplo, composto originalmente por 8 Diretrizes e 330 metas organizadas em 43 objetivos, ficou com 144 metas distribuídas em 38 objetivos após sua revisão. </p>
-                <p>O II PLANSAN, por sua vez, foi elaborado com 9 Desafios, 121 Metas e 99 Ações Relacionadas 1 organizadas em 41 áreas temáticas, pois sua construção foi orientada, desde o início, para atingir um conjunto de metas estratégicas e prioritárias, de forma facilitar o seu monitoramento, focalizando nas ações mais relevantes. O II PLANSAN passou a conter 131 metas e 93 ações relacionadas após sua revisão. </p>
-                <p>A elaboração do II PLANSAN também incorporou em seu texto, desde o princípio, as relações entre suas metas e as metas do Plano Plurianual (PPA 2016-2019), bem como a identificação dos órgãos responsáveis pela execução de cada uma das metas. A revisão do II PLANSAN trouxe informações adicionais como a anualização das metas e o registro dos códigos das ações orçamentárias que as custeiam.</p>
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8">
+                        <p className="card-body planos">PLANSAN 2016-2019</p>
+                    </div>
+                    <div className="col-md-2"></div>
                 </div>
-                <div className="col-md-2"></div>
-            </div>
-            <SaibaMais conteudo={conteudo3}></SaibaMais>
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8 texto1">
+                    <p>Em razão das lições aprendidas com a elaboração e revisão do I PLANSAN 2012-2015, pode-se dizer que o processo de revisão do II PLANSAN teve uma menor envergadura. O I PLANSAN, por exemplo, composto originalmente por 8 Diretrizes e 330 metas organizadas em 43 objetivos, ficou com 144 metas distribuídas em 38 objetivos após sua revisão. </p>
+                    <p>O II PLANSAN, por sua vez, foi elaborado com 9 Desafios, 121 Metas e 99 Ações Relacionadas 1 organizadas em 41 áreas temáticas, pois sua construção foi orientada, desde o início, para atingir um conjunto de metas estratégicas e prioritárias, de forma facilitar o seu monitoramento, focalizando nas ações mais relevantes. O II PLANSAN passou a conter 131 metas e 93 ações relacionadas após sua revisão. </p>
+                    <p>A elaboração do II PLANSAN também incorporou em seu texto, desde o princípio, as relações entre suas metas e as metas do Plano Plurianual (PPA 2016-2019), bem como a identificação dos órgãos responsáveis pela execução de cada uma das metas. A revisão do II PLANSAN trouxe informações adicionais como a anualização das metas e o registro dos códigos das ações orçamentárias que as custeiam.</p>
+                    </div>
+                    <div className="col-md-2"></div>
+                </div>
+                <SaibaMais conteudo={conteudo3}></SaibaMais>
 
+            </div>
         </div>
     );
 }
