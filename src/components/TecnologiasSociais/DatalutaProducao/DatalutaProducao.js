@@ -25,7 +25,7 @@ const datalutaProducao =()=>{
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                <div className="row">
+                <div className="row" style={{marginTop: '30px',marginBottom: '10px'}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <img src={foto2} width="100%" alt={"App Data Luta"}></img>

@@ -26,7 +26,7 @@ const fichaAgroecologica =()=>{
                     <div className="col-md-2"></div>
                 </div>
                 
-                <div className="row">
+                <div className="row" style={{marginTop: '30px',marginBottom: '40px'}}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <img src={foto2} width="100%" alt={"Fichas Agroecológicas"}></img>
