@@ -41,7 +41,7 @@ const form = () => {
                         <option title="Sergipe" value="TO">SE</option>
                         <option title="Tocantins">TO</option>
                     </select>
-                    <p>NOME</p>
+                    <p >NOME</p>
                     <input className="form-control fundo" type="text"></input>
                     <p>E-MAIL</p>
                     <input className="form-control fundo" type="text"></input>

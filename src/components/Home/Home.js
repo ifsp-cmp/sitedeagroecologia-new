@@ -112,7 +112,7 @@ const home = () => {
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={foto6} width="100%" height="100%" alt={"VegetaisELegumes"}></img>
+                        <img src={foto6} height="100%" alt={"VegetaisELegumes"}></img>
                     </div>
                     <div className="col-md-6">
                        <Form></Form>

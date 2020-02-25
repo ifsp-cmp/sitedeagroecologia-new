@@ -1,5 +1,7 @@
 .fundo{
     background: #77B81E;
+    margin-top: -10px;
+    margin-bottom: 15px;
 }
 .fundo2{
     margin-right:10%;
@@ -26,5 +28,7 @@
     color: #707070;
     opacity: 1;
     background: #FFFFFF;
-    width : 30%;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
 }
