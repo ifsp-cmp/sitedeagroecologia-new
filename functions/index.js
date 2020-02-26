@@ -31,8 +31,8 @@ exports.enviaEmailCriacaoUsuario = functions.firestore
     .then(doc => {
         let userData = doc.data();
         console.log(userData);
-        var sesAccessKey = 'contatocooperflora@gmail.com';
-        var sesSecretKey = 'AgroecologiaAMS';
+        var sesAccessKey = 'agroecologianeaes@gmail.com';
+        var sesSecretKey = 'Bordi1973';
         console.log("email:", sesAccessKey);
         var transporter = nodemailer.createTransport(smtpTransport({
             service: 'gmail',
@@ -62,7 +62,7 @@ exports.enviaEmailCriacaoUsuario = functions.firestore
         
         const mailOptions = {
             to: "albordignon@gmail.com",
-            from: "contatocooperflora@gmail.com",
+            from: "agroecologianeaes@gmail.com",
             subject: 'Um novo usuário foi cadastrado no banco de dados da Cooperflora',
             text: text,
             html: text
@@ -86,7 +86,7 @@ exports.enviaEmailCriacaoUsuario = functions.firestore
 });
 
 exports.emailViaForm = functions.https.onRequest((req, res) => {
-    console.log("Inicio da Função");
+    console.log("[Site Agroecologia em Rede] Inicio da Função");
     const { name, email, phone, message } = req.body;
     console.log("[function]", name, email, phone, message);
     
@@ -107,10 +107,10 @@ exports.emailViaForm = functions.https.onRequest((req, res) => {
         <h4>Message</h4>
         <p>${message || ""}</p>
         </div>`;
-        var sesAccessKey = 'contatocooperflora@gmail.com';
-        var sesSecretKey = 'AgroecologiaAMS';
+        var sesAccessKey = 'agroecologianeaes@gmail.com';
+        var sesSecretKey = 'Bordi1973';
         
-        console.log("email:", sesAccessKey);
+        console.log("[Site Agroecologia em Rede] email:", sesAccessKey);
         
         var transporter = nodemailer.createTransport(smtpTransport({
             service: 'gmail',
@@ -121,20 +121,20 @@ exports.emailViaForm = functions.https.onRequest((req, res) => {
         }));
         const mailOptions = {
             to: "albordignon@gmail.com",
-            from: "contatocooperflora@gmail.com",
+            from: "agroecologianeaes@gmail.com",
             subject: `${name} sent you a new message`,
             text: text,
             html: text
         };
-        console.log("[Function] Antes de chamar sendMail");
+        console.log(" [Site Agroecologia em Rede] [Function] Antes de chamar sendMail");
         transporter.sendMail(mailOptions, function(error, info){
-            console.log("Fim da função");
+            console.log("[Site Agroecologia em Rede] Fim da função");
             if(error){
-                console.log(error.message);
+                console.log("[Site Agroecologia em Rede] Erro:", error.message);
             }
-            console.log("Fim da função");
+            console.log("[Site Agroecologia em Rede] Fim da função");
             res.status(200).send({          
-                message: "success"
+                message: "[Site Agroecologia em Rede] success"
             })
         });
     });
