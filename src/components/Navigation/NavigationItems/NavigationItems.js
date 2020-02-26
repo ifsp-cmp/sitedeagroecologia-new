@@ -68,13 +68,13 @@ const navigationItems = (props) => (
                 <NavigationItem link='/qsparcerias'>PARCERIAS</NavigationItem>
             </ul>
         </li>
-        {!props.isAuthenticated ?
+        {/* {!props.isAuthenticated ?
             <NavigationItem link='/cadastro'>Cadastro</NavigationItem> : null
         }
         {!props.isAuthenticated
             ? <NavigationItem link='/login'>Login</NavigationItem>
             : <NavigationItem link='/logout'>{props.isAuthenticated}Logout</NavigationItem>
-        }
+        } */}
     </ul>
 );
 

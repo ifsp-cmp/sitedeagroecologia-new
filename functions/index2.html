@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de envio de e-mail</title>
+    <script type="module" >
+        enviarEmail = () => {
+            event.preventDefault();
+            console.log("Cheguei no enviar email");
+            //https://www.youtube.com/watch?v=NB71vyCj2X4
+            // var nodemailer = require('nodemailer');
+            import { nodemailer } from 'nodemailer';
+            
+            var transporter = nodemailer.createTransport({
+                service: 'gmail',
+                auth: {
+                    user: 'contatocooperflora@gmail.com',
+                    pass: 'AgroecologiaAMS'
+                }
+            });
+            
+            var mailOptions = {
+                from: 'albordignon@gmail.com',
+                to: 'contatocooperflora@gmail.com',
+                subject: 'xxx',
+                text: `xxx`
+            };
+            
+            transporter.sendMail(mailOptions, function(error, info){
+                if (error) {
+                    console.log(error);
+                } else {
+                    console.log('Email sent: ' + info.response);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Teste de envio de e-mail utilizando Firebase e Nodemailer</h1>
+    <form action="#" method="post">   
+        <label>Assunto:</label>
+        <input type="text" name="assunto">
+        
+        <label>Destinatários:</label>
+        <input type="text" name="destinatarios">
+        
+        <label>Mensagem:</label>
+        <input type="text" name="corpo">
+        
+        <button onclick="enviarEmail();">Enviar</button>   
+    </form>
+</body>
+</html>

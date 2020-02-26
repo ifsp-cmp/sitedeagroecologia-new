@@ -1,6 +1,15 @@
 runtime: nodejs
 env: flex
 
+env_variables:
+  SQL_USER: root
+  SQL_PASSWORD: Bordi1973
+  SQL_DATABASE: dataluta
+  INSTANCE_CONNECTION_NAME: sitedeagroecologia-backend:southamerica-east1:dataluta
+beta_settings:
+  cloud_sql_instances: sitedeagroecologia-backend:southamerica-east1:dataluta
+
+
 # This sample incurs costs to run on the App Engine flexible environment.
 # The settings below are to reduce costs during testing and are not appropriate
 # for production use. For more information, see:

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de envio de e-mail</title>
+</head>
+<body>
+    <h1>Teste de envio de e-mail utilizando Firebase e Nodemailer</h1>
+    <form action="https://us-central1-cooperfloradev.cloudfunctions.net/emailViaForm" method="post">   
+        <label>Assunto:</label>
+        <input type="text" name="assunto">
+
+        <label>Nome:</label>
+        <input type="text" name="name">
+        
+        <label>Destinatários:</label>
+        <input type="text" name="email">
+
+        <label>Fone:</label>
+        <input type="text" name="phone">
+        
+        
+        <label>Mensagem:</label>
+        <input type="text" name="message">
+        
+        <button type="submit">Enviar</button>   
+    </form>
+</body>
+</html>
