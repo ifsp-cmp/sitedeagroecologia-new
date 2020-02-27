@@ -117,7 +117,7 @@ const home = () => {
                     <div className="col-md-6">
                        <Form></Form>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     );
