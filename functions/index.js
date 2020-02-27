@@ -15,7 +15,7 @@ exports.addMessage = functions.https.onRequest(async (req, res) => {
     // Grab the text parameter.
     const original = req.query.text;
     // Push the new message into the Realtime Database using the Firebase Admin SDK.
-    const snapshot = await admin.database().ref('/messages').push({original: original});
+    const snapshot = await admin.database().ref('/messages').push({ original: original });
     // Redirect with 303 SEE OTHER to the URL of the pushed object in the Firebase console.
     res.redirect(303, snapshot.ref.toString());
 });
@@ -25,7 +25,7 @@ exports.enviaEmailCriacaoUsuario = functions.firestore
 .onCreate((event, dados) => {
     console.log("Iniciando a função.");
     const userId = dados.params.userId;
-    const db=admin.firestore();
+    const db = admin.firestore();
     return db.collection('users').doc(userId)
     .get()
     .then(doc => {
@@ -68,16 +68,16 @@ exports.enviaEmailCriacaoUsuario = functions.firestore
             html: text
         };
         console.log("[Function] Antes de chamar sendMail");
-        transporter.sendMail(mailOptions, function(error, info){
+        transporter.sendMail(mailOptions, function (error, info) {
             console.log("Fim da função");
             console.log("Mensagem de erro -> ", error);
             console.log("Mensagem de info -> ", info);
-            if(error){
+            if (error) {
                 console.log(error.message);
             }
             console.log("Fim da função");
             console.log("mensagem enviada");
-            res.status(200).send({          
+            res.status(200).send({
                 message: "success"
             })
         });
@@ -87,30 +87,50 @@ exports.enviaEmailCriacaoUsuario = functions.firestore
 
 exports.emailViaForm = functions.https.onRequest((req, res) => {
     console.log("[Site Agroecologia em Rede] Inicio da Função");
-    const { name, email, phone, message } = req.body;
-    console.log("[function]", name, email, phone, message);
+    const { nome, email, cidade, estado, mensagem } = req.body;
     
     return cors(req, res, () => {
-        var text = `<div>
-        <h4>Information</h4>
-        <ul>
-        <li>
-        Name - ${name || ""}
-        </li>
-        <li>
-        Email - ${email || ""}
-        </li>
-        <li>
-        Phone - ${phone || ""}
-        </li>
-        </ul>
-        <h4>Message</h4>
-        <p>${message || ""}</p>
-        </div>`;
+        console.log('[Site Agroecologia em Rede]', nome, email, cidade, estado, mensagem);
+        // var text = `<div>
+        // <h4>Information</h4>
+        // <ul>
+        // <li>
+        // Name - ${nome || ""}
+        // </li>
+        // <li>
+        // Email - ${email || ""}
+        // </li>
+        // <li>
+        // Phone - ${cidade || ""}
+        // </li>
+        // </ul>
+        // <h4>Message</h4>
+        // <p>${mensagem || ""}</p>
+        // </div>`;
+        const html = `<div>
+                        <h4>Dados da mensagem</h4>
+                        <ul>
+                        <li>
+                        Nome - ${nome || ""}
+                        </li>
+                        <li>
+                        Email - ${email || ""}
+                        </li>
+                        <li>
+                        Estado - ${cidade || ""}
+                        </li>
+                        <li>
+                        Estado - ${estado || ""}
+                        </li>
+                        </ul>
+                        <h4>Message</h4>
+                        <p>${mensagem || ""}</p>
+                </div>`;
+        
         var sesAccessKey = 'agroecologianeaes@gmail.com';
         var sesSecretKey = 'Bordi1973';
         
-        console.log("[Site Agroecologia em Rede] email:", sesAccessKey);
+        // console.log("[Site Agroecologia em Rede] email:", sesAccessKey);
         
         var transporter = nodemailer.createTransport(smtpTransport({
             service: 'gmail',
@@ -122,19 +142,21 @@ exports.emailViaForm = functions.https.onRequest((req, res) => {
         const mailOptions = {
             to: "albordignon@gmail.com",
             from: "agroecologianeaes@gmail.com",
-            subject: `${name} sent you a new message`,
-            text: text,
-            html: text
+            subject: `${nome} enviou uma mensagem para você`,
+            text: html,
+            html: html
         };
         console.log(" [Site Agroecologia em Rede] [Function] Antes de chamar sendMail");
-        transporter.sendMail(mailOptions, function(error, info){
+        transporter.sendMail(mailOptions, function (error, info) {
             console.log("[Site Agroecologia em Rede] Fim da função");
-            if(error){
+            if (error) {
                 console.log("[Site Agroecologia em Rede] Erro:", error.message);
             }
             console.log("[Site Agroecologia em Rede] Fim da função");
-            res.status(200).send({          
-                message: "[Site Agroecologia em Rede] success"
+            const mensagem = "<h1>Mensagem enviada com sucesso</h1>";
+            res.status(200).send({
+                // message: "[Site Agroecologia em Rede] success"
+                mensagem
             })
         });
     });
