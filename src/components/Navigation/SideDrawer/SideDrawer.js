@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../../Logo/Logo';
+// import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import Backdrop from '../../UI/Backdrop/Backdrop';
 
@@ -15,7 +15,7 @@ const sideDrawer = (props) => {
         <div>
             <Backdrop show={props.open} clicked={props.closed} />
             <div className={attachedClasses} onClick={props.closed}>
-                <Logo classNema='Logo' height='8%'/>
+                {/* <Logo classNema='Logo' height='8%'/> */}
                 <br />
                 <br />
                 <br />

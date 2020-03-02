@@ -153,11 +153,13 @@ exports.emailViaForm = functions.https.onRequest((req, res) => {
                 console.log("[Site Agroecologia em Rede] Erro:", error.message);
             }
             console.log("[Site Agroecologia em Rede] Fim da função");
-            const mensagem = "<h1>Mensagem enviada com sucesso</h1>";
-            res.status(200).send({
-                // message: "[Site Agroecologia em Rede] success"
-                mensagem
-            })
+            let mensagem = "<h3 style='font-family:arial'>Mensagem enviada com sucesso</h3><h4>Obrigado por entrar em contato.</h4>";
+            mensagem = mensagem + "<a href='http://localhost:3000/'>Voltar para a página principal</a>";
+            // res.status(200).send({
+            //     // message: "[Site Agroecologia em Rede] success"
+            //     mensagem
+            // })
+            res.status(200).send(mensagem)
         });
     });
 });

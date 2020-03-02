@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationItem from './NavigationItem/NavigationItem';
 import { NavLink } from 'react-router-dom';
-import arrow from '../../../assets/images/menu/arrow.svg';
+// import arrow from '../../../assets/images/menu/arrow.svg';
 import './NavigationItems.css'
 
 const navigationItems = (props) => (

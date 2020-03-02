@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Modal from '../../components/UI/Modal/Modal';
+// import Modal from '../../components/UI/Modal/Modal';
 
 import * as userActions from '../../store/actions/index';
 import './ListarUsuarios.css';

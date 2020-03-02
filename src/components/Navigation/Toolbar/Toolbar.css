@@ -40,4 +40,8 @@
     .DesktopOnly{
         display: none;
     }
+
+    .Toolbar{
+        height: 61px;
+    }
 }
