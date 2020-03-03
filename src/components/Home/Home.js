@@ -4,8 +4,7 @@ import Form from '../../containers/Form/Form';
 import './Home.css';
 
 import foto1 from '../../assets/images/Home/foto1.jpg';
-import foto2 from '../../assets/images/Home/foto2.png';
-import foto3 from '../../assets/images/Home/foto3.png';
+import neaesfoto from '../../assets/images/Home/home-neas.png';
 import fotoCiencia1 from '../../assets/images/Home/foto_ciencia1.png';
 import fotoCiencia2 from '../../assets/images/Home/foto_ciencia2.png';
 import fotoMovimento1 from '../../assets/images/Home/foto_movimento1.png';
@@ -26,8 +25,7 @@ const home = () => {
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-4">
-                        <img src={foto2} width="80%" alt={"HortaAlface"}></img>
-                        <img className="img2 rounded-circle" src={foto3} alt={"LogoNeaes"}></img>
+                        <img src={neaesfoto} alt={"Logo Neaes"} width="100%"></img>
                     </div>
                     <div className='col-md-6 bloco1'>
                         <h2 className="titulo3">NÚCLEO DE ESTUDOS EM AGROECOLOGIA, EDUCAÇÃO E SOCIEDADE (NEAES)</h2>
@@ -81,7 +79,9 @@ const home = () => {
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-5">
-                        <img src={foto4} width="100%" alt={"HortaDoAssentamento"}></img>
+                        <div className="card">
+                            <img className="card-img-top" src={foto4} width="100%" alt={"HortaDoAssentamento"}></img>
+                        </div>
                     </div>
                     <div className="col-md-5">
                         <div className="card">
@@ -106,13 +106,17 @@ const home = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <img src={foto5} width="100%" alt={"ApresentaçõesDeProjetos"}></img>
+                        <div className="card">
+                            <img className="card-img-top" src={foto5} width="100%" alt={"ApresentaçõesDeProjetos"}></img>
+                        </div>
                     </div>
                     <div className="col-md-1"></div>
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={foto6} height="100%" alt={"VegetaisELegumes"}></img>
+                        <div className="card">
+                            <img className="card-img-top" src={foto6} width="100%" alt={"VegetaisELegumes"}></img>
+                        </div>   
                     </div>
                     <div className="col-md-6">
                        <Form></Form>
