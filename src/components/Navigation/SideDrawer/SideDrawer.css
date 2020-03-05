@@ -2,7 +2,7 @@
     top: 0;
     left: 0;
     position: fixed;
-    width: 600px;
+    width: 400px;
     max-width: 75%;
     height: 100%;
     z-index: 200;
@@ -12,9 +12,9 @@
     transition: transform 0.3s ease-out;
 }
 
-.SideDrawer .Logo{
+/* .SideDrawer .Logo{
     margin-left: 20px;
-}
+} */
 
 @media (min-width: 800px){
     .SideDrawer {

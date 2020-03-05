@@ -25,7 +25,7 @@ class Layout extends Component{
   }
 
   render(){
-    console.log("[Layout component] ", this.props.isAuthenticated);
+    // console.log("[Layout component] ", this.props.isAuthenticated);
     // console.log("Env. Variable", process.env.NODE_ENV);
     return (
       <div className="Layout">
@@ -33,6 +33,7 @@ class Layout extends Component{
           isAuth={this.props.isAuthenticated} 
           clicked={this.sideDrawerClosedHandler}
           drawerToggleClicked={this.sideDrawerToggleHandler}
+          open={this.state.showSideDrawer}
         />
         {/* <TopoDaPagina menu="Políticas Públicas" submenu="PLANAPO"></TopoDaPagina> */}
         <SideDrawer 

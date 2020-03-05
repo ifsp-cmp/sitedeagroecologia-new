@@ -14,8 +14,9 @@ const sideDrawer = (props) => {
     return(
         <div>
             <Backdrop show={props.open} clicked={props.closed} />
-            <div className={attachedClasses} onClick={props.closed}>
-                {/* <Logo classNema='Logo' height='8%'/> */}
+            {/* <Backdrop show={props.open} /> */}
+            {/* <div className={attachedClasses} onClick={props.closed}> */}
+            <div className={attachedClasses}>
                 <br />
                 <br />
                 <br />

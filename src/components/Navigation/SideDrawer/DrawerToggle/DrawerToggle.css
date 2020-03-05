@@ -31,6 +31,19 @@
     color: white; 
 }
 
+.DrawerToggle .CloseMenu{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+}
+
 .DrawerToggle .Menu div {
     width: 30px;
     height: 5px;

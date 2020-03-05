@@ -68,3 +68,13 @@
         /* font-size: 15px; */
     }
 }
+
+@media (max-width: 800px){
+    .NavigationItems .SubMenu1{
+        /* display: block; */
+    }
+
+    .NavigationItems .SubMenu1:clicked {
+        display: block;
+    }
+}
