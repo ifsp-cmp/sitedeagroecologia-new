@@ -61,7 +61,7 @@ const quemSomos = () =>{
                     <SaibaMais conteudo={conteudo}></SaibaMais>
                 </div>
 
-                <div className="album py-4 fundoImagem" >
+                <div className="album py-4 fundoImagem" style={{marginTop: '-10px'}}>
                     <div className="container">
                         <div className="row titulo2">
                             <div className="col-md-12">
