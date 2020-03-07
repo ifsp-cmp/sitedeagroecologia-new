@@ -3,7 +3,21 @@
 }
 
 .TabelaCooperados tbody{
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; 
+}
+
+.TabelaCooperados td{
+    border-top: solid 1px #707070;
+    border-radius: solid 1px #707070;
+}
+
+.TabelaCooperados th{
+    border-top: solid 1px #707070;
+    border-radius: solid 1px #707070;
+}
+
+.TabelaCooperados table{
+    border: solid 1px #707070;
 }
 
 .circulo1{

@@ -2,13 +2,13 @@ import React from 'react';
 
 import './TabelaCooperados.css';
 
-const tabelaCooperados = () =>{
+const tabelaCooperados = () =>{ 
     return (
         <div style={{paddingBottom: "40px", marginTop: "30px"}} className="row TabelaCooperados">
              <div className="col-md-2"></div>
              <div className="col-md-8">
                 <div className="table-responsive-md">
-                    <table className="table table-bordered table-hover" style={{fontSize: "20px"}}>
+                    <table className="table table-hover" style={{fontSize: "20px"}}>
                         <thead>
                             <tr>
                             <th scope="col">Nome</th>
