@@ -25,4 +25,9 @@
     width: 50%;
     margin-right: 5%;
 }
-    
+
+@media (max-width: 800px){
+    .TopoDaPagina{
+        margin-top: 60px;
+    }
+}

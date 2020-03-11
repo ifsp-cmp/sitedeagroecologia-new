@@ -1,6 +1,11 @@
 .Home{
     margin-top: 80px;
 }
+@media (max-width: 800px){
+    .Home{
+        margin-top: 60px;
+    }
+}
 .img2{
     height: 150px;
     margin-left: -50px;
