@@ -21,8 +21,8 @@ class Form extends Component {
                 <div className="card-body fundo2">
                     <h6 className="card-title titulo_form1">APOIE A COMUNIDADE</h6>
                     <h4 className="card-subtitle titulo_form2">Mais diversidade e saúde com alimentos frescos e orgânicos na sua mesa!</h4><br></br>
-                     */}
-                    <form className="text-white" action="http://localhost:5001/site-de-agroecologia-new/us-central1/emailViaForm" method="post">
+                    {/* <form className="text-white" action="http://localhost:5001/site-de-agroecologia-new/us-central1/emailViaForm" method="post"> */}
+                    <form className="text-white" action="https://us-central1-site-de-agroecologia-new.cloudfunctions.net/emailViaForm" method="post">
                         <p>NOME</p>
                         <input className="form-control fundo" type="text" name="nome"></input>
                         <p>E-MAIL</p>
