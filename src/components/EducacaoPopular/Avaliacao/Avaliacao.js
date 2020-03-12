@@ -59,7 +59,7 @@ const avaliacao = () =>{
                         </div>
                         <div className="card" style={{borderBottom: "4px solid #77B81E"}}> 
                             <div className="card-body fundo_cinza">
-                                <h4 className="card-title titulo3"><img src={icone} alt={"Icone_Download"}></img><a href="https://drive.google.com/drive/folders/1nWRtF0gBYAMDj1kTWzOAmnjmdNW9g6mX" target="_blank"  rel="noopener noreferrer"> Veja o resultado</a></h4>
+                                <h4 className="card-title titulo3"><img src={icone} alt={"Icone_Download"}></img><a href="https://drive.google.com/open?id=1w74PjVz29zfjneQqRKLXWXSFPHxFm42i" target="_blank"  rel="noopener noreferrer"> Veja o resultado</a></h4>
                             </div>
                         </div>
                         <div className="texto1">
