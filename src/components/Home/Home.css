@@ -56,6 +56,11 @@
     background-color:  #77B81E;
     color: white;
 }
+
+.bloco3:hover .tituloBox{
+    color: black;
+}
+
 .titulo3{
     color :  #77B81E;
     font: Bold 30px/40px Roboto Slab;
