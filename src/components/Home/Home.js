@@ -4,6 +4,7 @@ import Form from '../../containers/Form/Form';
 import './Home.css';
 
 import foto1 from '../../assets/images/Home/foto1.jpg';
+import bannerHome from '../../assets/images/Home/bannerhome.png';
 import neaesfoto from '../../assets/images/Home/home-neas.png';
 import fotoCiencia1 from '../../assets/images/Home/foto_ciencia1.png';
 import fotoCiencia2 from '../../assets/images/Home/foto_ciencia2.png';
@@ -20,7 +21,7 @@ const home = () => {
         <div className="container-fluid">
             <div className='Home'>
                 <div className="row">
-                    <img src={foto1} width="100%" alt={"Campo"}></img>
+                    <img src={bannerHome} width="100%" alt={"Campo"}></img>
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-1"></div>
