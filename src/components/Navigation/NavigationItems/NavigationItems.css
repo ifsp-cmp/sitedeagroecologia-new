@@ -53,10 +53,19 @@
     margin-left: -30px;
 }
 
+.NavigationItems .DivMenuMobile{
+    height: 2px;
+    background-color: #DEDEDE;
+}
+
 
 @media (min-width: 800px){
     .NavigationItems {
         flex-flow: row;
+    }
+
+    .NavigationItems hr{
+        display:none;
     }
 }
 

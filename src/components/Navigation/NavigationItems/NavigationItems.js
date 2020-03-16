@@ -19,6 +19,7 @@ const navigationItems = (props) => (
                 <NavigationItem link="/pnae">PNAE</NavigationItem>
             </ul>
         </li>
+        <div className="DivMenuMobile" >&nbsp;</div>
         <li className='Menu1'>
             <NavLink to="/assentamentomiltonsantos" exact>
                 <p className="TituloMenu">Assentamento Milton Santos <span className="Seta"> &#9662; </span> </p>
@@ -30,7 +31,7 @@ const navigationItems = (props) => (
                 <NavigationItem link='/msfeiras' active>FEIRAS</NavigationItem>
             </ul>
         </li>
-
+        <div className="DivMenuMobile" >&nbsp;</div>
         <li className='Menu1'>
             <NavLink to="/tecnologiassociais" exact>
                 <p className="TituloMenu">Tecnologias Sociais <span className="Seta"> &#9662; </span> </p>
@@ -44,7 +45,7 @@ const navigationItems = (props) => (
                 <NavigationItem link='/tsfichasagroecologicas' active>FICHAS AGROECOLÓGICAS</NavigationItem>
             </ul>
         </li>
-
+        <div className="DivMenuMobile" >&nbsp;</div>
         <li className='Menu1'>
             <NavLink to="/educacaopopular" exact>
                 <p className="TituloMenu">Educação Popular <span className="Seta"> &#9662; </span> </p>
@@ -57,7 +58,7 @@ const navigationItems = (props) => (
                 <NavigationItem link='/epvisitasevivencias' active>VISITAS E VIVÊNCIAS</NavigationItem>
             </ul>
         </li>
-
+        <div className="DivMenuMobile" >&nbsp;</div>
         <li className='Menu1'>
             <NavLink to="/quemsomos" exact>
                 <p className="TituloMenu">Quem Somos <span className="Seta"> &#9662; </span> </p>
