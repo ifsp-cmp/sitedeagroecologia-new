@@ -35,13 +35,13 @@ const home = () => {
                         <button type="button" className="btn btn-success botao1">Saiba Mais</button>
                     </div>
                 </div>
-                <div className="album py-4 " style={{marginBottom: "60px"}}>
+                <div className="album py-4 " style={{ marginBottom: "60px" }}>
                     <div className="container">
                         <div className="row ">
                             <div className="col-md-12 titulo2">
                                 <p>O QUE É AGROECOLOGIA?</p>
                             </div>
-                        </div> 
+                        </div>
                         <div className="row">
                             <div className="col-md-4 ">
                                 <div className="card mb-4 shadow-sm  bloco3">
@@ -67,7 +67,7 @@ const home = () => {
                                 <div className="card mb-4 shadow-sm bloco3">
                                     <img className="card-img-top" src={fotoPratica2} alt={"Enxada"}></img>
                                     <div className="card-body">
-                                        <img src={fotoPratica1} alt={"Icone_Prática"} width="35px" style={{marginBottom: "5px"}}></img>
+                                        <img src={fotoPratica1} alt={"Icone_Prática"} width="35px" style={{ marginBottom: "5px" }}></img>
                                         <h5 className="card-title tituloBox">É PRÁTICA</h5>
                                         <p className="card-text">Rede de agentes e ações políticas, econômicas, sociais, institucionais, culturais, ecológicas, éticas e pedagógicas de luta, denúncia e proposição de projetos e políticas públicas para a defesa da soberania e segurança alimentares.</p>
                                     </div>
@@ -76,55 +76,33 @@ const home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row Bloco4">
+                    <div className="cartao">
+                        <img className="cartao-image" src={foto4} alt={"HortaDoAssentamento"}></img>
+                        <div className="cartao-corpo">
+                            <h6 className="cartao-titulo"><b>NO IFSP/ CÂMPUS DE CAMPINAS</b></h6>
+                            <h4 className="titulo3">Núcleo de Estudos em Segurança Alimentar e Nutricional (NESAN)</h4>
+                            <p className="cartao-texto text-justify">Em setembro de 2017 o NEAES teve o projeto "Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP na promoção da segurança alimentar e nutricional para a região metropolitana de Campinas" contemplado pela Chamada CNPq/MCTIC Nº 016/2016 - SEGURANÇA ALIMENTAR E NUTRICIONAL NO ÂMBITO DA UNASUL para a criação de um Núcleo de Estudos em Segurança Alimentar e Nutricional, possibilitando o fomento de parte das atividades reunidas nesta Plataforma.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="row Bloco4">
+                    <div className="cartao">
+                        <div className="cartao-corpo">
+                            <h6 className="cartao-titulo"><b>NO IFSP/ CÂMPUS DE CAMPINAS</b></h6>
+                            <h4 className="titulo3">Núcleo de Estudos em Agroecologia (NEA)</h4>
+                            <p className="cartao-texto text-justify">Em fevereiro de 2018 o NEAES teve o projeto "Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP para a sustentabilidade ambiental e segurança alimentar na RMC" contemplado pela Chamada Nº 21/2016 - Linha 1: Criação de Núcleo de Estudo em Agroecologia e Produção Orgânica (NEA), possibilitando articulação com as ações iniciadas pelo NESAN e ampliação dos trabalhos como principal fonte de fomento às atividades de pesquisa, extensão e ensino no âmbito do projeto NEA.</p>
+                        </div>
+                        <img className="cartao-image" src={foto5} width="100%" alt={"ApresentaçõesDeProjetos"}></img>
+                    </div>
+                </div><br></br>
+                <div className="row Bloco5">
 
-                <div className="row">
-                    <div className="col-md-1"></div>
-                    <div className="col-md-5">
-                        <div className="card">
-                            <img className="card-img-top" src={foto4} width="100%" alt={"HortaDoAssentamento"}></img>
-                        </div>
-                    </div>
-                    <div className="col-md-5">
-                        <div className="card">
-                            <div className="card-body">
-                                <h6 className="card-title"><b>NO IFSP/ CÂMPUS DE CAMPINAS</b></h6>
-                                <h4 className="card-subtitle titulo3">Núcleo de Estudos em Segurança Alimentar e Nutricional (NESAN)</h4>
-                                <p className="card-text">Em setembro de 2017 o NEAES teve o projeto "Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP na promoção da segurança alimentar e nutricional para a região metropolitana de Campinas" contemplado pela Chamada CNPq/MCTIC Nº 016/2016 - SEGURANÇA ALIMENTAR E NUTRICIONAL NO ÂMBITO DA UNASUL para a criação de um Núcleo de Estudos em Segurança Alimentar e Nutricional, possibilitando o fomento de parte das atividades reunidas nesta Plataforma.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-1"></div>
-                </div><br></br>
-                <div className="row">
-                    <div className="col-md-1"></div>
-                    <div className="col-md-5">
-                        <div className="card">
-                            <div className="card-body">
-                                <h6 className="card-title"><b>NO IFSP/ CÂMPUS DE CAMPINAS</b></h6>
-                                <h4 className="card-subtitle titulo3">Núcleo de Estudos em Agroecologia (NEA)</h4>
-                                <p className="card-text">Em fevereiro de 2018 o NEAES teve o projeto "Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP para a sustentabilidade ambiental e segurança alimentar na RMC" contemplado pela Chamada Nº 21/2016 - Linha 1: Criação de Núcleo de Estudo em Agroecologia e Produção Orgânica (NEA), possibilitando articulação com as ações iniciadas pelo NESAN e ampliação dos trabalhos como principal fonte de fomento às atividades de pesquisa, extensão e ensino no âmbito do projeto NEA.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-5">
-                        <div className="card">
-                            <img className="card-img-top" src={foto5} width="100%" alt={"ApresentaçõesDeProjetos"}></img>
-                        </div>
-                    </div>
-                    <div className="col-md-1"></div>
-                </div><br></br>
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="card">
-                            <img className="card-img-top" src={foto6} width="100%" alt={"VegetaisELegumes"}></img>
-                        </div>   
-                    </div>
-                    <div className="col-md-6">
-                       <Form></Form>
-                    </div>
-                </div> 
+                    <img className="" src={foto6} alt={"VegetaisELegumes"}></img>
+                    <Form></Form>
+                </div>
             </div>
-        </div>
+        </div >
     );
 }
 

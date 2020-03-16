@@ -6,6 +6,7 @@
         margin-top: 60px;
     }
 }
+
 .img2{
     height: 150px;
     margin-left: -50px;
@@ -65,4 +66,87 @@
     color :  #77B81E;
     font: Bold 30px/40px Roboto Slab;
     opacity: 1;
+}
+
+/*Bloco 4 */
+
+.Home .Bloco4 {
+    display: flex;
+}
+
+.Home .Bloco4 .cartao{
+    margin: 0 5% 2% 5%;
+    border: 1px lightgray solid;
+}
+
+.Home .Bloco4 img{
+    width: 100%;
+}
+
+.Home .Bloco4 .cartao-corpo{
+    padding: 20px;
+    width: 100%;
+}
+
+.Home .Bloco4 .cartao-texto{
+}
+
+.Home .Bloco5 {
+    display: flex;
+}
+
+.Home .Bloco5 img{
+    width: 100%;
+}
+
+.Home .Bloco5 .Form{
+    width: 100%;
+}
+
+
+
+@media (min-width: 800px){
+    .cartao{
+        display: flex;
+    }
+
+    .Home .Bloco4 img{
+        /* flex-shrink: 0; */
+    }
+
+    .Home .Bloco4 .cartao{
+        margin: 0 10% 2% 10%;
+        border: 1px lightgray solid;
+    }
+
+    .Home .Bloco4 .cartao-image{
+        width: 50%;
+    }
+
+    .Home .Bloco4 .cartao-corpo{
+        width: 50%;
+        margin-left: 5px;
+    }
+
+    .Bloco5{
+        display: flex;
+    }
+
+    .Home .Bloco5 img{
+        width: 50%;
+    }
+
+    .Home .Bloco5 .Form{
+        width: 50%;
+    }
+
+    /* .Home .Bloco5 .Form input{
+        width: 70%;
+    } */
+
+    /* .Home .Bloco5 img{
+        width: 50%;
+    } */
+
+
 }

@@ -1,10 +1,21 @@
-.fundo{
+.Form{
     background: #77B81E;
-    margin-top: -10px;
-    margin-bottom: 15px;
+    /* margin-top: -10px;
+    margin-bottom: 15px; */
 }
+
+.Form p{
+    margin-bottom: 0;
+}
+
+.Form input,
+.Form select
+{
+    margin-bottom: 5%;
+}
+
 .fundo2{
-    margin-right:10%;
+    margin:5%;
 }
 .titulo_form1{
     text-align: left;
