@@ -3,7 +3,7 @@ import Form from '../../containers/Form/Form';
 
 import './Home.css';
 
-import foto1 from '../../assets/images/Home/foto1.jpg';
+// import foto1 from '../../assets/images/Home/foto1.jpg';
 import bannerHome from '../../assets/images/Home/bannerhome.png';
 import neaesfoto from '../../assets/images/Home/home-neas.png';
 import fotoCiencia1 from '../../assets/images/Home/foto_ciencia1.png';
