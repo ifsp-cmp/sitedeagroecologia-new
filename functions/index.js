@@ -47,7 +47,7 @@ exports.emailViaForm = functions.https.onRequest((req, res) => {
             }
         }));
         const mailOptions = {
-            to: "albordignon@gmail.com",
+            to: "andre.bordignon@ifsp.edu.br, neaes.ifsp@gmail.com",
             from: "agroecologianeaes@gmail.com",
             subject: `${nome} enviou uma mensagem para você`,
             text: html,

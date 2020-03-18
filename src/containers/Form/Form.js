@@ -21,7 +21,7 @@ class Form extends Component {
                 <div className="fundo2">
                     <h6 className="titulo_form1">Mais informações?</h6>
                     <h4 className="titulo_form2">Escreva pra gente !!!</h4><br></br>
-                    {/* <form className="text-white" action="http://localhost:5001/site-de-agroecologia-new/us-central1/emailViaForm" method="post"> */}
+                    {/* <form className="text-white" action="http://localhost:5000/site-de-agroecologia-new/us-central1/emailViaForm" method="post"> */}
                     <form className="text-white" action="https://us-central1-site-de-agroecologia-new.cloudfunctions.net/emailViaForm" method="post">
                         <p>NOME</p>
                         <input className="form-control fundo" type="text" name="nome"></input>
