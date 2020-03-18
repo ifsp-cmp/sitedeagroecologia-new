@@ -10,7 +10,7 @@ const toolbar = (props) => (
         <DrawerToggle clicked={props.drawerToggleClicked} sideDrawerOpen={props.open}/> 
         <nav className="DesktopOnly">
             <div className="Titulo">
-                <p>AGROECOLOGIA <span className="TituloBranco">EM REDE</span></p>
+                <p className="text-center">AGROECOLOGIA <span className="TituloBranco">EM REDE</span></p>
             </div>
             <NavigationItems isAuthenticated={props.isAuth}/> 
         </nav>

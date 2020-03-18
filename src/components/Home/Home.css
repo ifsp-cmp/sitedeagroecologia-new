@@ -7,6 +7,10 @@
     }
 }
 
+.p{
+    text-align: justify;
+}
+
 .img2{
     height: 150px;
     margin-left: -50px;
