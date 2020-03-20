@@ -5,6 +5,10 @@
     .Home{
         margin-top: 60px;
     }
+
+    .Home .NeaesFoto{
+        display: none;
+    }
 }
 
 .p{

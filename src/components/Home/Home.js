@@ -25,7 +25,7 @@ const home = () => {
                 </div><br></br>
                 <div className="row">
                     <div className="col-md-1"></div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 NeaesFoto">
                         <img src={neaesfoto} alt={"Logo Neaes"} width="100%"></img>
                     </div>
                     <div className='col-md-6 bloco1'>
