@@ -1,0 +1,38 @@
+.PhotosCarousel{
+    margin:0 auto;
+    /* border: 1px solid #ccc; */
+    /* width: 420px; */
+}
+
+.PhotosCarousel .LinhadeFotos{
+    margin: 0px 150px 0px 150px;
+    display: flex;
+}
+
+.PhotosCarousel .foto{
+    margin: 20px;
+}
+
+.PhotosCarousel .foto img{
+    /* width: 120px; */
+}
+
+.PhotosCarousel .arrow{
+    width: 69px;
+    height: 69px;
+    background-color: #77B81E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PhotosCarousel .arrow img{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto */
+}
+
+.PhotosCarousel .carousel-control-prev,
+.PhotosCarousel .carousel-control-next{
+    opacity: 100;
+}

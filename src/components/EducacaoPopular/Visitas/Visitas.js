@@ -3,6 +3,8 @@ import SaibaMais from '../../SaibaMais/SaibaMais';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import './Visitas.css';
 
+import CarrosseldeFotos from '../../CarroseldeFotos/CarrosseldeFotos';
+
 import foto1 from '../../../assets/images/EducacaoPopular/Visitas/foto1.png';
 import visita1 from '../../../assets/images/EducacaoPopular/Visitas/Visita-01.png';
 import visita2 from '../../../assets/images/EducacaoPopular/Visitas/Visita-02.png';
@@ -76,6 +78,7 @@ const visitas = () =>{
                     </div>
                     <div className="col-md-2"></div>
                 </div>
+                <CarrosseldeFotos />
 
                 <div className="planosCinza">
                     <div className="row" style={{marginTop: "30px"}}>
