@@ -58,6 +58,24 @@ const irrigadorAutomatizado =()=>{
 
                 <SaibaMais conteudo={conteudo}></SaibaMais>
 
+
+                <div className="planosCinza">
+                    <div className="row">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-8">
+                            <p className="card-body planos">O PROJETO ATUALMENTE</p>
+                            <div className="texto1">
+                                <p>Após a validação participativa em junho de 2019, o aluno Noah assumiu o projeto, inicialmente focado em monitorar o funcionamento para montagem de novas peças. Porém esse objetivo foi trocado para a criação de uma nova peça já com melhorias em relação a versão final do aluno Ruan. </p>
+                                <p>O novo produto possui agora uma programação que simplificasse a interface para o usuário, permitindo habilitar até duas válvulas solenoide, uma placa eletrônica que organizava os circuitos para próximos autores terem facilidade em encontrar possíveis erros ou eletrônicos em falha. E por fim, itens eletrônicos e elétricos adicionados para impedir a sobrecarga do sistema e deixar o projeto mais profissional em relação ao funcionamento.</p>
+                                <p>A partir disso, está planejado para 2020 uma validação participativa da segunda peça, que será instalada no Assentamento Milton Santos, em uma segunda Unidade de Referência escolhida pela orientadora Erika Batista conjuntamente aos assentados. Nessa validação será mostrado as novidades do projeto e como devem utilizar o irrigador em casos de mudança em horários de irrigação ou hortas.</p>
+                            </div>
+                        </div>
+                        <div className="col-md-2"></div>
+                    </div>
+                </div>
+            
+            
+            
             </div>
         </div>
     )
