@@ -14,6 +14,8 @@ import visita3 from '../../../assets/images/EducacaoPopular/Visitas/Visita-03.pn
 import visita4 from '../../../assets/images/EducacaoPopular/Visitas/Visita-04.png';
 import visita5 from '../../../assets/images/EducacaoPopular/Visitas/Visita-05.png';
 import visita6 from '../../../assets/images/EducacaoPopular/Visitas/Visita-06.png';
+import visita7 from '../../../assets/images/EducacaoPopular/Visitas/visita-07.jpg';
+import visita8 from '../../../assets/images/EducacaoPopular/Visitas/visita-08.jpg';
 
 import mutiraoFoto1 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.1.jpg';
 import mutiraoFoto2 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.3.jpg';
@@ -71,6 +73,18 @@ const visitas = () => {
                             <img src={visita3} width="50%" alt={"Visita 2"}></img>
                             <img src={visita4} width="50%" alt={"Visita 2"}></img>
                             <hr style={{ marginTop: "60px" }} color="#707070"></hr>
+                            <img src={visita3} width="50%" alt={"Visita 1"}></img>
+                            <img src={visita4} width="50%" alt={"Visita 1"}></img>
+                            <hr style={{marginTop: "60px"}} color="#707070"></hr>
+                            
+                            <div className="texto1">
+                                <p><strong>II VISITA</strong></p>
+                                <p>No dia 23 de março de 2019 os alunos do Instituto Federal de Campinas que fazem parte do grupo de pesquisa NEAES visitaram, em conjunto com os Professores e orientadores André Bordignon e Estela Batista o Assentamento Milton Santos.</p>
+                            </div>
+                            <img src={visita1} width="50%" alt={"Visita 2"}></img>
+                            <img src={visita2} width="50%" alt={"Visita 2"}></img>
+                            <hr style={{marginTop: "60px"}} color="#707070"></hr>
+                           
                             <div className="texto1">
                                 <p><strong>III VISITA</strong></p>
                                 <p>No dia 06 de abril de 2019, a Cooperflora e a Regional Campinas do MST promoveram visita ao Assentamento Milton Santos, e conversa a respeito do trabalho no campo, da agroecologia, do contexto político-social e do uso de agrotóxicos. Durante toda a manhã, pessoas envolvidas com a rede de consumo (Comunidade que Sustenta a Agricultura), pesquisadores(as), amigos(as) e assentados(as) trocaram informações e aprendizados, e foram agraciados com um delicioso café da manhã com produtos do local. Terminando com visita à uma casa e sua produção.</p>
@@ -85,36 +99,15 @@ const visitas = () => {
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        <p className="card-body planos">MUTIRÃO AGROFLORESTAL NO ASSENTAMENTO MS</p>
+                        <p className="card-body planos">MUTIRÃO DA SAÚDE</p>
                         <div className="texto1">
-                            <p>Aconteceu no dia 11 de maio de 2019 o Mutirão Agroflorestal no Assentamento Milton Santos, como parte das III Jornadas Universitárias em Defesa da Reforma Agrária. Organizado pelo grupo de pesquisa, extensão e educação popular MOSOA - Movimentos Sociais, Agroecologia, Autogestão e Autonomia - com a participação de Rafael Virgínio dos Santos (Agrônomo e Mestrando em Agroecologia/UFSCar).</p>
+                            <p>No dia 15 de setembro de 2018 aconteceu o Mutirão Saúde da Família, Segurança Alimentar, Saúde e Auto-Cuidados. Realizada por Adriane Delício e equipe Faculdade Mandic.</p>
                         </div>
+                        <img src={visita7} width="50%" alt={"Multirão de Saúde 1"}></img>
+                        <img src={visita8} width="50%" alt={"Multirão de Saúde 2"}></img>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                <CarrosseldeFotos
-                    foto1={mutiraoFoto1}
-                    foto2={mutiraoFoto2}
-                    foto3={mutiraoFoto3}
-                    foto4={mutiraoFoto4}
-                    foto5={mutiraoFoto5}
-                    foto6={mutiraoFoto6}
-                    foto7={mutiraoFoto7}
-                    foto8={mutiraoFoto8}
-                    foto9={mutiraoFoto9}
-                />
-                <PaineldeFotos
-                    foto1={mutiraoFoto1}
-                    foto2={mutiraoFoto2}
-                    foto3={mutiraoFoto3}
-                    foto4={mutiraoFoto4}
-                    foto5={mutiraoFoto5}
-                    foto6={mutiraoFoto6}
-                    foto7={mutiraoFoto7}
-                    foto8={mutiraoFoto8}
-                    foto9={mutiraoFoto9}
-                />
-
                 <div className="planosCinza">
                     <div className="row" style={{ marginTop: "30px" }}>
                         <div className="col-md-2"></div>
@@ -126,7 +119,20 @@ const visitas = () => {
                         </div>
                         <div className="col-md-2"></div>
                     </div>
+                    <CarrosseldeFotos />
                 </div>
+
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8">
+                        <p className="card-body planos">MUTIRÃO AGROFLORESTAL NO ASSENTAMENTO MS</p>
+                        <div className="texto1">
+                            <p>Aconteceu no dia 11 de maio de 2019 o Mutirão Agroflorestal no Assentamento Milton Santos, como parte das III Jornadas Universitárias em Defesa da Reforma Agrária. Organizado pelo grupo de pesquisa, extensão e educação popular MOSOA - Movimentos Sociais, Agroecologia, Autogestão e Autonomia - com a participação de Rafael Virgínio dos Santos (Agrônomo e Mestrando em Agroecologia/UFSCar).</p>
+                        </div>
+                    </div>
+                    <div className="col-md-2"></div>
+                </div>
+                
             </div>
         </div>
     )
