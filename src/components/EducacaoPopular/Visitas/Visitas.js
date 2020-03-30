@@ -4,6 +4,8 @@ import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import './Visitas.css';
 
 import CarrosseldeFotos from '../../CarroseldeFotos/CarrosseldeFotos';
+import PaineldeFotos from '../../PaineldeFotos/PaineldeFotos';
+
 
 import foto1 from '../../../assets/images/EducacaoPopular/Visitas/foto1.png';
 import visita1 from '../../../assets/images/EducacaoPopular/Visitas/Visita-01.png';
@@ -13,12 +15,24 @@ import visita4 from '../../../assets/images/EducacaoPopular/Visitas/Visita-04.pn
 import visita5 from '../../../assets/images/EducacaoPopular/Visitas/Visita-05.png';
 import visita6 from '../../../assets/images/EducacaoPopular/Visitas/Visita-06.png';
 
-const visitas = () =>{
-    const conteudo1= <ul className="card-text">
+import mutiraoFoto1 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.1.jpg';
+import mutiraoFoto2 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.3.jpg';
+import mutiraoFoto3 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.4.jpg';
+import mutiraoFoto4 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.11.jpg';
+import mutiraoFoto5 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.14.jpg';
+import mutiraoFoto6 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.15.jpg';
+import mutiraoFoto7 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.19.jpg';
+import mutiraoFoto8 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.25.jpg';
+import mutiraoFoto9 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.27.jpg';
+import mutiraoFoto10 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.28.jpg';
+
+
+const visitas = () => {
+    const conteudo1 = <ul className="card-text">
         <li><a href="https://www.cmp.ifsp.edu.br/index.php/noticias/564-neaes-promove-i-visita-ao-assentamento-milton-santos-vivencias-da-agricultura-familiar-e-agroecologica" target="_blank" rel="noopener noreferrer">Neaes promove I Visita ao Assentamento Milton Santos - vivência e aprendizado</a></li>
     </ul>
 
-    return(
+    return (
         <div>
             <TopoDaPagina menu="Educação Popular" submenu="Visitas e Vivências"></TopoDaPagina>
             <div className="container-fluid Visitas">
@@ -32,7 +46,7 @@ const visitas = () =>{
                 </div>
 
                 <div className="planosCinza">
-                    <div className="row" style={{marginTop: "30px"}}>
+                    <div className="row" style={{ marginTop: "30px" }}>
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
                             <p className="card-body planos">VISITAS DE CAMPO AO ASSENTAMENTO MILTON SANTOS</p>
@@ -42,7 +56,7 @@ const visitas = () =>{
                             </div>
                             <img src={visita1} width="50%" alt={"Visita 1"}></img>
                             <img src={visita2} width="50%" alt={"Visita 1"}></img>
-                            <hr style={{marginTop: "60px"}} color="#707070"></hr>
+                            <hr style={{ marginTop: "60px" }} color="#707070"></hr>
                             <div className="texto1">
                                 <p><strong>II VISITA</strong></p>
                                 <p>No dia 15 de maio de 2018 o Núcleo de Estudos em Agroecologia, Educação e Sociedade – Neaes, em parceria com a Coordenadoria de Extensão do IFSP Campinas, realizou a I Visita de Campo ao Assentamento Milton Santos – Vivências da Agricultura Familiar e Produção Agroecológica na Região Metropolitana de Campinas.</p>
@@ -51,12 +65,12 @@ const visitas = () =>{
                         <div className="col-md-2"></div>
                     </div>
                     <SaibaMais conteudo={conteudo1}></SaibaMais>
-                    <div className="row" style={{paddingBottom: "50px"}}>
+                    <div className="row" style={{ paddingBottom: "50px" }}>
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
                             <img src={visita3} width="50%" alt={"Visita 2"}></img>
                             <img src={visita4} width="50%" alt={"Visita 2"}></img>
-                            <hr style={{marginTop: "60px"}} color="#707070"></hr>
+                            <hr style={{ marginTop: "60px" }} color="#707070"></hr>
                             <div className="texto1">
                                 <p><strong>III VISITA</strong></p>
                                 <p>No dia 06 de abril de 2019, a Cooperflora e a Regional Campinas do MST promoveram visita ao Assentamento Milton Santos, e conversa a respeito do trabalho no campo, da agroecologia, do contexto político-social e do uso de agrotóxicos. Durante toda a manhã, pessoas envolvidas com a rede de consumo (Comunidade que Sustenta a Agricultura), pesquisadores(as), amigos(as) e assentados(as) trocaram informações e aprendizados, e foram agraciados com um delicioso café da manhã com produtos do local. Terminando com visita à uma casa e sua produção.</p>
@@ -78,10 +92,31 @@ const visitas = () =>{
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                <CarrosseldeFotos />
+                <CarrosseldeFotos
+                    foto1={mutiraoFoto1}
+                    foto2={mutiraoFoto2}
+                    foto3={mutiraoFoto3}
+                    foto4={mutiraoFoto4}
+                    foto5={mutiraoFoto5}
+                    foto6={mutiraoFoto6}
+                    foto7={mutiraoFoto7}
+                    foto8={mutiraoFoto8}
+                    foto9={mutiraoFoto9}
+                />
+                <PaineldeFotos
+                    foto1={mutiraoFoto1}
+                    foto2={mutiraoFoto2}
+                    foto3={mutiraoFoto3}
+                    foto4={mutiraoFoto4}
+                    foto5={mutiraoFoto5}
+                    foto6={mutiraoFoto6}
+                    foto7={mutiraoFoto7}
+                    foto8={mutiraoFoto8}
+                    foto9={mutiraoFoto9}
+                />
 
                 <div className="planosCinza">
-                    <div className="row" style={{marginTop: "30px"}}>
+                    <div className="row" style={{ marginTop: "30px" }}>
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
                             <p className="card-body planos">VISITA DE CAMPO AO ACAMPAMENTO “MARIELLE VIVE”</p>

@@ -3,55 +3,38 @@ import './CarrosseldeFotos.css';
 
 import rigthArrowCarousel from '../../assets/images/icons/rightarrowcarousel.svg';
 import leftArrowCarousel from '../../assets/images/icons/leftarrowcarousel.svg';
-import foto1 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.1.jpg';
-import foto3 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.3.jpg';
-import foto4 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.4.jpg';
-import foto11 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.11.jpg';
-import foto14 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.14.jpg';
-import foto15 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.15.jpg';
-import foto19 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.19.jpg';
-import foto25 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.25.jpg';
-import foto27 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.27.jpg';
-import foto28 from '../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.28.jpg';
 
-
-
-const carrosseldeFotos = () => {
+const carrosseldeFotos = (props) => {
 
     return (
         <div className="PhotosCarousel">
             <div className="container-fluid">
                 <div className="row">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        {/* <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol> */}
+                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div className="LinhadeFotos">
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto1} alt="First slide" />
+                                        <img class="d-block w-100" src={props.foto1} alt="First slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto3} alt="Second slide" />
+                                        <img class="d-block w-100" src={props.foto2} alt="Second slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto4} alt="Second slide" />
+                                        <img class="d-block w-100" src={props.foto3} alt="Second slide" />
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div className="LinhadeFotos">
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto11} alt="First slide" />
+                                        <img class="d-block w-100" src={props.foto4} alt="First slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto14} alt="Second slide" />
+                                        <img class="d-block w-100" src={props.foto5} alt="Second slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto15} alt="Second slide" />
+                                        <img class="d-block w-100" src={props.foto6} alt="Second slide" />
                                     </div>
 
                                 </div>
@@ -59,13 +42,13 @@ const carrosseldeFotos = () => {
                             <div class="carousel-item">
                                 <div className="LinhadeFotos">
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto19} alt="First slide" />
+                                        <img class="d-block w-100" src={props.foto7} alt="First slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto25} alt="Second slide" />
+                                        <img class="d-block w-100" src={props.foto8} alt="Second slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={foto27} alt="Second slide" />
+                                        <img class="d-block w-100" src={props.foto9} alt="Second slide" />
                                     </div>
 
                                 </div>
