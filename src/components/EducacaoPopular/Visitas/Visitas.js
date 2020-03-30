@@ -54,13 +54,6 @@ const visitas = () => {
                             <p className="card-body planos">VISITAS DE CAMPO AO ASSENTAMENTO MILTON SANTOS</p>
                             <div className="texto1">
                                 <p><strong>I VISITA</strong></p>
-                                <p>No dia 23 de março de 2019 os alunos do Instituto Federal de Campinas que fazem parte do grupo de pesquisa NEAES visitaram, em conjunto com os Professores e orientadores André Bordignon e Estela Batista o Assentamento Milton Santos.</p>
-                            </div>
-                            <img src={visita1} width="50%" alt={"Visita 1"}></img>
-                            <img src={visita2} width="50%" alt={"Visita 1"}></img>
-                            <hr style={{ marginTop: "60px" }} color="#707070"></hr>
-                            <div className="texto1">
-                                <p><strong>II VISITA</strong></p>
                                 <p>No dia 15 de maio de 2018 o Núcleo de Estudos em Agroecologia, Educação e Sociedade – Neaes, em parceria com a Coordenadoria de Extensão do IFSP Campinas, realizou a I Visita de Campo ao Assentamento Milton Santos – Vivências da Agricultura Familiar e Produção Agroecológica na Região Metropolitana de Campinas.</p>
                             </div>
                         </div>
@@ -73,18 +66,14 @@ const visitas = () => {
                             <img src={visita3} width="50%" alt={"Visita 2"}></img>
                             <img src={visita4} width="50%" alt={"Visita 2"}></img>
                             <hr style={{ marginTop: "60px" }} color="#707070"></hr>
-                            <img src={visita3} width="50%" alt={"Visita 1"}></img>
-                            <img src={visita4} width="50%" alt={"Visita 1"}></img>
-                            <hr style={{marginTop: "60px"}} color="#707070"></hr>
-                            
                             <div className="texto1">
                                 <p><strong>II VISITA</strong></p>
                                 <p>No dia 23 de março de 2019 os alunos do Instituto Federal de Campinas que fazem parte do grupo de pesquisa NEAES visitaram, em conjunto com os Professores e orientadores André Bordignon e Estela Batista o Assentamento Milton Santos.</p>
                             </div>
                             <img src={visita1} width="50%" alt={"Visita 2"}></img>
                             <img src={visita2} width="50%" alt={"Visita 2"}></img>
-                            <hr style={{marginTop: "60px"}} color="#707070"></hr>
-                           
+                            <hr style={{ marginTop: "60px" }} color="#707070"></hr>
+
                             <div className="texto1">
                                 <p><strong>III VISITA</strong></p>
                                 <p>No dia 06 de abril de 2019, a Cooperflora e a Regional Campinas do MST promoveram visita ao Assentamento Milton Santos, e conversa a respeito do trabalho no campo, da agroecologia, do contexto político-social e do uso de agrotóxicos. Durante toda a manhã, pessoas envolvidas com a rede de consumo (Comunidade que Sustenta a Agricultura), pesquisadores(as), amigos(as) e assentados(as) trocaram informações e aprendizados, e foram agraciados com um delicioso café da manhã com produtos do local. Terminando com visita à uma casa e sua produção.</p>
@@ -119,7 +108,28 @@ const visitas = () => {
                         </div>
                         <div className="col-md-2"></div>
                     </div>
-                    <CarrosseldeFotos />
+                    <CarrosseldeFotos
+                        foto1={mutiraoFoto1}
+                        foto2={mutiraoFoto2}
+                        foto3={mutiraoFoto3}
+                        foto4={mutiraoFoto4}
+                        foto5={mutiraoFoto5}
+                        foto6={mutiraoFoto6}
+                        foto7={mutiraoFoto7}
+                        foto8={mutiraoFoto8}
+                        foto9={mutiraoFoto9}
+                    />
+                    <PaineldeFotos
+                        foto1={mutiraoFoto1}
+                        foto2={mutiraoFoto2}
+                        foto3={mutiraoFoto3}
+                        foto4={mutiraoFoto4}
+                        foto5={mutiraoFoto5}
+                        foto6={mutiraoFoto6}
+                        foto7={mutiraoFoto7}
+                        foto8={mutiraoFoto8}
+                        foto9={mutiraoFoto9}
+                    />
                 </div>
 
                 <div className="row">
@@ -132,7 +142,7 @@ const visitas = () => {
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                
+
             </div>
         </div>
     )
