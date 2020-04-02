@@ -11,3 +11,14 @@
     font: Bold 20px/27px Roboto Slab;
     color: #1A2D00;
 }
+
+.Visitas .Carrossel{
+    display: none;
+}
+
+@media(min-width: 800px){
+    .Visitas .Carrossel{
+        display: flex;
+    }
+
+}

@@ -57,14 +57,14 @@ const carrosseldeFotos = (props) => {
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                             {/* <span class="carousel-control-prev-icon" aria-hidden="true"></span> */}
                             {/* <span class="sr-only">Previous</span> */}
-                            <div className="arrow">
-                                <img src={leftArrowCarousel} alt="carousel arrow" />
+                            <div className="ArrowBox">
+                                <img className="arrow" src={leftArrowCarousel} alt="carousel arrow" />
                             </div>
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                             {/* <span class="carousel-control-next-icon" aria-hidden="true"></span> */}
                             {/* <span class="sr-only">Next</span> */}
-                            <div className="arrow">
+                            <div className="ArrowBox">
                                 <img src={rigthArrowCarousel} alt="carousel arrow" />
                             </div>
                         </a>

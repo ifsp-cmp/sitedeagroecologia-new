@@ -3,7 +3,7 @@
 }
 
 .PhotosCarousel .LinhadeFotos{
-    margin: 0px 150px 0px 150px;
+    margin: 0px 100px 0px 100px;
     display: flex;
 }
 
@@ -11,24 +11,52 @@
     margin: 20px;
 }
 
-.PhotosCarousel .arrow{
-    width: 69px;
-    height: 69px;
+.PhotosCarousel .ArrowBox{
+    width: 40px;
+    height: 40px;
     background-color: #77B81E;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.PhotosCarousel .ArrowBox img{
+    width: 15px;
+}
+
+
 .PhotosCarousel .carousel-control-prev,
 .PhotosCarousel .carousel-control-next{
     opacity: 100;
 }
 
-@media (max-width: 800px){
-
-    .PhotosCarousel {
-        display: none;
-    }
-
+.PhotosCarousel .carousel-control-prev{
+    margin-right: 10px;
 }
+
+.PhotosCarousel .carousel-control-next{
+    margin-left: 10px;
+}
+
+
+/* @media(min-width: 1000px){
+    .PhotosCarousel .carousel-control-prev{
+        margin-right: 15px;
+    }
+    
+    .PhotosCarousel .carousel-control-next{
+        margin-left: 15px;
+    }
+    
+}
+
+@media(min-width: 1200px){
+    .PhotosCarousel .carousel-control-prev{
+        margin-right: 20px;
+    }
+    
+    .PhotosCarousel .carousel-control-next{
+        margin-left: 100px;
+    }
+    
+} */

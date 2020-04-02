@@ -28,6 +28,16 @@ import mutiraoFoto8 from '../../../assets/images/EducacaoPopular/MutiraoAgroflor
 import mutiraoFoto9 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.27.jpg';
 import mutiraoFoto10 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.28.jpg';
 
+import marielleFoto1 from '../../../assets/images/AcampamenteMarielle/foto1.jpg';
+import marielleFoto2 from '../../../assets/images/AcampamenteMarielle/foto2.jpg';
+import marielleFoto3 from '../../../assets/images/AcampamenteMarielle/foto3.jpg';
+import marielleFoto4 from '../../../assets/images/AcampamenteMarielle/foto4.jpg';
+import marielleFoto5 from '../../../assets/images/AcampamenteMarielle/foto5.jpg';
+import marielleFoto6 from '../../../assets/images/AcampamenteMarielle/foto6.jpg';
+import marielleFoto7 from '../../../assets/images/AcampamenteMarielle/foto7.jpg';
+import marielleFoto8 from '../../../assets/images/AcampamenteMarielle/foto8.jpg';
+import marielleFoto9 from '../../../assets/images/AcampamenteMarielle/foto9.jpg';;
+
 
 const visitas = () => {
     const conteudo1 = <ul className="card-text">
@@ -107,29 +117,20 @@ const visitas = () => {
                             </div>
                         </div>
                         <div className="col-md-2"></div>
+                        <div className="Carrossel">
+                        <CarrosseldeFotos
+                            foto1={marielleFoto1}
+                            foto2={marielleFoto2}
+                            foto3={marielleFoto3}
+                            foto4={marielleFoto4}
+                            foto5={marielleFoto5}
+                            foto6={marielleFoto6}
+                            foto7={marielleFoto7}
+                            foto8={marielleFoto8}
+                            foto9={marielleFoto9}
+                        />
                     </div>
-                    <CarrosseldeFotos
-                        foto1={mutiraoFoto1}
-                        foto2={mutiraoFoto2}
-                        foto3={mutiraoFoto3}
-                        foto4={mutiraoFoto4}
-                        foto5={mutiraoFoto5}
-                        foto6={mutiraoFoto6}
-                        foto7={mutiraoFoto7}
-                        foto8={mutiraoFoto8}
-                        foto9={mutiraoFoto9}
-                    />
-                    <PaineldeFotos
-                        foto1={mutiraoFoto1}
-                        foto2={mutiraoFoto2}
-                        foto3={mutiraoFoto3}
-                        foto4={mutiraoFoto4}
-                        foto5={mutiraoFoto5}
-                        foto6={mutiraoFoto6}
-                        foto7={mutiraoFoto7}
-                        foto8={mutiraoFoto8}
-                        foto9={mutiraoFoto9}
-                    />
+                    </div>
                 </div>
 
                 <div className="row">
@@ -141,6 +142,19 @@ const visitas = () => {
                         </div>
                     </div>
                     <div className="col-md-2"></div>
+                    <div className="Carrossel">
+                        <CarrosseldeFotos
+                            foto1={mutiraoFoto1}
+                            foto2={mutiraoFoto2}
+                            foto3={mutiraoFoto3}
+                            foto4={mutiraoFoto4}
+                            foto5={mutiraoFoto5}
+                            foto6={mutiraoFoto6}
+                            foto7={mutiraoFoto7}
+                            foto8={mutiraoFoto8}
+                            foto9={mutiraoFoto9}
+                        />
+                    </div>
                 </div>
 
             </div>
