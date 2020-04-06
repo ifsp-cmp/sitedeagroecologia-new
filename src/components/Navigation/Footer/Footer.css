@@ -22,6 +22,7 @@
 
 .Footer p{
     color: white;
+    margin-top: 10px;
 }
 
 .Footer a{
@@ -31,7 +32,7 @@
 .Footer li{
     text-align: left;
     list-style: none;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .Footer .Icone{

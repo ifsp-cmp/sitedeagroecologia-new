@@ -4,8 +4,6 @@ import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import './Visitas.css';
 
 import CarrosseldeFotos from '../../CarroseldeFotos/CarrosseldeFotos';
-import PaineldeFotos from '../../PaineldeFotos/PaineldeFotos';
-
 
 import foto1 from '../../../assets/images/EducacaoPopular/Visitas/foto1.png';
 import visita1 from '../../../assets/images/EducacaoPopular/Visitas/Visita-01.png';
@@ -26,7 +24,7 @@ import mutiraoFoto6 from '../../../assets/images/EducacaoPopular/MutiraoAgroflor
 import mutiraoFoto7 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.19.jpg';
 import mutiraoFoto8 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.25.jpg';
 import mutiraoFoto9 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.27.jpg';
-import mutiraoFoto10 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.28.jpg';
+// import mutiraoFoto10 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.28.jpg';
 
 import marielleFoto1 from '../../../assets/images/AcampamenteMarielle/foto1.jpg';
 import marielleFoto2 from '../../../assets/images/AcampamenteMarielle/foto2.jpg';
