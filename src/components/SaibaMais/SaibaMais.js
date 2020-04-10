@@ -10,7 +10,7 @@ const saibaMais = (props) =>{
         <div className="col-md-8">
             <div className="card"> 
                 <div className="card-body fundo_cinza">
-                    <h4 className="card-title titulo3"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
+                    <h4 className="card-title titulo3 tituloSM"><img src={foto2} alt={"Icone_Lâmpada"}></img> Saiba mais!</h4>
                     {props.conteudo}
                 </div>
             </div>

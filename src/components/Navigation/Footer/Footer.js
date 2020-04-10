@@ -30,10 +30,10 @@ const footer = () => {
             <div className='Contato Bloco'>
                 <p className='Titulo'>Entre em Contato</p>
                 <div>
-                    <p> Av. Comendador Aladino Selmi, s/n,
-                        <br />Bairro Amarais
+                    <p> R. Heitor Lacerda Guedes, 1000,
+                        <br />Cidade Satélite Íris,
                         <br />Campinas - SP
-                        <br />CEP: 13069-901
+                        <br />CEP: 13059-581
                     </p>
                     <div className='Fone'>
                         <div className='Icone'>
