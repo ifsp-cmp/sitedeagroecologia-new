@@ -50,7 +50,7 @@ const home = () => {
                                         <img src={fotoCiencia1} alt={"Icone_Ciencia"}></img>
                                         <h5 className="card-title tituloBox">É CIÊNCIA</h5>
                                         <p className="card-text text-center">Conjunto de conhecimentos técnicos, tecnológicos e sociopolíticos de natureza inter, multi e transdisciplinar articulados numa mesma matriz científica para o desenvolvimento de uma agricultura de base ecológica.</p>
-                                    </div>  
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-md-4">
@@ -78,7 +78,7 @@ const home = () => {
                 </div>
                 <div className="row Bloco4">
                     <div className="cartao">
-                        <img className="cartao-image" src={foto4} alt={"HortaDoAssentamento"}></img>
+                        <img className="cartao-image" src={foto4} width="100%" alt={"HortaDoAssentamento"}></img>
                         <div className="cartao-corpo">
                             <h6 className="cartao-titulo"><b>NO IFSP/ CÂMPUS DE CAMPINAS</b></h6>
                             <h4 className="titulo3">Núcleo de Estudos em Segurança Alimentar e Nutricional (NESAN)</h4>
