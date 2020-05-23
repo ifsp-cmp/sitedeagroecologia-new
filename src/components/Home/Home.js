@@ -1,6 +1,5 @@
 import React from 'react';
 import Form from '../../containers/Form/Form';
-
 import './Home.css';
 
 // import foto1 from '../../assets/images/Home/foto1.jpg';
