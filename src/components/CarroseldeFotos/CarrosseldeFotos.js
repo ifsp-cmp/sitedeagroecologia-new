@@ -11,57 +11,57 @@ const carrosseldeFotos = (props) => {
             <div className="container-fluid">
                 <div className="row">
                     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
                                 <div className="LinhadeFotos">
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto1} alt="First slide" />
+                                        <img className="d-block w-100" src={props.foto1} alt="First slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto2} alt="Second slide" />
+                                        <img className="d-block w-100" src={props.foto2} alt="Second slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto3} alt="Second slide" />
+                                        <img className="d-block w-100" src={props.foto3} alt="Second slide" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="LinhadeFotos">
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto4} alt="First slide" />
+                                        <img className="d-block w-100" src={props.foto4} alt="First slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto5} alt="Second slide" />
+                                        <img className="d-block w-100" src={props.foto5} alt="Second slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto6} alt="Second slide" />
+                                        <img className="d-block w-100" src={props.foto6} alt="Second slide" />
                                     </div>
 
                                 </div>
                             </div>
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <div className="LinhadeFotos">
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto7} alt="First slide" />
+                                        <img className="d-block w-100" src={props.foto7} alt="First slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto8} alt="Second slide" />
+                                        <img className="d-block w-100" src={props.foto8} alt="Second slide" />
                                     </div>
                                     <div className="foto">
-                                        <img class="d-block w-100" src={props.foto9} alt="Second slide" />
+                                        <img className="d-block w-100" src={props.foto9} alt="Second slide" />
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                             {/* <span class="carousel-control-prev-icon" aria-hidden="true"></span> */}
                             {/* <span class="sr-only">Previous</span> */}
                             <div className="ArrowBox">
                                 <img className="arrow" src={leftArrowCarousel} alt="carousel arrow" />
                             </div>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                             {/* <span class="carousel-control-next-icon" aria-hidden="true"></span> */}
                             {/* <span class="sr-only">Next</span> */}
                             <div className="ArrowBox">

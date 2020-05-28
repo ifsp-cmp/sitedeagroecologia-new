@@ -1,16 +1,31 @@
 import React from 'react';
-import SaibaMais from '../../SaibaMais/SaibaMais';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
+import CarrosseldeFotos from '../../CarroseldeFotos/CarrosseldeFotos';
 
 import './CursosFic.css';
 
 import foto1 from '../../../assets/images/EducacaoPopular/CursosFic/foto_2.jpg';
+import foto1_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto1.jpg';
+import foto2_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto2.jpg';
+import foto3_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto3.jpg';
+import foto4_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto4.jpg';
+import foto5_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto5.jpg';
+import foto6_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto6.jpg';
+import foto7_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto7.jpg';
+import foto8_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto8.jpg';
+import foto9_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto9.jpg';
+
+import foto1_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto1.jpg';
+import foto2_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto2.jpg';
+import foto3_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto3.jpg';
+import foto4_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto4.jpg';
+import foto5_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto5.jpg';
+import foto6_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto6.jpg';
+import foto7_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto7.jpg';
+import foto8_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto8.jpg';
+import foto9_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto9.jpg';
 
 const cursosFic = () =>{
-    const conteudo = <ul>
-        <li><a href="https://drive.google.com/drive/folders/1GOsbVs9AztdHoyj6SBR47n_hBz86X-Lk" target="_blank" rel="noopener noreferrer">Site com informações do curso.</a></li>
-    </ul>
-
     return(
         <div>
             <TopoDaPagina menu="Educação Popular" submenu="Cursos FIC"></TopoDaPagina>
@@ -50,7 +65,19 @@ const cursosFic = () =>{
                         </div>
                     </div>
                 </div>
-                <SaibaMais conteudo={conteudo}></SaibaMais>
+                <div className="Carrossel">
+                    <CarrosseldeFotos
+                    foto1={foto1_2edicao}
+                    foto2={foto2_2edicao}
+                    foto3={foto3_2edicao}
+                    foto4={foto4_2edicao}
+                    foto5={foto5_2edicao}
+                    foto6={foto6_2edicao}
+                    foto7={foto7_2edicao}
+                    foto8={foto8_2edicao}
+                    foto9={foto9_2edicao}
+                    />
+                </div>
 
                 <div className="planosCinza">
                     <div className="row">
@@ -62,6 +89,19 @@ const cursosFic = () =>{
                             </div>
                         </div>
                         <div className="col-md-2"></div>
+                    </div>
+                    <div className="Carrossel">
+                        <CarrosseldeFotos
+                            foto1={foto1_3edicao}
+                            foto2={foto2_3edicao}
+                            foto3={foto3_3edicao}
+                            foto4={foto4_3edicao}
+                            foto5={foto5_3edicao}
+                            foto6={foto6_3edicao}
+                            foto7={foto7_3edicao}
+                            foto8={foto8_3edicao}
+                            foto9={foto9_3edicao}
+                            />
                     </div>
                 </div>
 
