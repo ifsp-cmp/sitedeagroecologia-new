@@ -6,3 +6,13 @@
     text-decoration: underline;
     color: #707070;
 }
+.CursosFic .Carrossel{
+    display: none;
+}
+
+@media(min-width: 800px){
+    .CursosFic .Carrossel{
+        display: flex;
+    }
+
+}

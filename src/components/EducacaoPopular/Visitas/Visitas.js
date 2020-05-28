@@ -15,16 +15,15 @@ import visita6 from '../../../assets/images/EducacaoPopular/Visitas/Visita-06.pn
 import visita7 from '../../../assets/images/EducacaoPopular/Visitas/visita-07.jpg';
 import visita8 from '../../../assets/images/EducacaoPopular/Visitas/visita-08.jpg';
 
-import mutiraoFoto1 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.1.jpg';
-import mutiraoFoto2 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.3.jpg';
-import mutiraoFoto3 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.4.jpg';
-import mutiraoFoto4 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.11.jpg';
-import mutiraoFoto5 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.14.jpg';
-import mutiraoFoto6 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.15.jpg';
-import mutiraoFoto7 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.19.jpg';
-import mutiraoFoto8 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.25.jpg';
-import mutiraoFoto9 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.27.jpg';
-// import mutiraoFoto10 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.28.jpg';
+import mutiraoFoto1 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.1_teste.jpg';
+import mutiraoFoto2 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.3_teste.jpg';
+import mutiraoFoto3 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.4_teste.jpg';
+import mutiraoFoto4 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.11_teste.jpg';
+import mutiraoFoto5 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.14_teste.jpg';
+import mutiraoFoto6 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.15_teste.jpg';
+import mutiraoFoto7 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.19_teste.jpg';
+import mutiraoFoto8 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.25_teste.jpg';
+import mutiraoFoto9 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.27_teste.jpg';
 
 import marielleFoto1 from '../../../assets/images/AcampamenteMarielle/foto1.jpg';
 import marielleFoto2 from '../../../assets/images/AcampamenteMarielle/foto2.jpg';
