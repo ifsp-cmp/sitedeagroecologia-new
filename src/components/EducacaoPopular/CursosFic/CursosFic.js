@@ -4,7 +4,7 @@ import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 
 import './CursosFic.css';
 
-import foto1 from '../../../assets/images/EducacaoPopular/CursosFic/foto1.png';
+import foto1 from '../../../assets/images/EducacaoPopular/CursosFic/foto_2.jpg';
 
 const cursosFic = () =>{
     const conteudo = <ul>
@@ -20,8 +20,9 @@ const cursosFic = () =>{
                     <div className="col-md-8">
                         <img src={foto1} width="100%" alt={"Curso Fic"}></img>
                         <div className="texto1">
-                            <p>A proposta do Curso de Formação Inicial e Continuada (FIC) “Segurança Alimentar e Tecnologias Sustentáveis para Agricultura Familiar e Agroecologia” (Processo IFSP/Sigproj nº 30.6503.1713.200622.13052018) foi proposto no âmbito de dois projetos com fomento do CNPq: “Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP para a sustentabilidade ambiental e segurança alimentar na RMC” (Processo CNPq nº 443140/2016-2 e 402752/2017-1) sob responsabilidade da Profa. Dra. Erika Batista. O objetivo deste curso é difundir a produção orgânica para a garantia da segurança alimentar, nutricional e do desenvolvimento social das comunidades rurais, envolvendo agricultores familiares de assentamentos de reforma agrária e comunidades da Região Metropolitana de Campinas.</p>
-                            <p>A metodologia de ensino e orientação pedagógica utilizada foi “Tempo Escola / Tempo Comunidade”, sendo denominada de Pedagogia da Alternância e adotada nas escolas do Movimento dos Trabalhadores Rurais Sem Terra. A forma de organização didática e pedagógica primam pela aplicação do trabalho enquanto princípio educativo, ou seja, uma união do ensino com o trabalho produtivo que supere a divisão intelectual e manual do trabalho, a auto-organização dos alunos e a gestão democrática com participação de toda a comunidade interna e externa à escola. As atividades aplicadas neste curso foram desenvolvidas pelos grupos de pesquisa Núcleo de Estudos em Agroecologia, Educação e Sociedade (NEAES) e o Laboratório de Uso das TICs (L@ITC) sob a responsabilidade dos professores Dra. Erika Batista e Dr. Márcio André Miranda, respectivamente, e possui uma carga horária total de 90 horas (60 horas em tempo escola e 30 horas em tempo comunidade).</p>
+                            <p>A proposta do Curso de Formação Inicial e Continuada (FIC) “Segurança Alimentar e Tecnologias Sustentáveis para Agricultura Familiar e Agroecologia” foi elaborada no âmbito dos projetos fomentados pelo CNPq para implantação do NEA e NESAN. O objetivo geral do curso foi difundir os princípios da Agroecologia, Tecnologias Sociais e Segurança e Soberania Alimentar e Nutricional (SSAN) para a garantia do Direito Humano à Alimentação Adequada (DHAA) e estímulo da produção orgânica e agroecológica das comunidades rurais e urbanas, envolvendo agricultores familiares de assentamentos de reforma agrária e grupos comunitários periurbanos da Região Metropolitana de Campinas.</p>
+                            <p>A metodologia de ensino utilizada foi a Pedagogia da Alternância com a composição dos conteúdos alternados entre os chamados “Tempo Escola (TE) / Tempo Comunidade (TC) ou Social (TS)”, adotada nas escolas da Via Campesina, do Movimento dos Trabalhadores Rurais Sem Terra (MST), das Casas Familiares Rurais (CFRs) e outros coletivos organizados em torno da Educação do Campo. A organização didática e pedagógica partiram do trabalho enquanto princípio educativo que, em síntese, pressupõe formas de ensino-aprendizagem que perpassem as estruturas do trabalho produtivo e superem a divisão intelectual e manual do trabalho, levando à auto-organização dos alunos e a gestão democrática dos conteúdos com a participação de toda a comunidade envolvida com a escola.</p>
+                            <p>As atividades desenvolvidas nas edições do curso foram organizadas pelos grupos de pesquisa Núcleo de Estudos em Agroecologia, Educação e Sociedade (NEAES) e pelo Laboratório de Uso das TICs (L@ITEC), coordenados pela professora Erika Batista e Márcio André Miranda, respectivamente. A carga horária total do curso foi de 90 horas, distribuídas entre 60 horas de Tempo Escola e 30 horas de Tempo Comunidade.</p>
                         </div>
                     </div>
                     <div className="col-md-2"></div>
@@ -33,33 +34,8 @@ const cursosFic = () =>{
                         <div className="col-md-8">
                             <p className="card-body planos">CURSO FIC 2018 - 1° EDIÇÃO</p>
                             <div className="texto1">
-                                <p>A proposta do Curso de Formação Inicial e Continuada (FIC) “Segurança Alimentar e Tecnologias Sustentáveis para Agricultura Familiar e Agroecologia” (Processo IFSP/Sigproj nº 30.6503.1713.200622.13052018) foi proposto no âmbito de dois projetos com fomento do CNPq: “Agroecologia, tecnologias de produção orgânica em assentamentos rurais e educação popular: a contribuição do IFSP para a sustentabilidade ambiental e segurança alimentar na RMC” (Processo CNPq nº 443140/2016-2 e 402752/2017-1) sob responsabilidade da Profa. Dra. Erika Batista. O objetivo deste curso é difundir a produção orgânica para a garantia da segurança alimentar, nutricional e do desenvolvimento social das comunidades rurais, envolvendo agricultores familiares de assentamentos de reforma agrária e comunidades da Região Metropolitana de Campinas.</p>
-                                <p>Na sua primeira edição, a aplicação ocorreu na cidade de Americana – SP no Assentamento “Milton Santos”. As atividades desenvolvidas foram:</p>
-                                <ul>
-                                    <li>Estratégias Inclusivas para o Planejamento Comunitário em Territórios de Agricultura Familiar;</li>
-                                    <li>Alunos da Liga Acadêmica de Medicina de Família e Comunidade da Faculdade de Medicina São Leopoldo Mandic;</li>
-                                    <li>Sustentabilidade e Técnicas de Compostagem:gestão de resíduos e geração de renda;</li>
-                                    <li>Segurança Alimentar e Culinária Sustentável;</li>
-                                    <li>Resolução de Conflitos Comunitários.</li>
-                                </ul>
-                                <p>Para cada uma destas atividades foram convidados a participar especialistas na área e dois pesquisadores argentinos, um do Instituto Nacional de Tecnologia Agropecuária e o outro da Rede de Tecnologias Inclusivas da Argentina. Outros temas foram abordados como:</p>
-                                <ul>
-                                    <li>Economia política da sustentabilidade e a produção de alimentos no Brasil;</li>
-                                    <li>Agroecologia, educação popular e tecnologias sociais;</li>
-                                    <li>Questão agrária e o desenvolvimento territorial sustentável;</li>
-                                    <li>Informática educativa e tecnologias de informação e comunicação;</li>
-                                    <li>A bioquímica dos alimentos;</li>
-                                    <li>Educação alimentar;</li>
-                                    <li>Estratégias para tecnologias inclusivas e sustentáveis;</li>
-                                    <li>Estratégias de comunicação para agricultura familiar;</li>
-                                    <li>Segurança alimentar e conservação nutricional dos alimentos;</li>
-                                    <li>Educação popular, movimentos sociais e agroecologia;</li>
-                                    <li>Legislação ambiental, cidadania e direitos sociais;</li>
-                                    <li>Tecnologias de comercialização e redes de consumo;</li>
-                                    <li>Planejamento produtivo, tecnologias de gestão e reforma agrária;</li>
-                                    <li>Práticas nos assentamentos.</li>
-                                </ul>
-                                <p>Foram ofertadas 40 vagas sendo preenchidas na totalidade.</p>
+                                <p>A primeira edição do curso FIC foi realizada no território do Assentamento Milton Santos, na cidade de Americana, Região Metropolitana de Campinas/ SP. As aulas ocorreram de agosto a dezembro de 2018 no barracão social do Assentamento e com o apoio da coordenação regional do MST e suas lideranças locais. Profissionais de diversas áreas complementares às de formação da equipe executora dos projetos CNPq foram convidados para contemplar o mapeamento temático inicial realizado com os agricultores e agricultoras do Milton Santos para conhecimento das demandas do território naquele momento.</p>
+                                <p>Foram ofertadas 40 vagas, preenchidas em totalidade no início das aulas. Dadas as dificuldades de acompanhar todas as atividades do Tempo Escola, muitos agricultores e agricultoras desistiram ao longo do semestre diante de suas demandas cotidianas. Mesmo assim, 16 assentados concluíram a 1ª edição.</p>
                             </div>
                         </div>
                     </div>
@@ -70,27 +46,7 @@ const cursosFic = () =>{
                     <div className="col-md-8">
                         <p className="card-body planos">CURSO FIC 2019 - 2º EDIÇÃO</p>
                         <div className="texto1">
-                            <p>A segunda versão do curso aplicada no primeiro semestre de 2019, foi ofertado em parceria com o Sindicato dos Químicos de Campinas, EMBRAPA – Meio Ambiente (Jaguariúna – SP) e realizado no Centro de Formação e Lazer (Cefol) na Rodovia D. Pedro I, km 118, Valinhos – SP.</p>
-                            <p>Esta edição do curso teve como alunos participantes os membros do Acampamento “Mariele Vive”.</p>
-                            <p>As atividades desenvolvidas foram:</p>
-                            <ul>
-                                    <li>Abelhas sem ferrão Atividade de Meliponicultura com apoio da Associação de Meliponicultores do Estado de São Paulo – AMESAMPA;</li>
-                                    <li>Sistemas agroflorestais e segurança alimentar;</li>
-                                    <li>Economia Política e os impactos dos modelos de agricultura no Brasil;</li>
-                                    <li>Impactos dos Organismos Geneticamente Modificados (OGMs);</li>
-                                    <li>Segurança Alimentar e boas práticas higiênico-sanitárias;</li>
-                                    <li>A bioquímica dos alimentos e Educação alimentar;</li>
-                                    <li>Planejamento e gestão de grupos de consumo em assentamentos de reforma agrária;</li>
-                                    <li>Mulheres e agroecologia;</li>
-                                    <li>Agroecologia e Redes Socio-técnicas;</li>
-                                    <li>PNAE e os desafios da segurança alimentar nas instituições públicas;</li>
-                                    <li>Sistemas agroflorestais para agricultura familiar;</li>
-                                    <li>Planejamento produtivo e banco de dados;</li>
-                                    <li>Avanços científicos no manejo de adubos verdes;</li>
-                                    <li>Política e sistema agroalimentar;</li>
-                                    <li>Conflitos comunitários e direito ambiental;</li>
-                                    <li>Desafios de controle e segurança alimentar na Ocupação “Marielle Vive”.</li>
-                                </ul>
+                            <p>A segunda edição do curso foi realizada no primeiro semestre de 2019 e ofertada em parceria com o Sindicato dos Químicos Unificados de Campinas, EMBRAPA – Meio Ambiente (Jaguariúna – SP) e ocorreu no Centro de Formação e Lazer (Cefol), localizado na Rodovia D. Pedro I, km 118, Valinhos/SP, região próxima ao Acampamento Marielle Vive e de onde eram a maioria dos alunos e alunas matriculados nesta edição. Também participaram diferentes convidados e profissionais de áreas complementares as da equipe executora dos projetos CNPq que fomentaram a ação.</p>
                         </div>
                     </div>
                 </div>
@@ -102,8 +58,7 @@ const cursosFic = () =>{
                         <div className="col-md-8">
                             <p className="card-body planos">CURSOS FIC 2019 - 3° EDIÇÃO</p>
                             <div className="texto1">
-                                <p>A edição atual está em andamento na Unidade Campo Grande do Campus do IFSP em Campinas e realizada em parceria com o Departamento de Segurança Alimentar e Nutricional da Prefeitura Municipal de Campinas. A região Noroeste é marcada por um contexto de vulnerabilidade econômica e socioalimentar na RMC, de modo que o escopo das atividades foi direcionado em reuniões anteriores com a comunidade local para o estabelecimento de uma rede sociotécnica para criação e manutenção de hortas agroecológicas urbanas comunitárias.</p>
-                                <p>O plano de ensino foi desenhado pelo coordenador do curso, profº Márcio de Miranda, em parceria com a coordenação do NEAES, membros do Departamento de SAN da PMC, Cooperativa Amater e Coordenadoria de Desenvolvimento Rural Sustentável (CDRS) de Campinas.</p>
+                                <p>A terceira edição do curso ocorreu na sede do IFSP, Campus de Campinas, na região do Campo Grande, no período de agosto a dezembro de 2019. As atividades foram realizadas em parceria com o Departamento de Segurança Alimentar e Nutricional da Prefeitura Municipal de Campinas com o objetivo de apoiar as ações de Educação Alimentar e Nutricional no território, marcado por alta vulnerabilidade sócio alimentar no Município. O plano de ensino foi direcionado em reuniões anteriores com a comunidade local para o estabelecimento de uma rede sociotécnica de criação e manutenção de hortas orgânicas e agroecológicas comunitárias.</p>
                             </div>
                         </div>
                         <div className="col-md-2"></div>

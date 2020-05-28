@@ -80,7 +80,7 @@ const parcerias = () =>{
                     <div className="row" style={{marginTop: "30px"}}>
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
-                            <p className="planos">SINDICATO DOS QUÍMICOS/ CEFOL</p>
+                            <p className="planos">SINDICATO DOS QUÍMICOS UNIFICADOS/ CEFOL</p>
                             <div className="texto1">
                                 <p>O Sindicato Químicos Unificados foi criado com a aprovação de 93% dos (as) trabalhadores (as) da categoria em um plebiscito realizado em julho de 2001 e referendada no 1º Congresso de Base, também com a participação conjunta dos trabalhadores(as) da categoria em março de 2002, em Paraibuna-SP.</p>
                                 <p>Atualmente, o Unificados representa os/as cerca de 33 mil trabalhadores dos sindicatos dos ramos químicos, plásticos, farmacêuticos, abrasivos e similares de Campinas e Osasco.</p>
