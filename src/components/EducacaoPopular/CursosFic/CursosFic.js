@@ -5,6 +5,16 @@ import CarrosseldeFotos from '../../CarroseldeFotos/CarrosseldeFotos';
 import './CursosFic.css';
 
 import foto1 from '../../../assets/images/EducacaoPopular/CursosFic/foto_2.jpg';
+import foto1_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto1.jpg';
+import foto2_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto2.jpg';
+import foto3_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto3.jpg';
+import foto4_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto4.jpg';
+import foto5_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto5.jpg';
+import foto6_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto6.jpg';
+import foto7_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto7.jpg';
+import foto8_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto8.jpg';
+import foto9_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto9.jpg';
+
 import foto1_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto1.jpg';
 import foto2_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto2.jpg';
 import foto3_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto3.jpg';
@@ -54,6 +64,20 @@ const cursosFic = () =>{
                             </div>
                         </div>
                     </div>
+                    <div className="Carrossel">
+                        <CarrosseldeFotos
+                            foto1={foto1_edicao18} 
+                            foto2={foto2_edicao18}
+                            foto3={foto3_edicao18}
+                            foto4={foto4_edicao18}
+                            foto5={foto5_edicao18}
+                            foto6={foto6_edicao18}
+                            foto7={foto7_edicao18}
+                            foto8={foto8_edicao18}
+                            foto9={foto9_edicao18}
+                            id={"Edicao2018"}
+                        />
+                    </div>
                 </div>
 
                 <div className="row">
@@ -67,15 +91,16 @@ const cursosFic = () =>{
                 </div>
                 <div className="Carrossel">
                     <CarrosseldeFotos
-                    foto1={foto1_2edicao}
-                    foto2={foto2_2edicao}
-                    foto3={foto3_2edicao}
-                    foto4={foto4_2edicao}
-                    foto5={foto5_2edicao}
-                    foto6={foto6_2edicao}
-                    foto7={foto7_2edicao}
-                    foto8={foto8_2edicao}
-                    foto9={foto9_2edicao}
+                        foto1={foto1_2edicao}
+                        foto2={foto2_2edicao}
+                        foto3={foto3_2edicao}
+                        foto4={foto4_2edicao}
+                        foto5={foto5_2edicao}
+                        foto6={foto6_2edicao}
+                        foto7={foto7_2edicao}
+                        foto8={foto8_2edicao}
+                        foto9={foto9_2edicao}
+                        id={"Edicao2"}
                     />
                 </div>
 
@@ -101,7 +126,8 @@ const cursosFic = () =>{
                             foto7={foto7_3edicao}
                             foto8={foto8_3edicao}
                             foto9={foto9_3edicao}
-                            />
+                            id={"Edicao3"}
+                        />
                     </div>
                 </div>
 

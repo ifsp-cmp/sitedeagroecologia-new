@@ -125,6 +125,7 @@ const visitas = () => {
                             foto7={marielleFoto7}
                             foto8={marielleFoto8}
                             foto9={marielleFoto9}
+                            id={"Marielle"}
                         />
                     </div>
                     </div>
@@ -150,6 +151,7 @@ const visitas = () => {
                             foto7={mutiraoFoto7}
                             foto8={mutiraoFoto8}
                             foto9={mutiraoFoto9}
+                            id={"Multirao"}
                         />
                     </div>
                 </div>

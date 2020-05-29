@@ -10,7 +10,7 @@ const carrosseldeFotos = (props) => {
         <div className="PhotosCarousel">
             <div className="container-fluid">
                 <div className="row">
-                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                    <div id={props.id} className="carousel slide" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <div className="LinhadeFotos">
@@ -54,14 +54,14 @@ const carrosseldeFotos = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <a className="carousel-control-prev" href={'#'+ props.id} role="button" data-slide="prev">
                             {/* <span class="carousel-control-prev-icon" aria-hidden="true"></span> */}
                             {/* <span class="sr-only">Previous</span> */}
                             <div className="ArrowBox">
                                 <img className="arrow" src={leftArrowCarousel} alt="carousel arrow" />
                             </div>
                         </a>
-                        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <a className="carousel-control-next" href={'#'+ props.id} role="button" data-slide="next">
                             {/* <span class="carousel-control-next-icon" aria-hidden="true"></span> */}
                             {/* <span class="sr-only">Next</span> */}
                             <div className="ArrowBox">
