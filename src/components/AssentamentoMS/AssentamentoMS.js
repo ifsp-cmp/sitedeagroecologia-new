@@ -17,10 +17,10 @@ const assentamentoMS = () =>{
     </ul>;
 
     const projeto = [
-        {titulo: 'HISTÓRIAS E LUTAS', link:'/mshistoriaelutas'},
-        {titulo: 'COOP. COOPERFLORA', link:'/mscooperflora'},
-        {titulo: 'GRUPOS DE CONSUMO', link:'/msgruposdeconsumo'},
-        {titulo: 'FEIRAS', link:'/msfeiras'}
+        {titulo: 'HISTÓRIAS E LUTAS', link:'/mshistoriaelutas', alt: 'Bandeira do Somos Todos Milton Santos'},
+        {titulo: 'COOP. COOPERFLORA', link:'/mscooperflora', alt: 'Visita dos alunos na Cooperflora'},
+        {titulo: 'GRUPOS DE CONSUMO', link:'/msgruposdeconsumo', alt: 'Alimentos naturais e orgânicos'},
+        {titulo: 'FEIRAS', link:'/msfeiras', alt: 'Vegetais em uma cesta'}
     ]
 
     return (
@@ -30,7 +30,7 @@ const assentamentoMS = () =>{
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        <img src={foto1} width="100%" alt={"EntradaAssentamentoMS"}></img>
+                        <img src={foto1} width="100%" alt={"Entrada do Assentamento Milton Santos"}></img>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
@@ -54,13 +54,13 @@ const assentamentoMS = () =>{
                         </div>
 
                         <div className="row">
-                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
-                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
-                            <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
+                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link} alt={projeto[0].alt}></Projetos>
+                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link} alt={projeto[1].alt}></Projetos>
+                            <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link} alt={projeto[2].alt}></Projetos>
                         </div>
 
                         <div className="row">
-                            <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
+                            <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link} alt={projeto[3].alt}></Projetos>
                         </div>
                     </div>  
                 </div>

@@ -13,7 +13,7 @@ const projetos = (props) =>{
                 style={{textDecoration: 'none'}}
             > 
                 <div className="card mb-4 shadow-sm">
-                    <img className="card-img-top" src={props.foto} alt={""}></img>
+                    <img className="card-img-top" src={props.foto} alt={props.alt}></img>
                     <div className="card-body texto">
                         <p className="card-text"><img src={foto3} alt={"Icone_Casa"}></img> {props.titulo} </p>
                     </div>

@@ -13,11 +13,11 @@ import foto6 from '../../assets/images/EducacaoPopular/Introducao/EducacaoPopula
 
 const educacaoPopular = () =>{
     const projeto = [
-        {titulo: 'CURSOS FIC', link:'/epcursosfic'},
-        {titulo: 'FORMAÇÕES', link:'/epformacoes'},
-        {titulo: 'DIAGNÓSTICO RURAL', link:'/epdiagnosticoruralparticipativo'},
-        {titulo: 'AVALIAÇÃO E VALIDAÇÃO', link:'/epavaliacaoevalidacao'},
-        {titulo: 'VISITAS E VIVÊNCIA', link:'/epvisitasevivencias'}
+        {titulo: 'CURSOS FIC', link:'/epcursosfic', alt: 'Uma aula de Curso FIC no Assentamento Milton Santos'},
+        {titulo: 'FORMAÇÕES', link:'/epformacoes', alt: ''},
+        {titulo: 'DIAGNÓSTICO RURAL', link:'/epdiagnosticoruralparticipativo', alt: ''},
+        {titulo: 'AVALIAÇÃO E VALIDAÇÃO', link:'/epavaliacaoevalidacao', alt: ''},
+        {titulo: 'VISITAS E VIVÊNCIA', link:'/epvisitasevivencias', alt: 'Visita de estudantes ao Assentamento Milton Santos'}
     ]
 
     return(
@@ -48,14 +48,14 @@ const educacaoPopular = () =>{
                         </div>
 
                         <div className="row">
-                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
-                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
-                            <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
+                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link} alt={projeto[0].alt}></Projetos>
+                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link} alt={projeto[0].alt}></Projetos>
+                            <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link} alt={projeto[0].alt}></Projetos>
                         </div>
 
                         <div className="row">
-                            <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
-                            <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link}></Projetos>
+                            <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link} alt={projeto[0].alt}></Projetos>
+                            <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link} alt={projeto[4].alt}></Projetos>
                         </div>
                     </div>  
                 </div>

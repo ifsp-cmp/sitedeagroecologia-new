@@ -14,12 +14,12 @@ import foto7 from '../../assets/images/TecnologiasSociais/Introducao/foto7.png';
 
 const tecnologiasSociais = () =>{
     const projeto = [
-        {titulo: 'APP AGROECOMUNICAÇÃO', link: '/tsappagrocomunicacao'},
-        {titulo: 'DATALUTA PRODUÇÃO', link: 'tsdatalutaproducao'},
-        {titulo: 'IRRIGADOR AUTOMATIZADO', link: 'tsirrigadorautomatizado'},
-        {titulo: 'MINHOCÁRIO AUTOMATIZADO', link: 'tsminhocarioautomatizado'},
-        {titulo: 'MAPEAMENTO DA PRODUÇÃO', link: 'tsmapeamentodaproducao'},
-        {titulo: 'FICHAS AGROECOLÓGICAS', link: 'tsfichasagroecologicas'},
+        {titulo: 'APP AGROECOMUNICAÇÃO', link: '/tsappagrocomunicacao', alt: 'Um homem em uma plantação de Alface'},
+        {titulo: 'DATALUTA PRODUÇÃO', link: 'tsdatalutaproducao', alt: 'Um homem tocando na terra'},
+        {titulo: 'IRRIGADOR AUTOMATIZADO', link: 'tsirrigadorautomatizado', alt: 'Produtores olhando o projeto de um estudante'},
+        {titulo: 'MINHOCÁRIO AUTOMATIZADO', link: 'tsminhocarioautomatizado', alt: 'Mãos de uma pessoa na terra'},
+        {titulo: 'MAPEAMENTO DA PRODUÇÃO', link: 'tsmapeamentodaproducao', alt: 'Dois homens com um carrinho de mão no Assentamento'},
+        {titulo: 'FICHAS AGROECOLÓGICAS', link: 'tsfichasagroecologicas', alt: 'Fichas Agroecológicas'},
     ]
 
     return (
@@ -29,7 +29,7 @@ const tecnologiasSociais = () =>{
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        <img src={foto1} width="100%" alt={"EntradaAssentamentoMS"}></img>
+                        <img src={foto1} width="100%" alt={"Entrada do Assentamento Milton Santos"}></img>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
@@ -52,15 +52,15 @@ const tecnologiasSociais = () =>{
                         </div>
 
                         <div className="row">
-                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
-                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
-                            <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
+                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link} alt={projeto[0].alt}></Projetos>
+                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link} alt={projeto[1].alt}></Projetos>
+                            <Projetos foto={foto4} titulo={projeto[2].titulo} link={projeto[2].link} alt={projeto[2].alt}></Projetos>
                         </div>
 
                         <div className="row">
-                            <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link}></Projetos>
-                            <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link}></Projetos>
-                            <Projetos foto={foto7} titulo={projeto[5].titulo} link={projeto[5].link}></Projetos>
+                            <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link} alt={projeto[3].alt}></Projetos>
+                            <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link} alt={projeto[4].alt}></Projetos>
+                            <Projetos foto={foto7} titulo={projeto[5].titulo} link={projeto[5].link} alt={projeto[5].alt}></Projetos>
                         </div>
                     </div>  
                 </div>

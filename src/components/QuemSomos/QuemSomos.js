@@ -15,9 +15,9 @@ const quemSomos = () =>{
     </ul>
 
     const projeto = [
-        {titulo: 'EQUIPES', link: '/qsequipes'},
-        {titulo: 'IND. ACADÊMICOS', link: '/qsindicadoresacademicos'},
-        {titulo: 'PARCERIAS', link: '/qsparcerias'}
+        {titulo: 'EQUIPES', link: '/qsequipes', alt: 'Um equipe de estudantes em uma feira'},
+        {titulo: 'IND. ACADÊMICOS', link: '/qsindicadoresacademicos', alt:'Campus do Instituto Federal em Campinas'},
+        {titulo: 'PARCERIAS', link: '/qsparcerias', alt:''}
     ]
 
     return(
@@ -69,9 +69,9 @@ const quemSomos = () =>{
                             </div>
                         </div>
                         <div className="row">
-                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link}></Projetos>
-                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link}></Projetos>
-                            <Projetos foto={foto2} titulo={projeto[2].titulo} link={projeto[2].link}></Projetos>
+                            <Projetos foto={foto2} titulo={projeto[0].titulo} link={projeto[0].link} alt={projeto[0].alt}></Projetos>
+                            <Projetos foto={foto3} titulo={projeto[1].titulo} link={projeto[1].link} alt={projeto[1].alt}></Projetos>
+                            <Projetos foto={foto2} titulo={projeto[2].titulo} link={projeto[2].link} alt={projeto[0].alt}></Projetos>
                         </div>
                     </div>  
                 </div>
