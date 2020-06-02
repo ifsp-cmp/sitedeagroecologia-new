@@ -61,6 +61,8 @@ class Form extends Component {
                         </select>
                         <p>MENSAGEM</p>
                         <input className="form-control fundo" type="text" name="mensagem"></input>
+                        <p>ATUAÇÃO (Produtor, Consumidor, etc.) </p>
+                        <input className="form-control fundo" type="text" name="cidade"></input>
                         <input className="botao2" value="Enviar" type="submit"></input>
                     </form>
                 </div>
