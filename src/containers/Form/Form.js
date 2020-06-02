@@ -23,13 +23,13 @@ class Form extends Component {
                     <h4 className="titulo_form2">Escreva pra gente !!!</h4><br></br>
                     {/* <form className="text-white" action="http://localhost:5000/site-de-agroecologia-new/us-central1/emailViaForm" method="post"> */}
                     <form className="text-white" action="https://us-central1-site-de-agroecologia-new.cloudfunctions.net/emailViaForm" method="post">
-                        <p>NOME</p>
-                        <input className="form-control fundo" type="text" name="nome"></input>
-                        <p>E-MAIL</p>
-                        <input className="form-control fundo" type="text" name="email"></input>
-                        <p>CIDADE</p>
-                        <input className="form-control fundo" type="text" name="cidade"></input>
-                        <p>ESTADO</p>
+                        <label for="nome">NOME</label>
+                        <input className="form-control fundo" type="text" name="nome" id="nome" placeholder="Digite seu Nome"></input>
+                        <label for="email">E-MAIL</label>
+                        <input className="form-control fundo" type="text" name="email" id="email" placeholder="Exemplo@email.com"></input>
+                        <label for="cidade">CIDADE</label>
+                        <input className="form-control fundo" type="text" name="cidade" id="cidade" placeholder="Digite o nome de sua Cidade"></input>
+                        <label for="state">ESTADO</label>
                         <select className="form-control fundo" id="state" name="estado" >
                             <option title="Acre" value="AL" name="estado">AC</option>
                             <option title="Alagoas" value="AP" name="estado">AL</option>
@@ -59,10 +59,10 @@ class Form extends Component {
                             <option title="Sergipe" value="TO" name="estado">SE</option>
                             <option title="Tocantins" name="estado">TO</option>
                         </select>
-                        <p>MENSAGEM</p>
-                        <input className="form-control fundo" type="text" name="mensagem"></input>
-                        <p>ATUAÇÃO (Produtor, Consumidor, etc.) </p>
-                        <input className="form-control fundo" type="text" name="cidade"></input>
+                        <label for="mensagem">MENSAGEM</label>
+                        <input className="form-control fundo" type="text" name="mensagem" id="mensagem"></input>
+                        <label for="ocupation">ATUAÇÃO (Produtor, Consumidor, etc.) </label>
+                        <input className="form-control fundo" type="text" name="ocupation" id="ocupation" placeholder="Ex: Produtor, etc."></input>
                         <input className="botao2" value="Enviar" type="submit"></input>
                     </form>
                 </div>
