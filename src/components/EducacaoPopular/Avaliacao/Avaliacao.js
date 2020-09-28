@@ -14,7 +14,8 @@ const avaliacao = () =>{
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <img src={foto1} width="100%" alt={""}></img>
-                        <p className="texto1">A metodologia de Pesquisa-ação desenvolvida por todas as frentes do projeto prevê formas de avaliações e validações participativas do público alvo da ação, compreendendo-os como sujeitos autônomos e ativos na verificação da eficácia e aplicabilidade das tecnologias em seu próprio cotidiano.</p>
+                        <p className="texto1">A metodologia de pesquisa-ação é adotada por todas as frentes dos projetos que integram os trabalhos do NEAES. Em consonância com os princípios da Educação Popular, esta metodologia possilita formas participativas de construção coletiva na forma de avaliações, validações participativas, diagnósticos rurais participativos e levantamento de demandas comunitárias e sociotécnicas. Com esta orientação metodológica, espera-se que os participantes envolvidos nas ações sejam sujeitos ativos na verificação da eficácia e aplicabilidade das tecnologias sociais desenvolvidas em seu próprio cotidiano.</p>
+                        
                     </div>
                     <div className="col-md-2"></div>
                 </div>

@@ -49,7 +49,7 @@ const visitas = () => {
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <img src={foto1} width="100%" alt={""}></img>
-                        <p className="texto1">As visitas e vivências são etapas prioritárias da metodologia de pesquisa participativa e da própria Educação Popular. As visitas e vivências ocorreram com participação de estudantes e pesquisadores no Assentamento Milton Santos, e posteriormente na Ocupação Marielle Vive, para aulas, avaliações/ validações participativas, mutirões de plantação agroecológica e etc, tanto dos agricultores para as formações realizadas com os grupos de consumo e posterior venda dos alimentos.</p>
+                        <p className="texto1">As visitas e vivências são etapas prioritárias da metodologia de pesquisa participativa e da própria Educação Popular. As visitas e vivências ocorrem com o apoio e engajamento de estudantes, pesquisadores, bolsistas, agricultoras e agricultores. Inicialmente, o terriório chave destas ações foi o Assentamento Milton Santos, seguido pelo território da Ocupação Marielle Vive. Os objetivos das  vivências são múltiplos, desde preparação e realização de aulas práticas, avaliações, formações e validações participativas, ações de extensão tecnológica, mutirões agroecológicos, visitas técnicas e exploratórias de iniciação cientifica e pesquisas colaborativas.</p>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
