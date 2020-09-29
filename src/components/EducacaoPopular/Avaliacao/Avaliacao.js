@@ -54,7 +54,7 @@ const avaliacao = () =>{
                         <p className="card-body planos">VALIDAÇÕES PARTICIPATIVAS</p>
                         <div className="texto1">
                             <p><strong>Dispositivos técnicos</strong></p>
-                            <p>Todos os dispositivos técnicos elaborados e em desenvolvimento são validados com a comunidade participante das ações para que haja verificação dos objetivos, aplicabilidade, manuseio, aprimoramento das funcionalidades e monitoramento do desempenho para correções ou replicação para outras unidades. Os processos de validação participativa ocorrem no território do Assentamento em coletivo ou em Unidade de Referência selecionada pelos próprios agricultores e agricultoras em reuniões anteriores da Cooperativa.</p>
+                            <p>Todos os dispositivos técnicos elaborados e em desenvolvimento são validados com a comunidade participante pelo menos em três fases - diagramação da solução, protótipo de bancada e protótipo de campo - para que haja verificação dos objetivos, aplicabilidade, manuseio, aprimoramento das funcionalidades e monitoramento do desempenho para correções ou replicação em outras unidades de referência. Os processos de validação participativa ocorrem nos territórios das comunidades envolvidas nos projetos e, no caso do Assentamento Milton Santos, o coletivo de agricultoras e agricultores selecionam a Unidade de Referência para aplicação e monitoramento dos dispositivos.</p>
                             <p><strong>1. Validação Participativa – Irrigador Automatizado</strong></p>
                             <p>A validação deste projeto ocorreu na primeira versão do protótipo, em outubro de 2018, e na instalação da peça de campo final, em junho de 2019.</p>
                         </div>
@@ -77,7 +77,7 @@ const avaliacao = () =>{
                         <div className="col-md-8">
                             <p className="card-body planos">TECNOLOGIAS DIGITAIS</p>
                             <div className="texto1">
-                                <p>Assim como os dispositivos técnicos, as tecnologias digitais também são concebidas em conjunto com os participantes das ações. Os objetivos são alinhados e os ajustes realizados durante todo o processo de construção da intervenção a partir das tecnologias sociais já envolvidas. Atualmente, as intervenções estão direcionadas para o melhor planejamento produtivo dos</p>
+                                <p>Assim como os dispositivos técnicos, as tecnologias digitais também são concebidas em conjunto com os participantes das ações. Os objetivos são alinhados e os ajustes realizados durante todo o processo de construção da intervenção a partir das tecnologias sociais já envolvidas. Atualmente, as intervenções estão direcionadas para o melhor planejamento produtivo dos agricultores e agricultoras do Assentamento Milton Santos. Porém, existem outras iniciativas em andamento desde setembro de 2020 junto a comunidade local na região do Campus Campinas.</p>
                                 <p><strong>1. Aplicativo – AGROCOMUNICAÇÃO</strong></p>
                                 <p>O aplicativo foi validado em sua ideia geral no dia 12 de agosto de 2018 para os produtores e produtoras da Cooperflora no Assentameto. Os participantes puderam opinar sobre as funcionalidades e interface do protótipo.</p>
                             </div>
