@@ -9,7 +9,7 @@ import foto1 from '../../../assets/images/TecnologiasSociais/Irrigador/foto5.jpg
 
 const irrigadorAutomatizado =()=>{
     const conteudo = <ul className="card-text">
-        <li><a href="https://cmp.ifsp.edu.br/index.php/noticias/821-estudante-do-ifsp-campinas-desenvolve-irrigador-automatizado-para-agricultura-familiar" target="_blank" rel="noopener noreferrer">Estudante desenvolve irrigador automatizado para agricultura familiar</a></li>
+        <li><a href="https://portal.cmp.ifsp.edu.br/index.php/noticias/821-estudante-do-ifsp-campinas-desenvolve-irrigador-automatizado-para-agricultura-familiar" target="_blank" rel="noopener noreferrer">Estudante desenvolve irrigador automatizado para agricultura familiar</a></li>
         <li><a href="https://www.youtube.com/watch?v=5xn3AgSqUkc&t=13s" target="_blank" rel="noopener noreferrer">Video do irrigador atomatizado</a></li>
     </ul>
 

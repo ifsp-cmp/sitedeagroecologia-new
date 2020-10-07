@@ -38,7 +38,7 @@ import marielleFoto9 from '../../../assets/images/AcampamenteMarielle/foto9.jpg'
 
 const visitas = () => {
     const conteudo1 = <ul className="card-text">
-        <li><a href="https://www.cmp.ifsp.edu.br/index.php/noticias/564-neaes-promove-i-visita-ao-assentamento-milton-santos-vivencias-da-agricultura-familiar-e-agroecologica" target="_blank" rel="noopener noreferrer">Neaes promove I Visita ao Assentamento Milton Santos - vivência e aprendizado</a></li>
+        <li><a href="https://portal.cmp.ifsp.edu.br/index.php/noticias/564-neaes-promove-i-visita-ao-assentamento-milton-santos-vivencias-da-agricultura-familiar-e-agroecologica" target="_blank" rel="noopener noreferrer">Neaes promove I Visita ao Assentamento Milton Santos - vivência e aprendizado</a></li>
     </ul>
 
     return (
