@@ -6,3 +6,13 @@
     text-decoration: underline;
     color: #707070;
 }
+
+.Formacoes b{
+    text-decoration: underline;
+    font: Bold 18px/24px Roboto Slab;
+    color: #1A2D00;
+}
+
+.Formacoes b:hover{
+    color: #77B81E;
+}
