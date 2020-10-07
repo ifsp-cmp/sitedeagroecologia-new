@@ -28,7 +28,7 @@ import EducacaoPopular from './components/EducacaoPopular/EducacaoPopular.js';
 import CursosFic from './components/EducacaoPopular/CursosFic/CursosFic';
 import Formacoes from './components/EducacaoPopular/Formacoes/Formacoes';
 import DiagnosticoRural from './components/EducacaoPopular/DiagnosticoRural/DiagnosticoRural';
-import Avaliacao from './components/EducacaoPopular/Avaliacao/Avaliacao';
+import MetodologiasParticipativas from './components/EducacaoPopular/Metodologias/MetodologiasParticipativas';
 import Visitas from './components/EducacaoPopular/Visitas/Visitas';
 
 import QuemSomos from './components/QuemSomos/QuemSomos';
@@ -76,7 +76,7 @@ class Routes extends Component{
         <Route exact path="/epcursosfic" component={CursosFic} />
         <Route exact path="/epformacoes" component={Formacoes} />
         <Route exact path="/epdiagnosticoruralparticipativo" component={DiagnosticoRural} />
-        <Route exact path="/epavaliacaoevalidacao" component={Avaliacao} />
+        <Route exact path="/epmetodologiasparticipativas" component={MetodologiasParticipativas} />
         <Route exact path="/epvisitasevivencias" component={Visitas} />
         
         <Route exact path="/quemsomos" component={QuemSomos} />
