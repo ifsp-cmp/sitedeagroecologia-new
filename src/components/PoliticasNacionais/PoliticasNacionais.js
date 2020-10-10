@@ -1,5 +1,4 @@
 import React from 'react';
-import SaibaMais from '../SaibaMais/SaibaMais';
 import Projetos from '../Projetos/Projetos';
 import TopoDaPagina from '../TopoDaPagina/TopoDaPagina';
 
@@ -11,14 +10,10 @@ import foto3 from '../../assets/images/PN/Introducao/PLANAPO.png';
 import foto4 from '../../assets/images/PN/Introducao/PLANSAN.png';
 import foto5 from '../../assets/images/PN/Introducao/PAA.png';
 import foto6 from '../../assets/images/PN/Introducao/PNAE.png';
+import { Link } from 'react-router-dom';
 
 
-const politicasNacionais = (props) => {
-    const conteudo = <ul className="card-text">
-        <li>PITAGUARI, S. O.; LIMA, J. Ferrera de. As idéias keynesianas e o crescimento do produto nas economias locais. Interações: Revista Internacional de Desenvolvimento Local, Campo Grande, v. 6, n. 10, p. 11-20, 2005.</li>
-        <li>RUA, M. G. Análise de políticas públicas: conceitos básicos. Rio de Janeiro, 2005. Curso de Aperfeiçoamento em Agroecologia. REDCAPA – Rede de Instituições Vinculadas à Capacitação em Economia e Política Agrícola da América Latina e Caribe.</li>
-    </ul>;
-
+const politicasNacionais = () => {
     const projeto = [
         { titulo: 'PNAPO', link: '/pnapo', alt:'Mulheres organizando alimentos orgânicos'},
         { titulo: 'PLANAPO', link: '/planapo', alt:'Colheita no Assentamento Milton Santos'},
@@ -40,16 +35,12 @@ const politicasNacionais = (props) => {
                 </div>
                 <div className="row">
                     <div className="col-md-2"></div>
-                    <div className="col-md-8 texto1">
-                        <p>A agricultura familiar no Brasil destaca-se como forma de vida e obtenção de renda de milhares de homens e mulheres, porém, historicamente, o setor enfrenta obstáculos que requerem políticas públicas pertinentes, que viabilizem a estes pequenos produtores rurais a sua fixação no campo – evitando novos fluxos de êxodo rural – e que contribuam para o desenvolvimento humano e regional.</p>
-                        <p>Conceitualmente as políticas públicas formuladas e implementadas pelo Estado devem compreender, principalmente, um conjunto de decisões e ações estrategicamente selecionadas, relativas à alocação de valores normativos e pecuniários com a finalidade de implementar determinadas ações objetivando promover o crescimento e o desenvolvimento de um setor econômico ou de um locus geográfico (RUA, 2005).</p>
-                        <p> Ou seja, as principais políticas públicas do governo Federal voltadas à promoção da agricultura familiar, as quais segundo Pitaguari e Lima (2005), devem compreender gastos públicos capazes de diminuir os custos de produção e viabilizar o setor produtivo, melhorando as condições estruturais de crescimento e desenvolvimento da economia local.</p>
-                        <p> Dessa forma a plataforma socioeducativa em questão destaca as principais Políticas Públicas do Governo Federal com capacidade de diminuir desigualdades históricas para o desenvolvimento do setor.</p>
+                    <div className="col-md-8 texto1 link">
+                        <p>A agricultura familiar no Brasil destaca-se como forma de vida e obtenção de renda de milhares de homens e mulheres, porém, historicamente, o setor enfrenta obstáculos que requerem políticas públicas pertinentes, que viabilizem a estes pequenos produtores rurais a sua fixação no campo – evitando novos fluxos de êxodo rural – e que contribuam para o desenvolvimento humano e regional de forma ambientalmente sustentável e socialmente justa.</p>
+                        <p>Esta Plataforma visa contribuir para a visibilidade destes territórios, sujeitos políticos e da Agroecologia como matriz científica e cultural e modelo de desenvolvimento para a sustentabilidade. Em termos de políticas públicas, muitas foram descontinuadas desde 2016 em âmbito federal e estadual, dentre as quais destacamos a <Link to="/pnapo"><b>Política Nacional de Agroecologia e Produção Orgânica (PNAPO)</b></Link> e os <Link to="/paa"><b>Programas de Aquisição de Alimentos (PAA)</b></Link> e <Link to="/pnae"><b>Programa Nacional de Alimentação Escolar (PNAE)</b></Link>.</p>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-
-                <SaibaMais conteudo={conteudo}></SaibaMais>
 
                 <div className="album py-4 fundoImagem" >
                     <div className="container">
