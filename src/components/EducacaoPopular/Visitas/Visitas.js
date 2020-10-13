@@ -3,8 +3,6 @@ import SaibaMais from '../../SaibaMais/SaibaMais';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import './Visitas.css';
 
-import CarrosseldeFotos from '../../CarroseldeFotos/CarrosseldeFotos';
-
 import foto1 from '../../../assets/images/EducacaoPopular/Visitas/foto1.png';
 import visita1 from '../../../assets/images/EducacaoPopular/Visitas/Visita-01.png';
 import visita2 from '../../../assets/images/EducacaoPopular/Visitas/Visita-02.png';
@@ -21,9 +19,6 @@ import mutiraoFoto3 from '../../../assets/images/EducacaoPopular/MutiraoAgroflor
 import mutiraoFoto4 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.11_teste.jpg';
 import mutiraoFoto5 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.14_teste.jpg';
 import mutiraoFoto6 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.15_teste.jpg';
-import mutiraoFoto7 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.19_teste.jpg';
-import mutiraoFoto8 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.25_teste.jpg';
-import mutiraoFoto9 from '../../../assets/images/EducacaoPopular/MutiraoAgroflorestal/m.27_teste.jpg';
 
 import marielleFoto1 from '../../../assets/images/AcampamenteMarielle/foto1.jpg';
 import marielleFoto2 from '../../../assets/images/AcampamenteMarielle/foto2.jpg';
@@ -31,9 +26,8 @@ import marielleFoto3 from '../../../assets/images/AcampamenteMarielle/foto3.jpg'
 import marielleFoto4 from '../../../assets/images/AcampamenteMarielle/foto4.jpg';
 import marielleFoto5 from '../../../assets/images/AcampamenteMarielle/foto5.jpg';
 import marielleFoto6 from '../../../assets/images/AcampamenteMarielle/foto6.jpg';
-import marielleFoto7 from '../../../assets/images/AcampamenteMarielle/foto7.jpg';
-import marielleFoto8 from '../../../assets/images/AcampamenteMarielle/foto8.jpg';
-import marielleFoto9 from '../../../assets/images/AcampamenteMarielle/foto9.jpg';;
+import Carousel from '../../CarroseldeFotos/Carousel';
+
 
 
 const visitas = () => {
@@ -114,20 +108,17 @@ const visitas = () => {
                             </div>
                         </div>
                         <div className="col-md-2"></div>
-                        <div className="Carrossel">
-                        <CarrosseldeFotos
-                            foto1={marielleFoto1}
-                            foto2={marielleFoto2}
-                            foto3={marielleFoto3}
-                            foto4={marielleFoto4}
-                            foto5={marielleFoto5}
-                            foto6={marielleFoto6}
-                            foto7={marielleFoto7}
-                            foto8={marielleFoto8}
-                            foto9={marielleFoto9}
-                            id={"Marielle"}
-                        />
-                    </div>
+                        <div className="container col-md-6 mb-4">
+                            <Carousel
+                                foto1={marielleFoto1} alt1={"Foto 1"}
+                                foto2={marielleFoto2} alt2={"Foto 2"}
+                                foto3={marielleFoto3} alt3={"Foto 3"}
+                                foto4={marielleFoto4} alt4={"Foto 4"}
+                                foto5={marielleFoto5} alt5={"Foto 5"}
+                                foto6={marielleFoto6} alt6={"Foto 6"}
+                                id={"Marielle"}
+                            />
+                        </div>
                     </div>
                 </div>
 
@@ -140,17 +131,14 @@ const visitas = () => {
                         </div>
                     </div>
                     <div className="col-md-2"></div>
-                    <div className="Carrossel">
-                        <CarrosseldeFotos
-                            foto1={mutiraoFoto1}
-                            foto2={mutiraoFoto2}
-                            foto3={mutiraoFoto3}
-                            foto4={mutiraoFoto4}
-                            foto5={mutiraoFoto5}
-                            foto6={mutiraoFoto6}
-                            foto7={mutiraoFoto7}
-                            foto8={mutiraoFoto8}
-                            foto9={mutiraoFoto9}
+                    <div className="container col-md-6 mb-4">
+                        <Carousel
+                            foto1={mutiraoFoto1} alt1={"Foto 1"}
+                            foto2={mutiraoFoto2} alt2={"Foto 2"}
+                            foto3={mutiraoFoto3} alt3={"Foto 3"}
+                            foto4={mutiraoFoto4} alt4={"Foto 4"}
+                            foto5={mutiraoFoto5} alt5={"Foto 5"}
+                            foto6={mutiraoFoto6} alt6={"Foto 6"}
                             id={"Multirao"}
                         />
                     </div>
