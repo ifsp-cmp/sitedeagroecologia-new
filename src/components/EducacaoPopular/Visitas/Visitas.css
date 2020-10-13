@@ -11,3 +11,11 @@
     font: Bold 20px/27px Roboto Slab;
     color: #1A2D00;
 }
+
+.Visitas b{
+    font: Bold 18px/24px Roboto Slab;
+    color: #1A2D00;
+}
+.Visitas b:hover{
+    color: #77B81E;
+}
