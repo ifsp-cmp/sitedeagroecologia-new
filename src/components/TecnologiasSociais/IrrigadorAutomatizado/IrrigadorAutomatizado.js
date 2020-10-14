@@ -1,19 +1,28 @@
 import React from 'react';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import SaibaMais from '../../SaibaMais/SaibaMais';
+import ReactPlayer from 'react-player';
+import Carousel from '../../CarroseldeFotos/Carousel';
+
+import foto1_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto1.jpg';
+import foto2_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto2.jpg';
+import foto3_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto3.jpg';
+import foto4_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto4.jpg';
+import foto5_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto5.jpg';
+import foto6_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto6.jpg';
 
 import './IrrigadorAutomatizado.css';
 
 import foto1 from '../../../assets/images/TecnologiasSociais/Irrigador/foto5.jpg';
 // import video from '../../../assets/images/TecnologiasSociais/Irrigador/Irrigador_automatizado.mp4';
 
-const irrigadorAutomatizado =()=>{
+const irrigadorAutomatizado = () => {
     const conteudo = <ul className="card-text">
         <li><a href="https://portal.cmp.ifsp.edu.br/index.php/noticias/821-estudante-do-ifsp-campinas-desenvolve-irrigador-automatizado-para-agricultura-familiar" target="_blank" rel="noopener noreferrer">Estudante desenvolve irrigador automatizado para agricultura familiar</a></li>
         <li><a href="https://www.youtube.com/watch?v=5xn3AgSqUkc&t=13s" target="_blank" rel="noopener noreferrer">Video do irrigador atomatizado</a></li>
     </ul>
 
-    return(
+    return (
         <div>
             <TopoDaPagina menu="Tecnologias Sociais" submenu="Irrigador Automatizado"></TopoDaPagina>
             <div className="container-fluid Irrigador">
@@ -27,13 +36,20 @@ const irrigadorAutomatizado =()=>{
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8 texto1">
-                        <p>No período de março de 2018 a junho de 2019 foi desenvolvido o projeto “Irrigador Automatizado” a partir das ações de extensão tecnológica iniciadas a partir dos relatos dos produtores e produtores sobre a complexidade para a questão de irrigação e falta d’água, o gasto excessivo de tempo para acompanhamento dos cultivos, uso inadequado de água para determinados plantios e consumo demasiado deste recurso.</p>
-                        <p>O objetivo desta intervenção foi dinamizar o processo de irrigação através de um dispositivo de baixo custo e fácil manuseio que poupasse tempo dos agricultores e controlasse os fluxos de água para utilização em quaisquer tipos de sistemas de irrigação. O primeiro resultado esperado para o projeto foi a criação de um dispositivo que cumprisse as tarefas especificadas de monitoramento de tempo e volume da água despejada de acordo com o horário real – o que foi atingido no terceiro protótipo.</p>
-                        <p>Quando os testes demonstraram que os sistemas estavam em perfeito estado e funcionamento, criou-se o modelo aplicável que serviu como segunda etapa do projeto. A peça de campo foi instalada para monitoramento no Assentamento Milton Santos em junho de 2019 após a validação participativa final com a comunidade na Unidade de Referência selecionada pelos assentados.</p>
-                        <p>O projeto foi desenvolvido pelo estudante de Eletroeletrônica do Ensino Médio Técnico, Ruan Paiva Leopoldo, com a orientação técnica do professor Edson Anício Duarte. Atualmente, o dispositivo é monitorado pelo estudante Noah Serrati Moreno, aluno do curso de Eletrônica Integrado ao Ensino Médio, e o projeto coordenado pela professora Erika Batista.</p>
+                        <p>O projeto foi desenvolvido pelo estudante de Eletroeletrônica do Ensino Médio Técnico, Ruan Paiva Leopoldo, com a orientação técnica do professor Edson Anício Duarte. Durante 2019, o dispositivo foi monitorado pelo estudante Noah Serrati Moreno, aluno do curso de Eletrônica Integrado ao Ensino Médio. Atualmente está em andamento a construção de um segundo protótipo de campo para ser instalado em nova unidade de referência no Assentamento.</p>
                     </div>
                     <div className="col-md-2"></div>
+                    <Carousel
+                        foto1={foto1_car} alt1={"Foto 1 Irrigador Automatizado"}
+                        foto2={foto2_car} alt2={"Foto 2 Irrigador Automatizado"}
+                        foto3={foto3_car} alt3={"Foto 3 Irrigador Automatizado"}
+                        foto4={foto4_car} alt4={"Foto 4 Irrigador Automatizado"}
+                        foto5={foto5_car} alt5={"Foto 5 Irrigador Automatizado"}
+                        foto6={foto6_car} alt6={"Foto 6 Irrigador Automatizado"}
+                        id={"IrrigadorAutomatizado"}
+                    />
                 </div>
+
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
@@ -44,13 +60,14 @@ const irrigadorAutomatizado =()=>{
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        <div className="Video">
-                            <iframe width="560" height="315" 
-                            title={"VídeodoIrrigadorAutomatizado"}
-                            src="https://www.youtube.com/embed/ISDScjWNVXA" 
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            className="Video"/>
+                        <div className="player-wrapper mb-3">
+                            <ReactPlayer
+                                className='react-player '
+                                controls
+                                width='100%'
+                                height='100%'
+                                url='https://www.youtube.com/embed/ISDScjWNVXA'
+                            />
                         </div>
                     </div>
                     <div className="col-md-2"></div>
@@ -59,7 +76,7 @@ const irrigadorAutomatizado =()=>{
                 <SaibaMais conteudo={conteudo}></SaibaMais>
 
 
-                <div className="planosCinza">
+                {/* <div className="planosCinza">
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
@@ -72,10 +89,10 @@ const irrigadorAutomatizado =()=>{
                         </div>
                         <div className="col-md-2"></div>
                     </div>
-                </div>
-            
-            
-            
+                </div> */}
+
+
+
             </div>
         </div>
     )
