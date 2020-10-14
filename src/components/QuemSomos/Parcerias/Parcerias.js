@@ -18,11 +18,12 @@ const parcerias = () =>{
     const conteudo = <ul className="card-text"><li><a href="https://anc.org.br/" target="_blank" rel="noopener noreferrer">Site da ANC</a></li></ul>
     const conteudo2 = <ul className="card-text"><li><a href="https://www.livres.eco.br/" target="_blank" rel="noopener noreferrer">Site do Rede Livres</a></li></ul>
     const conteudo3 = <ul className="card-text"><li><a href="http://cefol.com.br/" target="_blank" rel="noopener noreferrer">Site do Cefol</a></li></ul>
-    const conteudo4 = <ul className="card-text"><li><a href="https://www.fe.unicamp.br/gepedisc/" target="_blank" rel="noopener noreferrer">Site do GEPEDISC</a></li></ul>
+    const conteudo4 = <ul className="card-text"><li><a href="#" style={{textDecoration: 'underline', pointerEvents: 'none'}} disable>Professor Coordenador MOSOA - Luciano Pereira ( lucianopereira.sociologia@gmail.com )</a></li></ul>
     const conteudo5 = <ul className="card-text"><li><a href="http://www.campinas.sp.gov.br/governo/assistencia-social-seguranca-alimentar/" target="_blank" rel="noopener noreferrer">Site da Assistência Social e Segurança Alimentar</a></li></ul>
     const conteudo6 = <ul className="card-text"><li><a href="https://raunicamp.wixsite.com/raunicamp/rau" target="_blank" rel="noopener noreferrer">Site da RAU</a></li></ul>
     const conteudo7 = <ul className="card-text"><li><a href="https://ralsp.org/" target="_blank" rel="noopener noreferrer">Site da Rede de Agroecologia do Leste Paulista</a></li></ul>
     const conteudo8 = <ul className="card-text"><li><a href="https://www.amater.com.br/" target="_blank" rel="noopener noreferrer">Site da Amater</a></li></ul>
+
 
     return(
         <div>
@@ -96,10 +97,7 @@ const parcerias = () =>{
                 <div id="mosoa" className="row">
                     <div className="col-md-2" ></div>
                     <div className="col-md-8">
-                        <p className="planos">MOSOA/GEPEDISC</p>
-                        <div className="texto1">
-                            <p>O GEPEDISC trabalha na interseção das Ciências Sociais e Educação atingindo um amplo grupo de estudantes e pesquisadores de ambas as áreas. Desenvolve pesquisa básica ligada às diferenças sócio-culturais (principalmente as de idade, de gênero, de etnia e de classe) e seu reflexo nos processos educacionais. A atuação junto ao programa de pós-graduação tem permitido o desenvolvimento de dissertações e teses preocupadas com a transformação das relações sociais de produção e do mercado de trabalho nas sociedades modernas, questões relativas a juventude, infância e pequena infância, mulheres, negros, índios, migrações entre outras, embasando reflexões que podem servir à formulação de políticas educacionais. Dentre suas principais linhas de pesquisa encontra-se: Educação e Trabalho; Sociedade, Cultura, Política e Educação; Educação Não Formal; Educação e Diferenciação Sócio-Cultural.</p>
-                        </div>                        
+                        <p className="planos">MOSOA - Movimentos sociais e Agroecologia</p>                      
                     </div>
                     <div className="col-md-2"></div>
                 </div>
