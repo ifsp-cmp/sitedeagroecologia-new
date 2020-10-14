@@ -1,6 +1,14 @@
 import React from 'react';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import './DiagnosticoRural.css';
+import Carousel from '../../CarroseldeFotos/Carousel';
+
+import foto1_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto1.jpg';
+import foto2_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto2.jpg';
+import foto3_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto3.jpg';
+import foto4_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto4.jpg';
+import foto5_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto5.jpg';
+import foto6_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto6.jpg';
 
 import foto1 from '../../../assets/images/EducacaoPopular/DiagnosticoRural/foto1.png';
 import SaibaMais from '../../SaibaMais/SaibaMais';
@@ -29,6 +37,15 @@ const diagnosticoRural = () => {
                         </div>
                     </div>
                     <div className="col-md-2"></div>
+                    <Carousel 
+                        foto1={foto1_car} alt1={"Foto 1 Diagnóstico Rural - Milton Santos"}
+                        foto2={foto2_car} alt2={"Foto 2 Diagnóstico Rural - Milton Santos"}
+                        foto3={foto3_car} alt3={"Foto 3 Diagnóstico Rural - Milton Santos"}
+                        foto4={foto4_car} alt4={"Foto 4 Diagnóstico Rural - Milton Santos"}
+                        foto5={foto5_car} alt5={"Foto 5 Diagnóstico Rural - Milton Santos"}
+                        foto6={foto6_car} alt6={"Foto 6 Diagnóstico Rural - Milton Santos"}
+                        id={"DiagnosticoRural"}
+                    />
                 </div>
                 <SaibaMais conteudo={conteudo1}></SaibaMais>
             </div>
