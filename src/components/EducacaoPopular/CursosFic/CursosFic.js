@@ -1,19 +1,16 @@
 import React from 'react';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
-import CarrosseldeFotos from '../../CarroseldeFotos/CarrosseldeFotos';
+import Carousel from '../../CarroseldeFotos/Carousel';
 
 import './CursosFic.css';
 
-import foto1 from '../../../assets/images/EducacaoPopular/CursosFic/foto_2.jpg';
+import foto1 from '../../../assets/images/EducacaoPopular/CursosFic/foto1.jpg';
 import foto1_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto1.jpg';
 import foto2_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto2.jpg';
 import foto3_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto3.jpg';
 import foto4_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto4.jpg';
 import foto5_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto5.jpg';
 import foto6_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto6.jpg';
-import foto7_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto7.jpg';
-import foto8_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto8.jpg';
-import foto9_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto9.jpg';
 
 import foto1_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto1.jpg';
 import foto2_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto2.jpg';
@@ -21,9 +18,6 @@ import foto3_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edic
 import foto4_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto4.jpg';
 import foto5_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto5.jpg';
 import foto6_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto6.jpg';
-import foto7_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto7.jpg';
-import foto8_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto8.jpg';
-import foto9_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto9.jpg';
 
 import foto1_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto1.jpg';
 import foto2_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto2.jpg';
@@ -31,12 +25,9 @@ import foto3_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edic
 import foto4_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto4.jpg';
 import foto5_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto5.jpg';
 import foto6_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto6.jpg';
-import foto7_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto7.jpg';
-import foto8_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto8.jpg';
-import foto9_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto9.jpg';
 
-const cursosFic = () =>{
-    return(
+const cursosFic = () => {
+    return (
         <div>
             <TopoDaPagina menu="Educação Popular" submenu="Cursos FIC"></TopoDaPagina>
             <div className="container-fluid CursosFic">
@@ -53,8 +44,8 @@ const cursosFic = () =>{
                     <div className="col-md-2"></div>
                 </div>
 
-                <div className="planosCinza">
-                    <div className="row" style={{marginTop: "30px"}}>
+                <div className="planosCinza pb-4">
+                    <div className="row" style={{ marginTop: "30px" }}>
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
                             <p className="card-body planos">CURSO FIC 2018 - 1° EDIÇÃO</p>
@@ -64,23 +55,19 @@ const cursosFic = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="Carrossel">
-                        <CarrosseldeFotos
-                            foto1={foto1_edicao18} 
-                            foto2={foto2_edicao18}
-                            foto3={foto3_edicao18}
-                            foto4={foto4_edicao18}
-                            foto5={foto5_edicao18}
-                            foto6={foto6_edicao18}
-                            foto7={foto7_edicao18}
-                            foto8={foto8_edicao18}
-                            foto9={foto9_edicao18}
-                            id={"Edicao2018"}
-                        />
-                    </div>
+                    <Carousel
+                        foto1={foto1_edicao18} alt1={"Foto 1 Curso FIC Primeira Edição"}
+                        foto2={foto2_edicao18} alt2={"Foto 2 Curso FIC Primeira Edição"}
+                        foto3={foto3_edicao18} alt3={"Foto 3 Curso FIC Primeira Edição"}
+                        foto4={foto4_edicao18} alt4={"Foto 4 Curso FIC Primeira Edição"}
+                        foto5={foto5_edicao18} alt5={"Foto 5 Curso FIC Primeira Edição"}
+                        foto6={foto6_edicao18} alt6={"Foto 6 Curso FIC Primeira Edição"}
+                        id={"Edicao2018"}
+                    />
+
                 </div>
 
-                <div className="row">
+                <div className="row mb-4">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <p className="card-body planos">CURSO FIC 2019 - 2º EDIÇÃO</p>
@@ -88,23 +75,19 @@ const cursosFic = () =>{
                             <p>A segunda edição do curso foi realizada no primeiro semestre de 2019 e ofertada em parceria com o Sindicato dos Químicos Unificados de Campinas, EMBRAPA – Meio Ambiente (Jaguariúna – SP) e ocorreu no Centro de Formação e Lazer (Cefol), localizado na Rodovia D. Pedro I, km 118, Valinhos/SP, região próxima ao Acampamento Marielle Vive e de onde eram a maioria dos alunos e alunas matriculados nesta edição. Também participaram diferentes convidados e profissionais de áreas complementares as da equipe executora dos projetos CNPq que fomentaram a ação.</p>
                         </div>
                     </div>
-                </div>
-                <div className="Carrossel">
-                    <CarrosseldeFotos
-                        foto1={foto1_2edicao}
-                        foto2={foto2_2edicao}
-                        foto3={foto3_2edicao}
-                        foto4={foto4_2edicao}
-                        foto5={foto5_2edicao}
-                        foto6={foto6_2edicao}
-                        foto7={foto7_2edicao}
-                        foto8={foto8_2edicao}
-                        foto9={foto9_2edicao}
+                    <Carousel
+                        foto1={foto1_2edicao} alt1={"Foto 1 Curso FIC Segunda Edição"}
+                        foto2={foto2_2edicao} alt2={"Foto 2 Curso FIC Segunda Edição"}
+                        foto3={foto3_2edicao} alt3={"Foto 3 Curso FIC Segunda Edição"}
+                        foto4={foto4_2edicao} alt4={"Foto 4 Curso FIC Segunda Edição"}
+                        foto5={foto5_2edicao} alt5={"Foto 5 Curso FIC Segunda Edição"}
+                        foto6={foto6_2edicao} alt6={"Foto 6 Curso FIC Segunda Edição"}
                         id={"Edicao2"}
                     />
                 </div>
 
-                <div className="planosCinza">
+
+                <div className="planosCinza pb-4 mb-5">
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
@@ -115,20 +98,16 @@ const cursosFic = () =>{
                         </div>
                         <div className="col-md-2"></div>
                     </div>
-                    <div className="Carrossel">
-                        <CarrosseldeFotos
-                            foto1={foto1_3edicao}
-                            foto2={foto2_3edicao}
-                            foto3={foto3_3edicao}
-                            foto4={foto4_3edicao}
-                            foto5={foto5_3edicao}
-                            foto6={foto6_3edicao}
-                            foto7={foto7_3edicao}
-                            foto8={foto8_3edicao}
-                            foto9={foto9_3edicao}
-                            id={"Edicao3"}
-                        />
-                    </div>
+                    <Carousel
+                        foto1={foto1_3edicao} alt1={"Foto 1 Curso FIC Terceira Edição"}
+                        foto2={foto2_3edicao} alt2={"Foto 2 Curso FIC Terceira Edição"}
+                        foto3={foto3_3edicao} alt3={"Foto 3 Curso FIC Terceira Edição"}
+                        foto4={foto4_3edicao} alt4={"Foto 4 Curso FIC Terceira Edição"}
+                        foto5={foto5_3edicao} alt5={"Foto 5 Curso FIC Terceira Edição"}
+                        foto6={foto6_3edicao} alt6={"Foto 6 Curso FIC Terceira Edição"}
+                        id={"Edicao3"}
+                    />
+
                 </div>
 
             </div>
