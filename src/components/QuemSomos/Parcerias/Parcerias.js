@@ -18,7 +18,7 @@ const parcerias = () =>{
     const conteudo = <ul className="card-text"><li><a href="https://anc.org.br/" target="_blank" rel="noopener noreferrer">Site da ANC</a></li></ul>
     const conteudo2 = <ul className="card-text"><li><a href="https://www.livres.eco.br/" target="_blank" rel="noopener noreferrer">Site do Rede Livres</a></li></ul>
     const conteudo3 = <ul className="card-text"><li><a href="http://cefol.com.br/" target="_blank" rel="noopener noreferrer">Site do Cefol</a></li></ul>
-    const conteudo4 = <ul className="card-text"><li><a href="#" style={{textDecoration: 'underline', pointerEvents: 'none'}} disable>Professor Coordenador MOSOA - Luciano Pereira ( lucianopereira.sociologia@gmail.com )</a></li></ul>
+    const conteudo4 = <ul className="card-text"><li style={{textDecoration: 'underline'}}>Professor Coordenador MOSOA - Luciano Pereira ( lucianopereira.sociologia@gmail.com )</li></ul>
     const conteudo5 = <ul className="card-text"><li><a href="http://www.campinas.sp.gov.br/governo/assistencia-social-seguranca-alimentar/" target="_blank" rel="noopener noreferrer">Site da Assistência Social e Segurança Alimentar</a></li></ul>
     const conteudo6 = <ul className="card-text"><li><a href="https://raunicamp.wixsite.com/raunicamp/rau" target="_blank" rel="noopener noreferrer">Site da RAU</a></li></ul>
     const conteudo7 = <ul className="card-text"><li><a href="https://ralsp.org/" target="_blank" rel="noopener noreferrer">Site da Rede de Agroecologia do Leste Paulista</a></li></ul>
