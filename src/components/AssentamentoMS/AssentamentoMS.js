@@ -10,10 +10,12 @@ import foto2 from '../../assets/images/AssentamentoMS/Introducao/foto2.png';
 import foto3 from '../../assets/images/AssentamentoMS/Introducao/foto3.png';
 import foto4 from '../../assets/images/AssentamentoMS/Introducao/foto4.png';
 import foto5 from '../../assets/images/AssentamentoMS/Introducao/foto5.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const assentamentoMS = () =>{
     const conteudo = <ul className="card-text">
-        <li><a href="https://www.facebook.com/AssentamentoMiltonSantos/posts/380597652019366/" target="_blank" rel="noopener noreferrer">Facebook Assentamento Milton Santos</a></li>
+        <li><a href="https://www.facebook.com/AssentamentoMiltonSantos/posts/380597652019366/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="2x" title="Assentamento Milton Santos" color="#77B81E"/> </a></li>
     </ul>;
 
     const projeto = [

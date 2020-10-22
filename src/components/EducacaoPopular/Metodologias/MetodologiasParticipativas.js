@@ -20,10 +20,12 @@ import foto6_car2 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carros
 import foto_capa from '../../../assets/images/EducacaoPopular/Avaliacoes/foto1.png';
 import icone from '../../../assets/images/EducacaoPopular/Avaliacoes/icone.png';
 import SaibaMais from '../../SaibaMais/SaibaMais';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const MetodologiasParticipativas = () => {
     const conteudo1 = <ul className="card-text">
-        <li><a href="https://www.youtube.com/watch?v=5xn3AgSqUkc&t=1347s" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: '#707070' }}>Vídeo Audiovisual - Projeto Irrigador</a></li>
+        <li><a href="https://www.youtube.com/watch?v=5xn3AgSqUkc&t=1347s" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} size="2x" color="#77B81E" title="Vídeo Audiovisual - Projeto Irrigador"/> </a></li>
     </ul>
 
     return (

@@ -12,11 +12,12 @@ import foto6_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/C
 
 import foto1 from '../../../assets/images/EducacaoPopular/DiagnosticoRural/foto1.png';
 import SaibaMais from '../../SaibaMais/SaibaMais';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogleDrive, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const diagnosticoRural = () => {
     const conteudo1 = <ul className="card-text">
-        <li><a href="https://www.youtube.com/watch?v=0bI0l_bZwEg " target="_blank" rel="noopener noreferrer">Apresentação de trabalho da Manuela</a></li>
-        <li><a href="https://drive.google.com/drive/folders/1CLGTxMTxiT6mMz13ByxvjCP5MqKmtp5u " target="_blank" rel="noopener noreferrer">Galeria fotos DRP</a></li>
+        <li><a href="https://www.youtube.com/watch?v=0bI0l_bZwEg " target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} size="2x" title="Apresentação de trabalho da Manuela" color="#77B81E"/></a><a className="ml-2" href="https://drive.google.com/drive/folders/1CLGTxMTxiT6mMz13ByxvjCP5MqKmtp5u " target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogleDrive} size="2x" color="#1A2D00" title="Galeria fotos DRP"/></a></li>
     </ul>
 
     return (

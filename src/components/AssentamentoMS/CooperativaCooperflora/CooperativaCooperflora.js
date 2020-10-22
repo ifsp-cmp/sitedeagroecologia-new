@@ -6,10 +6,12 @@ import './CooperativaCooperflora.css';
 
 import ReactPlayer from 'react-player';
 import foto1 from '../../../assets/images/AssentamentoMS/Cooperflora/foto1.jpeg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const cooperativaCooperflora = () => {
     const conteudo = <ul className="card-text">
-        <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer">Facebook Cooperativa Cooperflora</a></li>
+        <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2x" icon={faFacebook} title="Cooperativa Cooperflora" color="#77B81E"/></a></li>
         <li><a href="https://cooperflora.eco.br/" target="_blank" rel="noopener noreferrer">Site da Cooperflora</a></li>
     </ul>;
 

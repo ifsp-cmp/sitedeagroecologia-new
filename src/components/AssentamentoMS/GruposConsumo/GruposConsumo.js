@@ -7,10 +7,12 @@ import './GruposConsumo.css';
 
 import foto1 from '../../../assets/images/AssentamentoMS/GrpConsumo/foto1.jpg'; 
 import foto2 from '../../../assets/images/AssentamentoMS/GrpConsumo/foto2.png'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const gruposConsumo = () =>{
     const conteudo =<ul className="card-text">
-    <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer">Facebook Cooperativa Cooperflora</a></li>
+    <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon title="Cooperativa Cooperflora" size="2x" color="#77B81E" icon={faFacebook}/></a></li>
 </ul>;
 
     const grupo = [
