@@ -1,0 +1,15 @@
+.FestivalAgro{
+    margin-top: 40px;
+}
+.FestivalAgro a{
+    text-decoration: underline;
+    color:#707070;   
+}
+
+.FestivalAgro b{
+    font: Bold 18px/24px Roboto Slab;
+    color: #1A2D00;
+}
+.FestivalAgro b:hover{
+    color: #77B81E;
+}

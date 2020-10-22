@@ -56,6 +56,7 @@ const navigationItems = (props) => (
                 <NavigationItem link='/epformacoes' active>FORMAÇÕES GRUPO DE CONSUMO</NavigationItem>
                 <NavigationItem link='/epdiagnosticoruralparticipativo' active>DIAGNÓSTICO RURAL PARTICIPATIVO</NavigationItem>
                 <NavigationItem link='/epvisitasevivencias' active>VISITAS E VIVÊNCIAS</NavigationItem>
+                <NavigationItem link='/epfestivalagroecologia' active>FESTIVAL DE AGROECOLOGIA E ECOTURISMO</NavigationItem>
             </ul>
         </li>
         <div className="DivMenuMobile" >&nbsp;</div>

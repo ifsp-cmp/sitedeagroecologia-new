@@ -41,6 +41,7 @@ import Cadastro from './containers/Cadastro/Cadastro';
 import Logout from './containers/Login/Logout';
 // import ForgotPassword from './containers/Login/ForgotPassword';
 import ListarUsuarios from './containers/ListarUsuarios/ListarUsuarios';
+import FestivalAgro from './components/EducacaoPopular/FestivalAgro/FestivalAgro';
 // import Projeto from './components/Projeto/Projeto';
 // import Cooperflora from './components/Cooperflora/Cooperflora';
 // import Training from './containers/Training/Training';
@@ -78,6 +79,7 @@ class Routes extends Component{
         <Route exact path="/epdiagnosticoruralparticipativo" component={DiagnosticoRural} />
         <Route exact path="/epmetodologiasparticipativas" component={MetodologiasParticipativas} />
         <Route exact path="/epvisitasevivencias" component={Visitas} />
+        <Route exact path="/epfestivalagroecologia" component={FestivalAgro}/>
         
         <Route exact path="/quemsomos" component={QuemSomos} />
         <Route exact path="/qsequipes" component={Equipes} />
