@@ -15,7 +15,7 @@ const gruposConsumo = () =>{
 
     const grupo = [
         {endereco:'R. José Bonifácio, 381 - Chácara Machadinho I, Americana - SP, 13478-040' ,entrega : 'Semanalmente às Segundas-Feiras', horario : '18h30 às 20h'},
-        {endereco:'CTI Renato Archer - Av. Comendador Aladino Selmi, s/n - Chácaras Campos dos Amarais, Campinas - SP, 13069-901' , entrega:'Quinzenalmente às 1ªs (primeiras) e 3ªs (terceiras) quartas-feiras de cada mês' , horario: '14h00 às 15h00'},
+        {endereco:'R. Heitor Lacerda Guedes, 1000 - Cidade Satélite Íris, Campinas - SP, 13059-581' , entrega:'Quinzenalmente às 1ªs (primeiras) e 3ªs (terceiras) quartas-feiras de cada mês' , horario: '14h00 às 15h00'},
         {endereco:'Rua Cônego Manoel Garcia, 1010 - Jardim Chapadão, Campinas - SP, 13070-037' , entrega:'Quinzenalmente às segundas e últimas quintas-feiras de cada mês' , horario: '11h às 12h'},
         {endereco:'STOUT Café, Cultura; Bar - R. Gilberto Pattaro, 105 - Barão Geraldo, Campinas - SP, 13084-375' , entrega:'Quinzenalmente às 1ªs (primeiras) e 3ªs (terceiras) quartas-feiras de cada mês' , horario: '18h30 as 19h30'},
         {endereco:'R. Prudente de Moraes, 431 – Centro – Santa Barbara D’Oeste' , entrega:'Semanalmente às Segundas-Feiras' , horario: '18h00 às 20h'},

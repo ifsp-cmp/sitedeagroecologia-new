@@ -6,14 +6,14 @@ import './Feiras.css';
 
 const feiras = () =>{
     const grupo = [
-        {endereco: 'Rua General Marcondes Salgado, 150 – Bosque - Campinas', entrega: 'Mensalmente no 3º (terceiro) sábado de cada mês',horario: '9h as 13h e a roda de conversa após a feira'},
-        {endereco: 'R. José Bonifácio, 381 - Chácara Machadinho I, Americana - SP, 13478-040', entrega: 'Semanalmente às Segundas-Feiras',horario: '18h30 às 20h'}
+        {endereco: 'Rua General Marcondes Salgado, 150 – Bosque - Campinas SP', entrega: 'Mensalmente no 3º (terceiro) sábado de cada mês',horario: '9h as 13h e a roda de conversa após a feira'},
+        {endereco: 'Rua José de Campos Novaes, 277, Guanabara - Campinas SP', entrega: 'Todos os sábados',horario: '10h as 13h'}
     ]
 
     return(
         <div>
             <TopoDaPagina menu="Assentamento Milton Santos" submenu="Feiras"></TopoDaPagina>
-            <div className="container-fluid">
+            <div className="container-fluid Feiras">
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
@@ -35,7 +35,7 @@ const feiras = () =>{
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8 texto1">
-                            <p>O Livres é uma plataforma que organiza grupos de consumidores, feiras e lojas que funcionam em sistema de permutas de prestação de serviços, créditos solidários, dentre outros. Este novo sistema integra produtores e consumidores, eliminando o intermediador. Promovendo o acesso da população a produtos do bem – livre de agrotóxicos – a Cooperflora e o MST fornecem produtos para a loja do município de Campinas, que fica aberta durante a semana e também para as feiras que acontecem aos sábados.</p>
+                            <p>O <a href="https://www.livres.eco.br/campinas/" target="_blank" rel="noopener noreferrer"><b>Livres</b></a> é uma plataforma que organiza grupos de consumidores, feiras e lojas que funcionam em sistema de permutas de prestação de serviços, créditos solidários, dentre outros. Este novo sistema integra produtores e consumidores, eliminando o intermediador. Promovendo o acesso da população a produtos do bem – livre de agrotóxicos – a Cooperflora e o MST fornecem produtos para a loja do município de Campinas, que fica aberta durante a semana e também para as feiras que acontecem aos sábados.</p>
                         </div>
                         <div className="col-md-2"></div>
                     </div>
