@@ -66,7 +66,6 @@ const navigationItems = (props) => (
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link='/qsequipes'>EQUIPES</NavigationItem>
-                <NavigationItem link='/qsindicadoresacademicos'>INDICADORES ACADÊMICOS</NavigationItem>
                 <NavigationItem link='/qsparcerias'>PARCERIAS</NavigationItem>
             </ul>
         </li>

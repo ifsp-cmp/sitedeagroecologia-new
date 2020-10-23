@@ -33,7 +33,6 @@ import Visitas from './components/EducacaoPopular/Visitas/Visitas';
 
 import QuemSomos from './components/QuemSomos/QuemSomos';
 import Equipes from './components/QuemSomos/Equipes/Equipes';
-import IndicadoresAcademicos from './components/QuemSomos/IndicadoresAcademicos/IndicadoresAcademicos';
 import Parcerias from './components/QuemSomos/Parcerias/Parcerias';
 
 import Login from './containers/Login/Login';
@@ -83,7 +82,6 @@ class Routes extends Component{
         
         <Route exact path="/quemsomos" component={QuemSomos} />
         <Route exact path="/qsequipes" component={Equipes} />
-        <Route exact path="/qsindicadoresacademicos" component={IndicadoresAcademicos} />
         <Route exact path="/qsparcerias" component={Parcerias} />
 
         <Route exact path="/cadastro" component={Cadastro} />
