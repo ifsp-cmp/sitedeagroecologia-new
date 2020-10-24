@@ -8,6 +8,11 @@
 }
 
 .QuemSomos strong{
-    font: Bold 20px/27px Roboto Slab;
+    font: Bold 19px/24px Roboto Slab;
     color: #1A2D00;
+}
+
+#titleLinhas {
+    font: Bold 22px/28px Roboto Slab;
+    color: #77B81E;
 }

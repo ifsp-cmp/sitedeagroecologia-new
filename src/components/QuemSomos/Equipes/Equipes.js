@@ -2,13 +2,15 @@ import React from 'react';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import SaibaMais from '../../SaibaMais/SaibaMais';
 import './Equipes.css';
+import { membros } from '../../../data/membros';
+import CardEquipe from './CardEquipe';
 
-const equipes = () =>{
+const equipes = () => {
     const conteudo = <ul className="card-text">
         <li><a href="http://dgp.cnpq.br/dgp/espelhogrupo/272964#recursosHumanos" target="_blank" rel="noopener noreferrer">Acesso ao Diretório do Grupo de Pesquisa NEAES no CNPq.</a></li>
     </ul>;
 
-    return(
+    return (
         <div>
             <TopoDaPagina menu="Quem Somos" submenu="Equipes"></TopoDaPagina>
             <div className="container-fluid Equipes">
@@ -24,18 +26,37 @@ const equipes = () =>{
                     </div>
                     <div className="col-md-2"></div>
                 </div>
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8">
+                        <p className="card-body planos">CONHEÇA NOSSA EQUIPE</p>
+                    </div>
+                </div>
+                <div className="container my-4">
+                    <div className="row justify-content-center">
+                        {membros.map(membro => (
+                            <CardEquipe
+                                key={membro.name}
+                                membro={membro}
+                            />
+                        ))
+
+                        }
+                    </div>
+                </div>
+
                 <div className="planosCinza">
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
-                            <p className="card-body planos">CONHEÇA NOSSA EQUIPE</p>
+                            <p className="card-body planos">ACESSE NOSSO DIRETÓRIO NO CNPq</p>
                         </div>
                         <div className="col-md-2"></div>
                     </div>
                     <SaibaMais conteudo={conteudo}></SaibaMais>
                 </div>
             </div>
-            
+
 
         </div>
     )
