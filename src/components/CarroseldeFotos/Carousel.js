@@ -6,7 +6,7 @@ import { faArrowAltCircleRight, faArrowAltCircleLeft } from '@fortawesome/free-s
 
 const Carousel = (props) => {
     return (
-        <div className="container col-md-6 mb-4 mt-2">
+        <div className="container col-md-8 mb-4 mt-2">
             <div id={props.id} className="carousel slide carousel-fade" data-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target={`#${props.id}`} data-slide-to="0" className="active"></li>
