@@ -59,6 +59,7 @@ const MetodologiasParticipativas = () => {
                             </div>
                             <div className="texto1">
                                 <p><strong>2. Curso FIC, 3ª edição 2019</strong></p>
+                                <p>A avaliação foi proposta aos alunos do curso de formação inicial e continuada do segundo semestre de 2019, com três perguntas geradoras: Que bom; Que pena; Que tal?. Os participantes que não dispunham do domínio da escrita puderam responder oralmente às questões e um relator as transcreveu.</p>
                                 {/* <p></p> */}
                             </div>
                             <div className="card" style={{ borderBottom: "4px solid #77B81E" }}>
