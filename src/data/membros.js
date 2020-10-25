@@ -7,6 +7,29 @@ export const membros = [
         researchLink2: '/quemsomos#linha2'
     },
     {
+        name: 'Daltamir Maia',
+        photo: require('../assets/images/QuemSomos/Membros/daltamir.jpg'),
+        role: 'Professor',
+        research3: 'Linha 3',
+        researchLink3: '/quemsomos#linha3'
+    },
+    {
+        name: 'Diego Figueira',
+        photo: require('../assets/images/QuemSomos/Membros/diego.jpg'),
+        role: 'Professor',
+        research1: 'Linha 1',
+        researchLink1: '/quemsomos#linha1',
+        research2: 'Linha 2',
+        researchLink2: '/quemsomos#linha2',
+    },
+    {
+        name: 'Éllen Correa',
+        photo: require('../assets/images/QuemSomos/Membros/ellen.jpg'),
+        role: 'Professora',
+        research1: 'Linha 1',
+        researchLink1: '/quemsomos#linha1',
+    },
+    {
         name: 'Erika Batista',
         photo: require('../assets/images/QuemSomos/Membros/erika.jpeg'),
         role: 'Professora',
@@ -16,6 +39,26 @@ export const membros = [
         researchLink2: '/quemsomos#linha2',
         research3: 'Linha 3',
         researchLink3: '/quemsomos#linha3'
+    },
+    {
+        name: 'Glauber Balthazar',
+        photo: require('../assets/images/QuemSomos/Membros/glauber.jpg'),
+        role: 'Professor',
+        research2: 'Linha 2',
+        researchLink2: '/quemsomos#linha2',
+        
+    },
+    {
+        name: 'Herivelto Rocha',
+        photo: require('../assets/images/QuemSomos/Membros/herivelto.jpg'),
+        role: 'Professor',
+        research1: 'Linha 1',
+        researchLink1: '/quemsomos#linha1',
+        research2: 'Linha 2',
+        researchLink2: '/quemsomos#linha2',
+        research3: 'Linha 3',
+        researchLink3: '/quemsomos#linha3'
+        
     },
     {
         name: 'João Aleixo',
@@ -46,6 +89,29 @@ export const membros = [
         role: 'Aluno',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
+    },
+    {
+        name: 'Mariana Saragiotto',
+        photo: require('../assets/images/QuemSomos/Membros/mariana.jpg'),
+        role: 'Professora',
+        research3: 'Linha 3',
+        researchLink3: '/quemsomos#linha3'
+    },
+    {
+        name: 'Mariane Freitas',
+        photo: require('../assets/images/QuemSomos/Membros/mariane.jpeg'),
+        role: 'Aluno',
+        research1: 'Linha 1',
+        researchLink1: '/quemsomos#linha1',
+    },
+    {
+        name: 'Marcio Miranda',
+        photo: require('../assets/images/QuemSomos/Membros/marcio.jpg'),
+        role: 'Professor',
+        research2: 'Linha 2',
+        researchLink2: '/quemsomos#linha2',
+        research3: 'Linha 3',
+        researchLink3: '/quemsomos#linha3'
     },
     {
         name: 'Mayara Peres',

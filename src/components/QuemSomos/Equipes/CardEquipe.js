@@ -9,7 +9,7 @@ const TeamCard = (props, index) => {
         isLast ? 'ml-1' : 'mx-1'
 
     return (
-        <div className={`${margin} mt-2 col text-center px-2 mt-3 col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 border`} style={{borderRadius: '10px'}}>
+        <div className={`${margin} mt-2 col text-center px-2 mt-3 col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 border`} style={{ borderRadius: '10px'}}>
             <figure className="mb-2">
                 <img style={{ maxWidth: '100%', borderRadius: '10px' }} src={props.membro.photo} alt={props.membro.name} />
             </figure>
@@ -19,24 +19,32 @@ const TeamCard = (props, index) => {
             <h6 style={{ marginTop: '-8px', fontWeight: '700' }}>
                 {props.membro.role}
             </h6>
-            <h6 className="linhaLink" style={{ marginTop: '-8px' }}>
+            <h6 className="linhaLink" style={{ marginTop: '-6px' }}>
                 {props.membro.research1 ? (
-                    <a href={props.membro.researchLink1}>
-                        {props.membro.research1+' '}
-                    </a>
-                    )
+                    <div>
+                        <a href={props.membro.researchLink1}>
+                            {props.membro.research1 + ' '}
+                        </a>
+                    </div>
+                )
                     : ''
                 }
                 {props.membro.research2 ? (
-                    <a href={props.membro.researchLink2}>
-                        {props.membro.research2+' '}
-                    </a>)
+                    <div>
+                        <a href={props.membro.researchLink2}>
+                            {props.membro.research2 + ' '}
+                        </a>
+                    </div>
+                )
                     : ''
                 }
                 {props.membro.research3 ? (
-                    <a href={props.membro.researchLink3}>
-                        {props.membro.research3+' '}
-                    </a>)
+                    <div>
+                        <a href={props.membro.researchLink3}>
+                            {props.membro.research3 + ' '}
+                        </a>
+                    </div>
+                )
                     : ''
                 }
 
