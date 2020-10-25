@@ -9,6 +9,9 @@ import foto3_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/C
 import foto4_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto4.jpg';
 import foto5_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto5.jpg';
 import foto6_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto6.jpg';
+import foto7_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto7.jpg';
+import foto8_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto8.jpg';
+import foto9_car from '../../../assets/images/EducacaoPopular/DiagnosticoRural/Carrossel/foto9.jpg';
 
 import foto1 from '../../../assets/images/EducacaoPopular/DiagnosticoRural/foto1.png';
 import SaibaMais from '../../SaibaMais/SaibaMais';
@@ -45,6 +48,9 @@ const diagnosticoRural = () => {
                         foto4={foto4_car} alt4={"Foto 4 Diagnóstico Rural - Milton Santos"}
                         foto5={foto5_car} alt5={"Foto 5 Diagnóstico Rural - Milton Santos"}
                         foto6={foto6_car} alt6={"Foto 6 Diagnóstico Rural - Milton Santos"}
+                        foto7={foto7_car} alt7={"Foto 7 Diagnóstico Rural - Milton Santos"}
+                        foto8={foto8_car} alt8={"Foto 8 Diagnóstico Rural - Milton Santos"}
+                        foto9={foto9_car} alt9={"Foto 9 Diagnóstico Rural - Milton Santos"}
                         id={"DiagnosticoRural"}
                     />
                 </div>

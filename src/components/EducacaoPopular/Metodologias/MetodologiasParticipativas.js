@@ -9,6 +9,9 @@ import foto3_car1 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carros
 import foto4_car1 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel/foto4.jpg';
 import foto5_car1 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel/foto5.jpg';
 import foto6_car1 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel/foto6.JPG';
+import foto7_car1 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel/foto7.JPG';
+import foto8_car1 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel/foto8.JPG';
+import foto9_car1 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel/foto9.JPG';
 
 import foto1_car2 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel2/foto1.jpg';
 import foto2_car2 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel2/foto2.jpg';
@@ -17,7 +20,8 @@ import foto4_car2 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carros
 import foto5_car2 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel2/foto5.jpg';
 import foto6_car2 from '../../../assets/images/EducacaoPopular/Avaliacoes/Carrossel2/foto6.jpg';
 
-import foto_capa from '../../../assets/images/EducacaoPopular/Avaliacoes/foto1.png';
+import foto_capa1 from '../../../assets/images/EducacaoPopular/Avaliacoes/foto_1.jpg';
+
 import icone from '../../../assets/images/EducacaoPopular/Avaliacoes/icone.png';
 import SaibaMais from '../../SaibaMais/SaibaMais';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -35,7 +39,7 @@ const MetodologiasParticipativas = () => {
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        <img src={foto_capa} width="100%" alt={""}></img>
+                        <img src={foto_capa1} width="100%" alt={""}></img>
                         <p className="texto1">A metodologia de pesquisa-ação é adotada por todas as frentes dos projetos que integram os trabalhos do NEAES. Em consonância com os princípios da Educação Popular, esta metodologia possilita formas participativas de construção coletiva na forma de avaliações, validações participativas, diagnósticos rurais participativos e levantamento de demandas comunitárias e sociotécnicas. Com esta orientação metodológica, espera-se que os participantes envolvidos nas ações sejam sujeitos ativos na verificação da eficácia e aplicabilidade das tecnologias sociais desenvolvidas em seu próprio cotidiano.</p>
 
                     </div>
@@ -117,6 +121,9 @@ const MetodologiasParticipativas = () => {
                         foto4={foto4_car1} alt4={"Foto 4 Validação Participativa Dipostivo de Compostagem"}
                         foto5={foto5_car1} alt5={"Foto 5 Validação Participativa Dipostivo de Compostagem"}
                         foto6={foto6_car1} alt6={"Foto 6 Validação Participativa Dipostivo de Compostagem"}
+                        foto7={foto7_car1} alt7={"Foto 7 Validação Participativa Dipostivo de Compostagem"}
+                        foto8={foto8_car1} alt8={"Foto 8 Validação Participativa Dipostivo de Compostagem"}
+                        foto9={foto9_car1} alt9={"Foto 9 Validação Participativa Dipostivo de Compostagem"}
                         id={"ValidacaoParticipativaCompostagem"}
                     />
                 </div>

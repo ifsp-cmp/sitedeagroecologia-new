@@ -10,6 +10,10 @@ import foto3_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carro
 import foto4_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto4.jpg';
 import foto5_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto5.jpg';
 import foto6_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto6.jpg';
+import foto7_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto7.jpg';
+import foto8_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto8.jpg';
+import foto9_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto9.jpg';
+import foto10_car from '../../../assets/images/TecnologiasSociais/Irrigador/Carrossel/foto10.jpg';
 
 import './IrrigadorAutomatizado.css';
 
@@ -48,6 +52,10 @@ const irrigadorAutomatizado = () => {
                         foto4={foto4_car} alt4={"Foto 4 Irrigador Automatizado"}
                         foto5={foto5_car} alt5={"Foto 5 Irrigador Automatizado"}
                         foto6={foto6_car} alt6={"Foto 6 Irrigador Automatizado"}
+                        foto7={foto7_car} alt7={"Foto 7 Irrigador Automatizado"}
+                        foto8={foto8_car} alt8={"Foto 8 Irrigador Automatizado"}
+                        foto9={foto9_car} alt9={"Foto 9 Irrigador Automatizado"}
+                        foto10={foto10_car} alt10={"Foto 10 Irrigador Automatizado"}
                         id={"IrrigadorAutomatizado"}
                     />
                 </div>
