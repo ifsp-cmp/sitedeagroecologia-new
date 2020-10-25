@@ -13,7 +13,7 @@ const Pnae = () =>{
     </ul>;
 
     const conteudo2 = <ul className="card-text">
-        <li><a href="https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae" target="_blank" rel="noopener noreferrer">https://www.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae</a></li>
+        <li><a href="https://portal.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae" target="_blank" rel="noopener noreferrer">https://portal.cmp.ifsp.edu.br/index.php/noticias/1411-chamada-publica-aquisicao-de-generos-alimenticios-da-agricultura-familiar-pnae</a></li>
     </ul>;
 
     const conteudo3 = <ul className="card-text">
