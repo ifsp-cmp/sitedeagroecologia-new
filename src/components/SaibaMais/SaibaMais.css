@@ -4,3 +4,7 @@
 .tituloSM{
     text-align: justify;
 }
+
+.tituloSM:hover{
+    color: #1A2D00;
+}
