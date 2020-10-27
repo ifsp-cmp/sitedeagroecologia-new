@@ -111,7 +111,7 @@ const cursosFic = () => {
                         foto8={foto8_2edicao} alt8={"Foto 8 Curso FIC Segunda Edição"}
                         foto9={foto9_2edicao} alt9={"Foto 9 Curso FIC Segunda Edição"}
                         foto10={foto10_2edicao} alt10={"Foto 10 Curso FIC Segunda Edição"}
-                        foto12={foto11_2edicao} alt11={"Foto 11 Curso FIC Segunda Edição"}
+                        foto11={foto11_2edicao} alt11={"Foto 11 Curso FIC Segunda Edição"}
                         foto12={foto12_2edicao} alt12={"Foto 12 Curso FIC Segunda Edição"}
                         id={"Edicao2"}
                     />
