@@ -7,10 +7,17 @@ import './CursosFic.css';
 import foto1 from '../../../assets/images/EducacaoPopular/CursosFic/foto1.jpg';
 import foto1_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto1.jpg';
 import foto2_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto2.jpg';
-import foto3_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto3.jpg';
-import foto4_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto4.jpg';
+import foto3_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto3.JPG';
+import foto4_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto4.JPG';
 import foto5_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto5.jpg';
 import foto6_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto6.jpg';
+import foto7_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto7.jpg';
+import foto8_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto8.jpg';
+import foto9_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto9.jpg';
+import foto10_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto10.jpg';
+import foto11_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto11.jpg';
+import foto12_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto12.jpg';
+import foto13_edicao18 from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2018/foto13.jpg';
 
 import foto1_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto1.jpg';
 import foto2_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto2.jpg';
@@ -18,6 +25,12 @@ import foto3_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edic
 import foto4_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto4.jpg';
 import foto5_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto5.jpg';
 import foto6_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto6.jpg';
+import foto7_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto7.jpg';
+import foto8_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto8.jpg';
+import foto9_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto9.jpg';
+import foto10_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto10.jpg';
+import foto11_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto11.jpg';
+import foto12_2edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao2/foto12.jpg';
 
 import foto1_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto1.jpg';
 import foto2_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto2.jpg';
@@ -25,6 +38,11 @@ import foto3_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edic
 import foto4_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto4.jpg';
 import foto5_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto5.jpg';
 import foto6_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto6.jpg';
+import foto7_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto7.jpg';
+import foto8_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto8.jpg';
+import foto9_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto9.jpg';
+import foto10_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto10.jpg';
+import foto11_3edicao from '../../../assets/images/EducacaoPopular/CursosFic/Edicao3/foto11.jpg';
 
 const cursosFic = () => {
     return (
@@ -62,6 +80,13 @@ const cursosFic = () => {
                         foto4={foto4_edicao18} alt4={"Foto 4 Curso FIC Primeira Edição"}
                         foto5={foto5_edicao18} alt5={"Foto 5 Curso FIC Primeira Edição"}
                         foto6={foto6_edicao18} alt6={"Foto 6 Curso FIC Primeira Edição"}
+                        foto7={foto7_edicao18} alt7={"Foto 7 Curso FIC Primeira Edição"}
+                        foto8={foto8_edicao18} alt8={"Foto 8 Curso FIC Primeira Edição"}
+                        foto9={foto9_edicao18} alt9={"Foto 9 Curso FIC Primeira Edição"}
+                        foto10={foto10_edicao18} alt10={"Foto 10 Curso FIC Primeira Edição"}
+                        foto11={foto11_edicao18} alt11={"Foto 11 Curso FIC Primeira Edição"}
+                        foto12={foto12_edicao18} alt12={"Foto 12 Curso FIC Primeira Edição"}
+                        foto13={foto13_edicao18} alt13={"Foto 13 Curso FIC Primeira Edição"}
                         id={"Edicao2018"}
                     />
 
@@ -82,6 +107,12 @@ const cursosFic = () => {
                         foto4={foto4_2edicao} alt4={"Foto 4 Curso FIC Segunda Edição"}
                         foto5={foto5_2edicao} alt5={"Foto 5 Curso FIC Segunda Edição"}
                         foto6={foto6_2edicao} alt6={"Foto 6 Curso FIC Segunda Edição"}
+                        foto7={foto7_2edicao} alt7={"Foto 7 Curso FIC Segunda Edição"}
+                        foto8={foto8_2edicao} alt8={"Foto 8 Curso FIC Segunda Edição"}
+                        foto9={foto9_2edicao} alt9={"Foto 9 Curso FIC Segunda Edição"}
+                        foto10={foto10_2edicao} alt10={"Foto 10 Curso FIC Segunda Edição"}
+                        foto12={foto11_2edicao} alt11={"Foto 11 Curso FIC Segunda Edição"}
+                        foto12={foto12_2edicao} alt12={"Foto 12 Curso FIC Segunda Edição"}
                         id={"Edicao2"}
                     />
                 </div>
@@ -105,6 +136,11 @@ const cursosFic = () => {
                         foto4={foto4_3edicao} alt4={"Foto 4 Curso FIC Terceira Edição"}
                         foto5={foto5_3edicao} alt5={"Foto 5 Curso FIC Terceira Edição"}
                         foto6={foto6_3edicao} alt6={"Foto 6 Curso FIC Terceira Edição"}
+                        foto7={foto7_3edicao} alt7={"Foto 7 Curso FIC Terceira Edição"}
+                        foto8={foto8_3edicao} alt8={"Foto 8 Curso FIC Terceira Edição"}
+                        foto9={foto9_3edicao} alt9={"Foto 9 Curso FIC Terceira Edição"}
+                        foto10={foto10_3edicao} alt10={"Foto 10 Curso FIC Terceira Edição"}
+                        foto11={foto11_3edicao} alt11={"Foto 11 Curso FIC Terceira Edição"}
                         id={"Edicao3"}
                     />
 

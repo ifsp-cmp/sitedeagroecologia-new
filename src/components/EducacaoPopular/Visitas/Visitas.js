@@ -10,6 +10,8 @@ import f1_visita3 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/
 import f1_visita4 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita1/foto4.JPG';
 import f1_visita5 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita1/foto5.JPG';
 import f1_visita6 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita1/foto6.JPG';
+import f1_visita7 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita1/foto7.JPG';
+import f1_visita8 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita1/foto8.JPG';
 //Visita2
 import visita3 from '../../../assets/images/EducacaoPopular/Visitas/Visita-03.png';
 import visita4 from '../../../assets/images/EducacaoPopular/Visitas/Visita-04.png';
@@ -20,6 +22,9 @@ import f3_visita3 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/
 import f3_visita4 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita_Saude/foto4.jpg';
 import f3_visita5 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita_Saude/foto5.jpg';
 import f3_visita6 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita_Saude/foto6.jpg';
+import f3_visita7 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita_Saude/foto7.png';
+import f3_visita8 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita_Saude/foto8.jpg';
+import f3_visita9 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita_Saude/foto9.jpg';
 //Visita4
 import f4_visita1 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita4/foto1.jpg';
 import f4_visita2 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita4/foto2.jpg';
@@ -39,6 +44,8 @@ import marielleFoto3 from '../../../assets/images/EducacaoPopular/Visitas/Carros
 import marielleFoto4 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita7/foto4.jpg';
 import marielleFoto5 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita7/foto5.jpg';
 import marielleFoto6 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita7/foto6.jpg';
+import marielleFoto7 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita7/foto7.jpg';
+import marielleFoto8 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita7/foto8.jpg';
 //Visita 8
 import mutiraoFoto1 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita8/m.1_teste.jpg';
 import mutiraoFoto2 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita8/m.3_teste.jpg';
@@ -46,6 +53,7 @@ import mutiraoFoto3 from '../../../assets/images/EducacaoPopular/Visitas/Carrose
 import mutiraoFoto4 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita8/m.11_teste.jpg';
 import mutiraoFoto5 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita8/m.14_teste.jpg';
 import mutiraoFoto6 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita8/m.15_teste.jpg';
+import mutiraoFoto7 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita8/m.25.jpg';
 //Visita9
 import f9_visita1 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita9/foto1.jpg';
 import f9_visita2 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita9/foto2.jpg';
@@ -53,6 +61,7 @@ import f9_visita3 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/
 import f9_visita4 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita9/foto4.jpg';
 import f9_visita5 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita9/foto5.jpg';
 import f9_visita6 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita9/foto6.jpg';
+import f9_visita7 from '../../../assets/images/EducacaoPopular/Visitas/Carrosel/Visita9/foto7.jpg';
 //Carousel
 import Carousel from '../../CarroseldeFotos/Carousel';
 
@@ -92,6 +101,8 @@ const visitas = () => {
                             foto4={f1_visita4} alt4={"Foto 4"}
                             foto5={f1_visita5} alt5={"Foto 5"}
                             foto6={f1_visita6} alt6={"Foto 6"}
+                            foto7={f1_visita7} alt7={"Foto 7"}
+                            foto8={f1_visita8} alt8={"Foto 8"}
                             id={"Visita1"}
                         />
                     </div>
@@ -130,6 +141,9 @@ const visitas = () => {
                             foto4={f3_visita4} alt4={"Foto 4"}
                             foto5={f3_visita5} alt5={"Foto 5"}
                             foto6={f3_visita6} alt6={"Foto 6"}
+                            foto7={f3_visita7} alt7={"Foto 7"}
+                            foto8={f3_visita8} alt8={"Foto 8"}
+                            foto9={f3_visita9} alt9={"Foto 9"}
                             id={"Multirao-Saude"}
                         />
                     </div>
@@ -195,6 +209,8 @@ const visitas = () => {
                         foto4={marielleFoto4} alt4={"Foto 4"}
                         foto5={marielleFoto5} alt5={"Foto 5"}
                         foto6={marielleFoto6} alt6={"Foto 6"}
+                        foto7={marielleFoto7} alt7={"Foto 7"}
+                        foto8={marielleFoto8} alt8={"Foto 8"}
                         id={"Marielle"}
                     />
                 </div>
@@ -216,6 +232,7 @@ const visitas = () => {
                             foto4={mutiraoFoto4} alt4={"Foto 4"}
                             foto5={mutiraoFoto5} alt5={"Foto 5"}
                             foto6={mutiraoFoto6} alt6={"Foto 6"}
+                            foto7={mutiraoFoto7} alt7={"Foto 7"}
                             id={"Multirao"}
                         />
                     </div>
@@ -238,6 +255,7 @@ const visitas = () => {
                         foto4={f9_visita4} alt4={"Foto 4"}
                         foto5={f9_visita5} alt5={"Foto 5"}
                         foto6={f9_visita6} alt6={"Foto 6"}
+                        foto7={f9_visita7} alt7={"Foto 7"}
                         id={"Florestan"}
                     />
                 </div>
