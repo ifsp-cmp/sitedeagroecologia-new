@@ -87,7 +87,7 @@ const visitas = () => {
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8">
-                            <p className="card-body planos">1° VISITA NO ASSENTAMENTO MILTON SANTOS</p>
+                            <p className="card-body planos">O grande encontro</p>
                             <div className="texto1">
                                 <p>Foi em 01/10/2016 que houve o primeiro encontro de servidores e estudantes do IFSP, Campus de Campinas, com o território e as lideranças locais do Assentamento Milton Santos. Um pequeno grupo foi convidado pela profª Erika Batista para acompanhá-la na visita, que ocorreu no âmbito do projeto de extensão "Meio ambiente, sustentabilidade e agroecologia: a contribuição da produção orgânica para a educação alimentar,  ambiental e política", antes mesmo da organização do próprio NEAES enquanto grupo de pesquisa.</p>
                                 <p>A acolhida foi inesquecível e simboliza o início de uma grande jornada e parceria que se estende até hoje. Muito felizes por fazer parte desta história e sempre gratos pela receptiva da Regional Campinas do MST, das agricultoras e agricultores do Assentamento e Cooperflora! E o "safinho" hoje já está gigante!</p>
@@ -111,10 +111,10 @@ const visitas = () => {
                 <div className="row" style={{ marginTop: "10px" }}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        <p className="card-body planos">VISITA DE CAMPO AO ASSENTAMENTO MILTON SANTOS</p>
+                        <p className="card-body planos">VISITAS DE CAMPO AO ASSENTAMENTO MILTON SANTOS</p>
                         <div className="texto1">
                             <p><strong>I VISITA</strong></p>
-                            <p>No dia 15 de maio de 2018 o Núcleo de Estudos em Agroecologia, Educação e Sociedade – Neaes, em parceria com a Coordenadoria de Extensão do IFSP Campinas, realizou a I Visita de Campo ao Assentamento Milton Santos – Vivências da Agricultura Familiar e Produção Agroecológica na Região Metropolitana de Campinas.</p>
+                            <p>No dia 27 de abril de 2018 o Núcleo de Estudos em Agroecologia, Educação e Sociedade – Neaes, em parceria com a Coordenadoria de Extensão do IFSP Campinas, realizou a I Visita de Campo ao Assentamento Milton Santos – Vivências da Agricultura Familiar e Produção Agroecológica na Região Metropolitana de Campinas.</p>
                             <img src={visita3} width="50%" alt={"Visita 2"}></img>
                             <img src={visita4} width="50%" alt={"Visita 2"}></img>
                         </div>
@@ -122,6 +122,51 @@ const visitas = () => {
                     <div className="col-md-2"></div>
                 </div>
                 <SaibaMais conteudo={conteudo1}></SaibaMais>
+                <hr style={{ marginTop: "60px", textAlign: 'center', width: '65%' }} color="#707070"></hr>
+
+                <div className="row pb-4">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8">
+                        <div className="texto1">
+                            <p><strong>II VISITA</strong></p>
+                            <p> Em 15/02/2019 os estudantes do IFSP e bolsistas do projeto CNPq/ Chamada 21-2016 retomaram as atividades de extensão tecnológica e iniciação científica com visita técnica para acompanhar demandas da comunidade frente às dificuldades sociotécnicas de campo. A visita foi orientada pela profª coordenadora do projeto, Erika Batista e conduzida pelas lideranças comunitárias locais Eunice Pimenta e Arieli Contrigiani.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-2"></div>
+                    <Carousel
+                        foto1={f4_visita1} alt1={"Foto 1"}
+                        foto2={f4_visita2} alt2={"Foto 2"}
+                        foto3={f4_visita3} alt3={"Foto 3"}
+                        foto4={f4_visita4} alt4={"Foto 4"}
+                        foto5={f4_visita5} alt5={"Foto 5"}
+                        foto6={f4_visita6} alt6={"Foto 6"}
+                        id={"Visita4"}
+                    />
+
+                </div>
+
+                <div className="row pb-5" >
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8">
+                        <div className="texto1">
+                            <hr style={{ marginTop: "0px" }} color="#707070"></hr>
+                            <p><strong>III VISITA</strong></p>
+                            <p>No dia 23 de março de 2019 os alunos do Instituto Federal de Campinas que fazem parte do grupo de pesquisa NEAES visitaram, em conjunto com os Professores e orientadores André Bordignon e Estela Batista o Assentamento Milton Santos.</p>
+                        </div>
+                        <img src={visita1} width="50%" alt={"Visita 2"}></img>
+                        <img src={visita2} width="50%" alt={"Visita 2"}></img>
+                        <hr style={{ marginTop: "60px" }} color="#707070"></hr>
+
+                        <div className="texto1">
+                            <p><strong>IV VISITA</strong></p>
+                            <p>No dia 06 de abril de 2019, a Cooperflora e a Regional Campinas do MST promoveram visita ao Assentamento Milton Santos, e conversa a respeito do trabalho no campo, da agroecologia, do contexto político-social e do uso de agrotóxicos. Durante toda a manhã, pessoas envolvidas com a rede de consumo (Comunidade que Sustenta a Agricultura), pesquisadores(as), amigos(as) e assentados(as) trocaram informações e aprendizados, e foram agraciados com um delicioso café da manhã com produtos do local. Terminando com visita à uma casa e sua produção.</p>
+                        </div>
+                        <img src={visita5} width="50%" alt={"Visita 3"}></img>
+                        <img src={visita6} width="50%" alt={"Visita 3"}></img>
+                    </div>
+                    <div className="col-md-2"></div>
+                </div>
+
 
                 <div className="planosCinza pb-4">
                     <div className="row">
@@ -149,49 +194,6 @@ const visitas = () => {
                     </div>
                 </div>
 
-                <div className="row pb-4">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-8">
-                        <p className="card-body planos">VISITA DE BOLSISTAS DO E.M INTEGRADO EM ELETRÔNICA</p>
-                        <div className="texto1">
-                            <p> Em 15/02/2019 os estudantes do IFSP e bolsistas do projeto CNPq/ Chamada 21-2016 retomaram as atividades de extensão tecnológica e iniciação científica com visita técnica para acompanhar demandas da comunidade frente às dificuldades sociotécnicas de campo. A visita foi orientada pela profª coordenadora do projeto, Erika Batista e conduzida pelas lideranças comunitárias locais Eunice Pimenta e Arieli Contrigiani.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-2"></div>
-                    <Carousel
-                        foto1={f4_visita1} alt1={"Foto 1"}
-                        foto2={f4_visita2} alt2={"Foto 2"}
-                        foto3={f4_visita3} alt3={"Foto 3"}
-                        foto4={f4_visita4} alt4={"Foto 4"}
-                        foto5={f4_visita5} alt5={"Foto 5"}
-                        foto6={f4_visita6} alt6={"Foto 6"}
-                        id={"Visita4"}
-                    />
-                </div>
-
-                <div className="planosCinza pb-5">
-                    <div className="row" >
-                        <div className="col-md-2"></div>
-                        <div className="col-md-8">
-                            <p className="card-body planos">VISITA DE CAMPO AO ASSENTAMENTO MILTON SANTOS</p>
-                            <div className="texto1">
-                                <p><strong>II VISITA</strong></p>
-                                <p>No dia 23 de março de 2019 os alunos do Instituto Federal de Campinas que fazem parte do grupo de pesquisa NEAES visitaram, em conjunto com os Professores e orientadores André Bordignon e Estela Batista o Assentamento Milton Santos.</p>
-                            </div>
-                            <img src={visita1} width="50%" alt={"Visita 2"}></img>
-                            <img src={visita2} width="50%" alt={"Visita 2"}></img>
-                            <hr style={{ marginTop: "60px" }} color="#707070"></hr>
-
-                            <div className="texto1">
-                                <p><strong>III VISITA</strong></p>
-                                <p>No dia 06 de abril de 2019, a Cooperflora e a Regional Campinas do MST promoveram visita ao Assentamento Milton Santos, e conversa a respeito do trabalho no campo, da agroecologia, do contexto político-social e do uso de agrotóxicos. Durante toda a manhã, pessoas envolvidas com a rede de consumo (Comunidade que Sustenta a Agricultura), pesquisadores(as), amigos(as) e assentados(as) trocaram informações e aprendizados, e foram agraciados com um delicioso café da manhã com produtos do local. Terminando com visita à uma casa e sua produção.</p>
-                            </div>
-                            <img src={visita5} width="50%" alt={"Visita 3"}></img>
-                            <img src={visita6} width="50%" alt={"Visita 3"}></img>
-                        </div>
-                        <div className="col-md-2"></div>
-                    </div>
-                </div>
 
                 <div className="row pb-4">
                     <div className="col-md-2"></div>

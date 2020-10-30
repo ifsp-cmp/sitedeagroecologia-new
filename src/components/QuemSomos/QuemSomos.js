@@ -15,7 +15,7 @@ const quemSomos = () => {
     </ul>
 
     const projeto = [
-        { titulo: 'EQUIPES', link: '/qsequipes', alt: 'Um equipe de estudantes em uma feira' },
+        { titulo: 'EQUIPES', link: '/qsequipes', alt: 'Uma equipe de estudantes em uma feira' },
         { titulo: 'PARCERIAS', link: '/qsparcerias', alt: 'Campus do Instituto Federal em Campinas' }
     ]
 
