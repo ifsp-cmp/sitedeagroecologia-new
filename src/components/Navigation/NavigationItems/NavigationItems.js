@@ -52,10 +52,11 @@ const navigationItems = (props) => (
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link='/epcursosfic' active>CURSOS FIC</NavigationItem>
-                <NavigationItem link='/epformacoes' active>FORMAÇÕES</NavigationItem>
+                <NavigationItem link='/epmetodologiasparticipativas' active>METODOLOGIAS PARTICIPATIVAS</NavigationItem>
+                <NavigationItem link='/epformacoes' active>FORMAÇÕES GRUPO DE CONSUMO</NavigationItem>
                 <NavigationItem link='/epdiagnosticoruralparticipativo' active>DIAGNÓSTICO RURAL PARTICIPATIVO</NavigationItem>
-                <NavigationItem link='/epavaliacaoevalidacao' active>AVALIAÇÃO E VALIDAÇÃO</NavigationItem>
                 <NavigationItem link='/epvisitasevivencias' active>VISITAS E VIVÊNCIAS</NavigationItem>
+                <NavigationItem link='/epfestivalagroecologia' active>FESTIVAL DE AGROECOLOGIA E ECOTURISMO</NavigationItem>
             </ul>
         </li>
         <div className="DivMenuMobile" >&nbsp;</div>
@@ -65,7 +66,6 @@ const navigationItems = (props) => (
             </NavLink>
             <ul className='SubMenu1'>
                 <NavigationItem link='/qsequipes'>EQUIPES</NavigationItem>
-                <NavigationItem link='/qsindicadoresacademicos'>INDICADORES ACADÊMICOS</NavigationItem>
                 <NavigationItem link='/qsparcerias'>PARCERIAS</NavigationItem>
             </ul>
         </li>

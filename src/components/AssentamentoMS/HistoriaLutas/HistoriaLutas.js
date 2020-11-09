@@ -5,10 +5,12 @@ import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 import './HistoriaLutas.css';
 
 import foto1 from '../../../assets/images/AssentamentoMS/HistLutas/foto1.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const historiasLutas = () =>{
     const conteudo = <ul className="card-text">
-        <li><a href="https://www.facebook.com/AssentamentoMiltonSantos/posts/380597652019366/" target="_blank" rel="noopener noreferrer">Facebook Assentamento Milton Santos</a></li>
+        <li><a href="https://www.facebook.com/AssentamentoMiltonSantos/posts/380597652019366/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} title="Assentamento Milton Santos" size="2x" color="#77B81E"/></a></li>
     </ul>;
 
     return (

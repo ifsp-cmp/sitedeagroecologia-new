@@ -106,3 +106,23 @@
         width: 30%;
     }
 }
+
+.LinkCreative{
+    color: #dcdcdc;
+
+}
+.LinkCreative:hover {
+    color: #1A2D00;
+    text-decoration: none;
+}
+
+.lowerFooter{
+  background-color: #77B81E;
+  padding: 15px ;
+  color: #fff;
+  font-size: 15px;
+
+}
+/* @media (min-width: 400px) {
+    font-size: initial;
+} */

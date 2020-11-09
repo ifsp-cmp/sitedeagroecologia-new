@@ -4,9 +4,16 @@ import './FichaAgroecologica.css';
 
 import foto1 from '../../../assets/images/TecnologiasSociais/Fichas/foto1.png';
 import foto2 from '../../../assets/images/TecnologiasSociais/Fichas/foto2.png';
+import SaibaMais from '../../SaibaMais/SaibaMais';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogleDrive } from '@fortawesome/free-brands-svg-icons';
 
-const fichaAgroecologica =()=>{
-    return(
+const fichaAgroecologica = () => {
+    const conteudo = <ul className="card-text">
+        <li><a href="https://drive.google.com/file/d/1CBqYvd8U8Qz_YyOESIj7F46HyrMW-7Vl/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogleDrive} color="#1A2D00" size="2x" title="Ficha Agroecológica - App Agrocomunicação" /></a><a className="ml-2" href="https://drive.google.com/file/d/1f10ehIt0Y9CKrhkF-Y-2YLKU92QbrgK3/view?usp=sharing" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogleDrive} color="#1A2D00" size="2x" title="Ficha Agroecológica - DataLuta Produção"/></a></li>
+    </ul>
+
+    return (
         <div>
             <TopoDaPagina menu="Tecnologias Sociais" submenu="Fichas Agroecológicas"></TopoDaPagina>
             <div className="container-fluid Ficha">
@@ -25,15 +32,15 @@ const fichaAgroecologica =()=>{
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                
-                <div className="row" style={{marginTop: '30px',marginBottom: '40px'}}>
+
+                <div className="row" style={{ marginTop: '30px', marginBottom: '40px' }}>
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
                         <img src={foto2} width="100%" alt={"Fichas Agroecológicas"}></img>
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-
+                <SaibaMais conteudo={conteudo} />
             </div>
         </div>
     )

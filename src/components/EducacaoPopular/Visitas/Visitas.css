@@ -12,13 +12,10 @@
     color: #1A2D00;
 }
 
-.Visitas .Carrossel{
-    display: none;
+.Visitas b{
+    font: Bold 18px/24px Roboto Slab;
+    color: #1A2D00;
 }
-
-@media(min-width: 800px){
-    .Visitas .Carrossel{
-        display: flex;
-    }
-
+.Visitas b:hover{
+    color: #77B81E;
 }

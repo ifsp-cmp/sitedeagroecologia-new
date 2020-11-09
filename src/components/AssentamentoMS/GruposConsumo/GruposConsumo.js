@@ -7,19 +7,21 @@ import './GruposConsumo.css';
 
 import foto1 from '../../../assets/images/AssentamentoMS/GrpConsumo/foto1.jpg'; 
 import foto2 from '../../../assets/images/AssentamentoMS/GrpConsumo/foto2.png'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const gruposConsumo = () =>{
     const conteudo =<ul className="card-text">
-    <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer">Facebook Cooperativa Cooperflora</a></li>
+    <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon title="Cooperativa Cooperflora" size="2x" color="#77B81E" icon={faFacebook}/></a></li>
 </ul>;
 
     const grupo = [
-        {endereco:'R. José Bonifácio, 381 - Chácara Machadinho I, Americana - SP, 13478-040' ,entrega : 'Semanalmente às Segundas-Feira', horario : '18h30 às 20h'},
-        {endereco:'CTI Renato Archer - Av. Comendador Aladino Selmi, s/n - Chácaras Campos dos Amarais, Campinas - SP, 13069-901' , entrega:'Quinzenalmente às 1ªs (primeiras) e 3ªs (terceiras) quartas-feiras de cada mês' , horario: '14h00 às 15h00'},
+        {endereco:'R. José Bonifácio, 381 - Chácara Machadinho I, Americana - SP, 13478-040' ,entrega : 'Semanalmente às Segundas-Feiras', horario : '18h30 às 20h'},
+        {endereco:'R. Heitor Lacerda Guedes, 1000 - Cidade Satélite Íris, Campinas - SP, 13059-581' , entrega:'Quinzenalmente às 1ªs (primeiras) e 3ªs (terceiras) quartas-feiras de cada mês' , horario: '14h00 às 15h00'},
         {endereco:'Rua Cônego Manoel Garcia, 1010 - Jardim Chapadão, Campinas - SP, 13070-037' , entrega:'Quinzenalmente às segundas e últimas quintas-feiras de cada mês' , horario: '11h às 12h'},
         {endereco:'STOUT Café, Cultura; Bar - R. Gilberto Pattaro, 105 - Barão Geraldo, Campinas - SP, 13084-375' , entrega:'Quinzenalmente às 1ªs (primeiras) e 3ªs (terceiras) quartas-feiras de cada mês' , horario: '18h30 as 19h30'},
-        {endereco:'R. Prudente de Moraes, 431 – Centro – Santa Barbara D’Oeste' , entrega:'Semanalmente as Segundas-Feiras' , horario: '18h00 às 20h'},
-        {endereco:'Av. Pádua Dias - Agronomia, Piracicaba - SP, 13418-900' , entrega:'Quinzenalmente as Terças-Feiras' , horario: '11h00 as 13h30'},
+        {endereco:'R. Prudente de Moraes, 431 – Centro – Santa Barbara D’Oeste' , entrega:'Semanalmente às Segundas-Feiras' , horario: '18h00 às 20h'},
+        {endereco:'Av. Pádua Dias - Agronomia, Piracicaba - SP, 13418-900' , entrega:'Quinzenalmente às Terças-Feiras' , horario: '11h00 as 13h30'},
     ];
 
     return (
@@ -92,7 +94,7 @@ const gruposConsumo = () =>{
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8 texto1">
-                        <p>O grupo teve início em 31 de agosto de 2017, quando foi realizada uma formação junto com os primeiros consumidores para apresentar o modo de produção dos alimentos, os arranjos comerciais das entregas e composição das cestas agroecológicas. Desde então, já ocorreram mais duas formações e o grupo é exclusivo para os servidores e estudantes do IFSP Campus de Campinas e do CTI Renato Archer.</p>
+                        <p>O grupo teve início em 31 de agosto de 2017, quando foi realizada uma formação junto com os primeiros consumidores para apresentar o modo de produção dos alimentos, os arranjos comerciais das entregas e composição das cestas agroecológicas. Desde então, já ocorreram mais duas formações e o grupo é exclusivo a comunidade interna do IFSP Campus de Campinas.</p>
                     </div>
                     <div className="col-md-2"></div>
                 </div>

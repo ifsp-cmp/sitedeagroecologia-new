@@ -1,23 +1,24 @@
 import React from 'react';
 import SaibaMais from '../../SaibaMais/SaibaMais';
-import DapDosCooperados from './Dap/DapDosCooperados';
-import TabelaCooperados from './Dap/TabelaCooperados';
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina';
 
 import './CooperativaCooperflora.css';
 
-import video from '../../../assets/images/AssentamentoMS/Cooperflora/cooperflora.mp4';
+import ReactPlayer from 'react-player';
 import foto1 from '../../../assets/images/AssentamentoMS/Cooperflora/foto1.jpeg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-const cooperativaCooperflora = () =>{
+const cooperativaCooperflora = () => {
     const conteudo = <ul className="card-text">
-        <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer">Facebook Cooperativa Cooperflora</a></li>
+        <li><a href="https://www.facebook.com/Cooperflora1/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon size="2x" icon={faFacebook} title="Cooperativa Cooperflora" color="#77B81E"/></a></li>
+        <li><a href="https://cooperflora.eco.br/" target="_blank" rel="noopener noreferrer">Site da Cooperflora</a></li>
     </ul>;
 
     return (
         <div>
             <TopoDaPagina menu="Assentamento Milton Santos" submenu="Cooperativa Cooperflora"></TopoDaPagina>
-            <div className="container-fluid AssentamentoMS">
+            <div className="container-fluid CooperativaCooperflora">
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
@@ -33,38 +34,44 @@ const cooperativaCooperflora = () =>{
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-                <div className="planosCinza">
-                    <div className="row " style={{marginTop: "30px"}}>
-                        <div className="col-md-2" ></div>
-                        <div className="col-md-8">
-                            <p className="card-body planos">DAP DOS COOPERADOS</p>
+
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8">
+                        <p className="card-body planos">UM POUQUINHO DA GENTE</p>
+                    </div>
+                    <div className="col-md-2"></div>
+                </div>
+                <div className="row">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8 texto1">
+                        <p><strong>Audiovisual - Eunice</strong></p>
+                        <div className="player-wrapper">
+                            <ReactPlayer
+                                className='react-player'
+                                controls
+                                width='100%'
+                                height='100%'
+                                url='https://www.youtube.com/watch?v=JqzkmD99w5E'
+                            />
                         </div>
-                        <div className="col-md-2"></div>
+                        
+                        <p className="mt-5"><strong>Audiovisual - Cooperflora</strong></p>
+                        <div className="player-wrapper mb-3">
+                            <ReactPlayer
+                                className='react-player '
+                                controls
+                                width='100%'
+                                height='100%'
+                                url='https://www.youtube.com/watch?v=gDETJRBS_Zc'
+                            />
+                        </div>
                     </div>
-                    <DapDosCooperados></DapDosCooperados>
-                    <TabelaCooperados></TabelaCooperados>
                 </div>
-                <div className="row">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-8">
-                        <p className="card-body planos">VÍDEO DA COOPERFLORA EUNICE PIMENTA</p>
-                    </div>
-                    <div className="col-md-2"></div>
-                </div>
-                <div className="row">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-8">
-                        <div className="Video">
-                            <video id="MyVideo" controls>
-                                <source  src={video} type="video/mp4"></source>    
-                            </video> 
-                        </div> 
-                    </div>
-                    <div className="col-md-2"></div>
-                </div>
-                <SaibaMais conteudo={conteudo}></SaibaMais>
+                <div className="col-md-2"></div>
+            <SaibaMais className="mt-4" conteudo={conteudo}></SaibaMais>
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -10,14 +10,16 @@ import foto3 from '../../assets/images/EducacaoPopular/Introducao/EducacaoPopula
 import foto4 from '../../assets/images/EducacaoPopular/Introducao/EducacaoPopular-03.png';
 import foto5 from '../../assets/images/EducacaoPopular/Introducao/EducacaoPopular-04.png';
 import foto6 from '../../assets/images/EducacaoPopular/Introducao/EducacaoPopular-05.png';
+import foto7 from '../../assets/images/EducacaoPopular/Introducao/EducacaoPopular-06.jpg';
 
 const educacaoPopular = () =>{
     const projeto = [
         {titulo: 'CURSOS FIC', link:'/epcursosfic', alt: 'Uma aula de Curso FIC no Assentamento Milton Santos'},
+        {titulo: 'METODOLOGIAS PARTICIPATIVAS', link:'/epmetodologiasparticipativas', alt: ''},
         {titulo: 'FORMAÇÕES', link:'/epformacoes', alt: ''},
         {titulo: 'DIAGNÓSTICO RURAL', link:'/epdiagnosticoruralparticipativo', alt: ''},
-        {titulo: 'AVALIAÇÃO E VALIDAÇÃO', link:'/epavaliacaoevalidacao', alt: ''},
-        {titulo: 'VISITAS E VIVÊNCIA', link:'/epvisitasevivencias', alt: 'Visita de estudantes ao Assentamento Milton Santos'}
+        {titulo: 'VISITAS E VIVÊNCIAS', link:'/epvisitasevivencias', alt: 'Visita de estudantes ao Assentamento Milton Santos'},
+        {titulo: 'FESTIVAL DE AGROECOLOGIA', link:'/epfestivalagroecologia', alt: 'Festival de Agroecologia'}
     ]
 
     return(
@@ -56,6 +58,7 @@ const educacaoPopular = () =>{
                         <div className="row">
                             <Projetos foto={foto5} titulo={projeto[3].titulo} link={projeto[3].link} alt={projeto[0].alt}></Projetos>
                             <Projetos foto={foto6} titulo={projeto[4].titulo} link={projeto[4].link} alt={projeto[4].alt}></Projetos>
+                            <Projetos foto={foto7} titulo={projeto[5].titulo} link={projeto[5].link} alt={projeto[5].alt} ></Projetos>
                         </div>
                     </div>  
                 </div>

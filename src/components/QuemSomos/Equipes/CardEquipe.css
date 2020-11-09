@@ -1,0 +1,10 @@
+.linhaLink a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 14px;
+}
+
+.linhaLink a:hover{
+    text-decoration: underline;
+    color: #1A2D00;
+}

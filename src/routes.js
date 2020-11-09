@@ -28,12 +28,11 @@ import EducacaoPopular from './components/EducacaoPopular/EducacaoPopular.js';
 import CursosFic from './components/EducacaoPopular/CursosFic/CursosFic';
 import Formacoes from './components/EducacaoPopular/Formacoes/Formacoes';
 import DiagnosticoRural from './components/EducacaoPopular/DiagnosticoRural/DiagnosticoRural';
-import Avaliacao from './components/EducacaoPopular/Avaliacao/Avaliacao';
+import MetodologiasParticipativas from './components/EducacaoPopular/Metodologias/MetodologiasParticipativas';
 import Visitas from './components/EducacaoPopular/Visitas/Visitas';
 
 import QuemSomos from './components/QuemSomos/QuemSomos';
 import Equipes from './components/QuemSomos/Equipes/Equipes';
-import IndicadoresAcademicos from './components/QuemSomos/IndicadoresAcademicos/IndicadoresAcademicos';
 import Parcerias from './components/QuemSomos/Parcerias/Parcerias';
 
 import Login from './containers/Login/Login';
@@ -41,6 +40,7 @@ import Cadastro from './containers/Cadastro/Cadastro';
 import Logout from './containers/Login/Logout';
 // import ForgotPassword from './containers/Login/ForgotPassword';
 import ListarUsuarios from './containers/ListarUsuarios/ListarUsuarios';
+import FestivalAgro from './components/EducacaoPopular/FestivalAgro/FestivalAgro';
 // import Projeto from './components/Projeto/Projeto';
 // import Cooperflora from './components/Cooperflora/Cooperflora';
 // import Training from './containers/Training/Training';
@@ -76,12 +76,12 @@ class Routes extends Component{
         <Route exact path="/epcursosfic" component={CursosFic} />
         <Route exact path="/epformacoes" component={Formacoes} />
         <Route exact path="/epdiagnosticoruralparticipativo" component={DiagnosticoRural} />
-        <Route exact path="/epavaliacaoevalidacao" component={Avaliacao} />
+        <Route exact path="/epmetodologiasparticipativas" component={MetodologiasParticipativas} />
         <Route exact path="/epvisitasevivencias" component={Visitas} />
+        <Route exact path="/epfestivalagroecologia" component={FestivalAgro}/>
         
         <Route exact path="/quemsomos" component={QuemSomos} />
         <Route exact path="/qsequipes" component={Equipes} />
-        <Route exact path="/qsindicadoresacademicos" component={IndicadoresAcademicos} />
         <Route exact path="/qsparcerias" component={Parcerias} />
 
         <Route exact path="/cadastro" component={Cadastro} />
