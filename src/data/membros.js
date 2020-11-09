@@ -7,6 +7,20 @@ export const membros = [
         researchLink2: '/quemsomos#linha2'
     },
     {
+        name: 'Ariele Contrigiani',
+        photo: require('../assets/images/QuemSomos/Membros/ariele.png'),
+        role: 'Técnica',
+        // research2: 'Linha 2',
+        // researchLink2: '/quemsomos#linha2'
+    },
+    {
+        name: 'Carla Vanessa',
+        photo: require('../assets/images/QuemSomos/Membros/carla.jpeg'),
+        role: 'Técnica',
+        // research2: 'Linha 2',
+        // researchLink2: '/quemsomos#linha2'
+    },
+    {
         name: 'Daltamir Maia',
         photo: require('../assets/images/QuemSomos/Membros/daltamir.jpg'),
         role: 'Professor',
@@ -85,8 +99,8 @@ export const membros = [
         name: 'Jorge Henrique ',
         photo: require('../assets/images/QuemSomos/Membros/jorge.jpeg'),
         role: 'Técnico',
-        research2: 'Linha 2',
-        researchLink2: '/quemsomos#linha2',
+        // research2: 'Linha 2',
+        // researchLink2: '/quemsomos#linha2',
     },
     {
         name: 'Leonardo Cunha',
@@ -107,7 +121,7 @@ export const membros = [
     {
         name: 'Manuela Gracie',
         photo: require('../assets/images/QuemSomos/Membros/manu.jpeg'),
-        role: 'Aluno',
+        role: 'Aluna',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },
@@ -121,7 +135,7 @@ export const membros = [
     {
         name: 'Mariane Freitas',
         photo: require('../assets/images/QuemSomos/Membros/mariane.jpeg'),
-        role: 'Aluno',
+        role: 'Aluna',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },

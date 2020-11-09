@@ -4,6 +4,7 @@ import SaibaMais from '../../SaibaMais/SaibaMais';
 import './Equipes.css';
 import { membros } from '../../../data/membros';
 import CardEquipe from './CardEquipe';
+import foto1 from '../../../assets/images/QuemSomos/Introducao/quemsomos-03.png';
 
 const equipes = () => {
     const conteudo = <ul className="card-text">
@@ -17,11 +18,11 @@ const equipes = () => {
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-8">
-                        {/* <img src={}></img> */}
+                        <img src={foto1} width="100%" alt={"Equipe de alunos e professores do Neaes"}></img>
                         <div className="texto1 ">
                             <p><strong>COORDENAÇÃO GERAL:</strong></p>
                             <p>Profª Erika Batista, Drª em Ciências Sociais e Pós-doutora em Relações Internacionais e Desenvolvimento. Contato: <a href="mailto:erika.batista@ifsp.edu.br" title="Envie um e-mail">erika.batista@ifsp.edu.br</a></p>
-                            <p>Profº Herivelto Fernandes Rocha, Ms em Geografia Agrária. Contato: <a href="mailto:herivelto.rocha@ifsp.edu.br" title="Envie um e-mail">herivelto.rocha@ifsp.edu.br</a></p> 
+                            <p>Profº Herivelto Fernandes Rocha, Ms em Geografia Agrária. Contato: <a href="mailto:herivelto.rocha@ifsp.edu.br" title="Envie um e-mail">herivelto.rocha@ifsp.edu.br</a></p>
                         </div>
                     </div>
                     <div className="col-md-2"></div>
