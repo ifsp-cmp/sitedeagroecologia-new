@@ -9,7 +9,7 @@ const TeamCard = (props, index) => {
         isLast ? 'ml-1' : 'mx-1'
 
     return (
-        <div className={`${margin} mt-2 col text-center px-2 mt-3 col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 border`} style={{ borderRadius: '10px'}}>
+        <div className={`${margin} mt-2 text-center px-2 mt-3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border`} style={{ borderRadius: '10px'}}>
             <figure className="mb-2">
                 <img style={{ maxWidth: '100%', borderRadius: '10px' }} src={props.membro.photo} alt={props.membro.name} />
             </figure>
