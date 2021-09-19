@@ -7,7 +7,7 @@ const TeamCard = (props, index) => {
     const isLast = index === props.membro.length - 1;
     const margin = isFirst ? 'mr-1' :
         isLast ? 'ml-1' : 'mx-1'
-
+console.log(props.membro.photo)
     return (
         <div className={`${margin} mt-2 text-center px-2 mt-3 col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 border`} style={{ borderRadius: '10px'}}>
             <figure className="mb-2">

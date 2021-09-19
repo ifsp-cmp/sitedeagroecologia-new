@@ -1,35 +1,61 @@
+import andreFoto from '../assets/images/QuemSomos/Membros/andre.jpg'
+import arieleFoto from '../assets/images/QuemSomos/Membros/ariele.png'
+import carlaFoto from '../assets/images/QuemSomos/Membros/carla.jpeg'
+import daltamirFoto from '../assets/images/QuemSomos/Membros/daltamir.jpg'
+import diegoFoto from '../assets/images/QuemSomos/Membros/diego.jpg'
+import edsonFoto from '../assets/images/QuemSomos/Membros/edson.jpeg'
+import ellenFoto from '../assets/images/QuemSomos/Membros/ellen.jpg'
+import erikaFoto from '../assets/images/QuemSomos/Membros/erika.jpeg'
+import glauberFoto from '../assets/images/QuemSomos/Membros/glauber.jpg'
+import heriveltoFoto from '../assets/images/QuemSomos/Membros/herivelto.jpg'
+import jeanFoto from '../assets/images/QuemSomos/Membros/jean.jpeg'
+import joaoFoto from '../assets/images/QuemSomos/Membros/joao.jpeg'
+import jorgeFoto from '../assets/images/QuemSomos/Membros/jorge.jpeg'
+import leonardoFoto from '../assets/images/QuemSomos/Membros/leonardo.jpeg'
+import luizRFoto from '../assets/images/QuemSomos/Membros/luizR.jpeg'
+import manuFoto from '../assets/images/QuemSomos/Membros/manu.jpeg'
+import marcioFoto from '../assets/images/QuemSomos/Membros/marcio.jpg'
+import marianaFoto from '../assets/images/QuemSomos/Membros/mariana.jpg'
+import marianeFoto from '../assets/images/QuemSomos/Membros/mariane.jpeg'
+import mayFoto from '../assets/images/QuemSomos/Membros/may.jpeg'
+import nathanFoto from '../assets/images/QuemSomos/Membros/nathan.jpeg'
+import rodolfoFoto from '../assets/images/QuemSomos/Membros/rodolfo.jpeg'
+import samuelFoto from '../assets/images/QuemSomos/Membros/samuel.jpeg'
+import scheylaFoto from '../assets/images/QuemSomos/Membros/scheyla.jpeg'
+
+
 export const membros = [
     {
         name: 'André Bordignon',
-        photo: require('../assets/images/QuemSomos/Membros/andre.jpg'),
+        photo: andreFoto,
         role: 'Professor / Pesquisador',
         research2: 'Linha 2',
         researchLink2: '/quemsomos#linha2'
     },
     {
         name: 'Ariele Contrigiani',
-        photo: require('../assets/images/QuemSomos/Membros/ariele.png'),
+        photo: arieleFoto,
         role: 'Técnica',
         // research2: 'Linha 2',
         // researchLink2: '/quemsomos#linha2'
     },
-    {
+    { 
         name: 'Carla Vanessa',
-        photo: require('../assets/images/QuemSomos/Membros/carla.jpeg'),
+        photo: carlaFoto,
         role: 'Nutricionista',
         // research2: 'Linha 2',
         // researchLink2: '/quemsomos#linha2'
     },
     {
         name: 'Daltamir Maia',
-        photo: require('../assets/images/QuemSomos/Membros/daltamir.jpg'),
+        photo: daltamirFoto,
         role: 'Professor / Pesquisador',
         research3: 'Linha 3',
         researchLink3: '/quemsomos#linha3'
     },
     {
         name: 'Diego Figueira',
-        photo: require('../assets/images/QuemSomos/Membros/diego.jpg'),
+        photo: diegoFoto,
         role: 'Professor / Pesquisador',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
@@ -38,21 +64,21 @@ export const membros = [
     },
     {
         name: 'Edson Duarte',
-        photo: require('../assets/images/QuemSomos/Membros/edson.jpeg'),
+        photo: edsonFoto,
         role: 'Professor / Pesquisador',
         research3: 'Linha 3',
         researchLink3: '/quemsomos#linha3',
     },
     {
         name: 'Éllen Correa',
-        photo: require('../assets/images/QuemSomos/Membros/ellen.jpg'),
+        photo: ellenFoto,
         role: 'Professora / Pesquisadora',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },
     {
         name: 'Erika Batista',
-        photo: require('../assets/images/QuemSomos/Membros/erika.jpeg'),
+        photo: erikaFoto,
         role: 'Professora / Pesquisadora',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
@@ -63,7 +89,7 @@ export const membros = [
     },
     {
         name: 'Glauber Balthazar',
-        photo: require('../assets/images/QuemSomos/Membros/glauber.jpg'),
+        photo: glauberFoto,
         role: 'Professor / Pesquisador',
         research2: 'Linha 2',
         researchLink2: '/quemsomos#linha2',
@@ -71,7 +97,7 @@ export const membros = [
     },
     {
         name: 'Herivelto Rocha',
-        photo: require('../assets/images/QuemSomos/Membros/herivelto.jpg'),
+        photo: heriveltoFoto,
         role: 'Professor / Pesquisador',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
@@ -83,35 +109,35 @@ export const membros = [
     },
     {
         name: 'Jean Douglas ',
-        photo: require('../assets/images/QuemSomos/Membros/jean.jpeg'),
+        photo: jeanFoto,
         role: 'Professor / Pesquisador',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },
     {
         name: 'João Aleixo',
-        photo: require('../assets/images/QuemSomos/Membros/joao.jpeg'),
+        photo: joaoFoto,
         role: 'Aluno',
         research2: 'Linha 2',
         researchLink2: '/quemsomos#linha2',
     },
     {
         name: 'Jorge Henrique ',
-        photo: require('../assets/images/QuemSomos/Membros/jorge.jpeg'),
+        photo: jorgeFoto,
         role: 'Técnico Educador Social',
         // research2: 'Linha 2',
         // researchLink2: '/quemsomos#linha2',
     },
     {
         name: 'Leonardo Cunha',
-        photo: require('../assets/images/QuemSomos/Membros/leonardo.jpeg'),
+        photo: leonardoFoto,
         role: 'Aluno',
         research2: 'Linha 2',
         researchLink2: '/quemsomos#linha2',
     },
     {
         name: 'Luiz Roberto',
-        photo: require('../assets/images/QuemSomos/Membros/luizR.jpeg'),
+        photo: luizRFoto,
         role: 'Aluno',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
@@ -120,28 +146,28 @@ export const membros = [
     },
     {
         name: 'Manuela Gracie',
-        photo: require('../assets/images/QuemSomos/Membros/manu.jpeg'),
+        photo: manuFoto,
         role: 'Aluna',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },
     {
         name: 'Mariana Saragiotto',
-        photo: require('../assets/images/QuemSomos/Membros/mariana.jpg'),
+        photo: marianaFoto,
         role: 'Professora / Pesquisadora',
         research3: 'Linha 3',
         researchLink3: '/quemsomos#linha3'
     },
     {
         name: 'Mariane Freitas',
-        photo: require('../assets/images/QuemSomos/Membros/mariane.jpeg'),
+        photo: marianeFoto,
         role: 'Aluna',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },
     {
         name: 'Marcio Miranda',
-        photo: require('../assets/images/QuemSomos/Membros/marcio.jpg'),
+        photo: marcioFoto,
         role: 'Professor / Pesquisador',
         research2: 'Linha 2',
         researchLink2: '/quemsomos#linha2',
@@ -150,35 +176,35 @@ export const membros = [
     },
     {
         name: 'Mayara Peres',
-        photo: require('../assets/images/QuemSomos/Membros/may.jpeg'),
+        photo: mayFoto,
         role: 'Pesquisadora',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },
     {
         name: 'Nathan Silva',
-        photo: require('../assets/images/QuemSomos/Membros/nathan.jpeg'),
+        photo: nathanFoto,
         role: 'Aluno',
         research2: 'Linha 2',
         researchLink2: '/quemsomos#linha2',
     },
     {
         name: 'Rodolfo Medina',
-        photo: require('../assets/images/QuemSomos/Membros/rodolfo.jpeg'),
+        photo: rodolfoFoto,
         role: 'Pesquisador',
         research1: 'Linha 1',
         researchLink1: '/quemsomos#linha1',
     },
     {
         name: 'Samuel Dias',
-        photo: require('../assets/images/QuemSomos/Membros/samuel.jpeg'),
+        photo: samuelFoto,
         role: 'Aluno',
         research3: 'Linha 3',
         researchLink3: '/quemsomos#linha3'
     },
     {
         name: 'Scheyla Saori',
-        photo: require('../assets/images/QuemSomos/Membros/scheyla.jpeg'),
+        photo: scheylaFoto,
         role: 'Técnica Agrônoma',
         research3: 'Linha 3',
         researchLink3: '/quemsomos#linha3'
