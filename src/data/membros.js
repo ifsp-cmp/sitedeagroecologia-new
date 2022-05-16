@@ -15,7 +15,6 @@ import luizRFoto from "../assets/images/QuemSomos/Membros/luizR.jpeg";
 import manuFoto from "../assets/images/QuemSomos/Membros/manu.jpeg";
 import marcioFoto from "../assets/images/QuemSomos/Membros/marcio.jpg";
 import marianaFoto from "../assets/images/QuemSomos/Membros/mariana.jpg";
-import nathanFoto from "../assets/images/QuemSomos/Membros/nathan.jpeg";
 import rodolfoFoto from "../assets/images/QuemSomos/Membros/rodolfo.jpeg";
 import samuelFoto from "../assets/images/QuemSomos/Membros/samuel.jpeg";
 import scheylaFoto from "../assets/images/QuemSomos/Membros/scheyla.jpeg";
@@ -150,13 +149,7 @@ export const membros = [
     research3: "Linha 3",
     researchLink3: "/quemsomos#linha3",
   },
-  {
-    name: "Nathan Silva",
-    photo: nathanFoto,
-    role: "Aluno",
-    research2: "Linha 2",
-    researchLink2: "/quemsomos#linha2",
-  },
+
   {
     name: "Rodolfo Medina",
     photo: rodolfoFoto,
