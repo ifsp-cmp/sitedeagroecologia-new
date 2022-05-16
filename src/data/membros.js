@@ -39,6 +39,8 @@ export const membros = [
     role: "Aluno",
     research2: "Linha 2",
     researchLink2: "/quemsomos#linha2",
+    research3: "Linha 3",
+    researchLink3: "/quemsomos#linha3",
   },
   {
     name: "Carla Vanessa",
@@ -102,6 +104,9 @@ export const membros = [
     photo: joiceFoto,
     role: "Professora",
     research2: "Linha 2",
+    researchLink2: "/quemsomos#linha2",
+    research3: "Linha 3",
+    researchLink3: "/quemsomos#linha3",
   },
   {
     name: "Jorge Henrique",
@@ -115,6 +120,9 @@ export const membros = [
     photo: kaioFoto,
     role: "Aluno",
     research2: "Linha 2",
+    researchLink2: "/quemsomos#linha2",
+    research3: "Linha 3",
+    researchLink3: "/quemsomos#linha3",
   },
   {
     name: "Luiz Roberto",
@@ -177,5 +185,7 @@ export const membros = [
     role: "Aluna",
     research2: "Linha 2",
     researchLink2: "/quemsomos#linha3",
+    research3: "Linha 3",
+    researchLink3: "/quemsomos#linha3",
   },
 ];
