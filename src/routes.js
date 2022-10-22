@@ -41,6 +41,9 @@ import Logout from './containers/Login/Logout';
 // import ForgotPassword from './containers/Login/ForgotPassword';
 import ListarUsuarios from './containers/ListarUsuarios/ListarUsuarios';
 import FestivalAgro from './components/EducacaoPopular/FestivalAgro/FestivalAgro';
+import HortaExperimental from './components/TecnologiasSociais/HortaExperimental/HortaExperimental';
+import Compostagem from './components/TecnologiasSociais/Compostagem/Compostagem';
+import AppEanDcnt from './components/TecnologiasSociais/AppEanDcnt/AppEanDcnt';
 // import Projeto from './components/Projeto/Projeto';
 // import Cooperflora from './components/Cooperflora/Cooperflora';
 // import Training from './containers/Training/Training';
@@ -64,6 +67,9 @@ class Routes extends Component{
         <Route exact path="/msgruposdeconsumo" component={GruposConsumo} />
         <Route exact path="/msfeiras" component={Feiras} />
 
+        <Route exact path="/tshortaexperimental" component={HortaExperimental}/>
+        <Route exact path="/tscompostagem" component={Compostagem}/>
+        <Route exact path="/tsappEanDcnt" component={AppEanDcnt}/>
         <Route exact path="/tecnologiassociais" component={TecnologiaSociais} />
         <Route exact path="/tsappagrocomunicacao" component={AppAgroecomunicao} />
         <Route exact path="/tsdatalutaproducao" component={datalutaProducao} />
