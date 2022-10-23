@@ -54,6 +54,7 @@ const navigationItems = (props) => (
                 <p className="TituloMenu">Educação Popular <span className="Seta"> &#9662; </span> </p>
             </NavLink>
             <ul className='SubMenu1'>
+                <NavigationItem link='/ephistoriasdevida' active>HISTÓRIAS DE VIDA E AGROECOLOGIA</NavigationItem>
                 <NavigationItem link='/epcursosfic' active>CURSOS FIC</NavigationItem>
                 <NavigationItem link='/epmetodologiasparticipativas' active>METODOLOGIAS PARTICIPATIVAS</NavigationItem>
                 <NavigationItem link='/epformacoes' active>FORMAÇÕES GRUPO DE CONSUMO</NavigationItem>
