@@ -23,7 +23,7 @@ const home = () => {
             <LazyLoad placeholder={<div>Loading</div>}>
                 <div className='Home'>
                     <div className="row">
-                        <LazyLoad placeholder={<div>Loading</div>}>
+                        <LazyLoad style={{width: '100%'}} placeholder={<div>Loading</div>}>
                             <img src={bannerHome} width="100%" alt={"Campo"}></img>
                         </LazyLoad>
                     </div><br></br>
