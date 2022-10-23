@@ -13,7 +13,7 @@ npm install
 Para dar o start na aplicação
 
 ```bash
-npm install start
+npm start
 ```
 
 ## Arquitetura
