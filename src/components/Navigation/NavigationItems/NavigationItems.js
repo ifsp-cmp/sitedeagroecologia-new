@@ -36,7 +36,10 @@ const navigationItems = (props) => (
             <NavLink to="/tecnologiassociais" exact>
                 <p className="TituloMenu">Tecnologias Sociais <span className="Seta"> &#9662; </span> </p>
             </NavLink>
-            <ul className='SubMenu1'>
+            <ul className='SubMenu1 SubMenuTech'>
+                <NavigationItem link='/tshortaexperimental' active>HORTA EXPERIMENTAL</NavigationItem>
+                <NavigationItem link='/tscompostagem' active>COMPOSTAGEM NO CAMPUS</NavigationItem>
+                <NavigationItem link='/tsappEanDcnt' active>APP EAN/ DCNTs</NavigationItem>
                 <NavigationItem link='/tsappagrocomunicacao' active>APP AGROCOMUNICAÇÃO</NavigationItem>
                 <NavigationItem link='/tsdatalutaproducao' active>DATALUTA PRODUÇÃO</NavigationItem>
                 <NavigationItem link='/tsirrigadorautomatizado' active>IRRIGADOR AUTOMATIZADO</NavigationItem>
@@ -51,6 +54,7 @@ const navigationItems = (props) => (
                 <p className="TituloMenu">Educação Popular <span className="Seta"> &#9662; </span> </p>
             </NavLink>
             <ul className='SubMenu1'>
+                <NavigationItem link='/ephistoriasdevida' active>HISTÓRIAS DE VIDA E AGROECOLOGIA</NavigationItem>
                 <NavigationItem link='/epcursosfic' active>CURSOS FIC</NavigationItem>
                 <NavigationItem link='/epmetodologiasparticipativas' active>METODOLOGIAS PARTICIPATIVAS</NavigationItem>
                 <NavigationItem link='/epformacoes' active>FORMAÇÕES GRUPO DE CONSUMO</NavigationItem>

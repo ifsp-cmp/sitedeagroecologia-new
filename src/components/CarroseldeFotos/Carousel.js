@@ -12,9 +12,9 @@ const Carousel = (props) => {
                     <li data-target={`#${props.id}`} data-slide-to="0" className="active"></li>
                     <li data-target={`#${props.id}`} data-slide-to="1"></li>
                     <li data-target={`#${props.id}`} data-slide-to="2"></li>
-                    <li data-target={`#${props.id}`} data-slide-to="3"></li>
-                    <li data-target={`#${props.id}`} data-slide-to="4"></li>
-                    <li data-target={`#${props.id}`} data-slide-to="5"></li>
+                    {props.foto4 ? <li data-target={`#${props.id}`} data-slide-to="3"></li> :null}
+                    {props.foto5 ? <li data-target={`#${props.id}`} data-slide-to="4"></li>:null}
+                    {props.foto6 ? <li data-target={`#${props.id}`} data-slide-to="5"></li>:null}
                     {props.foto7 ? (<li data-target={`#${props.id}`} data-slide-to="6"></li>) : null}
                     {props.foto8 ? (<li data-target={`#${props.id}`} data-slide-to="7"></li>) : null}
                     {props.foto9 ? (<li data-target={`#${props.id}`} data-slide-to="8"></li>) : null}
@@ -35,12 +35,18 @@ const Carousel = (props) => {
                     <div className="carousel-item">
                         <img className="d-block w-100" src={props.foto3} alt={props.alt3} />
                     </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src={props.foto4} alt={props.alt4} />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src={props.foto5} alt={props.alt5} />
-                    </div>
+                    
+                    {props.foto4 ? 
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src={props.foto4} alt={props.alt4} />
+                        </div>
+                    :''}
+                    {props.foto5? 
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src={props.foto5} alt={props.alt5} />
+                        </div> 
+                    :''}
+                    
                     {props.foto6 ? (<> <div className="carousel-item"><img className="d-block w-100" src={props.foto6} alt={props.alt6} /></div></>) : ''}
                     {props.foto7 ? (<> <div className="carousel-item"><img className="d-block w-100" src={props.foto7} alt={props.alt7} /></div></>) : ''}
                     {props.foto8 ? (<> <div className="carousel-item"><img className="d-block w-100" src={props.foto8} alt={props.alt8} /></div></>) : ''}

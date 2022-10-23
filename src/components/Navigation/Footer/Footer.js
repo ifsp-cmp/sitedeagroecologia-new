@@ -86,6 +86,11 @@ const footer = () => {
                             </small>
                         </div>
                     </div>
+                    <div className="row justify-content-center">
+                        <small>
+                        1.0.0 - 2022
+                        </small>
+                    </div>
                 </div>
             </footer>
         </>

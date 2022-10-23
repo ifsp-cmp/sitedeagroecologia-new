@@ -38,11 +38,39 @@
 
 .NavigationItems .SubMenu1{
     display: none;
+    
 }
 
 .Menu1:hover .SubMenu1 { 
-    display: block; 
+    display: flex;
+    flex-direction: column; 
     background-color: white;
+}
+
+.Menu1:hover .SubMenuTech{
+    min-width: 220px;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.Menu1:hover .SubMenuTech::-webkit-scrollbar{
+    width: 7px;
+    height: 10px;
+} 
+
+.Menu1:hover .SubMenuTech::-webkit-scrollbar-track{
+    box-shadow: #77B81E;
+    border-radius: 10px;
+}
+
+.Menu1:hover .SubMenuTech::-webkit-scrollbar-thumb{
+    background: #77B81E;
+    border-radius: 10px;
+}
+
+.Menu1:hover .SubMenuTech::-webkit-scrollbar-thumb:hover{
+    background: #2F4F2F
+    ;
 }
 
 .NavigationItems li{
