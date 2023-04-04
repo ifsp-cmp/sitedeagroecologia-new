@@ -2,6 +2,8 @@ import React from 'react'
 import TopoDaPagina from '../../TopoDaPagina/TopoDaPagina'
 import './HortaExperimental.css'
 import foto1 from '../../../assets/images/TecnologiasSociais/HortaExperimental/foto1.png'
+import foto2 from '../../../assets/images/TecnologiasSociais/HortaExperimental/foto2.png'
+
 //em andamento
 
 const HortaExperimental = () => {
@@ -9,10 +11,10 @@ const HortaExperimental = () => {
     <div>
       <TopoDaPagina menu="Tecnologias Sociais" submenu="Horta Experimental" />
       <div className="container-fluid HortaExperimental">
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="col-md-2"></div>
-          <div className="col-md-8">
-            <img src={foto1} width='100%' alt='Imagem da Horta Experimental'/>
+          <div className="col-md-8 row justify-content-center">
+            <img src={foto1} className="img-fluid" alt='Professoras e bolsistas montando a leira, juntamente com um técnico agrícola.' />
             <div className="texto1">
               <p>
                 O cultivo agroecológico é uma forma de plantio que busca o
@@ -43,6 +45,22 @@ const HortaExperimental = () => {
               </p>
             </div>
           </div>
+          <div className="col-md-2"></div>
+          <div className="col-md-2"></div>
+          <div className="col-md-8 row justify-content-center">
+            <img className="img-fluid" src={foto2} alt='Máquina agrícola fazendo o revolvimento do solo' />
+          </div>
+          <div className="col-md-2"></div>
+
+          <div className="col-md-2"></div>
+          <div className="col-md-8 row justify-content-center mb-2">
+            <div className="texto1"> <p>
+              <b>Máquina agrícola fazendo o revolvimento do solo</b>
+            </p>
+            </div>
+          </div>
+          <div className="col-md-2"></div>
+
         </div>
       </div>
     </div>

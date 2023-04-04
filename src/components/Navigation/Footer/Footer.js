@@ -3,6 +3,7 @@ import './Footer.css'
 import { NavLink } from 'react-router-dom';
 import phoneIcon from '../../../assets/images/icons/phoneicon.svg';
 import emailIcon from '../../../assets/images/icons/emailicon.svg';
+import packageJson from '../../../../package.json';
 
 
 const footer = () => {
@@ -88,7 +89,7 @@ const footer = () => {
                     </div>
                     <div className="row justify-content-center">
                         <small>
-                        1.0.0 - 2022
+                        @{packageJson.version} - 2023
                         </small>
                     </div>
                 </div>

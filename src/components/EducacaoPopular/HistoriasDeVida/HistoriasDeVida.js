@@ -18,9 +18,8 @@ const HistoriasDeVida = () => {
           <div className="col-md-8 row justify-content-center">
             <img
               src={foto1}
-              width="100%"
               alt="Imagem Histórias de vida"
-              style={{ maxWidth: 900 }}
+              className="img-fluid"
             />
             <div className="texto1">
               <p>
@@ -50,6 +49,11 @@ const HistoriasDeVida = () => {
               <p><b>Orientadora:</b>  Profª Erika Batista.</p>
               <p><b>Bolsista:</b>  Isabelli Thais Messias Costa – aluna do 1° ano do Curso de Eletrônica Integrado ao Ensino Médio.</p>
             </div>
+          </div>
+          <div className="col-md-2"></div>
+          <div className="col-md-2"></div>
+          <div className="col-md-8 row justify-content-center mb-4">
+            <img className="img-fluid" src={foto2} alt='Imagem Histórias de vida 2 - projeto social' />
           </div>
           <div className="col-md-2"></div>
         </div>
