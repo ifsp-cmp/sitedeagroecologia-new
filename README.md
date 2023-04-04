@@ -23,3 +23,13 @@ npm start
 - /data -> Infos dos membros em .json
 - /shared - desativado
 - /store - desativado
+
+## Hosting
+1.
+```bash
+npm run build
+```
+2.Deploy
+```bash
+firbease deploy --only hosting
+```
